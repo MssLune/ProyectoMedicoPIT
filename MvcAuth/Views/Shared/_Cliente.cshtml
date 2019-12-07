@@ -1,0 +1,36 @@
+﻿@model MvcAuth.Models.tb_ClienteEx
+@using MvcAuth.Models
+@using Microsoft.AspNet.Identity
+<div class="item">
+    <div class="team-item-2">
+        <div class="team-content">
+            <h4><a href="#">@Model.nomCliente  @Model.apeCliente</a></h4>
+                
+                
+        </div>
+        <div class="timetable">
+            <div class="item">
+                <div class="label">Distrito</div>
+                <div class="value">@Model.tb_Distrito.nomDistrito</div>
+            </div>
+            <div class="item">
+                <div class="label">Edad</div>
+                <div class="value">@Model.edad</div>
+            </div>
+            <div class="item">
+                <div class="label">Genero</div>
+                <div class="value">@Model.genero</div>
+            </div>
+
+
+            <a class="btn-theme text-center btn-block" href="@Url.Action("DetallesCliente", "Cliente", new { id = Model.id })">
+                Ver Perfil
+            </a>
+        </div>
+   </div>
+   
+</div>
+
+@{
+    TempData["returnURL"] = Request.RawUrl;
+}

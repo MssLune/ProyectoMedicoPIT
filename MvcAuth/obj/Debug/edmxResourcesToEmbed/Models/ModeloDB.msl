@@ -1,0 +1,589 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="Ecomerce2019ModelStoreContainer" CdmEntityContainer="Ecomerce2019Entities">
+    <EntitySetMapping Name="C__MigrationHistory">
+      <EntityTypeMapping TypeName="Ecomerce2019Model.C__MigrationHistory">
+        <MappingFragment StoreEntitySet="__MigrationHistory">
+          <ScalarProperty Name="MigrationId" ColumnName="MigrationId" />
+          <ScalarProperty Name="ContextKey" ColumnName="ContextKey" />
+          <ScalarProperty Name="Model" ColumnName="Model" />
+          <ScalarProperty Name="ProductVersion" ColumnName="ProductVersion" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="AspNetRoles">
+      <EntityTypeMapping TypeName="Ecomerce2019Model.AspNetRoles">
+        <MappingFragment StoreEntitySet="AspNetRoles">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="Name" ColumnName="Name" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="AspNetUserClaims">
+      <EntityTypeMapping TypeName="Ecomerce2019Model.AspNetUserClaims">
+        <MappingFragment StoreEntitySet="AspNetUserClaims">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="UserId" ColumnName="UserId" />
+          <ScalarProperty Name="ClaimType" ColumnName="ClaimType" />
+          <ScalarProperty Name="ClaimValue" ColumnName="ClaimValue" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="AspNetUserLogins">
+      <EntityTypeMapping TypeName="Ecomerce2019Model.AspNetUserLogins">
+        <MappingFragment StoreEntitySet="AspNetUserLogins">
+          <ScalarProperty Name="LoginProvider" ColumnName="LoginProvider" />
+          <ScalarProperty Name="ProviderKey" ColumnName="ProviderKey" />
+          <ScalarProperty Name="UserId" ColumnName="UserId" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="AspNetUsers">
+      <EntityTypeMapping TypeName="Ecomerce2019Model.AspNetUsers">
+        <MappingFragment StoreEntitySet="AspNetUsers">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="Email" ColumnName="Email" />
+          <ScalarProperty Name="EmailConfirmed" ColumnName="EmailConfirmed" />
+          <ScalarProperty Name="PasswordHash" ColumnName="PasswordHash" />
+          <ScalarProperty Name="SecurityStamp" ColumnName="SecurityStamp" />
+          <ScalarProperty Name="PhoneNumber" ColumnName="PhoneNumber" />
+          <ScalarProperty Name="PhoneNumberConfirmed" ColumnName="PhoneNumberConfirmed" />
+          <ScalarProperty Name="TwoFactorEnabled" ColumnName="TwoFactorEnabled" />
+          <ScalarProperty Name="LockoutEndDateUtc" ColumnName="LockoutEndDateUtc" />
+          <ScalarProperty Name="LockoutEnabled" ColumnName="LockoutEnabled" />
+          <ScalarProperty Name="AccessFailedCount" ColumnName="AccessFailedCount" />
+          <ScalarProperty Name="UserName" ColumnName="UserName" />
+          <ScalarProperty Name="ViewPage" ColumnName="ViewPage" />
+          <ScalarProperty Name="idCategoria" ColumnName="idCategoria" />
+          <ScalarProperty Name="id_Horario" ColumnName="id_Horario" />
+          <ScalarProperty Name="idDistrito" ColumnName="idDistrito" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Review">
+      <EntityTypeMapping TypeName="Ecomerce2019Model.Review">
+        <MappingFragment StoreEntitySet="Review">
+          <ScalarProperty Name="ReviewID" ColumnName="ReviewID" />
+          <ScalarProperty Name="IdCliente" ColumnName="IdCliente" />
+          <ScalarProperty Name="IdDoctor" ColumnName="IdDoctor" />
+          <ScalarProperty Name="Nombre" ColumnName="Nombre" />
+          <ScalarProperty Name="Email" ColumnName="Email" />
+          <ScalarProperty Name="Review1" ColumnName="Review" />
+          <ScalarProperty Name="Rate" ColumnName="Rate" />
+          <ScalarProperty Name="Fecha" ColumnName="Fecha" />
+          <ScalarProperty Name="isDelete" ColumnName="isDelete" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="tb_admin">
+      <EntityTypeMapping TypeName="Ecomerce2019Model.tb_admin">
+        <MappingFragment StoreEntitySet="tb_admin">
+          <ScalarProperty Name="idAdmin" ColumnName="idAdmin" />
+          <ScalarProperty Name="usuarioAdmin" ColumnName="usuarioAdmin" />
+          <ScalarProperty Name="contraseñaAdmin" ColumnName="contraseñaAdmin" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="tb_Categoria">
+      <EntityTypeMapping TypeName="Ecomerce2019Model.tb_Categoria">
+        <MappingFragment StoreEntitySet="tb_Categoria">
+          <ScalarProperty Name="idCategoria" ColumnName="idCategoria" />
+          <ScalarProperty Name="nomCtegoria" ColumnName="nomCtegoria" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="tb_Cliente">
+      <EntityTypeMapping TypeName="Ecomerce2019Model.tb_Cliente">
+        <MappingFragment StoreEntitySet="tb_Cliente">
+          <ScalarProperty Name="idCliente" ColumnName="idCliente" />
+          <ScalarProperty Name="nomCliente" ColumnName="nomCliente" />
+          <ScalarProperty Name="apeCliente" ColumnName="apeCliente" />
+          <ScalarProperty Name="dniCliente" ColumnName="dniCliente" />
+          <ScalarProperty Name="usuario" ColumnName="usuario" />
+          <ScalarProperty Name="contraseña" ColumnName="contraseña" />
+          <ScalarProperty Name="edad" ColumnName="edad" />
+          <ScalarProperty Name="genero" ColumnName="genero" />
+          <ScalarProperty Name="fechaNacimiento" ColumnName="fechaNacimiento" />
+          <ScalarProperty Name="idDistrito" ColumnName="idDistrito" />
+          <ScalarProperty Name="correo" ColumnName="correo" />
+          <ScalarProperty Name="telefono" ColumnName="telefono" />
+          <ScalarProperty Name="direccion" ColumnName="direccion" />
+          <ScalarProperty Name="foto" ColumnName="foto" />
+          <ScalarProperty Name="notas" ColumnName="notas" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="tb_ClienteEx">
+      <EntityTypeMapping TypeName="Ecomerce2019Model.tb_ClienteEx">
+        <MappingFragment StoreEntitySet="tb_ClienteEx">
+          <ScalarProperty Name="id" ColumnName="id" />
+          <ScalarProperty Name="nomCliente" ColumnName="nomCliente" />
+          <ScalarProperty Name="apeCliente" ColumnName="apeCliente" />
+          <ScalarProperty Name="dniCliente" ColumnName="dniCliente" />
+          <ScalarProperty Name="UserName" ColumnName="UserName" />
+          <ScalarProperty Name="PasswordHash" ColumnName="PasswordHash" />
+          <ScalarProperty Name="edad" ColumnName="edad" />
+          <ScalarProperty Name="genero" ColumnName="genero" />
+          <ScalarProperty Name="fechaNacimiento" ColumnName="fechaNacimiento" />
+          <ScalarProperty Name="idDistrito" ColumnName="idDistrito" />
+          <ScalarProperty Name="Email" ColumnName="Email" />
+          <ScalarProperty Name="telefono" ColumnName="telefono" />
+          <ScalarProperty Name="direccion" ColumnName="direccion" />
+          <ScalarProperty Name="foto" ColumnName="foto" />
+          <ScalarProperty Name="notas" ColumnName="notas" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="tb_DetalleEnvio">
+      <EntityTypeMapping TypeName="Ecomerce2019Model.tb_DetalleEnvio">
+        <MappingFragment StoreEntitySet="tb_DetalleEnvio">
+          <ScalarProperty Name="idDetalleEnvio" ColumnName="idDetalleEnvio" />
+          <ScalarProperty Name="nombre" ColumnName="nombre" />
+          <ScalarProperty Name="apellido" ColumnName="apellido" />
+          <ScalarProperty Name="correo" ColumnName="correo" />
+          <ScalarProperty Name="telefono" ColumnName="telefono" />
+          <ScalarProperty Name="direccion" ColumnName="direccion" />
+          <ScalarProperty Name="idDistrito" ColumnName="idDistrito" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="tb_detalleOrden">
+      <EntityTypeMapping TypeName="Ecomerce2019Model.tb_detalleOrden">
+        <MappingFragment StoreEntitySet="tb_detalleOrden">
+          <ScalarProperty Name="idOrden" ColumnName="idOrden" />
+          <ScalarProperty Name="idDoctor" ColumnName="idDoctor" />
+          <ScalarProperty Name="precioUnidad" ColumnName="precioUnidad" />
+          <ScalarProperty Name="cantidad" ColumnName="cantidad" />
+          <ScalarProperty Name="descuento" ColumnName="descuento" />
+          <ScalarProperty Name="cantidadTotal" ColumnName="cantidadTotal" />
+          <ScalarProperty Name="fechaOrden" ColumnName="fechaOrden" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="tb_Distrito">
+      <EntityTypeMapping TypeName="Ecomerce2019Model.tb_Distrito">
+        <MappingFragment StoreEntitySet="tb_Distrito">
+          <ScalarProperty Name="idDistrito" ColumnName="idDistrito" />
+          <ScalarProperty Name="nomDistrito" ColumnName="nomDistrito" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="tb_Doctor">
+      <EntityTypeMapping TypeName="Ecomerce2019Model.tb_Doctor">
+        <MappingFragment StoreEntitySet="tb_Doctor">
+          <ScalarProperty Name="idDoctor" ColumnName="idDoctor" />
+          <ScalarProperty Name="nomDoctor" ColumnName="nomDoctor" />
+          <ScalarProperty Name="dniDoctor" ColumnName="dniDoctor" />
+          <ScalarProperty Name="cmpDoctor" ColumnName="cmpDoctor" />
+          <ScalarProperty Name="idCategoria" ColumnName="idCategoria" />
+          <ScalarProperty Name="id_Horario" ColumnName="id_Horario" />
+          <ScalarProperty Name="dirDoctor" ColumnName="dirDoctor" />
+          <ScalarProperty Name="idDistrito" ColumnName="idDistrito" />
+          <ScalarProperty Name="telDoctor" ColumnName="telDoctor" />
+          <ScalarProperty Name="emailDoctor" ColumnName="emailDoctor" />
+          <ScalarProperty Name="Precio" ColumnName="Precio" />
+          <ScalarProperty Name="PrecioAnterior" ColumnName="PrecioAnterior" />
+          <ScalarProperty Name="ImageURL" ColumnName="ImageURL" />
+          <ScalarProperty Name="TextoAlternativo" ColumnName="TextoAlternativo" />
+          <ScalarProperty Name="caracteristica1" ColumnName="caracteristica1" />
+          <ScalarProperty Name="caracteristica2" ColumnName="caracteristica2" />
+          <ScalarProperty Name="caracteristica3" ColumnName="caracteristica3" />
+          <ScalarProperty Name="caracteristica4" ColumnName="caracteristica4" />
+          <ScalarProperty Name="caracteristica5" ColumnName="caracteristica5" />
+          <ScalarProperty Name="Placa" ColumnName="Placa" />
+          <ScalarProperty Name="TituloOferta" ColumnName="TituloOferta" />
+          <ScalarProperty Name="ClaseDistintaOferta" ColumnName="ClaseDistintaOferta" />
+          <ScalarProperty Name="DescripcionCorta" ColumnName="DescripcionCorta" />
+          <ScalarProperty Name="DescripcionLarga" ColumnName="DescripcionLarga" />
+          <ScalarProperty Name="nota" ColumnName="nota" />
+          <ScalarProperty Name="agregarCarro" ColumnName="agregarCarro" />
+          <ScalarProperty Name="caracteristica6" ColumnName="caracteristica6" />
+          <ScalarProperty Name="caracteristica7" ColumnName="caracteristica7" />
+          <ScalarProperty Name="caracteristica8" ColumnName="caracteristica8" />
+          <ScalarProperty Name="porc1" ColumnName="porc1" />
+          <ScalarProperty Name="porc2" ColumnName="porc2" />
+          <ScalarProperty Name="porc3" ColumnName="porc3" />
+          <ScalarProperty Name="porc4" ColumnName="porc4" />
+          <ScalarProperty Name="idUser" ColumnName="idUser" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="tb_Horario">
+      <EntityTypeMapping TypeName="Ecomerce2019Model.tb_Horario">
+        <MappingFragment StoreEntitySet="tb_Horario">
+          <ScalarProperty Name="id_Horario" ColumnName="id_Horario" />
+          <ScalarProperty Name="dia" ColumnName="dia" />
+          <ScalarProperty Name="horaApertura" ColumnName="horaApertura" />
+          <ScalarProperty Name="horaCierre" ColumnName="horaCierre" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="tb_ListaDeseos">
+      <EntityTypeMapping TypeName="Ecomerce2019Model.tb_ListaDeseos">
+        <MappingFragment StoreEntitySet="tb_ListaDeseos">
+          <ScalarProperty Name="idListaDeseos" ColumnName="idListaDeseos" />
+          <ScalarProperty Name="idCliente" ColumnName="idCliente" />
+          <ScalarProperty Name="idDoctor" ColumnName="idDoctor" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="tb_ListaDeseosExt">
+      <EntityTypeMapping TypeName="Ecomerce2019Model.tb_ListaDeseosExt">
+        <MappingFragment StoreEntitySet="tb_ListaDeseosExt">
+          <ScalarProperty Name="idListaDeseos" ColumnName="idListaDeseos" />
+          <ScalarProperty Name="idCliente" ColumnName="idCliente" />
+          <ScalarProperty Name="idDoctor" ColumnName="idDoctor" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="tb_Orden">
+      <EntityTypeMapping TypeName="Ecomerce2019Model.tb_Orden">
+        <MappingFragment StoreEntitySet="tb_Orden">
+          <ScalarProperty Name="idOrden" ColumnName="idOrden" />
+          <ScalarProperty Name="idCliente" ColumnName="idCliente" />
+          <ScalarProperty Name="idPago" ColumnName="idPago" />
+          <ScalarProperty Name="idDetalleEnvio" ColumnName="idDetalleEnvio" />
+          <ScalarProperty Name="descuento" ColumnName="descuento" />
+          <ScalarProperty Name="impuestos" ColumnName="impuestos" />
+          <ScalarProperty Name="cantidadTotal" ColumnName="cantidadTotal" />
+          <ScalarProperty Name="fechaOrden" ColumnName="fechaOrden" />
+          <ScalarProperty Name="fechaEnvio" ColumnName="fechaEnvio" />
+          <ScalarProperty Name="enviado" ColumnName="enviado" />
+          <ScalarProperty Name="entregar" ColumnName="entregar" />
+          <ScalarProperty Name="fechaEntrega" ColumnName="fechaEntrega" />
+          <ScalarProperty Name="notas" ColumnName="notas" />
+          <ScalarProperty Name="cancelarOrden" ColumnName="cancelarOrden" />
+          <ScalarProperty Name="Completo" ColumnName="Completo" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="tb_OrdenExt">
+      <EntityTypeMapping TypeName="Ecomerce2019Model.tb_OrdenExt">
+        <MappingFragment StoreEntitySet="tb_OrdenExt">
+          <ScalarProperty Name="idOrden" ColumnName="idOrden" />
+          <ScalarProperty Name="idCliente" ColumnName="idCliente" />
+          <ScalarProperty Name="idPago" ColumnName="idPago" />
+          <ScalarProperty Name="idDetalleEnvio" ColumnName="idDetalleEnvio" />
+          <ScalarProperty Name="descuento" ColumnName="descuento" />
+          <ScalarProperty Name="impuestos" ColumnName="impuestos" />
+          <ScalarProperty Name="cantidadTotal" ColumnName="cantidadTotal" />
+          <ScalarProperty Name="fechaOrden" ColumnName="fechaOrden" />
+          <ScalarProperty Name="fechaEnvio" ColumnName="fechaEnvio" />
+          <ScalarProperty Name="enviado" ColumnName="enviado" />
+          <ScalarProperty Name="entregar" ColumnName="entregar" />
+          <ScalarProperty Name="fechaEntrega" ColumnName="fechaEntrega" />
+          <ScalarProperty Name="notas" ColumnName="notas" />
+          <ScalarProperty Name="cancelarOrden" ColumnName="cancelarOrden" />
+          <ScalarProperty Name="Completo" ColumnName="Completo" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="tb_Pago">
+      <EntityTypeMapping TypeName="Ecomerce2019Model.tb_Pago">
+        <MappingFragment StoreEntitySet="tb_Pago">
+          <ScalarProperty Name="idPago" ColumnName="idPago" />
+          <ScalarProperty Name="idTipoPago" ColumnName="idTipoPago" />
+          <ScalarProperty Name="MontoCrediyo" ColumnName="MontoCrediyo" />
+          <ScalarProperty Name="CantidadDebito" ColumnName="CantidadDebito" />
+          <ScalarProperty Name="FechaPago" ColumnName="FechaPago" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="tb_TipoPago">
+      <EntityTypeMapping TypeName="Ecomerce2019Model.tb_TipoPago">
+        <MappingFragment StoreEntitySet="tb_TipoPago">
+          <ScalarProperty Name="idTipoPago" ColumnName="idTipoPago" />
+          <ScalarProperty Name="nomTipoPago" ColumnName="nomTipoPago" />
+          <ScalarProperty Name="Deescripcion" ColumnName="Deescripcion" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="tb_VistaReciente">
+      <EntityTypeMapping TypeName="Ecomerce2019Model.tb_VistaReciente">
+        <MappingFragment StoreEntitySet="tb_VistaReciente">
+          <ScalarProperty Name="idVistaReciente" ColumnName="idVistaReciente" />
+          <ScalarProperty Name="idCliente" ColumnName="idCliente" />
+          <ScalarProperty Name="idDoctor" ColumnName="idDoctor" />
+          <ScalarProperty Name="fecha" ColumnName="fecha" />
+          <ScalarProperty Name="notas" ColumnName="notas" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <AssociationSetMapping Name="AspNetUserRoles" TypeName="Ecomerce2019Model.AspNetUserRoles" StoreEntitySet="AspNetUserRoles">
+      <EndProperty Name="AspNetRoles">
+        <ScalarProperty Name="Id" ColumnName="RoleId" />
+      </EndProperty>
+      <EndProperty Name="AspNetUsers">
+        <ScalarProperty Name="Id" ColumnName="UserId" />
+      </EndProperty>
+    </AssociationSetMapping>
+    <FunctionImportMapping FunctionImportName="buscarXNombre" FunctionName="Ecomerce2019Model.Store.buscarXNombre">
+      <ResultMapping>
+        <ComplexTypeMapping TypeName="Ecomerce2019Model.buscarXNombre_Result">
+          <ScalarProperty Name="idDoctor" ColumnName="idDoctor" />
+          <ScalarProperty Name="nomDoctor" ColumnName="nomDoctor" />
+          <ScalarProperty Name="dniDoctor" ColumnName="dniDoctor" />
+          <ScalarProperty Name="cmpDoctor" ColumnName="cmpDoctor" />
+          <ScalarProperty Name="idCategoria" ColumnName="idCategoria" />
+          <ScalarProperty Name="id_Horario" ColumnName="id_Horario" />
+          <ScalarProperty Name="dirDoctor" ColumnName="dirDoctor" />
+          <ScalarProperty Name="idDistrito" ColumnName="idDistrito" />
+          <ScalarProperty Name="telDoctor" ColumnName="telDoctor" />
+          <ScalarProperty Name="emailDoctor" ColumnName="emailDoctor" />
+          <ScalarProperty Name="Precio" ColumnName="Precio" />
+          <ScalarProperty Name="PrecioAnterior" ColumnName="PrecioAnterior" />
+          <ScalarProperty Name="ImageURL" ColumnName="ImageURL" />
+          <ScalarProperty Name="TextoAlternativo" ColumnName="TextoAlternativo" />
+          <ScalarProperty Name="caracteristica1" ColumnName="caracteristica1" />
+          <ScalarProperty Name="caracteristica2" ColumnName="caracteristica2" />
+          <ScalarProperty Name="caracteristica3" ColumnName="caracteristica3" />
+          <ScalarProperty Name="caracteristica4" ColumnName="caracteristica4" />
+          <ScalarProperty Name="caracteristica5" ColumnName="caracteristica5" />
+          <ScalarProperty Name="Placa" ColumnName="Placa" />
+          <ScalarProperty Name="TituloOferta" ColumnName="TituloOferta" />
+          <ScalarProperty Name="ClaseDistintaOferta" ColumnName="ClaseDistintaOferta" />
+          <ScalarProperty Name="DescripcionCorta" ColumnName="DescripcionCorta" />
+          <ScalarProperty Name="DescripcionLarga" ColumnName="DescripcionLarga" />
+          <ScalarProperty Name="nota" ColumnName="nota" />
+          <ScalarProperty Name="agregarCarro" ColumnName="agregarCarro" />
+          <ScalarProperty Name="caracteristica6" ColumnName="caracteristica6" />
+          <ScalarProperty Name="caracteristica7" ColumnName="caracteristica7" />
+          <ScalarProperty Name="caracteristica8" ColumnName="caracteristica8" />
+          <ScalarProperty Name="porc1" ColumnName="porc1" />
+          <ScalarProperty Name="porc2" ColumnName="porc2" />
+          <ScalarProperty Name="porc3" ColumnName="porc3" />
+          <ScalarProperty Name="porc4" ColumnName="porc4" />
+          <ScalarProperty Name="idUser" ColumnName="idUser" />
+        </ComplexTypeMapping>
+      </ResultMapping>
+    </FunctionImportMapping>
+    <FunctionImportMapping FunctionImportName="SP_CIENTE_LOGIN" FunctionName="Ecomerce2019Model.Store.SP_CIENTE_LOGIN">
+      <ResultMapping>
+        <ComplexTypeMapping TypeName="Ecomerce2019Model.SP_CIENTE_LOGIN_Result">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="Email" ColumnName="Email" />
+          <ScalarProperty Name="EmailConfirmed" ColumnName="EmailConfirmed" />
+          <ScalarProperty Name="PasswordHash" ColumnName="PasswordHash" />
+          <ScalarProperty Name="SecurityStamp" ColumnName="SecurityStamp" />
+          <ScalarProperty Name="PhoneNumber" ColumnName="PhoneNumber" />
+          <ScalarProperty Name="PhoneNumberConfirmed" ColumnName="PhoneNumberConfirmed" />
+          <ScalarProperty Name="TwoFactorEnabled" ColumnName="TwoFactorEnabled" />
+          <ScalarProperty Name="LockoutEndDateUtc" ColumnName="LockoutEndDateUtc" />
+          <ScalarProperty Name="LockoutEnabled" ColumnName="LockoutEnabled" />
+          <ScalarProperty Name="AccessFailedCount" ColumnName="AccessFailedCount" />
+          <ScalarProperty Name="UserName" ColumnName="UserName" />
+          <ScalarProperty Name="ViewPage" ColumnName="ViewPage" />
+          <ScalarProperty Name="idCategoria" ColumnName="idCategoria" />
+          <ScalarProperty Name="id_Horario" ColumnName="id_Horario" />
+          <ScalarProperty Name="idDistrito" ColumnName="idDistrito" />
+        </ComplexTypeMapping>
+      </ResultMapping>
+    </FunctionImportMapping>
+    <FunctionImportMapping FunctionImportName="sp_cod" FunctionName="Ecomerce2019Model.Store.sp_cod" />
+    <FunctionImportMapping FunctionImportName="SP_DOCTOR_LIST" FunctionName="Ecomerce2019Model.Store.SP_DOCTOR_LIST">
+      <ResultMapping>
+        <ComplexTypeMapping TypeName="Ecomerce2019Model.SP_DOCTOR_LIST_Result">
+          <ScalarProperty Name="idDoctor" ColumnName="idDoctor" />
+          <ScalarProperty Name="nomDoctor" ColumnName="nomDoctor" />
+          <ScalarProperty Name="dniDoctor" ColumnName="dniDoctor" />
+          <ScalarProperty Name="cmpDoctor" ColumnName="cmpDoctor" />
+          <ScalarProperty Name="idCategoria" ColumnName="idCategoria" />
+          <ScalarProperty Name="id_Horario" ColumnName="id_Horario" />
+          <ScalarProperty Name="dirDoctor" ColumnName="dirDoctor" />
+          <ScalarProperty Name="idDistrito" ColumnName="idDistrito" />
+          <ScalarProperty Name="telDoctor" ColumnName="telDoctor" />
+          <ScalarProperty Name="emailDoctor" ColumnName="emailDoctor" />
+          <ScalarProperty Name="Precio" ColumnName="Precio" />
+          <ScalarProperty Name="PrecioAnterior" ColumnName="PrecioAnterior" />
+          <ScalarProperty Name="ImageURL" ColumnName="ImageURL" />
+          <ScalarProperty Name="TextoAlternativo" ColumnName="TextoAlternativo" />
+          <ScalarProperty Name="caracteristica1" ColumnName="caracteristica1" />
+          <ScalarProperty Name="caracteristica2" ColumnName="caracteristica2" />
+          <ScalarProperty Name="caracteristica3" ColumnName="caracteristica3" />
+          <ScalarProperty Name="caracteristica4" ColumnName="caracteristica4" />
+          <ScalarProperty Name="caracteristica5" ColumnName="caracteristica5" />
+          <ScalarProperty Name="Placa" ColumnName="Placa" />
+          <ScalarProperty Name="TituloOferta" ColumnName="TituloOferta" />
+          <ScalarProperty Name="ClaseDistintaOferta" ColumnName="ClaseDistintaOferta" />
+          <ScalarProperty Name="DescripcionCorta" ColumnName="DescripcionCorta" />
+          <ScalarProperty Name="DescripcionLarga" ColumnName="DescripcionLarga" />
+          <ScalarProperty Name="nota" ColumnName="nota" />
+          <ScalarProperty Name="agregarCarro" ColumnName="agregarCarro" />
+          <ScalarProperty Name="caracteristica6" ColumnName="caracteristica6" />
+          <ScalarProperty Name="caracteristica7" ColumnName="caracteristica7" />
+          <ScalarProperty Name="caracteristica8" ColumnName="caracteristica8" />
+          <ScalarProperty Name="porc1" ColumnName="porc1" />
+          <ScalarProperty Name="porc2" ColumnName="porc2" />
+          <ScalarProperty Name="porc3" ColumnName="porc3" />
+          <ScalarProperty Name="porc4" ColumnName="porc4" />
+          <ScalarProperty Name="idUser" ColumnName="idUser" />
+        </ComplexTypeMapping>
+      </ResultMapping>
+    </FunctionImportMapping>
+    <FunctionImportMapping FunctionImportName="SP_DOCTOR_POR_DISTRITO_LIST" FunctionName="Ecomerce2019Model.Store.SP_DOCTOR_POR_DISTRITO_LIST">
+      <ResultMapping>
+        <ComplexTypeMapping TypeName="Ecomerce2019Model.SP_DOCTOR_POR_DISTRITO_LIST_Result">
+          <ScalarProperty Name="idDoctor" ColumnName="idDoctor" />
+          <ScalarProperty Name="nomDoctor" ColumnName="nomDoctor" />
+          <ScalarProperty Name="dniDoctor" ColumnName="dniDoctor" />
+          <ScalarProperty Name="cmpDoctor" ColumnName="cmpDoctor" />
+          <ScalarProperty Name="idCategoria" ColumnName="idCategoria" />
+          <ScalarProperty Name="id_Horario" ColumnName="id_Horario" />
+          <ScalarProperty Name="dirDoctor" ColumnName="dirDoctor" />
+          <ScalarProperty Name="idDistrito" ColumnName="idDistrito" />
+          <ScalarProperty Name="telDoctor" ColumnName="telDoctor" />
+          <ScalarProperty Name="emailDoctor" ColumnName="emailDoctor" />
+          <ScalarProperty Name="Precio" ColumnName="Precio" />
+          <ScalarProperty Name="PrecioAnterior" ColumnName="PrecioAnterior" />
+          <ScalarProperty Name="ImageURL" ColumnName="ImageURL" />
+          <ScalarProperty Name="TextoAlternativo" ColumnName="TextoAlternativo" />
+          <ScalarProperty Name="caracteristica1" ColumnName="caracteristica1" />
+          <ScalarProperty Name="caracteristica2" ColumnName="caracteristica2" />
+          <ScalarProperty Name="caracteristica3" ColumnName="caracteristica3" />
+          <ScalarProperty Name="caracteristica4" ColumnName="caracteristica4" />
+          <ScalarProperty Name="caracteristica5" ColumnName="caracteristica5" />
+          <ScalarProperty Name="Placa" ColumnName="Placa" />
+          <ScalarProperty Name="TituloOferta" ColumnName="TituloOferta" />
+          <ScalarProperty Name="ClaseDistintaOferta" ColumnName="ClaseDistintaOferta" />
+          <ScalarProperty Name="DescripcionCorta" ColumnName="DescripcionCorta" />
+          <ScalarProperty Name="DescripcionLarga" ColumnName="DescripcionLarga" />
+          <ScalarProperty Name="nota" ColumnName="nota" />
+          <ScalarProperty Name="agregarCarro" ColumnName="agregarCarro" />
+          <ScalarProperty Name="caracteristica6" ColumnName="caracteristica6" />
+          <ScalarProperty Name="caracteristica7" ColumnName="caracteristica7" />
+          <ScalarProperty Name="caracteristica8" ColumnName="caracteristica8" />
+          <ScalarProperty Name="porc1" ColumnName="porc1" />
+          <ScalarProperty Name="porc2" ColumnName="porc2" />
+          <ScalarProperty Name="porc3" ColumnName="porc3" />
+          <ScalarProperty Name="porc4" ColumnName="porc4" />
+          <ScalarProperty Name="idUser" ColumnName="idUser" />
+        </ComplexTypeMapping>
+      </ResultMapping>
+    </FunctionImportMapping>
+    <FunctionImportMapping FunctionImportName="sp_listaCliente" FunctionName="Ecomerce2019Model.Store.sp_listaCliente">
+      <ResultMapping>
+        <ComplexTypeMapping TypeName="Ecomerce2019Model.sp_listaCliente_Result">
+          <ScalarProperty Name="idCliente" ColumnName="idCliente" />
+          <ScalarProperty Name="nomCliente" ColumnName="nomCliente" />
+          <ScalarProperty Name="apeCliente" ColumnName="apeCliente" />
+          <ScalarProperty Name="dniCliente" ColumnName="dniCliente" />
+          <ScalarProperty Name="usuario" ColumnName="usuario" />
+          <ScalarProperty Name="contraseña" ColumnName="contraseña" />
+          <ScalarProperty Name="edad" ColumnName="edad" />
+          <ScalarProperty Name="genero" ColumnName="genero" />
+          <ScalarProperty Name="fechaNacimiento" ColumnName="fechaNacimiento" />
+          <ScalarProperty Name="idDistrito" ColumnName="idDistrito" />
+          <ScalarProperty Name="correo" ColumnName="correo" />
+          <ScalarProperty Name="telefono" ColumnName="telefono" />
+          <ScalarProperty Name="direccion" ColumnName="direccion" />
+          <ScalarProperty Name="foto" ColumnName="foto" />
+          <ScalarProperty Name="notas" ColumnName="notas" />
+        </ComplexTypeMapping>
+      </ResultMapping>
+    </FunctionImportMapping>
+    <FunctionImportMapping FunctionImportName="sp_listaDeseos" FunctionName="Ecomerce2019Model.Store.sp_listaDeseos">
+      <ResultMapping>
+        <ComplexTypeMapping TypeName="Ecomerce2019Model.sp_listaDeseos_Result">
+          <ScalarProperty Name="idCliente" ColumnName="idCliente" />
+          <ScalarProperty Name="idListaDeseos" ColumnName="idListaDeseos" />
+          <ScalarProperty Name="idDoctor" ColumnName="idDoctor" />
+          <ScalarProperty Name="nomDoctor" ColumnName="nomDoctor" />
+          <ScalarProperty Name="dniDoctor" ColumnName="dniDoctor" />
+          <ScalarProperty Name="cmpDoctor" ColumnName="cmpDoctor" />
+          <ScalarProperty Name="idCategoria" ColumnName="idCategoria" />
+          <ScalarProperty Name="id_Horario" ColumnName="id_Horario" />
+          <ScalarProperty Name="dirDoctor" ColumnName="dirDoctor" />
+          <ScalarProperty Name="idDistrito" ColumnName="idDistrito" />
+          <ScalarProperty Name="telDoctor" ColumnName="telDoctor" />
+          <ScalarProperty Name="emailDoctor" ColumnName="emailDoctor" />
+          <ScalarProperty Name="Precio" ColumnName="Precio" />
+          <ScalarProperty Name="PrecioAnterior" ColumnName="PrecioAnterior" />
+          <ScalarProperty Name="ImageURL" ColumnName="ImageURL" />
+          <ScalarProperty Name="TextoAlternativo" ColumnName="TextoAlternativo" />
+          <ScalarProperty Name="caracteristica1" ColumnName="caracteristica1" />
+          <ScalarProperty Name="caracteristica2" ColumnName="caracteristica2" />
+          <ScalarProperty Name="caracteristica3" ColumnName="caracteristica3" />
+          <ScalarProperty Name="caracteristica4" ColumnName="caracteristica4" />
+          <ScalarProperty Name="caracteristica5" ColumnName="caracteristica5" />
+          <ScalarProperty Name="Placa" ColumnName="Placa" />
+          <ScalarProperty Name="TituloOferta" ColumnName="TituloOferta" />
+          <ScalarProperty Name="ClaseDistintaOferta" ColumnName="ClaseDistintaOferta" />
+          <ScalarProperty Name="DescripcionCorta" ColumnName="DescripcionCorta" />
+          <ScalarProperty Name="DescripcionLarga" ColumnName="DescripcionLarga" />
+          <ScalarProperty Name="nota" ColumnName="nota" />
+          <ScalarProperty Name="agregarCarro" ColumnName="agregarCarro" />
+          <ScalarProperty Name="caracteristica6" ColumnName="caracteristica6" />
+          <ScalarProperty Name="caracteristica7" ColumnName="caracteristica7" />
+          <ScalarProperty Name="caracteristica8" ColumnName="caracteristica8" />
+          <ScalarProperty Name="porc1" ColumnName="porc1" />
+          <ScalarProperty Name="porc2" ColumnName="porc2" />
+          <ScalarProperty Name="porc3" ColumnName="porc3" />
+          <ScalarProperty Name="porc4" ColumnName="porc4" />
+          <ScalarProperty Name="idUser" ColumnName="idUser" />
+        </ComplexTypeMapping>
+      </ResultMapping>
+    </FunctionImportMapping>
+    <FunctionImportMapping FunctionImportName="sp_listaDistrito" FunctionName="Ecomerce2019Model.Store.sp_listaDistrito">
+      <ResultMapping>
+        <ComplexTypeMapping TypeName="Ecomerce2019Model.sp_listaDistrito_Result">
+          <ScalarProperty Name="idDistrito" ColumnName="idDistrito" />
+          <ScalarProperty Name="nomDistrito" ColumnName="nomDistrito" />
+        </ComplexTypeMapping>
+      </ResultMapping>
+    </FunctionImportMapping>
+    <FunctionImportMapping FunctionImportName="sp_registroCliente" FunctionName="Ecomerce2019Model.Store.sp_registroCliente" />
+    <FunctionImportMapping FunctionImportName="sp_registroDeseo" FunctionName="Ecomerce2019Model.Store.sp_registroDeseo" />
+    <FunctionImportMapping FunctionImportName="sp_registroDoctor" FunctionName="Ecomerce2019Model.Store.sp_registroDoctor" />
+    <FunctionImportMapping FunctionImportName="sp_reportez" FunctionName="Ecomerce2019Model.Store.sp_reportez">
+      <ResultMapping>
+        <ComplexTypeMapping TypeName="Ecomerce2019Model.sp_reportez_Result">
+          <ScalarProperty Name="idOrden" ColumnName="idOrden" />
+          <ScalarProperty Name="nomCliente" ColumnName="nomCliente" />
+          <ScalarProperty Name="apeCliente" ColumnName="apeCliente" />
+          <ScalarProperty Name="nomDoctor" ColumnName="nomDoctor" />
+          <ScalarProperty Name="precioUnidad" ColumnName="precioUnidad" />
+          <ScalarProperty Name="telDoctor" ColumnName="telDoctor" />
+          <ScalarProperty Name="telefono" ColumnName="telefono" />
+          <ScalarProperty Name="direccion" ColumnName="direccion" />
+          <ScalarProperty Name="nomTipoPago" ColumnName="nomTipoPago" />
+          <ScalarProperty Name="cantidadTotal" ColumnName="cantidadTotal" />
+        </ComplexTypeMapping>
+      </ResultMapping>
+    </FunctionImportMapping>
+    <FunctionImportMapping FunctionImportName="SP_Usuario_Email_LIST" FunctionName="Ecomerce2019Model.Store.SP_Usuario_Email_LIST">
+      <ResultMapping>
+        <ComplexTypeMapping TypeName="Ecomerce2019Model.SP_Usuario_Email_LIST_Result">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="Email" ColumnName="Email" />
+          <ScalarProperty Name="EmailConfirmed" ColumnName="EmailConfirmed" />
+          <ScalarProperty Name="PasswordHash" ColumnName="PasswordHash" />
+          <ScalarProperty Name="SecurityStamp" ColumnName="SecurityStamp" />
+          <ScalarProperty Name="PhoneNumber" ColumnName="PhoneNumber" />
+          <ScalarProperty Name="PhoneNumberConfirmed" ColumnName="PhoneNumberConfirmed" />
+          <ScalarProperty Name="TwoFactorEnabled" ColumnName="TwoFactorEnabled" />
+          <ScalarProperty Name="LockoutEndDateUtc" ColumnName="LockoutEndDateUtc" />
+          <ScalarProperty Name="LockoutEnabled" ColumnName="LockoutEnabled" />
+          <ScalarProperty Name="AccessFailedCount" ColumnName="AccessFailedCount" />
+          <ScalarProperty Name="UserName" ColumnName="UserName" />
+          <ScalarProperty Name="ViewPage" ColumnName="ViewPage" />
+          <ScalarProperty Name="idCategoria" ColumnName="idCategoria" />
+          <ScalarProperty Name="id_Horario" ColumnName="id_Horario" />
+          <ScalarProperty Name="idDistrito" ColumnName="idDistrito" />
+        </ComplexTypeMapping>
+      </ResultMapping>
+    </FunctionImportMapping>
+    <FunctionImportMapping FunctionImportName="SP_VISITA_RECIENTE_BUSCA" FunctionName="Ecomerce2019Model.Store.SP_VISITA_RECIENTE_BUSCA">
+      <ResultMapping>
+        <ComplexTypeMapping TypeName="Ecomerce2019Model.SP_VISITA_RECIENTE_BUSCA_Result">
+          <ScalarProperty Name="idVistaReciente" ColumnName="idVistaReciente" />
+          <ScalarProperty Name="idCliente" ColumnName="idCliente" />
+          <ScalarProperty Name="idDoctor" ColumnName="idDoctor" />
+          <ScalarProperty Name="fecha" ColumnName="fecha" />
+          <ScalarProperty Name="notas" ColumnName="notas" />
+          <ScalarProperty Name="nomDoctor" ColumnName="nomDoctor" />
+          <ScalarProperty Name="Cliente" ColumnName="Cliente" />
+        </ComplexTypeMapping>
+      </ResultMapping>
+    </FunctionImportMapping>
+  </EntityContainerMapping>
+</Mapping>

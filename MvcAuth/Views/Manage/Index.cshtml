@@ -1,0 +1,134 @@
+﻿@model MvcAuth.Models.IndexViewModel
+@{
+    ViewBag.Title = "Gestionar";
+}
+
+
+<p class="text-success">@ViewBag.StatusMessage</p>
+
+<!--===============================================================================================-->
+<link href="~/Assets/fonts/font-awesome-4.7.0/css/font-awesome.min.css" rel="stylesheet">
+<!--===============================================================================================-->
+<link href="~/Assets/fonts/iconic/css/material-design-iconic-font.min.css" rel="stylesheet">
+<!--===============================================================================================-->
+<link href="~/Assets/vendor/animate/animate.css" rel="stylesheet">
+<!--===============================================================================================-->
+<link href="~/Assets/vendor/css-hamburgers/hamburgers.min.css" rel="stylesheet">
+<!--===============================================================================================-->
+<link href="~/Assets/vendor/animsition/css/animsition.min.css" rel="stylesheet">
+<!--===============================================================================================-->
+<link href="~/Assets/vendor/select2/select2.min.css" rel="stylesheet">
+<!--===============================================================================================-->
+<link href="~/Assets/vendor/daterangepicker/daterangepicker.css" rel="stylesheet">
+<!--===============================================================================================-->
+<link href="~/Assets/css/util.css" rel="stylesheet">
+<link href="~/Assets/css/main.css" rel="stylesheet">
+<!--===============================================================================================-->
+
+<div class="container-login100" style="background-image: url('../../Assets/images/medical-wallpaper.jpg');">
+    <div class="wrap-login100 p-l-55 p-r-55 p-t-80 p-b-30" style="height:550px; width:690px;">
+        <div class="login100-form validate-form">
+            <div>
+                <h4>Cambiar la configuración de la cuenta</h4>
+                <hr />
+                <dl class="dl-horizontal">
+                    <dt>Contraseña:</dt>
+                    <dd>
+                        [
+                        @if (Model.HasPassword)
+                        {
+                            @Html.ActionLink("Cambiar la contraseña", "ChangePassword")
+                        }
+                        else
+                        {
+                            @Html.ActionLink("Crear", "SetPassword")
+                        }
+                        ]
+                    </dd>
+                    <dt>Inicios de sesión externos:</dt>
+                    <dd>
+                        @Model.Logins.Count [
+                        @Html.ActionLink("Administrar", "ManageLogins") ]
+                    </dd>
+                    @*
+                        Los números de teléfono se pueden usar como una segunda fase de comprobación en un sistema de autenticación en dos fases.
+
+                         Consulte <a href="https://go.microsoft.com/fwlink/?LinkId=403804">este artículo</a>
+                            para obtener detalles sobre cómo configurar esta aplicación ASP.NET para que sea compatible con la autenticación en dos fases mediante SMS.
+
+                         Quite la marca de comentario de los bloques siguientes después de configurar la autenticación en dos fases.
+                    *@
+                    @*
+                        <dt>Número de teléfono:</dt>
+                        <dd>
+                            @(Model.PhoneNumber ?? "None")
+                            @if (Model.PhoneNumber != null)
+                            {
+                                <br />
+                                <text>[&nbsp;&nbsp;@Html.ActionLink("Change", "AddPhoneNumber")&nbsp;&nbsp;]</text>
+                                using (Html.BeginForm("RemovePhoneNumber", "Manage", FormMethod.Post, new { @class = "form-horizontal", role = "form" }))
+                                {
+                                    @Html.AntiForgeryToken()
+                                    <text>[<input type="submit" value="Quitar" class="btn-link" />]</text>
+                                }
+                            }
+                            else
+                            {
+                                <text>[&nbsp;&nbsp;@Html.ActionLink("Add", "AddPhoneNumber")
+                            }
+                        </dd>
+                    *@
+                    <dt>Autenticación de dos factores:</dt>
+                    <dd>
+                        <p>
+                            No hay ningún proveedor de autenticación en dos fases configurado. Consulte <a href="https://go.microsoft.com/fwlink/?LinkId=403804">este artículo</a>
+                            para obtener detalles sobre cómo configurar esta aplicación ASP.NET para que sea compatible con la autenticación en dos fases.
+                        </p>
+                        @*@if (Model.TwoFactor)
+                            {
+                                using (Html.BeginForm("DisableTwoFactorAuthentication", "Manage", FormMethod.Post, new { @class = "form-horizontal", role = "form" }))
+                                {
+                                    @Html.AntiForgeryToken()
+                                    <text>Habilitado
+                                    <input type="submit" value="Deshabilitar" class="btn btn-link" />
+                                    </text>
+                                }
+                            }
+                            else
+                            {
+                                using (Html.BeginForm("EnableTwoFactorAuthentication", "Manage", FormMethod.Post, new { @class = "form-horizontal", role = "form" }))
+                                {
+                                    @Html.AntiForgeryToken()
+                                    <text>Deshabilitado
+                                    <input type="submit" value="Habilitar" class="btn btn-link" />
+                                    </text>
+                                }
+                            }*@
+                    </dd>
+                </dl>
+            </div>
+
+        </div>
+
+
+    </div>
+</div>
+
+
+
+<!--===============================================================================================-->
+<script src="~/Assets/vendor/jquery/jquery-3.2.1.min.js"></script>
+<!--===============================================================================================-->
+<script src="~/Assets/vendor/animsition/js/animsition.min.js"></script>
+<!--===============================================================================================-->
+<script src="~/Assets/vendor/bootstrap/js/popper.js"></script>
+<script src="~/Assets/vendor/bootstrap/js/bootstrap.min.js"></script>
+<!--===============================================================================================-->
+<script src="~/Assets/vendor/select2/select2.min.js"></script>
+<!--===============================================================================================-->
+<script src="~/Assets/vendor/daterangepicker/moment.min.js"></script>
+<script src="~/Assets/vendor/daterangepicker/daterangepicker.js"></script>
+<!--===============================================================================================-->
+<script src="~/Assets/vendor/countdowntime/countdowntime.js"></script>
+<!--===============================================================================================-->
+<script src="~/Assets/js/main.js"></script>

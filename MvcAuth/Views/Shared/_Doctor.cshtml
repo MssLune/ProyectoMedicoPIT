@@ -1,0 +1,63 @@
+﻿@model MvcAuth.Models.tb_Doctor
+@using MvcAuth.Models
+@using Microsoft.AspNet.Identity
+<div class="item">
+    <div class="team-item-2">
+        <a class="aa-product-img" href="@Url.Action("DetallesDoctor", "Doctor" , new { id=Model.idDoctor })">
+            @if (Model.ImageURL != null)
+            {
+                <img src="@Url.Content(Model.ImageURL)" width="250" height="250" alt="">
+            }
+            else
+            {
+                <img src="~/Image/descarga.jpg" width="250" height="250px;">
+            }
+
+
+        </a>
+        <div class="team-contact">
+            <ul>
+                <li><a href="#"><svg class="fa fa-twitter" style="width:45px;height:45px;"><use xlink:href="#twitter" /></svg></a></li>
+                <li><a href="#"><svg class="fa fa-linkedin" style="width:45px;height:45px;"><use xlink:href="#linkedin" /></svg></a></li>
+                <li><a href="#"><svg class="fa fa-dribbble" style="width:45px;height:45px;"><use xlink:href="#facebook" /></svg></a></li>
+            </ul>
+        </div>
+        <div class="team-content">
+            <h4><a href="#">@Model.nomDoctor</a></h4>
+            <h6>@Model.tb_Categoria.nomCtegoria</h6>
+            @{
+
+            var manager = new UserManager<ApplicationUser>
+                (new Microsoft.AspNet.Identity.EntityFramework.UserStore<ApplicationUser>
+                    (new ApplicationDbContext()));
+                    Session["username"] = manager.FindById(User.Identity.GetUserId());
+                    }
+                    <a href="@(Session["username"] !=null ? Url.Action("WishList","Doctor", new { id=Model.idDoctor}) :Url.Action("Login","Account"))">
+                        <svg class="team-content-icon" style="width:25px;height:25px;">
+                            <use xlink:href="#like" />
+                        </svg>
+                    </a>
+        </div>
+        <div class="timetable">
+            <div class="item">
+                <div class="label">Lunes-Viernes</div>
+                <div class="value">08:00 - 20:00</div>
+            </div>
+            <div class="item">
+                <div class="label">Sábados</div>
+                <div class="value">10:00 - 20:00</div>
+            </div>
+            <div class="item">
+                <div class="label">Domingos</div>
+                <div class="value">12:00 - 00:00</div>
+            </div>
+            <a class="btn-theme text-center btn-block" href="@Url.Action("DetallesDoctor", "Doctor" , new { id=Model.idDoctor })">
+                Ver Perfil
+            </a>
+
+        </div>
+    </div>
+</div>
+@{
+    TempData["returnURL"] = Request.RawUrl;
+}

@@ -1,0 +1,140 @@
+﻿@model MvcAuth.Models.tb_Categoria
+
+@{
+    ViewBag.Title = "EditarEspecialidad";
+}
+
+
+<aside class="menu-sidebar d-none d-lg-block">
+
+    <div class="menu-sidebar__content js-scrollbar1">
+        <nav class="navbar-sidebar">
+            <ul class="list-unstyled navbar__list">
+                <li class="has-sub">
+                    <a class="js-arrow" href="#">
+                        <i class=""></i>
+                    </a>
+                </li>
+                <li>
+                    <a href="chart.html">
+                        <i class=""></i>
+                    </a>
+                </li>
+                <li class="active">
+                    <a href="@Url.Action("Index", "Home")">
+                        <i class="flaticon-005-telephone-2"></i>Doctor
+                    </a>
+                </li>
+                <li>
+                    <a href="@Url.Action("ListarCliente", "Admin")">
+                        <i class="flaticon-012-mouse"></i>Cliente
+                    </a>
+                </li>
+                <li>
+                    <a href="@Url.Action("listaEspecialidad", "Admin")">
+                        <i class="flaticon-012-mouse"></i>Especialidad
+                    </a>
+                </li>
+                <li>
+                    <a href="@Url.Action("listarOrden", "Admin")">
+                        <i class="flaticon-014-online-question"></i>Ordenes
+                    </a>
+                </li>
+                <li>
+                    <a href="@Url.Action("listarEnvio", "Admin")">
+                        <i class="flaticon-016-send-1"></i>Envios
+                    </a>
+                </li>
+            </ul>
+        </nav>
+    </div>
+</aside>
+
+
+<div class="page-container">
+
+    <div class="main-content" style="margin-top:-95px;">
+        <div class="section__content section__content--p30">
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-md-12">
+
+                        <h3 class="title-5 m-b-35" style="background-color:white; height:50px; padding-top:12px; padding-left:35px;">Editar Especialidad</h3>
+                      
+                        <div class="table-responsive table-responsive-data2">
+
+                            @using (Html.BeginForm())
+                            {
+                                @Html.AntiForgeryToken()
+
+                                <div class="form-horizontal">
+                                    @Html.ValidationSummary(true, "", new { @class = "text-danger" })
+                                    @Html.HiddenFor(model => model.idCategoria)
+
+                                    
+                                        <dl class="dl-horizontal" style="background-color:white; padding:50px;">
+                                            <dt style="width:400px; padding-right:80px;">
+                                                ESPECIALIDAD
+                                            </dt>
+                                            <dd>
+                                                <div class="col-md-10">
+                                                    @Html.EditorFor(model => model.nomCtegoria, new { htmlAttributes = new { @class = "form-control" } })
+                                                    @Html.ValidationMessageFor(model => model.nomCtegoria, "", new { @class = "text-danger" })
+                                                </div>
+                                            </dd>
+                                        </dl>
+                                    
+                                            <input type="submit" value="Actualizar" class="btn btn-default" style="width:100%;   background-color:rgba(97,157,177,0.83); color: white" />
+                                       
+                                </div>
+                            }
+
+
+                            <div class="row m-t-100">
+                                <button class="btn btn-default" style="background-color:white; margin-left:15px;">
+                                    <a href="@Url.Action("listaEspecialidad", "Admin", new {  })">
+                                        REGRESAR
+                                    </a>
+                                </button>
+
+
+
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,74 @@
+﻿
+@model IEnumerable<MvcAuth.Models.tb_ListaDeseosExt>
+@{
+    ViewBag.Title = "Index";
+}
+
+<section class="inner-bg over-layer-black" style="background-color:rgba(242,242,242,0.9); ">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-4">
+                <div class="mini-title inner-style-2">
+                    <h3>DOCTORES FAVORITOS</h3>
+                    <p><a href="index-one.html">Inicio</a> <span class="fa fa-angle-right"></span> <a href="#">Doctores Favoritos</a></p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- shopping-cart-area start -->
+<div class="shoping-cart-area">
+    <div class="container">
+        <h4 class="mini-title inner-style-2">Tus doctores favoritos</h4>
+        <div class="row">
+            <div class="col-md-12">
+                <div class="product-list">
+                        <table style="border-color:rgba(97,157,177,0.83);">
+                            <thead>
+                                <tr id="new">
+                                    
+                                    <th>Eliminar</th>
+                                    <th>Imagen</th>
+                                    <th>Doctor</th>
+                                    <th>Precio de visita</th>
+                                    <th>Subtotal</th>
+                                    <th>Total</th>
+                                    <th>Solicitar</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                @if (Session["username"] != null)
+                                {
+                                    foreach (var item in Model)
+                                    {
+
+                                            <tr>
+                                                <td class="product-thumbnail">
+                                                    <a href="@Url.Action("Remove", "WishList", new { id=item.idListaDeseos})"><i class="flaticon-012-mouse"></i></a>
+                                                </td>
+                                                <td class="product-image">
+                                                    <a href="#"><img alt="" src="@item.tb_Doctor.ImageURL"></a>
+                                                </td>
+                                                <td>
+                                                    <h4><a href="#">@item.tb_Doctor.nomDoctor</a></h4>
+                                                </td>
+                                                <td>@item.tb_Doctor.Precio</td>
+                                                <td>@item.tb_Doctor.Precio</td>
+                                                <td>@item.tb_Doctor.Precio</td>
+                                                <td><a href="@Url.Action("AddToCart", "WishList", new { id=item.idListaDeseos})" class="aa-add-to-cart-btn">Solicitar Doctor</a></td>
+                                            </tr>
+                                            
+                                    }
+                                }
+                                else
+                                {
+                                    <text>Por favor, ingrese para ver su Lista de Deseados</text>
+                                }
+                            </tbody>
+                        </table>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

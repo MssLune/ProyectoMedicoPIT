@@ -1,0 +1,291 @@
+﻿@model IEnumerable<MvcAuth.Models.tb_OrdenExt>
+
+@{
+    ViewBag.Title = "listarOrden";
+}
+
+<link href="~/Assets/css/animate.min.css" rel="stylesheet" />
+<link href="~/Assets/css/animations.css" rel="stylesheet" />
+<link href="~/Assets/css/fontawesome-all.min.css" rel="stylesheet" />
+<link href="~/Assets/css/hamburgers.min.css" rel="stylesheet" />
+<link href="~/Assets/css/material-design-iconic-font.min.css" rel="stylesheet" />
+<link href="~/Assets/css/perfect-scrollbar.css" rel="stylesheet" />
+<link href="~/Assets/css/select2.min.css" rel="stylesheet" />
+<link href="~/Assets/css/slick.css" rel="stylesheet" />
+<link href="~/Assets/css/themex.css" rel="stylesheet" />
+
+<div class="page-wrapper">
+
+
+    <aside class="menu-sidebar d-none d-lg-block">
+
+        <div class="menu-sidebar__content js-scrollbar1">
+            <nav class="navbar-sidebar">
+                <ul class="list-unstyled navbar__list">
+                    <li class="has-sub">
+                        <a class="js-arrow" href="#">
+                            <i class=""></i>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="chart.html">
+                            <i class=""></i>
+                        </a>
+                    </li>
+                    <li class="active">
+                        <a href="@Url.Action("Index", "Home")">
+                            <i class="flaticon-005-telephone-2"></i>Doctor
+                        </a>
+                    </li>
+                    <li>
+                        <a href="@Url.Action("ListarCliente", "Admin")">
+                            <i class="flaticon-012-mouse"></i>Cliente
+                        </a>
+                    </li>
+                    <li>
+                        <a href="@Url.Action("listaEspecialidad", "Admin")">
+                            <i class="flaticon-012-mouse"></i>Especialidad
+                        </a>
+                    </li>
+                    <li>
+                        <a href="@Url.Action("listarOrden", "Admin")">
+                            <i class="flaticon-014-online-question"></i>Ordenes
+                        </a>
+                    </li>
+                    <li>
+                        <a href="@Url.Action("listarEnvio", "Admin")">
+                            <i class="flaticon-016-send-1"></i>Envios
+                        </a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </aside>
+
+
+    <div class="page-container">
+
+        <div class="main-content" style="margin-top:-95px;">
+            <div class="section__content section__content--p30">
+                <div class="container-fluid">
+                    <div class="row">
+                        <div class="col-md-12">
+
+                            <h3 class="title-5 m-b-35" style="background-color:white; height:50px; padding-top:12px; padding-left:35px;">Lista de Ordenes</h3>
+                            <div class="table-data__tool" style="background-color:white; height:70px; padding-top:12px; padding-left:35px;">
+                                <div class="table-data__tool-left">
+
+                                    <button class="au-btn-filter">
+                                        Filtrar
+
+                                    </button>
+                                </div>
+                                <div class="table-data__tool-right">
+
+
+                                </div>
+                            </div>
+                            <div class="table-responsive table-responsive-data2">
+
+                                <table class="table table-data2" style="max-width:1500px;">
+                                    <thead>
+                                        <tr>
+                                            <th>
+                                                <label class="au-checkbox">
+                                                    <input type="checkbox">
+                                                    <span class="au-checkmark"></span>
+                                                </label>
+                                            </th>
+                                            <th>ID</th>
+                                            <th>CLIENTE</th>
+                                            <th>FECHA</th>
+                                            <th>TIPO DE PAGO</th>
+                                            <th></th>
+                                        </tr>
+                                    </thead>
+
+                                    @foreach (var item in Model)
+                                    {
+
+
+
+                                        <tr>
+                                            <td>
+                                                <label class="au-checkbox">
+                                                    <input type="checkbox">
+                                                    <span class="au-checkmark"></span>
+                                                </label>
+                                            </td>
+                                            <td>
+                                                @Html.DisplayFor(modelItem => item.idOrden)
+                                            </td>
+                                            <td>
+                                                @Html.DisplayFor(modelItem => item.AspNetUsers.UserName)
+                                            </td>
+                                            <td>
+                                                @Html.DisplayFor(modelItem => item.fechaOrden)
+                                            </td>
+                                            <td>
+                                                @Html.DisplayFor(modelItem => item.tb_Pago.idTipoPago)
+                                            </td>
+                                            <td>
+                                                <div class="table-data-feature">
+
+                                                    <button class="item" data-toggle="tooltip" data-placement="top" title="Eliminar">
+                                                        <a href="@Url.Action("listarOrdenDetalle", "Admin", new { id = item.idOrden })">
+                                                            <i class="flaticon-delete" style="left: 20%;"></i>
+                                                        </a>
+                                                    </button>
+                                                </div>
+
+                                            </td>
+                                        </tr>
+
+                                    }
+                                </table>
+
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row m-t-30">
+                        <button class="au-btn au-btn-icon au-btn--small" style="background-color:floralwhite; margin-left:15px;">
+                            <a href="@Url.Action("listarOrden", "Admin", new {  })">
+                                REGRESAR
+                            </a>
+                        </button>
+
+
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
+
+
+<table class="table">
+    <tr>
+        <th>
+            @Html.DisplayNameFor(model => model.descuento)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.impuestos)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.cantidadTotal)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.fechaOrden)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.fechaEnvio)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.enviado)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.entregar)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.fechaEntrega)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.notas)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.cancelarOrden)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Completo)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.AspNetUsers.Email)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.tb_DetalleEnvio.nombre)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.tb_detalleOrden.idOrden)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.tb_Pago.idPago)
+        </th>
+        <th></th>
+    </tr>
+
+    @foreach (var item in Model)
+    {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.descuento)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.impuestos)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.cantidadTotal)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.fechaOrden)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.fechaEnvio)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.enviado)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.entregar)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.fechaEntrega)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.notas)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.cancelarOrden)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Completo)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.AspNetUsers.Email)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.tb_DetalleEnvio.nombre)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.tb_detalleOrden.idOrden)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.tb_Pago.idPago)
+            </td>
+            <td>
+                @Html.ActionLink("Edit", "Edit", new { id = item.idOrden }) |
+                @Html.ActionLink("Details", "Details", new { id = item.idOrden }) |
+                @Html.ActionLink("Delete", "Delete", new { id = item.idOrden })
+            </td>
+        </tr>
+    }
+
+</table>
+
+<script src="~/Assets/js/jquery-3.2.1.min.js"></script>
+<script src="~/Assets/js/jquery.counterup.min.js"></script>
+<script src="~/Assets/js/jquery.waypoints.min.js"></script>
+<script src="~/Assets/js/animsition.min.js"></script>
+<script src="~/Assets/js/bootstrap-progressbar.min.js"></script>
+<script src="~/Assets/js/Chart.bundle.min.js"></script>
+<script src="~/Assets/js/circle-progress.min.js"></script>
+<script src="~/Assets/js/perfect-scrollbar.js"></script>
+<script src="~/Assets/js/popper.min.js"></script>
+<script src="~/Assets/js/rocket-loader.min.js"></script>
+<script src="~/Assets/js/select2.min.js"></script>
+<script src="~/Assets/js/slick.min.js"></script>
+<script src="~/Assets/js/wow.min.js"></script>
+<script src="~/Assets/js/bootstrap-progressbar.min.js"></script>

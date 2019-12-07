@@ -1,0 +1,1106 @@
+﻿@model MvcAuth.Models.AspNetUsers
+@{
+    ViewBag.Title = "Index";
+}
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+<script src="~/Assets/validation/parsley.min.js"></script>
+
+
+<style type="text/css">
+
+    .wrapper {
+        //padding-top: 20px;
+        padding-top: 50px;
+    }
+
+    input.parsley-error,
+    select.parsley-error,
+    textarea.parsley-error {
+        border-color: #843534;
+        box-shadow: none;
+    }
+
+
+        input.parsley-error:focus,
+        select.parsley-error:focus,
+        textarea.parsley-error:focus {
+            border-color: #843534;
+            box-shadow: inset 0 1px 1px rgba(0,0,0,.075),0 0 6px #ce8483
+        }
+
+
+    .parsley-errors-list {
+        list-style-type: none;
+        opacity: 0;
+        transition: all .3s ease-in;
+        color: #d16e6c;
+        margin-top: 5px;
+        margin-bottom: 0;
+        padding-left: 0;
+    }
+
+        .parsley-errors-list.filled {
+            opacity: 1;
+            color: #a94442;
+        }
+</style>
+
+
+@if (ViewBag.user != null)
+{
+    if (ViewBag.tipo == "1")
+    {
+        /////////////////////////////////////////////////////////////////// DOCTOR ///////////////////////////////////////////////////////////////////////
+
+        <!DOCTYPE html>
+        <html lang="en">
+        <body>
+            <!-- Start  bootstrap-touch-slider Slider -->
+            <div id="bootstrap-touch-slider" class="carousel bs-slider fade  control-round indicators-line" data-ride="carousel" data-pause="hover" data-interval="5000">
+                <!-- Indicators -->
+                <ol class="carousel-indicators">
+                    <li data-target="#bootstrap-touch-slider" data-slide-to="0" class="active"></li>
+                    <li data-target="#bootstrap-touch-slider" data-slide-to="1"></li>
+                    <li data-target="#bootstrap-touch-slider" data-slide-to="2"></li>
+                </ol>
+                <!-- Wrapper For Slides -->
+                <div class="carousel-inner" role="listbox">
+                    <!-- Third Slide -->
+                    <div class="item active">
+                        <!-- Slide Background -->
+                        <img src="~/Assets/img/bg/minimalist-wallpaper-5748-5913-hd-wallpapers.jpg" alt="Slider Images" class="slide-image" />
+                        <div class="bs-slider-overlay"></div>
+                        <div class="slide-text slide_style_left">
+                            <h1 data-animation="animated fadeInRight">Con<span class="color-defult"> TD-Medic </span> obtienes ingresos extra.</h1>
+                            <p data-animation="animated fadeInLeft">Ahora todo a través de un click.</p>
+                            <a href="#" target="_blank" class="btn btn-default" data-animation="animated fadeInLeft">Leer más</a>
+                            <a href="#" target="_blank" class="btn btn-primary" data-animation="animated fadeInRight">Donar ahora</a>
+                        </div>
+                    </div>
+                    <!-- End of Slide -->
+                    <!-- Second Slide -->
+                    <div class="item">
+                        <!-- Slide Background -->
+                        <img src="~/Assets/img/bg/a.jpg" alt="Slider Images" class="slide-image" />
+                        <div class="bs-slider-overlay"></div>
+                        <!-- Slide Text Layer -->
+                        <div class="slide-text slide_style_center">
+                            <h1 data-animation="animated bounceInDown"> Obten más clientes<span class="color-defult">, mayor rendimiento,</span>y calidad de vida.</h1>
+                            <p data-animation="animated lightSpeedIn">Un cliente apropiado para ti, a tu alcance.</p>
+                            <a href="#" target="_blank" class="btn btn-default" data-animation="animated fadeInUp">Leer más</a>
+                            <a href="#" target="_blank" class="btn btn-primary" data-animation="animated fadeInDown">Donar ahora</a>
+                        </div>
+                    </div>
+                    <!-- End of Slide -->
+                    <!-- Third Slide -->
+                    <div class="item">
+                        <!-- Slide Background -->
+                        <img src="~/Assets/img/bg/minimalist-wallpaper-5748-5913-hd-wallpapers.jpg" alt="Slider Images" class="slide-image" />
+                        <div class="bs-slider-overlay"></div>
+                        <!-- Slide Text Layer -->
+                        <div class="slide-text slide_style_right">
+                            <h1 data-animation="animated fadeInLeft">Vive seguro<span class="color-defult"> Vive sano</span></h1>
+                            <p data-animation="animated fadeInRight">Todo a tan solo un click.</p>
+                            <a href="#" target="_blank" class="btn btn-default" data-animation="animated fadeInLeft">Leer más</a>
+                            <a href="#" target="_blank" class="btn btn-primary" data-animation="animated fadeInRight">Donar ahora</a>
+                        </div>
+                    </div>
+                    <!-- End of Slide -->
+                </div><!-- End of Wrapper For Slides -->
+                <!-- Left Control -->
+                <a class="left carousel-control" href="#bootstrap-touch-slider" role="button" data-slide="prev">
+                    <span class="fa fa-angle-left" aria-hidden="true"></span>
+                    <span class="sr-only">Previous</span>
+                </a>
+                <!-- Right Control -->
+                <a class="right carousel-control" href="#bootstrap-touch-slider" role="button" data-slide="next">
+                    <span class="fa fa-angle-right" aria-hidden="true"></span>
+                    <span class="sr-only">Siguiente</span>
+                </a>
+            </div> <!-- End  bootstrap-touch-slider Slider -->
+            <!-- Team start -->
+            <section class="team-area">
+                <div class="container">
+                    <div class="section-content">
+                        <div class="row">
+                            <div class="team-carousel">
+                                @foreach (var item in (List<MvcAuth.Models.tb_ClienteEx>)@ViewBag.Cliente)
+                                {
+
+                                    <!-- start single product item -->
+
+                                    { Html.RenderPartial("_Cliente", item); }
+
+                                    <!-- end start single product item -->
+
+
+                                }
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <!-- Team end -->
+            <!-- Testimonial start -->
+            <section class="testimonial">
+                <div class="container">
+                    <div class="section-title">
+                        <div class="row">
+                            <div class="col-md-8 col-md-offset-2 text-center">
+                                <h2>Lo que opinan <span class="color-defult">  nuestros clientes</span></h2>
+                                <div class="line-border-center bg-defult"></div>
+                                <p>Repellendus error placeat numquam doloribus perferendis consequatur maxime molestiae soluta Corporis quidem quaerat accusantium omnis repudiandae nulla recusandae</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="section-content">
+                        <div class="row">
+                            <div class="col-md-8 col-md-offset-2">
+                                <div class="testimonial-carousel-one">
+                                    <div class="item">
+                                        <div class="testimonial-item text-center">
+                                            <div class="testimonial-author">
+                                                <div class="author-img">
+                                                    <img class="img-responsive" src="~/Assets/img/testimonial/1.png" alt="" />
+                                                </div>
+                                                <h4>John Daniel</h4>
+                                                <h6>business man</h6>
+                                                <ul>
+                                                    <li><i class="fa fa-star" aria-hidden="true"></i></li>
+                                                    <li><i class="fa fa-star" aria-hidden="true"></i></li>
+                                                    <li><i class="fa fa-star" aria-hidden="true"></i></li>
+                                                    <li><i class="fa fa-star" aria-hidden="true"></i></li>
+                                                    <li><i class="fa fa-star" aria-hidden="true"></i></li>
+                                                </ul>
+                                            </div>
+                                            <p>consectetur adipisicing elit. Nemo ex doloremque maiores quas, cumque commodi eaque molestiae in ratione nam obcaecati nihil provident illum eius sed ullam amet, expedita molestias iusto.</p>
+                                        </div>
+                                    </div>
+                                    <div class="item">
+                                        <div class="testimonial-item text-center">
+                                            <div class="testimonial-author">
+                                                <div class="author-img">
+                                                    <img class="img-responsive" src="~/Assets/img/testimonial/2.png" alt="" />
+                                                </div>
+                                                <h4>John Daniel</h4>
+                                                <h6>business man</h6>
+                                                <ul>
+                                                    <li><i class="fa fa-star" aria-hidden="true"></i></li>
+                                                    <li><i class="fa fa-star" aria-hidden="true"></i></li>
+                                                    <li><i class="fa fa-star" aria-hidden="true"></i></li>
+                                                    <li><i class="fa fa-star" aria-hidden="true"></i></li>
+                                                    <li><i class="fa fa-star" aria-hidden="true"></i></li>
+                                                </ul>
+                                            </div>
+                                            <p>consectetur adipisicing elit. Nemo ex doloremque maiores quas, cumque commodi eaque molestiae in ratione nam obcaecati nihil provident illum eius sed ullam amet, expedita molestias iusto.</p>
+                                        </div>
+                                    </div>
+                                    <div class="item">
+                                        <div class="testimonial-item text-center">
+                                            <div class="testimonial-author">
+                                                <div class="author-img">
+                                                    <img class="img-responsive" src="~/Assets/img/testimonial/3.png" alt="" />
+                                                </div>
+                                                <h4>John Daniel</h4>
+                                                <h6>business man</h6>
+                                                <ul>
+                                                    <li><i class="fa fa-star" aria-hidden="true"></i></li>
+                                                    <li><i class="fa fa-star" aria-hidden="true"></i></li>
+                                                    <li><i class="fa fa-star" aria-hidden="true"></i></li>
+                                                    <li><i class="fa fa-star" aria-hidden="true"></i></li>
+                                                    <li><i class="fa fa-star" aria-hidden="true"></i></li>
+                                                </ul>
+                                            </div>
+                                            <p>consectetur adipisicing elit. Nemo ex doloremque maiores quas, cumque commodi eaque molestiae in ratione nam obcaecati nihil provident illum eius sed ullam amet, expedita molestias iusto.</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <!-- Testimonial end -->
+            <!-- Footer Style start -->
+            <footer class="bg-faded">
+                <div class="container">
+                    <div class="section-content">
+                        <div class="row margin-top-30">
+                            <div class="col-md-3">
+                                <div class="footer-item footer-widget-one">
+                                    <img alt="" src="img/logo.png" class="footer-logo">
+                                    <p>Voluptate porro esse repellat quo exercitationem debitis incidunt.</p>
+                                    <ul class="address">
+                                        <li><i class="flaticon-005-telephone-2"></i>Telefono: 001 (407) 901-6400</li>
+                                        <li><i class="flaticon-049-chat"></i><a href="mailto:">Email: info@bdcoder.com</a></li>
+                                    </ul>
+                                    <hr>
+                                    <ul class="social-icon bg-theme">
+                                        <li><a href="#"><i class="flaticon-heart"></i></a></li>
+                                        <li><a href="#"><i class="flaticon-heart"></i></a></li>
+                                        <li><a href="#"><i class="flaticon-heart"></i></a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="col-md-3">
+                                <div class="footer-item">
+                                    <div class="footer-title">
+                                        <h4>Our Peges </h4>
+                                        <div class="border-style-2"></div>
+                                    </div>
+                                    <ul class="footer-list border-deshed color-icon">
+                                        <li><i class="flaticon-chevron-arrow-down"></i><a href="#">About Us</a></li>
+                                        <li><i class="flaticon-chevron-arrow-down"></i><a href="#">Services</a></li>
+                                        <li><i class="flaticon-chevron-arrow-down"></i><a href="#">Gallery</a></li>
+                                        <li><i class="flaticon-chevron-arrow-down"></i><a href="#">Blog</a></li>
+                                        <li><i class="flaticon-chevron-arrow-down"></i><a href="#">Contact</a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="col-md-3">
+                                <div class="footer-item">
+                                    <div class="footer-title">
+                                        <h4>Our Services </h4>
+                                        <div class="border-style-2"></div>
+                                    </div>
+                                    <ul class="footer-list border-deshed color-icon">
+                                        <li><i class="flaticon-chevron-arrow-down"></i><a href="#">Transplants</a></li>
+                                        <li><i class="flaticon-chevron-arrow-down"></i><a href="#">Gastroenterology</a></li>
+                                        <li><i class="flaticon-chevron-arrow-down"></i><a href="#">Orthopaedics</a></li>
+                                        <li><i class="flaticon-chevron-arrow-down"></i><a href="#">Spine Care</a></li>
+                                        <li><i class="flaticon-chevron-arrow-down"></i><a href="#">Cancer Care</a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="col-md-3">
+                                <div class="footer-item">
+                                    <div class="footer-item clearfix">
+                                        <div class="footer-title">
+                                            <h4>Fliker Feed</h4>
+                                            <div class="border-style-1"></div>
+                                        </div>
+                                        <div class="flicker-feed gutter">
+                                            <a href="~/Assets/img/flicker/1.jpg" class="lightbox-image" title="Image Caption Here"><img src="~/Assets/img/flicker/1.jpg" alt=""></a>
+                                            <a href="~/Assets/img/flicker/2.jpg" class="lightbox-image" title="Image Caption Here"><img src="~/Assets/img/flicker/2.jpg" alt=""></a>
+                                            <a href="~/Assets/img/flicker/3.jpg" class="lightbox-image" title="Image Caption Here"><img src="~/Assets/img/flicker/3.jpg" alt=""></a>
+                                            <a href="~/Assets/img/flicker/4.jpg" class="lightbox-image" title="Image Caption Here"><img src="~/Assets/img/flicker/4.jpg" alt=""></a>
+                                            <a href="~/Assets/img/flicker/5.jpg" class="lightbox-image" title="Image Caption Here"><img src="~/Assets/img/flicker/5.jpg" alt=""></a>
+                                            <a href="~/Assets/img/flicker/6.jpg" class="lightbox-image" title="Image Caption Here"><img src="~/Assets/img/flicker/6.jpg" alt=""></a>
+                                            <a href="~/Assets/img/flicker/7.jpg" class="lightbox-image" title="Image Caption Here"><img src="~/Assets/img/flicker/7.jpg" alt=""></a>
+                                            <a href="~/Assets/img/flicker/8.jpg" class="lightbox-image" title="Image Caption Here"><img src="~/Assets/img/flicker/8.jpg" alt=""></a>
+                                            <a href="~/Assets/img/flicker/9.jpg" class="lightbox-image" title="Image Caption Here"><img src="~/Assets/img/flicker/9.jpg" alt=""></a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </footer>
+            <section class="footer-copy-right bg-f9">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-12 text-center">
+                            <p><a target="_blank" href="#">2019</a></p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <!-- Footer Style End -->
+            <a href="#" class="scrollup"><i class="pe-7s-up-arrow" aria-hidden="true"></i></a>
+        </body>
+    </html>
+
+
+
+
+    /////////////////////////////////////////////////////////////////// FIN DOCTOR ///////////////////////////////////////////////////////////////////////
+}
+
+
+else if (ViewBag.tipo == "AMNDclGVJA67+u0tvTf5A5litIs5PPUFYScy6jqDt6G4x7a8VNIb0mtinHQdzxVy2Q==")
+{
+
+    /////////////////////////////////////////////////////////////////// INICIO ADMIN /////////////////////////////////////////////////////////////////////////
+
+
+    <html lang="en">
+    <head>
+        <link href="~/Assets/css/animate.min.css" rel="stylesheet" />
+        <link href="~/Assets/css/animations.css" rel="stylesheet" />
+        <link href="~/Assets/css/fontawesome-all.min.css" rel="stylesheet" />
+        <link href="~/Assets/css/hamburgers.min.css" rel="stylesheet" />
+        <link href="~/Assets/css/material-design-iconic-font.min.css" rel="stylesheet" />
+        <link href="~/Assets/css/perfect-scrollbar.css" rel="stylesheet" />
+        <link href="~/Assets/css/select2.min.css" rel="stylesheet" />
+        <link href="~/Assets/css/slick.css" rel="stylesheet" />
+        <link href="~/Assets/css/themex.css" rel="stylesheet" />
+    </head>
+
+    <body class="animsition">
+        <div class="page-wrapper">
+
+
+            <aside class="menu-sidebar d-none d-lg-block">
+
+                <div class="menu-sidebar__content js-scrollbar1">
+                    <nav class="navbar-sidebar">
+                        <ul class="list-unstyled navbar__list">
+                            <li class="has-sub">
+                                <a class="js-arrow" href="#">
+                                    <i class=""></i>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="chart.html">
+                                    <i class=""></i>
+                                </a>
+                            </li>
+                            <li class="active">
+                                <a href="#">
+                                    <i class="flaticon-005-telephone-2"></i>Doctor
+                                </a>
+                            </li>
+                            <li>
+                                <a href="@Url.Action("ListarCliente", "Admin")">
+                                    <i class="flaticon-012-mouse"></i>Cliente
+                                </a>
+                            </li>
+                            <li>
+                                <a href="@Url.Action("listaEspecialidad", "Admin")">
+                                    <i class="flaticon-012-mouse"></i>Especialidad
+                                </a>
+                            </li>
+                            <li>
+                                <a href="@Url.Action("listarOrden", "Admin")">
+                                    <i class="flaticon-014-online-question"></i>Ordenes
+                                </a>
+                            </li>
+                            <li>
+                                <a href="@Url.Action("listarEnvio", "Admin")">
+                                    <i class="flaticon-016-send-1"></i>Envios
+                                </a>
+                            </li>
+                        </ul>
+                    </nav>
+                </div>
+            </aside>
+
+
+            <div class="page-container">
+
+                <div class="main-content" style="margin-top:-95px;">
+                    <div class="section__content section__content--p30">
+                        <div class="container-fluid">
+                            <div class="row">
+                                <div class="col-md-12">
+
+                                    <h3 class="title-5 m-b-35" style="background-color:white; height:50px; padding-top:12px; padding-left:35px;">Mantenimiento Doctor</h3>
+                                    <div class="table-data__tool" style="background-color:white; height:70px; padding-top:12px; padding-left:35px;">
+                                        <div class="table-data__tool-left">
+
+                                            <button class="au-btn-filter">
+                                                Filtrar
+                                            </button>
+                                        </div>
+                                        <div class="table-data__tool-right">
+                                            <button class="au-btn au-btn-icon au-btn--green au-btn--small">
+                                                <i class="flaticon-plus"></i>Agregar
+                                            </button>
+
+                                        </div>
+                                    </div>
+                                    <div class="table-responsive table-responsive-data2">
+
+                                        <table class="table table-data2" style="max-width:1500px;">
+                                            <thead>
+                                                <tr>
+                                                    <th>
+                                                        <label class="au-checkbox">
+                                                            <input type="checkbox">
+                                                            <span class="au-checkmark"></span>
+                                                        </label>
+                                                    </th>
+                                                    <th>Nombre</th>
+                                                    <th>DNI</th>
+                                                    <th>CMP</th>
+                                                    <th>Especialidad</th>
+                                                    <th>Correo</th>
+
+                                                    <th></th>
+                                                </tr>
+                                            </thead>
+                                            @foreach (var item in (List<MvcAuth.Models.tb_Doctor>)@ViewBag.Doc)
+                                            {
+
+                                                <!-- start single product item -->
+
+                                                { Html.RenderPartial("_PartialAdmin", item); }
+
+                                                <!-- end start single product item -->
+
+
+                                            }
+                                        </table>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row m-t-30">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <script src="~/Assets/js/jquery-3.2.1.min.js"></script>
+        <script src="~/Assets/js/jquery.counterup.min.js"></script>
+        <script src="~/Assets/js/jquery.waypoints.min.js"></script>
+        <script src="~/Assets/js/animsition.min.js"></script>
+        <script src="~/Assets/js/bootstrap-progressbar.min.js"></script>
+        <script src="~/Assets/js/Chart.bundle.min.js"></script>
+        <script src="~/Assets/js/circle-progress.min.js"></script>
+        <script src="~/Assets/js/perfect-scrollbar.js"></script>
+        <script src="~/Assets/js/popper.min.js"></script>
+        <script src="~/Assets/js/rocket-loader.min.js"></script>
+        <script src="~/Assets/js/select2.min.js"></script>
+        <script src="~/Assets/js/slick.min.js"></script>
+        <script src="~/Assets/js/wow.min.js"></script>
+        <script src="~/Assets/js/bootstrap-progressbar.min.js"></script>
+    </body>
+</html>
+
+/////////////////////////////////////////////////////////////////// FIN ADMIN /////////////////////////////////////////////////////////////////////////
+
+
+}
+
+else
+{
+
+/////////////////////////////////////////////////////////////////// CLIENTE ///////////////////////////////////////////////////////////////////////
+
+<html lang="en">
+<body>
+    <!-- Start  bootstrap-touch-slider Slider -->
+    <div id="bootstrap-touch-slider" class="carousel bs-slider fade  control-round indicators-line" data-ride="carousel" data-pause="hover" data-interval="5000">
+        <!-- Indicators -->
+        <ol class="carousel-indicators">
+            <li data-target="#bootstrap-touch-slider" data-slide-to="0" class="active"></li>
+            <li data-target="#bootstrap-touch-slider" data-slide-to="1"></li>
+            <li data-target="#bootstrap-touch-slider" data-slide-to="2"></li>
+        </ol>
+        <!-- Wrapper For Slides -->
+        <div class="carousel-inner" role="listbox">
+            <!-- Third Slide -->
+            <div class="item active">
+                <!-- Slide Background -->
+                <img src="~/Assets/img/bg/ins1.jpg" alt="Slider Images" class="slide-image" />
+                <div class="bs-slider-overlay"></div>
+                <div class="slide-text slide_style_left">
+                    <h1 data-animation="animated fadeInRight">Con<span class="color-defult"> TD-Medic </span> Ahorras tiempo y dinero</h1>
+                    <p data-animation="animated fadeInLeft">Olvida las grandes colas en el hospital.</p>
+                    <a href="#" target="_blank" class="btn btn-default" data-animation="animated fadeInLeft">Leer más</a>
+                    <a href="#" target="_blank" class="btn btn-primary" data-animation="animated fadeInRight">Donar ahora</a>
+                </div>
+            </div>
+            <!-- End of Slide -->
+            <!-- Second Slide -->
+            <div class="item">
+                <!-- Slide Background -->
+                <img src="~/Assets/img/bg/ins3.jpg" alt="Slider Images" class="slide-image" />
+                <div class="bs-slider-overlay"></div>
+                <!-- Slide Text Layer -->
+                <div class="slide-text slide_style_center">
+                    <h1 data-animation="animated bounceInDown"> Un doctor<span class="color-defult"> para ti,</span> a tu alcance.</h1>
+                    <p data-animation="animated lightSpeedIn">Un doctor apropiado para ti, a tu alcance.</p>
+                    <a href="#" target="_blank" class="btn btn-default" data-animation="animated fadeInUp">Leer más</a>
+                    <a href="#" target="_blank" class="btn btn-primary" data-animation="animated fadeInDown">Donar ahora</a>
+                </div>
+            </div>
+            <!-- End of Slide -->
+            <!-- Third Slide -->
+            <div class="item">
+                <!-- Slide Background -->
+                <img src="~/Assets/img/bg/ins5.jpg" alt="Slider Images" class="slide-image" />
+                <div class="bs-slider-overlay"></div>
+                <!-- Slide Text Layer -->
+                <div class="slide-text slide_style_right">
+                    <h1 data-animation="animated fadeInLeft">Vive seguro<span class="color-defult"> Vive sano</span></h1>
+                    <p data-animation="animated fadeInRight">Todo a tan solo un click.</p>
+                    <a href="#" target="_blank" class="btn btn-default" data-animation="animated fadeInLeft">Leer más</a>
+                    <a href="#" target="_blank" class="btn btn-primary" data-animation="animated fadeInRight">Donar ahora</a>
+                </div>
+            </div>
+            <!-- End of Slide -->
+        </div><!-- End of Wrapper For Slides -->
+        <!-- Left Control -->
+        <a class="left carousel-control" href="#bootstrap-touch-slider" role="button" data-slide="prev">
+            <span class="fa fa-angle-left" aria-hidden="true"></span>
+            <span class="sr-only">Previous</span>
+        </a>
+        <!-- Right Control -->
+        <a class="right carousel-control" href="#bootstrap-touch-slider" role="button" data-slide="next">
+            <span class="fa fa-angle-right" aria-hidden="true"></span>
+            <span class="sr-only">Siguiente</span>
+        </a>
+    </div> <!-- End  bootstrap-touch-slider Slider -->
+    <!-- Inicio buscar doctor -->
+
+    @using (Html.BeginForm("searchDoctorParam", "Doctor", FormMethod.Get, new { @class = "clearfix", @id = "busqueda" }))
+    {
+        <div action="">
+            <div class="realestate-tabpane pb-5" style="background-color:rgba(242,242,242,0.9); ">
+                <div class="container tab-content">
+                    <div class="tab-pane active" id="for-rent" role="tabpanel" aria-labelledby="rent-tab" style="height:248px;">
+                        <div class="row">
+                            <div class="col-md-4 form-group">
+                                <input type="text" name="nom" class="form-control" placeholder="Nombre del doctor (opcional)" data-parsley-pattern="^[a-zA-ZñÑáéíóúÁÉÍÓÚ\\s]{2,20}">
+                            </div>
+                            <div class="col-md-4 form-group">
+                                @Html.DropDownList("dis", (SelectList)ViewBag.distrito, new { @class = "form-control w-100 " })
+
+                            </div>
+                            <div class="col-md-4 form-group">
+                                @Html.DropDownList("esp", (SelectList)ViewBag.especialidad, new { @class = "form-control w-100 " })
+
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-md-4 form-group">
+                                <input type="text" class="form-control" name="pre1" placeholder="Cuál es su presupuesto mínimo" required data-parsley-type="number" data-parsley-pattern="\d{1,3}(?:[.,]\d{3})*(?:[.,]\d{2})">
+                            </div>
+                            <div class="col-md-4 form-group">
+                                <input type="text" class="form-control" name="pre2" placeholder="Cuál es su presupuesto máximo" required data-parsley-type="number" data-parsley-pattern="\d{1,3}(?:[.,]\d{3})*(?:[.,]\d{2})">
+                            </div>
+
+                        </div>
+                        <div class="row" style="height:55px;">
+                            <div class="col-md-4" style="height:55px;">
+                                <input type="submit" class="btn btn-black py-3 btn-block" style="height:55px;" value="Solicitar">
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+
+    }
+    <!-- Fin buscar doctor -->
+    <!-- Team start -->
+    <section class="team-area">
+        <div class="container">
+            <div class="section-content">
+                <div class="row">
+                    <div class="team-carousel">
+                        @foreach (var item in (List<MvcAuth.Models.tb_Doctor>)@ViewBag.Doc)
+                        {
+
+                            <!-- start single product item -->
+
+                            { Html.RenderPartial("_Doctor", item); }
+
+                            <!-- end start single product item -->
+
+
+                        }
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Team end -->
+    <!-- Testimonial start -->
+    <section class="testimonial">
+        <div class="container">
+            <div class="section-title">
+                <div class="row">
+                    <div class="col-md-8 col-md-offset-2 text-center">
+                        <h2>Lo que opinan <span class="color-defult">  nuestros clientes</span></h2>
+                        <div class="line-border-center bg-defult"></div>
+                        <p>Repellendus error placeat numquam doloribus perferendis consequatur maxime molestiae soluta Corporis quidem quaerat accusantium omnis repudiandae nulla recusandae</p>
+                    </div>
+                </div>
+            </div>
+            <div class="section-content">
+                <div class="row">
+                    <div class="col-md-8 col-md-offset-2">
+                        <div class="testimonial-carousel-one">
+                            <div class="item">
+                                <div class="testimonial-item text-center">
+                                    <div class="testimonial-author">
+                                        <div class="author-img">
+                                            <img class="img-responsive" src="~/Assets/img/testimonial/1.png" alt="" />
+                                        </div>
+                                        <h4>John Daniel</h4>
+                                        <h6>business man</h6>
+                                        <ul>
+                                            <li><i class="fa fa-star" aria-hidden="true"></i></li>
+                                            <li><i class="fa fa-star" aria-hidden="true"></i></li>
+                                            <li><i class="fa fa-star" aria-hidden="true"></i></li>
+                                            <li><i class="fa fa-star" aria-hidden="true"></i></li>
+                                            <li><i class="fa fa-star" aria-hidden="true"></i></li>
+                                        </ul>
+                                    </div>
+                                    <p>consectetur adipisicing elit. Nemo ex doloremque maiores quas, cumque commodi eaque molestiae in ratione nam obcaecati nihil provident illum eius sed ullam amet, expedita molestias iusto.</p>
+                                </div>
+                            </div>
+                            <div class="item">
+                                <div class="testimonial-item text-center">
+                                    <div class="testimonial-author">
+                                        <div class="author-img">
+                                            <img class="img-responsive" src="~/Assets/img/testimonial/2.png" alt="" />
+                                        </div>
+                                        <h4>John Daniel</h4>
+                                        <h6>business man</h6>
+                                        <ul>
+                                            <li><i class="fa fa-star" aria-hidden="true"></i></li>
+                                            <li><i class="fa fa-star" aria-hidden="true"></i></li>
+                                            <li><i class="fa fa-star" aria-hidden="true"></i></li>
+                                            <li><i class="fa fa-star" aria-hidden="true"></i></li>
+                                            <li><i class="fa fa-star" aria-hidden="true"></i></li>
+                                        </ul>
+                                    </div>
+                                    <p>consectetur adipisicing elit. Nemo ex doloremque maiores quas, cumque commodi eaque molestiae in ratione nam obcaecati nihil provident illum eius sed ullam amet, expedita molestias iusto.</p>
+                                </div>
+                            </div>
+                            <div class="item">
+                                <div class="testimonial-item text-center">
+                                    <div class="testimonial-author">
+                                        <div class="author-img">
+                                            <img class="img-responsive" src="~/Assets/img/testimonial/3.png" alt="" />
+                                        </div>
+                                        <h4>John Daniel</h4>
+                                        <h6>business man</h6>
+                                        <ul>
+                                            <li><i class="fa fa-star" aria-hidden="true"></i></li>
+                                            <li><i class="fa fa-star" aria-hidden="true"></i></li>
+                                            <li><i class="fa fa-star" aria-hidden="true"></i></li>
+                                            <li><i class="fa fa-star" aria-hidden="true"></i></li>
+                                            <li><i class="fa fa-star" aria-hidden="true"></i></li>
+                                        </ul>
+                                    </div>
+                                    <p>consectetur adipisicing elit. Nemo ex doloremque maiores quas, cumque commodi eaque molestiae in ratione nam obcaecati nihil provident illum eius sed ullam amet, expedita molestias iusto.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Testimonial end -->
+    <!-- Footer Style start -->
+    <footer class="bg-faded">
+        <div class="container">
+            <div class="section-content">
+                <div class="row margin-top-30">
+                    <div class="col-md-3">
+                        <div class="footer-item footer-widget-one">
+                            <img alt="" src="img/logo.png" class="footer-logo">
+                            <p>Voluptate porro esse repellat quo exercitationem debitis incidunt.</p>
+                            <ul class="address">
+                                <li><i class="flaticon-005-telephone-2"></i>Telefono: 001 (407) 901-6400</li>
+                                <li><i class="flaticon-049-chat"></i><a href="mailto:">Email: info@bdcoder.com</a></li>
+                            </ul>
+                            <hr>
+                            <ul class="social-icon bg-theme">
+                                <li><a href="#"><i class="flaticon-heart"></i></a></li>
+                                <li><a href="#"><i class="flaticon-heart"></i></a></li>
+                                <li><a href="#"><i class="flaticon-heart"></i></a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-md-3">
+                        <div class="footer-item">
+                            <div class="footer-title">
+                                <h4>Our Peges </h4>
+                                <div class="border-style-2"></div>
+                            </div>
+                            <ul class="footer-list border-deshed color-icon">
+                                <li><i class="flaticon-chevron-arrow-down"></i><a href="#">About Us</a></li>
+                                <li><i class="flaticon-chevron-arrow-down"></i><a href="#">Services</a></li>
+                                <li><i class="flaticon-chevron-arrow-down"></i><a href="#">Gallery</a></li>
+                                <li><i class="flaticon-chevron-arrow-down"></i><a href="#">Blog</a></li>
+                                <li><i class="flaticon-chevron-arrow-down"></i><a href="#">Contact</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-md-3">
+                        <div class="footer-item">
+                            <div class="footer-title">
+                                <h4>Our Services </h4>
+                                <div class="border-style-2"></div>
+                            </div>
+                            <ul class="footer-list border-deshed color-icon">
+                                <li><i class="flaticon-chevron-arrow-down"></i><a href="#">Transplants</a></li>
+                                <li><i class="flaticon-chevron-arrow-down"></i><a href="#">Gastroenterology</a></li>
+                                <li><i class="flaticon-chevron-arrow-down"></i><a href="#">Orthopaedics</a></li>
+                                <li><i class="flaticon-chevron-arrow-down"></i><a href="#">Spine Care</a></li>
+                                <li><i class="flaticon-chevron-arrow-down"></i><a href="#">Cancer Care</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-md-3">
+                        <div class="footer-item">
+                            <div class="footer-item clearfix">
+                                <div class="footer-title">
+                                    <h4>Fliker Feed</h4>
+                                    <div class="border-style-1"></div>
+                                </div>
+                                <div class="flicker-feed gutter">
+                                    <a href="~/Assets/img/flicker/1.jpg" class="lightbox-image" title="Image Caption Here"><img src="~/Assets/img/flicker/1.jpg" alt=""></a>
+                                    <a href="~/Assets/img/flicker/2.jpg" class="lightbox-image" title="Image Caption Here"><img src="~/Assets/img/flicker/2.jpg" alt=""></a>
+                                    <a href="~/Assets/img/flicker/3.jpg" class="lightbox-image" title="Image Caption Here"><img src="~/Assets/img/flicker/3.jpg" alt=""></a>
+                                    <a href="~/Assets/img/flicker/4.jpg" class="lightbox-image" title="Image Caption Here"><img src="~/Assets/img/flicker/4.jpg" alt=""></a>
+                                    <a href="~/Assets/img/flicker/5.jpg" class="lightbox-image" title="Image Caption Here"><img src="~/Assets/img/flicker/5.jpg" alt=""></a>
+                                    <a href="~/Assets/img/flicker/6.jpg" class="lightbox-image" title="Image Caption Here"><img src="~/Assets/img/flicker/6.jpg" alt=""></a>
+                                    <a href="~/Assets/img/flicker/7.jpg" class="lightbox-image" title="Image Caption Here"><img src="~/Assets/img/flicker/7.jpg" alt=""></a>
+                                    <a href="~/Assets/img/flicker/8.jpg" class="lightbox-image" title="Image Caption Here"><img src="~/Assets/img/flicker/8.jpg" alt=""></a>
+                                    <a href="~/Assets/img/flicker/9.jpg" class="lightbox-image" title="Image Caption Here"><img src="~/Assets/img/flicker/9.jpg" alt=""></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <section class="footer-copy-right bg-f9">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 text-center">
+                    <p><a target="_blank" href="#">2019</a></p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Footer Style End -->
+    <a href="#" class="scrollup"><i class="pe-7s-up-arrow" aria-hidden="true"></i></a>
+</body>
+</html>
+
+
+/////////////////////////////////////////////////////////////////// FIN CLIENTE ///////////////////////////////////////////////////////////////////////
+}
+
+}
+
+else
+{
+
+<html lang="en">
+<body>
+    <!-- Start  bootstrap-touch-slider Slider -->
+    <div id="bootstrap-touch-slider" class="carousel bs-slider fade  control-round indicators-line" data-ride="carousel" data-pause="hover" data-interval="5000">
+        <!-- Indicators -->
+        <ol class="carousel-indicators">
+            <li data-target="#bootstrap-touch-slider" data-slide-to="0" class="active"></li>
+            <li data-target="#bootstrap-touch-slider" data-slide-to="1"></li>
+            <li data-target="#bootstrap-touch-slider" data-slide-to="2"></li>
+        </ol>
+        <!-- Wrapper For Slides -->
+        <div class="carousel-inner" role="listbox">
+            <!-- Third Slide -->
+            <div class="item active">
+                <!-- Slide Background -->
+                <img src="~/Assets/img/bg/ins1.jpg" alt="Slider Images" class="slide-image" />
+                <div class="bs-slider-overlay"></div>
+                <div class="slide-text slide_style_left">
+                    <h1 data-animation="animated fadeInRight">Con<span class="color-defult"> TD-Medic </span> Ahorras tiempo y dinero</h1>
+                    <p data-animation="animated fadeInLeft">Olvida las grandes colas en el hospital.</p>
+                    <a href="#" target="_blank" class="btn btn-default" data-animation="animated fadeInLeft">Leer más</a>
+                    <a href="#" target="_blank" class="btn btn-primary" data-animation="animated fadeInRight">Donar ahora</a>
+                </div>
+            </div>
+            <!-- End of Slide -->
+            <!-- Second Slide -->
+            <div class="item">
+                <!-- Slide Background -->
+                <img src="~/Assets/img/bg/ins3.jpg" alt="Slider Images" class="slide-image" />
+                <div class="bs-slider-overlay"></div>
+                <!-- Slide Text Layer -->
+                <div class="slide-text slide_style_center">
+                    <h1 data-animation="animated bounceInDown"> Un doctor<span class="color-defult"> para ti,</span> a tu alcance.</h1>
+                    <p data-animation="animated lightSpeedIn">Un doctor apropiado para ti, a tu alcance.</p>
+                    <a href="#" target="_blank" class="btn btn-default" data-animation="animated fadeInUp">Leer más</a>
+                    <a href="#" target="_blank" class="btn btn-primary" data-animation="animated fadeInDown">Donar ahora</a>
+                </div>
+            </div>
+            <!-- End of Slide -->
+            <!-- Third Slide -->
+            <div class="item">
+                <!-- Slide Background -->
+                <img src="~/Assets/img/bg/ins5.jpg" alt="Slider Images" class="slide-image" />
+                <div class="bs-slider-overlay"></div>
+                <!-- Slide Text Layer -->
+                <div class="slide-text slide_style_right">
+                    <h1 data-animation="animated fadeInLeft">Vive seguro<span class="color-defult"> Vive sano</span></h1>
+                    <p data-animation="animated fadeInRight">Todo a tan solo un click.</p>
+                    <a href="#" target="_blank" class="btn btn-default" data-animation="animated fadeInLeft">Leer más</a>
+                    <a href="#" target="_blank" class="btn btn-primary" data-animation="animated fadeInRight">Donar ahora</a>
+                </div>
+            </div>
+            <!-- End of Slide -->
+        </div><!-- End of Wrapper For Slides -->
+        <!-- Left Control -->
+        <a class="left carousel-control" href="#bootstrap-touch-slider" role="button" data-slide="prev">
+            <span class="fa fa-angle-left" aria-hidden="true"></span>
+            <span class="sr-only">Previous</span>
+        </a>
+        <!-- Right Control -->
+        <a class="right carousel-control" href="#bootstrap-touch-slider" role="button" data-slide="next">
+            <span class="fa fa-angle-right" aria-hidden="true"></span>
+            <span class="sr-only">Siguiente</span>
+        </a>
+    </div> <!-- End  bootstrap-touch-slider Slider -->
+    <!-- Inicio buscar doctor -->
+
+    @using (Html.BeginForm("searchDoctorParam", "Doctor", FormMethod.Get, new { @class = "clearfix", @id = "busqueda" }))
+    {
+        <div action="">
+            <div class="realestate-tabpane pb-5" style="background-color:rgba(242,242,242,0.9); ">
+                <div class="container tab-content">
+                    <div class="tab-pane active" id="for-rent" role="tabpanel" aria-labelledby="rent-tab" style="height:248px;">
+                        <div class="row">
+                            <div class="col-md-4 form-group">
+                                <input type="text" name="nom" class="form-control" placeholder="Nombre del doctor (opcional)" data-parsley-pattern="^[a-zA-ZñÑáéíóúÁÉÍÓÚ\\s]{2,20}">
+                            </div>
+                            <div class="col-md-4 form-group">
+                                @Html.DropDownList("dis", (SelectList)ViewBag.distrito, new { @class = "form-control w-100 " })
+                                @*<select name="" id="" class="form-control w-100">
+                                        <option value="">Distrito</option>
+                                        <option value="">Miraflores</option>
+                                        <option value="">Surco</option>
+                                    </select>*@
+                            </div>
+                            <div class="col-md-4 form-group">
+                                @Html.DropDownList("esp", (SelectList)ViewBag.especialidad, new { @class = "form-control w-100 " })
+                                @*<select name="" id="" class="form-control w-100">
+                                        <option value="">Especialidad</option>
+                                        <option value="">Cardiologia</option>
+                                        <option value="">Psicología</option>
+                                        <option value="">Medicina General</option>
+                                    </select>*@
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-md-4 form-group">
+                                <input type="text" class="form-control" name="pre1" placeholder="Cuál es su presupuesto mínimo" required data-parsley-type="number" data-parsley-pattern="\d{1,3}(?:[.,]\d{3})*(?:[.,]\d{2})">
+                            </div>
+                            <div class="col-md-4 form-group">
+                                <input type="text" class="form-control" name="pre2" placeholder="Cuál es su presupuesto máximo" required data-parsley-type="number" data-parsley-pattern="\d{1,3}(?:[.,]\d{3})*(?:[.,]\d{2})">
+                            </div>
+
+                        </div>
+                        <div class="row" style="height:55px;">
+                            <div class="col-md-4" style="height:55px;">
+                                <input type="submit" class="btn btn-black py-3 btn-block" style="height:55px;" value="Solicitar">
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+
+    }
+    <!-- Fin buscar doctor -->
+    <!-- Team start -->
+    <section class="team-area">
+        <div class="container">
+            <div class="section-content">
+                <div class="row">
+                    <div class="team-carousel">
+                        @foreach (var item in (List<MvcAuth.Models.tb_Doctor>)@ViewBag.Doc)
+                        {
+
+                            <!-- start single product item -->
+
+                            { Html.RenderPartial("_Doctor", item); }
+
+                            <!-- end start single product item -->
+
+
+                        }
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Team end -->
+    <!-- Testimonial start -->
+    <section class="testimonial">
+        <div class="container">
+            <div class="section-title">
+                <div class="row">
+                    <div class="col-md-8 col-md-offset-2 text-center">
+                        <h2>Lo que opinan <span class="color-defult">  nuestros clientes</span></h2>
+                        <div class="line-border-center bg-defult"></div>
+                        <p>Repellendus error placeat numquam doloribus perferendis consequatur maxime molestiae soluta Corporis quidem quaerat accusantium omnis repudiandae nulla recusandae</p>
+                    </div>
+                </div>
+            </div>
+            <div class="section-content">
+                <div class="row">
+                    <div class="col-md-8 col-md-offset-2">
+                        <div class="testimonial-carousel-one">
+                            <div class="item">
+                                <div class="testimonial-item text-center">
+                                    <div class="testimonial-author">
+                                        <div class="author-img">
+                                            <img class="img-responsive" src="~/Assets/img/testimonial/1.png" alt="" />
+                                        </div>
+                                        <h4>John Daniel</h4>
+                                        <h6>business man</h6>
+                                        <ul>
+                                            <li><i class="fa fa-star" aria-hidden="true"></i></li>
+                                            <li><i class="fa fa-star" aria-hidden="true"></i></li>
+                                            <li><i class="fa fa-star" aria-hidden="true"></i></li>
+                                            <li><i class="fa fa-star" aria-hidden="true"></i></li>
+                                            <li><i class="fa fa-star" aria-hidden="true"></i></li>
+                                        </ul>
+                                    </div>
+                                    <p>consectetur adipisicing elit. Nemo ex doloremque maiores quas, cumque commodi eaque molestiae in ratione nam obcaecati nihil provident illum eius sed ullam amet, expedita molestias iusto.</p>
+                                </div>
+                            </div>
+                            <div class="item">
+                                <div class="testimonial-item text-center">
+                                    <div class="testimonial-author">
+                                        <div class="author-img">
+                                            <img class="img-responsive" src="~/Assets/img/testimonial/2.png" alt="" />
+                                        </div>
+                                        <h4>John Daniel</h4>
+                                        <h6>business man</h6>
+                                        <ul>
+                                            <li><i class="fa fa-star" aria-hidden="true"></i></li>
+                                            <li><i class="fa fa-star" aria-hidden="true"></i></li>
+                                            <li><i class="fa fa-star" aria-hidden="true"></i></li>
+                                            <li><i class="fa fa-star" aria-hidden="true"></i></li>
+                                            <li><i class="fa fa-star" aria-hidden="true"></i></li>
+                                        </ul>
+                                    </div>
+                                    <p>consectetur adipisicing elit. Nemo ex doloremque maiores quas, cumque commodi eaque molestiae in ratione nam obcaecati nihil provident illum eius sed ullam amet, expedita molestias iusto.</p>
+                                </div>
+                            </div>
+                            <div class="item">
+                                <div class="testimonial-item text-center">
+                                    <div class="testimonial-author">
+                                        <div class="author-img">
+                                            <img class="img-responsive" src="~/Assets/img/testimonial/3.png" alt="" />
+                                        </div>
+                                        <h4>John Daniel</h4>
+                                        <h6>business man</h6>
+                                        <ul>
+                                            <li><i class="fa fa-star" aria-hidden="true"></i></li>
+                                            <li><i class="fa fa-star" aria-hidden="true"></i></li>
+                                            <li><i class="fa fa-star" aria-hidden="true"></i></li>
+                                            <li><i class="fa fa-star" aria-hidden="true"></i></li>
+                                            <li><i class="fa fa-star" aria-hidden="true"></i></li>
+                                        </ul>
+                                    </div>
+                                    <p>consectetur adipisicing elit. Nemo ex doloremque maiores quas, cumque commodi eaque molestiae in ratione nam obcaecati nihil provident illum eius sed ullam amet, expedita molestias iusto.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Testimonial end -->
+    <!-- Footer Style start -->
+    <footer class="bg-faded">
+        <div class="container">
+            <div class="section-content">
+                <div class="row margin-top-30">
+                    <div class="col-md-3">
+                        <div class="footer-item footer-widget-one">
+                            <img alt="" src="img/logo.png" class="footer-logo">
+                            <p>Voluptate porro esse repellat quo exercitationem debitis incidunt.</p>
+                            <ul class="address">
+                                <li><i class="flaticon-005-telephone-2"></i>Telefono: 001 (407) 901-6400</li>
+                                <li><i class="flaticon-049-chat"></i><a href="mailto:">Email: info@bdcoder.com</a></li>
+                            </ul>
+                            <hr>
+                            <ul class="social-icon bg-theme">
+                                <li><a href="#"><i class="flaticon-heart"></i></a></li>
+                                <li><a href="#"><i class="flaticon-heart"></i></a></li>
+                                <li><a href="#"><i class="flaticon-heart"></i></a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-md-3">
+                        <div class="footer-item">
+                            <div class="footer-title">
+                                <h4>Our Peges </h4>
+                                <div class="border-style-2"></div>
+                            </div>
+                            <ul class="footer-list border-deshed color-icon">
+                                <li><i class="flaticon-chevron-arrow-down"></i><a href="#">About Us</a></li>
+                                <li><i class="flaticon-chevron-arrow-down"></i><a href="#">Services</a></li>
+                                <li><i class="flaticon-chevron-arrow-down"></i><a href="#">Gallery</a></li>
+                                <li><i class="flaticon-chevron-arrow-down"></i><a href="#">Blog</a></li>
+                                <li><i class="flaticon-chevron-arrow-down"></i><a href="#">Contact</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-md-3">
+                        <div class="footer-item">
+                            <div class="footer-title">
+                                <h4>Our Services </h4>
+                                <div class="border-style-2"></div>
+                            </div>
+                            <ul class="footer-list border-deshed color-icon">
+                                <li><i class="flaticon-chevron-arrow-down"></i><a href="#">Transplants</a></li>
+                                <li><i class="flaticon-chevron-arrow-down"></i><a href="#">Gastroenterology</a></li>
+                                <li><i class="flaticon-chevron-arrow-down"></i><a href="#">Orthopaedics</a></li>
+                                <li><i class="flaticon-chevron-arrow-down"></i><a href="#">Spine Care</a></li>
+                                <li><i class="flaticon-chevron-arrow-down"></i><a href="#">Cancer Care</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-md-3">
+                        <div class="footer-item">
+                            <div class="footer-item clearfix">
+                                <div class="footer-title">
+                                    <h4>Fliker Feed</h4>
+                                    <div class="border-style-1"></div>
+                                </div>
+                                <div class="flicker-feed gutter">
+                                    <a href="~/Assets/img/flicker/1.jpg" class="lightbox-image" title="Image Caption Here"><img src="~/Assets/img/flicker/1.jpg" alt=""></a>
+                                    <a href="~/Assets/img/flicker/2.jpg" class="lightbox-image" title="Image Caption Here"><img src="~/Assets/img/flicker/2.jpg" alt=""></a>
+                                    <a href="~/Assets/img/flicker/3.jpg" class="lightbox-image" title="Image Caption Here"><img src="~/Assets/img/flicker/3.jpg" alt=""></a>
+                                    <a href="~/Assets/img/flicker/4.jpg" class="lightbox-image" title="Image Caption Here"><img src="~/Assets/img/flicker/4.jpg" alt=""></a>
+                                    <a href="~/Assets/img/flicker/5.jpg" class="lightbox-image" title="Image Caption Here"><img src="~/Assets/img/flicker/5.jpg" alt=""></a>
+                                    <a href="~/Assets/img/flicker/6.jpg" class="lightbox-image" title="Image Caption Here"><img src="~/Assets/img/flicker/6.jpg" alt=""></a>
+                                    <a href="~/Assets/img/flicker/7.jpg" class="lightbox-image" title="Image Caption Here"><img src="~/Assets/img/flicker/7.jpg" alt=""></a>
+                                    <a href="~/Assets/img/flicker/8.jpg" class="lightbox-image" title="Image Caption Here"><img src="~/Assets/img/flicker/8.jpg" alt=""></a>
+                                    <a href="~/Assets/img/flicker/9.jpg" class="lightbox-image" title="Image Caption Here"><img src="~/Assets/img/flicker/9.jpg" alt=""></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <section class="footer-copy-right bg-f9">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 text-center">
+                    <p><a target="_blank" href="#">2019</a></p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Footer Style End -->
+    <a href="#" class="scrollup"><i class="pe-7s-up-arrow" aria-hidden="true"></i></a>
+</body>
+</html>
+
+<script type="text/javascript">
+    $('#busqueda').parsley();
+</script>
+
+}

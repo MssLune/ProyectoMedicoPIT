@@ -1,0 +1,1655 @@
+C:\Users\MAX PEREYRA\Videos\Proyecto_PIT\MvcAuth\MvcAuth\bin\MvcAuth.dll.config
+C:\Users\MAX PEREYRA\Videos\Proyecto_PIT\MvcAuth\MvcAuth\bin\MvcAuth.dll
+C:\Users\MAX PEREYRA\Videos\Proyecto_PIT\MvcAuth\MvcAuth\bin\MvcAuth.pdb
+C:\Users\MAX PEREYRA\Videos\Proyecto_PIT\MvcAuth\MvcAuth\bin\roslyn\csc.exe
+C:\Users\MAX PEREYRA\Videos\Proyecto_PIT\MvcAuth\MvcAuth\bin\roslyn\csc.exe.config
+C:\Users\MAX PEREYRA\Videos\Proyecto_PIT\MvcAuth\MvcAuth\bin\roslyn\csc.rsp
+C:\Users\MAX PEREYRA\Videos\Proyecto_PIT\MvcAuth\MvcAuth\bin\roslyn\csi.exe
+C:\Users\MAX PEREYRA\Videos\Proyecto_PIT\MvcAuth\MvcAuth\bin\roslyn\csi.exe.config
+C:\Users\MAX PEREYRA\Videos\Proyecto_PIT\MvcAuth\MvcAuth\bin\roslyn\csi.rsp
+C:\Users\MAX PEREYRA\Videos\Proyecto_PIT\MvcAuth\MvcAuth\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\MAX PEREYRA\Videos\Proyecto_PIT\MvcAuth\MvcAuth\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\MAX PEREYRA\Videos\Proyecto_PIT\MvcAuth\MvcAuth\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\MAX PEREYRA\Videos\Proyecto_PIT\MvcAuth\MvcAuth\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\MAX PEREYRA\Videos\Proyecto_PIT\MvcAuth\MvcAuth\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\MAX PEREYRA\Videos\Proyecto_PIT\MvcAuth\MvcAuth\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\MAX PEREYRA\Videos\Proyecto_PIT\MvcAuth\MvcAuth\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\MAX PEREYRA\Videos\Proyecto_PIT\MvcAuth\MvcAuth\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\MAX PEREYRA\Videos\Proyecto_PIT\MvcAuth\MvcAuth\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\MAX PEREYRA\Videos\Proyecto_PIT\MvcAuth\MvcAuth\bin\roslyn\Microsoft.Managed.Core.targets
+C:\Users\MAX PEREYRA\Videos\Proyecto_PIT\MvcAuth\MvcAuth\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\MAX PEREYRA\Videos\Proyecto_PIT\MvcAuth\MvcAuth\bin\roslyn\System.AppContext.dll
+C:\Users\MAX PEREYRA\Videos\Proyecto_PIT\MvcAuth\MvcAuth\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\MAX PEREYRA\Videos\Proyecto_PIT\MvcAuth\MvcAuth\bin\roslyn\System.Console.dll
+C:\Users\MAX PEREYRA\Videos\Proyecto_PIT\MvcAuth\MvcAuth\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+C:\Users\MAX PEREYRA\Videos\Proyecto_PIT\MvcAuth\MvcAuth\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\MAX PEREYRA\Videos\Proyecto_PIT\MvcAuth\MvcAuth\bin\roslyn\System.IO.Compression.dll
+C:\Users\MAX PEREYRA\Videos\Proyecto_PIT\MvcAuth\MvcAuth\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\MAX PEREYRA\Videos\Proyecto_PIT\MvcAuth\MvcAuth\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\MAX PEREYRA\Videos\Proyecto_PIT\MvcAuth\MvcAuth\bin\roslyn\System.IO.Pipes.AccessControl.dll
+C:\Users\MAX PEREYRA\Videos\Proyecto_PIT\MvcAuth\MvcAuth\bin\roslyn\System.IO.Pipes.dll
+C:\Users\MAX PEREYRA\Videos\Proyecto_PIT\MvcAuth\MvcAuth\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\MAX PEREYRA\Videos\Proyecto_PIT\MvcAuth\MvcAuth\bin\roslyn\System.Security.AccessControl.dll
+C:\Users\MAX PEREYRA\Videos\Proyecto_PIT\MvcAuth\MvcAuth\bin\roslyn\System.Security.Claims.dll
+C:\Users\MAX PEREYRA\Videos\Proyecto_PIT\MvcAuth\MvcAuth\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+C:\Users\MAX PEREYRA\Videos\Proyecto_PIT\MvcAuth\MvcAuth\bin\roslyn\System.Security.Cryptography.Encoding.dll
+C:\Users\MAX PEREYRA\Videos\Proyecto_PIT\MvcAuth\MvcAuth\bin\roslyn\System.Security.Cryptography.Primitives.dll
+C:\Users\MAX PEREYRA\Videos\Proyecto_PIT\MvcAuth\MvcAuth\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+C:\Users\MAX PEREYRA\Videos\Proyecto_PIT\MvcAuth\MvcAuth\bin\roslyn\System.Security.Principal.Windows.dll
+C:\Users\MAX PEREYRA\Videos\Proyecto_PIT\MvcAuth\MvcAuth\bin\roslyn\System.Text.Encoding.CodePages.dll
+C:\Users\MAX PEREYRA\Videos\Proyecto_PIT\MvcAuth\MvcAuth\bin\roslyn\System.ValueTuple.dll
+C:\Users\MAX PEREYRA\Videos\Proyecto_PIT\MvcAuth\MvcAuth\bin\roslyn\System.Xml.ReaderWriter.dll
+C:\Users\MAX PEREYRA\Videos\Proyecto_PIT\MvcAuth\MvcAuth\bin\roslyn\System.Xml.XmlDocument.dll
+C:\Users\MAX PEREYRA\Videos\Proyecto_PIT\MvcAuth\MvcAuth\bin\roslyn\System.Xml.XPath.dll
+C:\Users\MAX PEREYRA\Videos\Proyecto_PIT\MvcAuth\MvcAuth\bin\roslyn\System.Xml.XPath.XDocument.dll
+C:\Users\MAX PEREYRA\Videos\Proyecto_PIT\MvcAuth\MvcAuth\bin\roslyn\vbc.exe
+C:\Users\MAX PEREYRA\Videos\Proyecto_PIT\MvcAuth\MvcAuth\bin\roslyn\vbc.exe.config
+C:\Users\MAX PEREYRA\Videos\Proyecto_PIT\MvcAuth\MvcAuth\bin\roslyn\vbc.rsp
+C:\Users\MAX PEREYRA\Videos\Proyecto_PIT\MvcAuth\MvcAuth\bin\roslyn\VBCSCompiler.exe
+C:\Users\MAX PEREYRA\Videos\Proyecto_PIT\MvcAuth\MvcAuth\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\MAX PEREYRA\Videos\Proyecto_PIT\MvcAuth\MvcAuth\bin\Antlr3.Runtime.dll
+C:\Users\MAX PEREYRA\Videos\Proyecto_PIT\MvcAuth\MvcAuth\bin\EntityFramework.dll
+C:\Users\MAX PEREYRA\Videos\Proyecto_PIT\MvcAuth\MvcAuth\bin\EntityFramework.SqlServer.dll
+C:\Users\MAX PEREYRA\Videos\Proyecto_PIT\MvcAuth\MvcAuth\bin\Microsoft.AspNet.Identity.Core.dll
+C:\Users\MAX PEREYRA\Videos\Proyecto_PIT\MvcAuth\MvcAuth\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+C:\Users\MAX PEREYRA\Videos\Proyecto_PIT\MvcAuth\MvcAuth\bin\Microsoft.AspNet.Identity.Owin.dll
+C:\Users\MAX PEREYRA\Videos\Proyecto_PIT\MvcAuth\MvcAuth\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\MAX PEREYRA\Videos\Proyecto_PIT\MvcAuth\MvcAuth\bin\Microsoft.Owin.dll
+C:\Users\MAX PEREYRA\Videos\Proyecto_PIT\MvcAuth\MvcAuth\bin\Microsoft.Owin.Host.SystemWeb.dll
+C:\Users\MAX PEREYRA\Videos\Proyecto_PIT\MvcAuth\MvcAuth\bin\Microsoft.Owin.Security.Cookies.dll
+C:\Users\MAX PEREYRA\Videos\Proyecto_PIT\MvcAuth\MvcAuth\bin\Microsoft.Owin.Security.dll
+C:\Users\MAX PEREYRA\Videos\Proyecto_PIT\MvcAuth\MvcAuth\bin\Microsoft.Owin.Security.Facebook.dll
+C:\Users\MAX PEREYRA\Videos\Proyecto_PIT\MvcAuth\MvcAuth\bin\Microsoft.Owin.Security.Google.dll
+C:\Users\MAX PEREYRA\Videos\Proyecto_PIT\MvcAuth\MvcAuth\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+C:\Users\MAX PEREYRA\Videos\Proyecto_PIT\MvcAuth\MvcAuth\bin\Microsoft.Owin.Security.OAuth.dll
+C:\Users\MAX PEREYRA\Videos\Proyecto_PIT\MvcAuth\MvcAuth\bin\Microsoft.Owin.Security.Twitter.dll
+C:\Users\MAX PEREYRA\Videos\Proyecto_PIT\MvcAuth\MvcAuth\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\MAX PEREYRA\Videos\Proyecto_PIT\MvcAuth\MvcAuth\bin\Newtonsoft.Json.dll
+C:\Users\MAX PEREYRA\Videos\Proyecto_PIT\MvcAuth\MvcAuth\bin\Owin.dll
+C:\Users\MAX PEREYRA\Videos\Proyecto_PIT\MvcAuth\MvcAuth\bin\System.Web.Helpers.dll
+C:\Users\MAX PEREYRA\Videos\Proyecto_PIT\MvcAuth\MvcAuth\bin\System.Web.Mvc.dll
+C:\Users\MAX PEREYRA\Videos\Proyecto_PIT\MvcAuth\MvcAuth\bin\System.Web.Optimization.dll
+C:\Users\MAX PEREYRA\Videos\Proyecto_PIT\MvcAuth\MvcAuth\bin\System.Web.Razor.dll
+C:\Users\MAX PEREYRA\Videos\Proyecto_PIT\MvcAuth\MvcAuth\bin\System.Web.WebPages.Deployment.dll
+C:\Users\MAX PEREYRA\Videos\Proyecto_PIT\MvcAuth\MvcAuth\bin\System.Web.WebPages.dll
+C:\Users\MAX PEREYRA\Videos\Proyecto_PIT\MvcAuth\MvcAuth\bin\System.Web.WebPages.Razor.dll
+C:\Users\MAX PEREYRA\Videos\Proyecto_PIT\MvcAuth\MvcAuth\bin\WebGrease.dll
+C:\Users\MAX PEREYRA\Videos\Proyecto_PIT\MvcAuth\MvcAuth\bin\System.Web.Helpers.xml
+C:\Users\MAX PEREYRA\Videos\Proyecto_PIT\MvcAuth\MvcAuth\bin\System.Web.Mvc.xml
+C:\Users\MAX PEREYRA\Videos\Proyecto_PIT\MvcAuth\MvcAuth\bin\System.Web.Optimization.xml
+C:\Users\MAX PEREYRA\Videos\Proyecto_PIT\MvcAuth\MvcAuth\bin\System.Web.Razor.xml
+C:\Users\MAX PEREYRA\Videos\Proyecto_PIT\MvcAuth\MvcAuth\bin\System.Web.WebPages.xml
+C:\Users\MAX PEREYRA\Videos\Proyecto_PIT\MvcAuth\MvcAuth\bin\System.Web.WebPages.Deployment.xml
+C:\Users\MAX PEREYRA\Videos\Proyecto_PIT\MvcAuth\MvcAuth\bin\System.Web.WebPages.Razor.xml
+C:\Users\MAX PEREYRA\Videos\Proyecto_PIT\MvcAuth\MvcAuth\bin\Newtonsoft.Json.xml
+C:\Users\MAX PEREYRA\Videos\Proyecto_PIT\MvcAuth\MvcAuth\bin\Antlr3.Runtime.pdb
+C:\Users\MAX PEREYRA\Videos\Proyecto_PIT\MvcAuth\MvcAuth\bin\EntityFramework.xml
+C:\Users\MAX PEREYRA\Videos\Proyecto_PIT\MvcAuth\MvcAuth\bin\EntityFramework.SqlServer.xml
+C:\Users\MAX PEREYRA\Videos\Proyecto_PIT\MvcAuth\MvcAuth\bin\Microsoft.AspNet.Identity.Core.xml
+C:\Users\MAX PEREYRA\Videos\Proyecto_PIT\MvcAuth\MvcAuth\bin\Microsoft.AspNet.Identity.Owin.xml
+C:\Users\MAX PEREYRA\Videos\Proyecto_PIT\MvcAuth\MvcAuth\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+C:\Users\MAX PEREYRA\Videos\Proyecto_PIT\MvcAuth\MvcAuth\bin\Microsoft.Owin.xml
+C:\Users\MAX PEREYRA\Videos\Proyecto_PIT\MvcAuth\MvcAuth\bin\Microsoft.Owin.Host.SystemWeb.xml
+C:\Users\MAX PEREYRA\Videos\Proyecto_PIT\MvcAuth\MvcAuth\bin\Microsoft.Owin.Security.xml
+C:\Users\MAX PEREYRA\Videos\Proyecto_PIT\MvcAuth\MvcAuth\bin\Microsoft.Owin.Security.Facebook.xml
+C:\Users\MAX PEREYRA\Videos\Proyecto_PIT\MvcAuth\MvcAuth\bin\Microsoft.Owin.Security.Cookies.xml
+C:\Users\MAX PEREYRA\Videos\Proyecto_PIT\MvcAuth\MvcAuth\bin\Microsoft.Owin.Security.Google.xml
+C:\Users\MAX PEREYRA\Videos\Proyecto_PIT\MvcAuth\MvcAuth\bin\Microsoft.Owin.Security.Twitter.xml
+C:\Users\MAX PEREYRA\Videos\Proyecto_PIT\MvcAuth\MvcAuth\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+C:\Users\MAX PEREYRA\Videos\Proyecto_PIT\MvcAuth\MvcAuth\bin\Microsoft.Owin.Security.OAuth.xml
+C:\Users\MAX PEREYRA\Videos\Proyecto_PIT\MvcAuth\MvcAuth\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\MAX PEREYRA\Videos\Proyecto_PIT\MvcAuth\MvcAuth\bin\es\System.Web.Helpers.resources.dll
+C:\Users\MAX PEREYRA\Videos\Proyecto_PIT\MvcAuth\MvcAuth\bin\es\System.Web.Mvc.resources.dll
+C:\Users\MAX PEREYRA\Videos\Proyecto_PIT\MvcAuth\MvcAuth\bin\es\System.Web.Optimization.resources.dll
+C:\Users\MAX PEREYRA\Videos\Proyecto_PIT\MvcAuth\MvcAuth\bin\es\System.Web.Razor.resources.dll
+C:\Users\MAX PEREYRA\Videos\Proyecto_PIT\MvcAuth\MvcAuth\bin\es\System.Web.WebPages.resources.dll
+C:\Users\MAX PEREYRA\Videos\Proyecto_PIT\MvcAuth\MvcAuth\bin\es\System.Web.WebPages.Deployment.resources.dll
+C:\Users\MAX PEREYRA\Videos\Proyecto_PIT\MvcAuth\MvcAuth\bin\es\System.Web.WebPages.Razor.resources.dll
+C:\Users\MAX PEREYRA\Videos\Proyecto_PIT\MvcAuth\MvcAuth\bin\es\EntityFramework.resources.dll
+C:\Users\MAX PEREYRA\Videos\Proyecto_PIT\MvcAuth\MvcAuth\bin\es\EntityFramework.SqlServer.resources.dll
+C:\Users\MAX PEREYRA\Videos\Proyecto_PIT\MvcAuth\MvcAuth\bin\es\Microsoft.AspNet.Identity.Core.resources.dll
+C:\Users\MAX PEREYRA\Videos\Proyecto_PIT\MvcAuth\MvcAuth\bin\es\Microsoft.AspNet.Identity.Owin.resources.dll
+C:\Users\MAX PEREYRA\Videos\Proyecto_PIT\MvcAuth\MvcAuth\bin\es\Microsoft.AspNet.Identity.EntityFramework.resources.dll
+C:\Users\MAX PEREYRA\Videos\Proyecto_PIT\MvcAuth\MvcAuth\obj\Debug\MvcAuth.csprojAssemblyReference.cache
+C:\Users\MAX PEREYRA\Videos\Proyecto_PIT\MvcAuth\MvcAuth\obj\Debug\MvcAuth.csproj.CoreCompileInputs.cache
+C:\Users\MAX PEREYRA\Videos\Proyecto_PIT\MvcAuth\MvcAuth\obj\Debug\MvcAuth.csproj.CopyComplete
+C:\Users\MAX PEREYRA\Videos\Proyecto_PIT\MvcAuth\MvcAuth\obj\Debug\MvcAuth.dll
+C:\Users\MAX PEREYRA\Videos\Proyecto_PIT\MvcAuth\MvcAuth\obj\Debug\MvcAuth.pdb
+C:\Users\MAX PEREYRA\Pictures\Saved Pictures\Proyecto_PIT\MvcAuth\MvcAuth\bin\MvcAuth.dll.config
+C:\Users\MAX PEREYRA\Pictures\Saved Pictures\Proyecto_PIT\MvcAuth\MvcAuth\bin\MvcAuth.dll
+C:\Users\MAX PEREYRA\Pictures\Saved Pictures\Proyecto_PIT\MvcAuth\MvcAuth\bin\MvcAuth.pdb
+C:\Users\MAX PEREYRA\Pictures\Saved Pictures\Proyecto_PIT\MvcAuth\MvcAuth\bin\roslyn\csc.exe
+C:\Users\MAX PEREYRA\Pictures\Saved Pictures\Proyecto_PIT\MvcAuth\MvcAuth\bin\roslyn\csc.exe.config
+C:\Users\MAX PEREYRA\Pictures\Saved Pictures\Proyecto_PIT\MvcAuth\MvcAuth\bin\roslyn\csc.rsp
+C:\Users\MAX PEREYRA\Pictures\Saved Pictures\Proyecto_PIT\MvcAuth\MvcAuth\bin\roslyn\csi.exe
+C:\Users\MAX PEREYRA\Pictures\Saved Pictures\Proyecto_PIT\MvcAuth\MvcAuth\bin\roslyn\csi.exe.config
+C:\Users\MAX PEREYRA\Pictures\Saved Pictures\Proyecto_PIT\MvcAuth\MvcAuth\bin\roslyn\csi.rsp
+C:\Users\MAX PEREYRA\Pictures\Saved Pictures\Proyecto_PIT\MvcAuth\MvcAuth\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\MAX PEREYRA\Pictures\Saved Pictures\Proyecto_PIT\MvcAuth\MvcAuth\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\MAX PEREYRA\Pictures\Saved Pictures\Proyecto_PIT\MvcAuth\MvcAuth\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\MAX PEREYRA\Pictures\Saved Pictures\Proyecto_PIT\MvcAuth\MvcAuth\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\MAX PEREYRA\Pictures\Saved Pictures\Proyecto_PIT\MvcAuth\MvcAuth\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\MAX PEREYRA\Pictures\Saved Pictures\Proyecto_PIT\MvcAuth\MvcAuth\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\MAX PEREYRA\Pictures\Saved Pictures\Proyecto_PIT\MvcAuth\MvcAuth\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\MAX PEREYRA\Pictures\Saved Pictures\Proyecto_PIT\MvcAuth\MvcAuth\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\MAX PEREYRA\Pictures\Saved Pictures\Proyecto_PIT\MvcAuth\MvcAuth\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\MAX PEREYRA\Pictures\Saved Pictures\Proyecto_PIT\MvcAuth\MvcAuth\bin\roslyn\Microsoft.Managed.Core.targets
+C:\Users\MAX PEREYRA\Pictures\Saved Pictures\Proyecto_PIT\MvcAuth\MvcAuth\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\MAX PEREYRA\Pictures\Saved Pictures\Proyecto_PIT\MvcAuth\MvcAuth\bin\roslyn\System.AppContext.dll
+C:\Users\MAX PEREYRA\Pictures\Saved Pictures\Proyecto_PIT\MvcAuth\MvcAuth\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\MAX PEREYRA\Pictures\Saved Pictures\Proyecto_PIT\MvcAuth\MvcAuth\bin\roslyn\System.Console.dll
+C:\Users\MAX PEREYRA\Pictures\Saved Pictures\Proyecto_PIT\MvcAuth\MvcAuth\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+C:\Users\MAX PEREYRA\Pictures\Saved Pictures\Proyecto_PIT\MvcAuth\MvcAuth\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\MAX PEREYRA\Pictures\Saved Pictures\Proyecto_PIT\MvcAuth\MvcAuth\bin\roslyn\System.IO.Compression.dll
+C:\Users\MAX PEREYRA\Pictures\Saved Pictures\Proyecto_PIT\MvcAuth\MvcAuth\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\MAX PEREYRA\Pictures\Saved Pictures\Proyecto_PIT\MvcAuth\MvcAuth\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\MAX PEREYRA\Pictures\Saved Pictures\Proyecto_PIT\MvcAuth\MvcAuth\bin\roslyn\System.IO.Pipes.AccessControl.dll
+C:\Users\MAX PEREYRA\Pictures\Saved Pictures\Proyecto_PIT\MvcAuth\MvcAuth\bin\roslyn\System.IO.Pipes.dll
+C:\Users\MAX PEREYRA\Pictures\Saved Pictures\Proyecto_PIT\MvcAuth\MvcAuth\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\MAX PEREYRA\Pictures\Saved Pictures\Proyecto_PIT\MvcAuth\MvcAuth\bin\roslyn\System.Security.AccessControl.dll
+C:\Users\MAX PEREYRA\Pictures\Saved Pictures\Proyecto_PIT\MvcAuth\MvcAuth\bin\roslyn\System.Security.Claims.dll
+C:\Users\MAX PEREYRA\Pictures\Saved Pictures\Proyecto_PIT\MvcAuth\MvcAuth\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+C:\Users\MAX PEREYRA\Pictures\Saved Pictures\Proyecto_PIT\MvcAuth\MvcAuth\bin\roslyn\System.Security.Cryptography.Encoding.dll
+C:\Users\MAX PEREYRA\Pictures\Saved Pictures\Proyecto_PIT\MvcAuth\MvcAuth\bin\roslyn\System.Security.Cryptography.Primitives.dll
+C:\Users\MAX PEREYRA\Pictures\Saved Pictures\Proyecto_PIT\MvcAuth\MvcAuth\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+C:\Users\MAX PEREYRA\Pictures\Saved Pictures\Proyecto_PIT\MvcAuth\MvcAuth\bin\roslyn\System.Security.Principal.Windows.dll
+C:\Users\MAX PEREYRA\Pictures\Saved Pictures\Proyecto_PIT\MvcAuth\MvcAuth\bin\roslyn\System.Text.Encoding.CodePages.dll
+C:\Users\MAX PEREYRA\Pictures\Saved Pictures\Proyecto_PIT\MvcAuth\MvcAuth\bin\roslyn\System.ValueTuple.dll
+C:\Users\MAX PEREYRA\Pictures\Saved Pictures\Proyecto_PIT\MvcAuth\MvcAuth\bin\roslyn\System.Xml.ReaderWriter.dll
+C:\Users\MAX PEREYRA\Pictures\Saved Pictures\Proyecto_PIT\MvcAuth\MvcAuth\bin\roslyn\System.Xml.XmlDocument.dll
+C:\Users\MAX PEREYRA\Pictures\Saved Pictures\Proyecto_PIT\MvcAuth\MvcAuth\bin\roslyn\System.Xml.XPath.dll
+C:\Users\MAX PEREYRA\Pictures\Saved Pictures\Proyecto_PIT\MvcAuth\MvcAuth\bin\roslyn\System.Xml.XPath.XDocument.dll
+C:\Users\MAX PEREYRA\Pictures\Saved Pictures\Proyecto_PIT\MvcAuth\MvcAuth\bin\roslyn\vbc.exe
+C:\Users\MAX PEREYRA\Pictures\Saved Pictures\Proyecto_PIT\MvcAuth\MvcAuth\bin\roslyn\vbc.exe.config
+C:\Users\MAX PEREYRA\Pictures\Saved Pictures\Proyecto_PIT\MvcAuth\MvcAuth\bin\roslyn\vbc.rsp
+C:\Users\MAX PEREYRA\Pictures\Saved Pictures\Proyecto_PIT\MvcAuth\MvcAuth\bin\roslyn\VBCSCompiler.exe
+C:\Users\MAX PEREYRA\Pictures\Saved Pictures\Proyecto_PIT\MvcAuth\MvcAuth\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\MAX PEREYRA\Pictures\Saved Pictures\Proyecto_PIT\MvcAuth\MvcAuth\bin\Antlr3.Runtime.dll
+C:\Users\MAX PEREYRA\Pictures\Saved Pictures\Proyecto_PIT\MvcAuth\MvcAuth\bin\EntityFramework.dll
+C:\Users\MAX PEREYRA\Pictures\Saved Pictures\Proyecto_PIT\MvcAuth\MvcAuth\bin\EntityFramework.SqlServer.dll
+C:\Users\MAX PEREYRA\Pictures\Saved Pictures\Proyecto_PIT\MvcAuth\MvcAuth\bin\Microsoft.AspNet.Identity.Core.dll
+C:\Users\MAX PEREYRA\Pictures\Saved Pictures\Proyecto_PIT\MvcAuth\MvcAuth\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+C:\Users\MAX PEREYRA\Pictures\Saved Pictures\Proyecto_PIT\MvcAuth\MvcAuth\bin\Microsoft.AspNet.Identity.Owin.dll
+C:\Users\MAX PEREYRA\Pictures\Saved Pictures\Proyecto_PIT\MvcAuth\MvcAuth\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\MAX PEREYRA\Pictures\Saved Pictures\Proyecto_PIT\MvcAuth\MvcAuth\bin\Microsoft.Owin.dll
+C:\Users\MAX PEREYRA\Pictures\Saved Pictures\Proyecto_PIT\MvcAuth\MvcAuth\bin\Microsoft.Owin.Host.SystemWeb.dll
+C:\Users\MAX PEREYRA\Pictures\Saved Pictures\Proyecto_PIT\MvcAuth\MvcAuth\bin\Microsoft.Owin.Security.Cookies.dll
+C:\Users\MAX PEREYRA\Pictures\Saved Pictures\Proyecto_PIT\MvcAuth\MvcAuth\bin\Microsoft.Owin.Security.dll
+C:\Users\MAX PEREYRA\Pictures\Saved Pictures\Proyecto_PIT\MvcAuth\MvcAuth\bin\Microsoft.Owin.Security.Facebook.dll
+C:\Users\MAX PEREYRA\Pictures\Saved Pictures\Proyecto_PIT\MvcAuth\MvcAuth\bin\Microsoft.Owin.Security.Google.dll
+C:\Users\MAX PEREYRA\Pictures\Saved Pictures\Proyecto_PIT\MvcAuth\MvcAuth\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+C:\Users\MAX PEREYRA\Pictures\Saved Pictures\Proyecto_PIT\MvcAuth\MvcAuth\bin\Microsoft.Owin.Security.OAuth.dll
+C:\Users\MAX PEREYRA\Pictures\Saved Pictures\Proyecto_PIT\MvcAuth\MvcAuth\bin\Microsoft.Owin.Security.Twitter.dll
+C:\Users\MAX PEREYRA\Pictures\Saved Pictures\Proyecto_PIT\MvcAuth\MvcAuth\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\MAX PEREYRA\Pictures\Saved Pictures\Proyecto_PIT\MvcAuth\MvcAuth\bin\Newtonsoft.Json.dll
+C:\Users\MAX PEREYRA\Pictures\Saved Pictures\Proyecto_PIT\MvcAuth\MvcAuth\bin\Owin.dll
+C:\Users\MAX PEREYRA\Pictures\Saved Pictures\Proyecto_PIT\MvcAuth\MvcAuth\bin\System.Web.Helpers.dll
+C:\Users\MAX PEREYRA\Pictures\Saved Pictures\Proyecto_PIT\MvcAuth\MvcAuth\bin\System.Web.Mvc.dll
+C:\Users\MAX PEREYRA\Pictures\Saved Pictures\Proyecto_PIT\MvcAuth\MvcAuth\bin\System.Web.Optimization.dll
+C:\Users\MAX PEREYRA\Pictures\Saved Pictures\Proyecto_PIT\MvcAuth\MvcAuth\bin\System.Web.Razor.dll
+C:\Users\MAX PEREYRA\Pictures\Saved Pictures\Proyecto_PIT\MvcAuth\MvcAuth\bin\System.Web.WebPages.Deployment.dll
+C:\Users\MAX PEREYRA\Pictures\Saved Pictures\Proyecto_PIT\MvcAuth\MvcAuth\bin\System.Web.WebPages.dll
+C:\Users\MAX PEREYRA\Pictures\Saved Pictures\Proyecto_PIT\MvcAuth\MvcAuth\bin\System.Web.WebPages.Razor.dll
+C:\Users\MAX PEREYRA\Pictures\Saved Pictures\Proyecto_PIT\MvcAuth\MvcAuth\bin\WebGrease.dll
+C:\Users\MAX PEREYRA\Pictures\Saved Pictures\Proyecto_PIT\MvcAuth\MvcAuth\bin\System.Web.Helpers.xml
+C:\Users\MAX PEREYRA\Pictures\Saved Pictures\Proyecto_PIT\MvcAuth\MvcAuth\bin\System.Web.Mvc.xml
+C:\Users\MAX PEREYRA\Pictures\Saved Pictures\Proyecto_PIT\MvcAuth\MvcAuth\bin\System.Web.Optimization.xml
+C:\Users\MAX PEREYRA\Pictures\Saved Pictures\Proyecto_PIT\MvcAuth\MvcAuth\bin\System.Web.Razor.xml
+C:\Users\MAX PEREYRA\Pictures\Saved Pictures\Proyecto_PIT\MvcAuth\MvcAuth\bin\System.Web.WebPages.xml
+C:\Users\MAX PEREYRA\Pictures\Saved Pictures\Proyecto_PIT\MvcAuth\MvcAuth\bin\System.Web.WebPages.Deployment.xml
+C:\Users\MAX PEREYRA\Pictures\Saved Pictures\Proyecto_PIT\MvcAuth\MvcAuth\bin\System.Web.WebPages.Razor.xml
+C:\Users\MAX PEREYRA\Pictures\Saved Pictures\Proyecto_PIT\MvcAuth\MvcAuth\bin\Newtonsoft.Json.xml
+C:\Users\MAX PEREYRA\Pictures\Saved Pictures\Proyecto_PIT\MvcAuth\MvcAuth\bin\Antlr3.Runtime.pdb
+C:\Users\MAX PEREYRA\Pictures\Saved Pictures\Proyecto_PIT\MvcAuth\MvcAuth\bin\EntityFramework.xml
+C:\Users\MAX PEREYRA\Pictures\Saved Pictures\Proyecto_PIT\MvcAuth\MvcAuth\bin\EntityFramework.SqlServer.xml
+C:\Users\MAX PEREYRA\Pictures\Saved Pictures\Proyecto_PIT\MvcAuth\MvcAuth\bin\Microsoft.AspNet.Identity.Core.xml
+C:\Users\MAX PEREYRA\Pictures\Saved Pictures\Proyecto_PIT\MvcAuth\MvcAuth\bin\Microsoft.AspNet.Identity.Owin.xml
+C:\Users\MAX PEREYRA\Pictures\Saved Pictures\Proyecto_PIT\MvcAuth\MvcAuth\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+C:\Users\MAX PEREYRA\Pictures\Saved Pictures\Proyecto_PIT\MvcAuth\MvcAuth\bin\Microsoft.Owin.xml
+C:\Users\MAX PEREYRA\Pictures\Saved Pictures\Proyecto_PIT\MvcAuth\MvcAuth\bin\Microsoft.Owin.Host.SystemWeb.xml
+C:\Users\MAX PEREYRA\Pictures\Saved Pictures\Proyecto_PIT\MvcAuth\MvcAuth\bin\Microsoft.Owin.Security.xml
+C:\Users\MAX PEREYRA\Pictures\Saved Pictures\Proyecto_PIT\MvcAuth\MvcAuth\bin\Microsoft.Owin.Security.Facebook.xml
+C:\Users\MAX PEREYRA\Pictures\Saved Pictures\Proyecto_PIT\MvcAuth\MvcAuth\bin\Microsoft.Owin.Security.Cookies.xml
+C:\Users\MAX PEREYRA\Pictures\Saved Pictures\Proyecto_PIT\MvcAuth\MvcAuth\bin\Microsoft.Owin.Security.Google.xml
+C:\Users\MAX PEREYRA\Pictures\Saved Pictures\Proyecto_PIT\MvcAuth\MvcAuth\bin\Microsoft.Owin.Security.Twitter.xml
+C:\Users\MAX PEREYRA\Pictures\Saved Pictures\Proyecto_PIT\MvcAuth\MvcAuth\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+C:\Users\MAX PEREYRA\Pictures\Saved Pictures\Proyecto_PIT\MvcAuth\MvcAuth\bin\Microsoft.Owin.Security.OAuth.xml
+C:\Users\MAX PEREYRA\Pictures\Saved Pictures\Proyecto_PIT\MvcAuth\MvcAuth\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\MAX PEREYRA\Pictures\Saved Pictures\Proyecto_PIT\MvcAuth\MvcAuth\bin\es\System.Web.Helpers.resources.dll
+C:\Users\MAX PEREYRA\Pictures\Saved Pictures\Proyecto_PIT\MvcAuth\MvcAuth\bin\es\System.Web.Mvc.resources.dll
+C:\Users\MAX PEREYRA\Pictures\Saved Pictures\Proyecto_PIT\MvcAuth\MvcAuth\bin\es\System.Web.Optimization.resources.dll
+C:\Users\MAX PEREYRA\Pictures\Saved Pictures\Proyecto_PIT\MvcAuth\MvcAuth\bin\es\System.Web.Razor.resources.dll
+C:\Users\MAX PEREYRA\Pictures\Saved Pictures\Proyecto_PIT\MvcAuth\MvcAuth\bin\es\System.Web.WebPages.resources.dll
+C:\Users\MAX PEREYRA\Pictures\Saved Pictures\Proyecto_PIT\MvcAuth\MvcAuth\bin\es\System.Web.WebPages.Deployment.resources.dll
+C:\Users\MAX PEREYRA\Pictures\Saved Pictures\Proyecto_PIT\MvcAuth\MvcAuth\bin\es\System.Web.WebPages.Razor.resources.dll
+C:\Users\MAX PEREYRA\Pictures\Saved Pictures\Proyecto_PIT\MvcAuth\MvcAuth\bin\es\EntityFramework.resources.dll
+C:\Users\MAX PEREYRA\Pictures\Saved Pictures\Proyecto_PIT\MvcAuth\MvcAuth\bin\es\EntityFramework.SqlServer.resources.dll
+C:\Users\MAX PEREYRA\Pictures\Saved Pictures\Proyecto_PIT\MvcAuth\MvcAuth\bin\es\Microsoft.AspNet.Identity.Core.resources.dll
+C:\Users\MAX PEREYRA\Pictures\Saved Pictures\Proyecto_PIT\MvcAuth\MvcAuth\bin\es\Microsoft.AspNet.Identity.Owin.resources.dll
+C:\Users\MAX PEREYRA\Pictures\Saved Pictures\Proyecto_PIT\MvcAuth\MvcAuth\bin\es\Microsoft.AspNet.Identity.EntityFramework.resources.dll
+C:\Users\MAX PEREYRA\Pictures\Saved Pictures\Proyecto_PIT\MvcAuth\MvcAuth\obj\Debug\MvcAuth.csprojAssemblyReference.cache
+C:\Users\MAX PEREYRA\Pictures\Saved Pictures\Proyecto_PIT\MvcAuth\MvcAuth\obj\Debug\MvcAuth.csproj.CoreCompileInputs.cache
+C:\Users\MAX PEREYRA\Pictures\Saved Pictures\Proyecto_PIT\MvcAuth\MvcAuth\obj\Debug\MvcAuth.csproj.CopyComplete
+C:\Users\MAX PEREYRA\Pictures\Saved Pictures\Proyecto_PIT\MvcAuth\MvcAuth\obj\Debug\MvcAuth.dll
+C:\Users\MAX PEREYRA\Pictures\Saved Pictures\Proyecto_PIT\MvcAuth\MvcAuth\obj\Debug\MvcAuth.pdb
+C:\Users\ronal\Downloads\Proyecto_Integrador\Proyecto_PIT\MvcAuth\MvcAuth\bin\MvcAuth.dll.config
+C:\Users\ronal\Downloads\Proyecto_Integrador\Proyecto_PIT\MvcAuth\MvcAuth\bin\MvcAuth.dll
+C:\Users\ronal\Downloads\Proyecto_Integrador\Proyecto_PIT\MvcAuth\MvcAuth\bin\MvcAuth.pdb
+C:\Users\ronal\Downloads\Proyecto_Integrador\Proyecto_PIT\MvcAuth\MvcAuth\bin\roslyn\csc.exe
+C:\Users\ronal\Downloads\Proyecto_Integrador\Proyecto_PIT\MvcAuth\MvcAuth\bin\roslyn\csc.exe.config
+C:\Users\ronal\Downloads\Proyecto_Integrador\Proyecto_PIT\MvcAuth\MvcAuth\bin\roslyn\csc.rsp
+C:\Users\ronal\Downloads\Proyecto_Integrador\Proyecto_PIT\MvcAuth\MvcAuth\bin\roslyn\csi.exe
+C:\Users\ronal\Downloads\Proyecto_Integrador\Proyecto_PIT\MvcAuth\MvcAuth\bin\roslyn\csi.exe.config
+C:\Users\ronal\Downloads\Proyecto_Integrador\Proyecto_PIT\MvcAuth\MvcAuth\bin\roslyn\csi.rsp
+C:\Users\ronal\Downloads\Proyecto_Integrador\Proyecto_PIT\MvcAuth\MvcAuth\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\ronal\Downloads\Proyecto_Integrador\Proyecto_PIT\MvcAuth\MvcAuth\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\ronal\Downloads\Proyecto_Integrador\Proyecto_PIT\MvcAuth\MvcAuth\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\ronal\Downloads\Proyecto_Integrador\Proyecto_PIT\MvcAuth\MvcAuth\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\ronal\Downloads\Proyecto_Integrador\Proyecto_PIT\MvcAuth\MvcAuth\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\ronal\Downloads\Proyecto_Integrador\Proyecto_PIT\MvcAuth\MvcAuth\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\ronal\Downloads\Proyecto_Integrador\Proyecto_PIT\MvcAuth\MvcAuth\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\ronal\Downloads\Proyecto_Integrador\Proyecto_PIT\MvcAuth\MvcAuth\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\ronal\Downloads\Proyecto_Integrador\Proyecto_PIT\MvcAuth\MvcAuth\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\ronal\Downloads\Proyecto_Integrador\Proyecto_PIT\MvcAuth\MvcAuth\bin\roslyn\Microsoft.Managed.Core.targets
+C:\Users\ronal\Downloads\Proyecto_Integrador\Proyecto_PIT\MvcAuth\MvcAuth\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\ronal\Downloads\Proyecto_Integrador\Proyecto_PIT\MvcAuth\MvcAuth\bin\roslyn\System.AppContext.dll
+C:\Users\ronal\Downloads\Proyecto_Integrador\Proyecto_PIT\MvcAuth\MvcAuth\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\ronal\Downloads\Proyecto_Integrador\Proyecto_PIT\MvcAuth\MvcAuth\bin\roslyn\System.Console.dll
+C:\Users\ronal\Downloads\Proyecto_Integrador\Proyecto_PIT\MvcAuth\MvcAuth\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+C:\Users\ronal\Downloads\Proyecto_Integrador\Proyecto_PIT\MvcAuth\MvcAuth\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\ronal\Downloads\Proyecto_Integrador\Proyecto_PIT\MvcAuth\MvcAuth\bin\roslyn\System.IO.Compression.dll
+C:\Users\ronal\Downloads\Proyecto_Integrador\Proyecto_PIT\MvcAuth\MvcAuth\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\ronal\Downloads\Proyecto_Integrador\Proyecto_PIT\MvcAuth\MvcAuth\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\ronal\Downloads\Proyecto_Integrador\Proyecto_PIT\MvcAuth\MvcAuth\bin\roslyn\System.IO.Pipes.AccessControl.dll
+C:\Users\ronal\Downloads\Proyecto_Integrador\Proyecto_PIT\MvcAuth\MvcAuth\bin\roslyn\System.IO.Pipes.dll
+C:\Users\ronal\Downloads\Proyecto_Integrador\Proyecto_PIT\MvcAuth\MvcAuth\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\ronal\Downloads\Proyecto_Integrador\Proyecto_PIT\MvcAuth\MvcAuth\bin\roslyn\System.Security.AccessControl.dll
+C:\Users\ronal\Downloads\Proyecto_Integrador\Proyecto_PIT\MvcAuth\MvcAuth\bin\roslyn\System.Security.Claims.dll
+C:\Users\ronal\Downloads\Proyecto_Integrador\Proyecto_PIT\MvcAuth\MvcAuth\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+C:\Users\ronal\Downloads\Proyecto_Integrador\Proyecto_PIT\MvcAuth\MvcAuth\bin\roslyn\System.Security.Cryptography.Encoding.dll
+C:\Users\ronal\Downloads\Proyecto_Integrador\Proyecto_PIT\MvcAuth\MvcAuth\bin\roslyn\System.Security.Cryptography.Primitives.dll
+C:\Users\ronal\Downloads\Proyecto_Integrador\Proyecto_PIT\MvcAuth\MvcAuth\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+C:\Users\ronal\Downloads\Proyecto_Integrador\Proyecto_PIT\MvcAuth\MvcAuth\bin\roslyn\System.Security.Principal.Windows.dll
+C:\Users\ronal\Downloads\Proyecto_Integrador\Proyecto_PIT\MvcAuth\MvcAuth\bin\roslyn\System.Text.Encoding.CodePages.dll
+C:\Users\ronal\Downloads\Proyecto_Integrador\Proyecto_PIT\MvcAuth\MvcAuth\bin\roslyn\System.ValueTuple.dll
+C:\Users\ronal\Downloads\Proyecto_Integrador\Proyecto_PIT\MvcAuth\MvcAuth\bin\roslyn\System.Xml.ReaderWriter.dll
+C:\Users\ronal\Downloads\Proyecto_Integrador\Proyecto_PIT\MvcAuth\MvcAuth\bin\roslyn\System.Xml.XmlDocument.dll
+C:\Users\ronal\Downloads\Proyecto_Integrador\Proyecto_PIT\MvcAuth\MvcAuth\bin\roslyn\System.Xml.XPath.dll
+C:\Users\ronal\Downloads\Proyecto_Integrador\Proyecto_PIT\MvcAuth\MvcAuth\bin\roslyn\System.Xml.XPath.XDocument.dll
+C:\Users\ronal\Downloads\Proyecto_Integrador\Proyecto_PIT\MvcAuth\MvcAuth\bin\roslyn\vbc.exe
+C:\Users\ronal\Downloads\Proyecto_Integrador\Proyecto_PIT\MvcAuth\MvcAuth\bin\roslyn\vbc.exe.config
+C:\Users\ronal\Downloads\Proyecto_Integrador\Proyecto_PIT\MvcAuth\MvcAuth\bin\roslyn\vbc.rsp
+C:\Users\ronal\Downloads\Proyecto_Integrador\Proyecto_PIT\MvcAuth\MvcAuth\bin\roslyn\VBCSCompiler.exe
+C:\Users\ronal\Downloads\Proyecto_Integrador\Proyecto_PIT\MvcAuth\MvcAuth\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\ronal\Downloads\Proyecto_Integrador\Proyecto_PIT\MvcAuth\MvcAuth\bin\Antlr3.Runtime.dll
+C:\Users\ronal\Downloads\Proyecto_Integrador\Proyecto_PIT\MvcAuth\MvcAuth\bin\EntityFramework.dll
+C:\Users\ronal\Downloads\Proyecto_Integrador\Proyecto_PIT\MvcAuth\MvcAuth\bin\EntityFramework.SqlServer.dll
+C:\Users\ronal\Downloads\Proyecto_Integrador\Proyecto_PIT\MvcAuth\MvcAuth\bin\Microsoft.AspNet.Identity.Core.dll
+C:\Users\ronal\Downloads\Proyecto_Integrador\Proyecto_PIT\MvcAuth\MvcAuth\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+C:\Users\ronal\Downloads\Proyecto_Integrador\Proyecto_PIT\MvcAuth\MvcAuth\bin\Microsoft.AspNet.Identity.Owin.dll
+C:\Users\ronal\Downloads\Proyecto_Integrador\Proyecto_PIT\MvcAuth\MvcAuth\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\ronal\Downloads\Proyecto_Integrador\Proyecto_PIT\MvcAuth\MvcAuth\bin\Microsoft.Owin.dll
+C:\Users\ronal\Downloads\Proyecto_Integrador\Proyecto_PIT\MvcAuth\MvcAuth\bin\Microsoft.Owin.Host.SystemWeb.dll
+C:\Users\ronal\Downloads\Proyecto_Integrador\Proyecto_PIT\MvcAuth\MvcAuth\bin\Microsoft.Owin.Security.Cookies.dll
+C:\Users\ronal\Downloads\Proyecto_Integrador\Proyecto_PIT\MvcAuth\MvcAuth\bin\Microsoft.Owin.Security.dll
+C:\Users\ronal\Downloads\Proyecto_Integrador\Proyecto_PIT\MvcAuth\MvcAuth\bin\Microsoft.Owin.Security.Facebook.dll
+C:\Users\ronal\Downloads\Proyecto_Integrador\Proyecto_PIT\MvcAuth\MvcAuth\bin\Microsoft.Owin.Security.Google.dll
+C:\Users\ronal\Downloads\Proyecto_Integrador\Proyecto_PIT\MvcAuth\MvcAuth\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+C:\Users\ronal\Downloads\Proyecto_Integrador\Proyecto_PIT\MvcAuth\MvcAuth\bin\Microsoft.Owin.Security.OAuth.dll
+C:\Users\ronal\Downloads\Proyecto_Integrador\Proyecto_PIT\MvcAuth\MvcAuth\bin\Microsoft.Owin.Security.Twitter.dll
+C:\Users\ronal\Downloads\Proyecto_Integrador\Proyecto_PIT\MvcAuth\MvcAuth\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\ronal\Downloads\Proyecto_Integrador\Proyecto_PIT\MvcAuth\MvcAuth\bin\Newtonsoft.Json.dll
+C:\Users\ronal\Downloads\Proyecto_Integrador\Proyecto_PIT\MvcAuth\MvcAuth\bin\Owin.dll
+C:\Users\ronal\Downloads\Proyecto_Integrador\Proyecto_PIT\MvcAuth\MvcAuth\bin\System.Web.Helpers.dll
+C:\Users\ronal\Downloads\Proyecto_Integrador\Proyecto_PIT\MvcAuth\MvcAuth\bin\System.Web.Mvc.dll
+C:\Users\ronal\Downloads\Proyecto_Integrador\Proyecto_PIT\MvcAuth\MvcAuth\bin\System.Web.Optimization.dll
+C:\Users\ronal\Downloads\Proyecto_Integrador\Proyecto_PIT\MvcAuth\MvcAuth\bin\System.Web.Razor.dll
+C:\Users\ronal\Downloads\Proyecto_Integrador\Proyecto_PIT\MvcAuth\MvcAuth\bin\System.Web.WebPages.Deployment.dll
+C:\Users\ronal\Downloads\Proyecto_Integrador\Proyecto_PIT\MvcAuth\MvcAuth\bin\System.Web.WebPages.dll
+C:\Users\ronal\Downloads\Proyecto_Integrador\Proyecto_PIT\MvcAuth\MvcAuth\bin\System.Web.WebPages.Razor.dll
+C:\Users\ronal\Downloads\Proyecto_Integrador\Proyecto_PIT\MvcAuth\MvcAuth\bin\WebGrease.dll
+C:\Users\ronal\Downloads\Proyecto_Integrador\Proyecto_PIT\MvcAuth\MvcAuth\bin\System.Web.Helpers.xml
+C:\Users\ronal\Downloads\Proyecto_Integrador\Proyecto_PIT\MvcAuth\MvcAuth\bin\System.Web.Mvc.xml
+C:\Users\ronal\Downloads\Proyecto_Integrador\Proyecto_PIT\MvcAuth\MvcAuth\bin\System.Web.Optimization.xml
+C:\Users\ronal\Downloads\Proyecto_Integrador\Proyecto_PIT\MvcAuth\MvcAuth\bin\System.Web.Razor.xml
+C:\Users\ronal\Downloads\Proyecto_Integrador\Proyecto_PIT\MvcAuth\MvcAuth\bin\System.Web.WebPages.xml
+C:\Users\ronal\Downloads\Proyecto_Integrador\Proyecto_PIT\MvcAuth\MvcAuth\bin\System.Web.WebPages.Deployment.xml
+C:\Users\ronal\Downloads\Proyecto_Integrador\Proyecto_PIT\MvcAuth\MvcAuth\bin\System.Web.WebPages.Razor.xml
+C:\Users\ronal\Downloads\Proyecto_Integrador\Proyecto_PIT\MvcAuth\MvcAuth\bin\Newtonsoft.Json.xml
+C:\Users\ronal\Downloads\Proyecto_Integrador\Proyecto_PIT\MvcAuth\MvcAuth\bin\Antlr3.Runtime.pdb
+C:\Users\ronal\Downloads\Proyecto_Integrador\Proyecto_PIT\MvcAuth\MvcAuth\bin\EntityFramework.xml
+C:\Users\ronal\Downloads\Proyecto_Integrador\Proyecto_PIT\MvcAuth\MvcAuth\bin\EntityFramework.SqlServer.xml
+C:\Users\ronal\Downloads\Proyecto_Integrador\Proyecto_PIT\MvcAuth\MvcAuth\bin\Microsoft.AspNet.Identity.Core.xml
+C:\Users\ronal\Downloads\Proyecto_Integrador\Proyecto_PIT\MvcAuth\MvcAuth\bin\Microsoft.AspNet.Identity.Owin.xml
+C:\Users\ronal\Downloads\Proyecto_Integrador\Proyecto_PIT\MvcAuth\MvcAuth\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+C:\Users\ronal\Downloads\Proyecto_Integrador\Proyecto_PIT\MvcAuth\MvcAuth\bin\Microsoft.Owin.xml
+C:\Users\ronal\Downloads\Proyecto_Integrador\Proyecto_PIT\MvcAuth\MvcAuth\bin\Microsoft.Owin.Host.SystemWeb.xml
+C:\Users\ronal\Downloads\Proyecto_Integrador\Proyecto_PIT\MvcAuth\MvcAuth\bin\Microsoft.Owin.Security.xml
+C:\Users\ronal\Downloads\Proyecto_Integrador\Proyecto_PIT\MvcAuth\MvcAuth\bin\Microsoft.Owin.Security.Facebook.xml
+C:\Users\ronal\Downloads\Proyecto_Integrador\Proyecto_PIT\MvcAuth\MvcAuth\bin\Microsoft.Owin.Security.Cookies.xml
+C:\Users\ronal\Downloads\Proyecto_Integrador\Proyecto_PIT\MvcAuth\MvcAuth\bin\Microsoft.Owin.Security.Google.xml
+C:\Users\ronal\Downloads\Proyecto_Integrador\Proyecto_PIT\MvcAuth\MvcAuth\bin\Microsoft.Owin.Security.Twitter.xml
+C:\Users\ronal\Downloads\Proyecto_Integrador\Proyecto_PIT\MvcAuth\MvcAuth\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+C:\Users\ronal\Downloads\Proyecto_Integrador\Proyecto_PIT\MvcAuth\MvcAuth\bin\Microsoft.Owin.Security.OAuth.xml
+C:\Users\ronal\Downloads\Proyecto_Integrador\Proyecto_PIT\MvcAuth\MvcAuth\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\ronal\Downloads\Proyecto_Integrador\Proyecto_PIT\MvcAuth\MvcAuth\bin\es\System.Web.Helpers.resources.dll
+C:\Users\ronal\Downloads\Proyecto_Integrador\Proyecto_PIT\MvcAuth\MvcAuth\bin\es\System.Web.Mvc.resources.dll
+C:\Users\ronal\Downloads\Proyecto_Integrador\Proyecto_PIT\MvcAuth\MvcAuth\bin\es\System.Web.Optimization.resources.dll
+C:\Users\ronal\Downloads\Proyecto_Integrador\Proyecto_PIT\MvcAuth\MvcAuth\bin\es\System.Web.Razor.resources.dll
+C:\Users\ronal\Downloads\Proyecto_Integrador\Proyecto_PIT\MvcAuth\MvcAuth\bin\es\System.Web.WebPages.resources.dll
+C:\Users\ronal\Downloads\Proyecto_Integrador\Proyecto_PIT\MvcAuth\MvcAuth\bin\es\System.Web.WebPages.Deployment.resources.dll
+C:\Users\ronal\Downloads\Proyecto_Integrador\Proyecto_PIT\MvcAuth\MvcAuth\bin\es\System.Web.WebPages.Razor.resources.dll
+C:\Users\ronal\Downloads\Proyecto_Integrador\Proyecto_PIT\MvcAuth\MvcAuth\bin\es\EntityFramework.resources.dll
+C:\Users\ronal\Downloads\Proyecto_Integrador\Proyecto_PIT\MvcAuth\MvcAuth\bin\es\EntityFramework.SqlServer.resources.dll
+C:\Users\ronal\Downloads\Proyecto_Integrador\Proyecto_PIT\MvcAuth\MvcAuth\bin\es\Microsoft.AspNet.Identity.Core.resources.dll
+C:\Users\ronal\Downloads\Proyecto_Integrador\Proyecto_PIT\MvcAuth\MvcAuth\bin\es\Microsoft.AspNet.Identity.Owin.resources.dll
+C:\Users\ronal\Downloads\Proyecto_Integrador\Proyecto_PIT\MvcAuth\MvcAuth\bin\es\Microsoft.AspNet.Identity.EntityFramework.resources.dll
+C:\Users\ronal\Downloads\Proyecto_Integrador\Proyecto_PIT\MvcAuth\MvcAuth\obj\Debug\MvcAuth.csprojAssemblyReference.cache
+C:\Users\ronal\Downloads\Proyecto_Integrador\Proyecto_PIT\MvcAuth\MvcAuth\obj\Debug\MvcAuth.csproj.CopyComplete
+C:\Users\ronal\Downloads\Proyecto_Integrador\Proyecto_PIT\MvcAuth\MvcAuth\obj\Debug\MvcAuth.dll
+C:\Users\ronal\Downloads\Proyecto_Integrador\Proyecto_PIT\MvcAuth\MvcAuth\obj\Debug\MvcAuth.pdb
+C:\Users\ronal\Downloads\Proyecto_Integrador\Proyecto_PIT\MvcAuth\MvcAuth\obj\Debug\MvcAuth.Migrations.Init.resources
+C:\Users\ronal\Downloads\Proyecto_Integrador\Proyecto_PIT\MvcAuth\MvcAuth\obj\Debug\MvcAuth.csproj.GenerateResource.cache
+D:\Proyectos\PROYECTO INTEGRADOR\Git Migracion I\Proyecto_PIT\MvcAuth\MvcAuth\bin\MvcAuth.dll.config
+D:\Proyectos\PROYECTO INTEGRADOR\Git Migracion I\Proyecto_PIT\MvcAuth\MvcAuth\bin\MvcAuth.dll
+D:\Proyectos\PROYECTO INTEGRADOR\Git Migracion I\Proyecto_PIT\MvcAuth\MvcAuth\bin\MvcAuth.pdb
+D:\Proyectos\PROYECTO INTEGRADOR\Git Migracion I\Proyecto_PIT\MvcAuth\MvcAuth\bin\roslyn\csc.exe
+D:\Proyectos\PROYECTO INTEGRADOR\Git Migracion I\Proyecto_PIT\MvcAuth\MvcAuth\bin\roslyn\csc.exe.config
+D:\Proyectos\PROYECTO INTEGRADOR\Git Migracion I\Proyecto_PIT\MvcAuth\MvcAuth\bin\roslyn\csc.rsp
+D:\Proyectos\PROYECTO INTEGRADOR\Git Migracion I\Proyecto_PIT\MvcAuth\MvcAuth\bin\roslyn\csi.exe
+D:\Proyectos\PROYECTO INTEGRADOR\Git Migracion I\Proyecto_PIT\MvcAuth\MvcAuth\bin\roslyn\csi.exe.config
+D:\Proyectos\PROYECTO INTEGRADOR\Git Migracion I\Proyecto_PIT\MvcAuth\MvcAuth\bin\roslyn\csi.rsp
+D:\Proyectos\PROYECTO INTEGRADOR\Git Migracion I\Proyecto_PIT\MvcAuth\MvcAuth\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+D:\Proyectos\PROYECTO INTEGRADOR\Git Migracion I\Proyecto_PIT\MvcAuth\MvcAuth\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+D:\Proyectos\PROYECTO INTEGRADOR\Git Migracion I\Proyecto_PIT\MvcAuth\MvcAuth\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+D:\Proyectos\PROYECTO INTEGRADOR\Git Migracion I\Proyecto_PIT\MvcAuth\MvcAuth\bin\roslyn\Microsoft.CodeAnalysis.dll
+D:\Proyectos\PROYECTO INTEGRADOR\Git Migracion I\Proyecto_PIT\MvcAuth\MvcAuth\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+D:\Proyectos\PROYECTO INTEGRADOR\Git Migracion I\Proyecto_PIT\MvcAuth\MvcAuth\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+D:\Proyectos\PROYECTO INTEGRADOR\Git Migracion I\Proyecto_PIT\MvcAuth\MvcAuth\bin\roslyn\Microsoft.CSharp.Core.targets
+D:\Proyectos\PROYECTO INTEGRADOR\Git Migracion I\Proyecto_PIT\MvcAuth\MvcAuth\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+D:\Proyectos\PROYECTO INTEGRADOR\Git Migracion I\Proyecto_PIT\MvcAuth\MvcAuth\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+D:\Proyectos\PROYECTO INTEGRADOR\Git Migracion I\Proyecto_PIT\MvcAuth\MvcAuth\bin\roslyn\Microsoft.Managed.Core.targets
+D:\Proyectos\PROYECTO INTEGRADOR\Git Migracion I\Proyecto_PIT\MvcAuth\MvcAuth\bin\roslyn\Microsoft.VisualBasic.Core.targets
+D:\Proyectos\PROYECTO INTEGRADOR\Git Migracion I\Proyecto_PIT\MvcAuth\MvcAuth\bin\roslyn\System.AppContext.dll
+D:\Proyectos\PROYECTO INTEGRADOR\Git Migracion I\Proyecto_PIT\MvcAuth\MvcAuth\bin\roslyn\System.Collections.Immutable.dll
+D:\Proyectos\PROYECTO INTEGRADOR\Git Migracion I\Proyecto_PIT\MvcAuth\MvcAuth\bin\roslyn\System.Console.dll
+D:\Proyectos\PROYECTO INTEGRADOR\Git Migracion I\Proyecto_PIT\MvcAuth\MvcAuth\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+D:\Proyectos\PROYECTO INTEGRADOR\Git Migracion I\Proyecto_PIT\MvcAuth\MvcAuth\bin\roslyn\System.Diagnostics.StackTrace.dll
+D:\Proyectos\PROYECTO INTEGRADOR\Git Migracion I\Proyecto_PIT\MvcAuth\MvcAuth\bin\roslyn\System.IO.Compression.dll
+D:\Proyectos\PROYECTO INTEGRADOR\Git Migracion I\Proyecto_PIT\MvcAuth\MvcAuth\bin\roslyn\System.IO.FileSystem.dll
+D:\Proyectos\PROYECTO INTEGRADOR\Git Migracion I\Proyecto_PIT\MvcAuth\MvcAuth\bin\roslyn\System.IO.FileSystem.Primitives.dll
+D:\Proyectos\PROYECTO INTEGRADOR\Git Migracion I\Proyecto_PIT\MvcAuth\MvcAuth\bin\roslyn\System.IO.Pipes.AccessControl.dll
+D:\Proyectos\PROYECTO INTEGRADOR\Git Migracion I\Proyecto_PIT\MvcAuth\MvcAuth\bin\roslyn\System.IO.Pipes.dll
+D:\Proyectos\PROYECTO INTEGRADOR\Git Migracion I\Proyecto_PIT\MvcAuth\MvcAuth\bin\roslyn\System.Reflection.Metadata.dll
+D:\Proyectos\PROYECTO INTEGRADOR\Git Migracion I\Proyecto_PIT\MvcAuth\MvcAuth\bin\roslyn\System.Security.AccessControl.dll
+D:\Proyectos\PROYECTO INTEGRADOR\Git Migracion I\Proyecto_PIT\MvcAuth\MvcAuth\bin\roslyn\System.Security.Claims.dll
+D:\Proyectos\PROYECTO INTEGRADOR\Git Migracion I\Proyecto_PIT\MvcAuth\MvcAuth\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+D:\Proyectos\PROYECTO INTEGRADOR\Git Migracion I\Proyecto_PIT\MvcAuth\MvcAuth\bin\roslyn\System.Security.Cryptography.Encoding.dll
+D:\Proyectos\PROYECTO INTEGRADOR\Git Migracion I\Proyecto_PIT\MvcAuth\MvcAuth\bin\roslyn\System.Security.Cryptography.Primitives.dll
+D:\Proyectos\PROYECTO INTEGRADOR\Git Migracion I\Proyecto_PIT\MvcAuth\MvcAuth\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+D:\Proyectos\PROYECTO INTEGRADOR\Git Migracion I\Proyecto_PIT\MvcAuth\MvcAuth\bin\roslyn\System.Security.Principal.Windows.dll
+D:\Proyectos\PROYECTO INTEGRADOR\Git Migracion I\Proyecto_PIT\MvcAuth\MvcAuth\bin\roslyn\System.Text.Encoding.CodePages.dll
+D:\Proyectos\PROYECTO INTEGRADOR\Git Migracion I\Proyecto_PIT\MvcAuth\MvcAuth\bin\roslyn\System.ValueTuple.dll
+D:\Proyectos\PROYECTO INTEGRADOR\Git Migracion I\Proyecto_PIT\MvcAuth\MvcAuth\bin\roslyn\System.Xml.ReaderWriter.dll
+D:\Proyectos\PROYECTO INTEGRADOR\Git Migracion I\Proyecto_PIT\MvcAuth\MvcAuth\bin\roslyn\System.Xml.XmlDocument.dll
+D:\Proyectos\PROYECTO INTEGRADOR\Git Migracion I\Proyecto_PIT\MvcAuth\MvcAuth\bin\roslyn\System.Xml.XPath.dll
+D:\Proyectos\PROYECTO INTEGRADOR\Git Migracion I\Proyecto_PIT\MvcAuth\MvcAuth\bin\roslyn\System.Xml.XPath.XDocument.dll
+D:\Proyectos\PROYECTO INTEGRADOR\Git Migracion I\Proyecto_PIT\MvcAuth\MvcAuth\bin\roslyn\vbc.exe
+D:\Proyectos\PROYECTO INTEGRADOR\Git Migracion I\Proyecto_PIT\MvcAuth\MvcAuth\bin\roslyn\vbc.exe.config
+D:\Proyectos\PROYECTO INTEGRADOR\Git Migracion I\Proyecto_PIT\MvcAuth\MvcAuth\bin\roslyn\vbc.rsp
+D:\Proyectos\PROYECTO INTEGRADOR\Git Migracion I\Proyecto_PIT\MvcAuth\MvcAuth\bin\roslyn\VBCSCompiler.exe
+D:\Proyectos\PROYECTO INTEGRADOR\Git Migracion I\Proyecto_PIT\MvcAuth\MvcAuth\bin\roslyn\VBCSCompiler.exe.config
+D:\Proyectos\PROYECTO INTEGRADOR\Git Migracion I\Proyecto_PIT\MvcAuth\MvcAuth\bin\Antlr3.Runtime.dll
+D:\Proyectos\PROYECTO INTEGRADOR\Git Migracion I\Proyecto_PIT\MvcAuth\MvcAuth\bin\EntityFramework.dll
+D:\Proyectos\PROYECTO INTEGRADOR\Git Migracion I\Proyecto_PIT\MvcAuth\MvcAuth\bin\EntityFramework.SqlServer.dll
+D:\Proyectos\PROYECTO INTEGRADOR\Git Migracion I\Proyecto_PIT\MvcAuth\MvcAuth\bin\Microsoft.AspNet.Identity.Core.dll
+D:\Proyectos\PROYECTO INTEGRADOR\Git Migracion I\Proyecto_PIT\MvcAuth\MvcAuth\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+D:\Proyectos\PROYECTO INTEGRADOR\Git Migracion I\Proyecto_PIT\MvcAuth\MvcAuth\bin\Microsoft.AspNet.Identity.Owin.dll
+D:\Proyectos\PROYECTO INTEGRADOR\Git Migracion I\Proyecto_PIT\MvcAuth\MvcAuth\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+D:\Proyectos\PROYECTO INTEGRADOR\Git Migracion I\Proyecto_PIT\MvcAuth\MvcAuth\bin\Microsoft.Owin.dll
+D:\Proyectos\PROYECTO INTEGRADOR\Git Migracion I\Proyecto_PIT\MvcAuth\MvcAuth\bin\Microsoft.Owin.Host.SystemWeb.dll
+D:\Proyectos\PROYECTO INTEGRADOR\Git Migracion I\Proyecto_PIT\MvcAuth\MvcAuth\bin\Microsoft.Owin.Security.Cookies.dll
+D:\Proyectos\PROYECTO INTEGRADOR\Git Migracion I\Proyecto_PIT\MvcAuth\MvcAuth\bin\Microsoft.Owin.Security.dll
+D:\Proyectos\PROYECTO INTEGRADOR\Git Migracion I\Proyecto_PIT\MvcAuth\MvcAuth\bin\Microsoft.Owin.Security.Facebook.dll
+D:\Proyectos\PROYECTO INTEGRADOR\Git Migracion I\Proyecto_PIT\MvcAuth\MvcAuth\bin\Microsoft.Owin.Security.Google.dll
+D:\Proyectos\PROYECTO INTEGRADOR\Git Migracion I\Proyecto_PIT\MvcAuth\MvcAuth\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+D:\Proyectos\PROYECTO INTEGRADOR\Git Migracion I\Proyecto_PIT\MvcAuth\MvcAuth\bin\Microsoft.Owin.Security.OAuth.dll
+D:\Proyectos\PROYECTO INTEGRADOR\Git Migracion I\Proyecto_PIT\MvcAuth\MvcAuth\bin\Microsoft.Owin.Security.Twitter.dll
+D:\Proyectos\PROYECTO INTEGRADOR\Git Migracion I\Proyecto_PIT\MvcAuth\MvcAuth\bin\Microsoft.Web.Infrastructure.dll
+D:\Proyectos\PROYECTO INTEGRADOR\Git Migracion I\Proyecto_PIT\MvcAuth\MvcAuth\bin\Newtonsoft.Json.dll
+D:\Proyectos\PROYECTO INTEGRADOR\Git Migracion I\Proyecto_PIT\MvcAuth\MvcAuth\bin\Owin.dll
+D:\Proyectos\PROYECTO INTEGRADOR\Git Migracion I\Proyecto_PIT\MvcAuth\MvcAuth\bin\System.Web.Helpers.dll
+D:\Proyectos\PROYECTO INTEGRADOR\Git Migracion I\Proyecto_PIT\MvcAuth\MvcAuth\bin\System.Web.Mvc.dll
+D:\Proyectos\PROYECTO INTEGRADOR\Git Migracion I\Proyecto_PIT\MvcAuth\MvcAuth\bin\System.Web.Optimization.dll
+D:\Proyectos\PROYECTO INTEGRADOR\Git Migracion I\Proyecto_PIT\MvcAuth\MvcAuth\bin\System.Web.Razor.dll
+D:\Proyectos\PROYECTO INTEGRADOR\Git Migracion I\Proyecto_PIT\MvcAuth\MvcAuth\bin\System.Web.WebPages.Deployment.dll
+D:\Proyectos\PROYECTO INTEGRADOR\Git Migracion I\Proyecto_PIT\MvcAuth\MvcAuth\bin\System.Web.WebPages.dll
+D:\Proyectos\PROYECTO INTEGRADOR\Git Migracion I\Proyecto_PIT\MvcAuth\MvcAuth\bin\System.Web.WebPages.Razor.dll
+D:\Proyectos\PROYECTO INTEGRADOR\Git Migracion I\Proyecto_PIT\MvcAuth\MvcAuth\bin\WebGrease.dll
+D:\Proyectos\PROYECTO INTEGRADOR\Git Migracion I\Proyecto_PIT\MvcAuth\MvcAuth\bin\System.Web.Helpers.xml
+D:\Proyectos\PROYECTO INTEGRADOR\Git Migracion I\Proyecto_PIT\MvcAuth\MvcAuth\bin\System.Web.Mvc.xml
+D:\Proyectos\PROYECTO INTEGRADOR\Git Migracion I\Proyecto_PIT\MvcAuth\MvcAuth\bin\System.Web.Optimization.xml
+D:\Proyectos\PROYECTO INTEGRADOR\Git Migracion I\Proyecto_PIT\MvcAuth\MvcAuth\bin\System.Web.Razor.xml
+D:\Proyectos\PROYECTO INTEGRADOR\Git Migracion I\Proyecto_PIT\MvcAuth\MvcAuth\bin\System.Web.WebPages.xml
+D:\Proyectos\PROYECTO INTEGRADOR\Git Migracion I\Proyecto_PIT\MvcAuth\MvcAuth\bin\System.Web.WebPages.Deployment.xml
+D:\Proyectos\PROYECTO INTEGRADOR\Git Migracion I\Proyecto_PIT\MvcAuth\MvcAuth\bin\System.Web.WebPages.Razor.xml
+D:\Proyectos\PROYECTO INTEGRADOR\Git Migracion I\Proyecto_PIT\MvcAuth\MvcAuth\bin\Newtonsoft.Json.xml
+D:\Proyectos\PROYECTO INTEGRADOR\Git Migracion I\Proyecto_PIT\MvcAuth\MvcAuth\bin\Antlr3.Runtime.pdb
+D:\Proyectos\PROYECTO INTEGRADOR\Git Migracion I\Proyecto_PIT\MvcAuth\MvcAuth\bin\EntityFramework.xml
+D:\Proyectos\PROYECTO INTEGRADOR\Git Migracion I\Proyecto_PIT\MvcAuth\MvcAuth\bin\EntityFramework.SqlServer.xml
+D:\Proyectos\PROYECTO INTEGRADOR\Git Migracion I\Proyecto_PIT\MvcAuth\MvcAuth\bin\Microsoft.AspNet.Identity.Core.xml
+D:\Proyectos\PROYECTO INTEGRADOR\Git Migracion I\Proyecto_PIT\MvcAuth\MvcAuth\bin\Microsoft.AspNet.Identity.Owin.xml
+D:\Proyectos\PROYECTO INTEGRADOR\Git Migracion I\Proyecto_PIT\MvcAuth\MvcAuth\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+D:\Proyectos\PROYECTO INTEGRADOR\Git Migracion I\Proyecto_PIT\MvcAuth\MvcAuth\bin\Microsoft.Owin.xml
+D:\Proyectos\PROYECTO INTEGRADOR\Git Migracion I\Proyecto_PIT\MvcAuth\MvcAuth\bin\Microsoft.Owin.Host.SystemWeb.xml
+D:\Proyectos\PROYECTO INTEGRADOR\Git Migracion I\Proyecto_PIT\MvcAuth\MvcAuth\bin\Microsoft.Owin.Security.xml
+D:\Proyectos\PROYECTO INTEGRADOR\Git Migracion I\Proyecto_PIT\MvcAuth\MvcAuth\bin\Microsoft.Owin.Security.Facebook.xml
+D:\Proyectos\PROYECTO INTEGRADOR\Git Migracion I\Proyecto_PIT\MvcAuth\MvcAuth\bin\Microsoft.Owin.Security.Cookies.xml
+D:\Proyectos\PROYECTO INTEGRADOR\Git Migracion I\Proyecto_PIT\MvcAuth\MvcAuth\bin\Microsoft.Owin.Security.Google.xml
+D:\Proyectos\PROYECTO INTEGRADOR\Git Migracion I\Proyecto_PIT\MvcAuth\MvcAuth\bin\Microsoft.Owin.Security.Twitter.xml
+D:\Proyectos\PROYECTO INTEGRADOR\Git Migracion I\Proyecto_PIT\MvcAuth\MvcAuth\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+D:\Proyectos\PROYECTO INTEGRADOR\Git Migracion I\Proyecto_PIT\MvcAuth\MvcAuth\bin\Microsoft.Owin.Security.OAuth.xml
+D:\Proyectos\PROYECTO INTEGRADOR\Git Migracion I\Proyecto_PIT\MvcAuth\MvcAuth\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+D:\Proyectos\PROYECTO INTEGRADOR\Git Migracion I\Proyecto_PIT\MvcAuth\MvcAuth\bin\es\System.Web.Helpers.resources.dll
+D:\Proyectos\PROYECTO INTEGRADOR\Git Migracion I\Proyecto_PIT\MvcAuth\MvcAuth\bin\es\System.Web.Mvc.resources.dll
+D:\Proyectos\PROYECTO INTEGRADOR\Git Migracion I\Proyecto_PIT\MvcAuth\MvcAuth\bin\es\System.Web.Optimization.resources.dll
+D:\Proyectos\PROYECTO INTEGRADOR\Git Migracion I\Proyecto_PIT\MvcAuth\MvcAuth\bin\es\System.Web.Razor.resources.dll
+D:\Proyectos\PROYECTO INTEGRADOR\Git Migracion I\Proyecto_PIT\MvcAuth\MvcAuth\bin\es\System.Web.WebPages.resources.dll
+D:\Proyectos\PROYECTO INTEGRADOR\Git Migracion I\Proyecto_PIT\MvcAuth\MvcAuth\bin\es\System.Web.WebPages.Deployment.resources.dll
+D:\Proyectos\PROYECTO INTEGRADOR\Git Migracion I\Proyecto_PIT\MvcAuth\MvcAuth\bin\es\System.Web.WebPages.Razor.resources.dll
+D:\Proyectos\PROYECTO INTEGRADOR\Git Migracion I\Proyecto_PIT\MvcAuth\MvcAuth\bin\es\EntityFramework.resources.dll
+D:\Proyectos\PROYECTO INTEGRADOR\Git Migracion I\Proyecto_PIT\MvcAuth\MvcAuth\bin\es\EntityFramework.SqlServer.resources.dll
+D:\Proyectos\PROYECTO INTEGRADOR\Git Migracion I\Proyecto_PIT\MvcAuth\MvcAuth\bin\es\Microsoft.AspNet.Identity.Core.resources.dll
+D:\Proyectos\PROYECTO INTEGRADOR\Git Migracion I\Proyecto_PIT\MvcAuth\MvcAuth\bin\es\Microsoft.AspNet.Identity.Owin.resources.dll
+D:\Proyectos\PROYECTO INTEGRADOR\Git Migracion I\Proyecto_PIT\MvcAuth\MvcAuth\bin\es\Microsoft.AspNet.Identity.EntityFramework.resources.dll
+D:\Proyectos\PROYECTO INTEGRADOR\Git Migracion I\Proyecto_PIT\MvcAuth\MvcAuth\obj\Debug\MvcAuth.csprojAssemblyReference.cache
+D:\Proyectos\PROYECTO INTEGRADOR\Git Migracion I\Proyecto_PIT\MvcAuth\MvcAuth\obj\Debug\MvcAuth.Migrations.Init.resources
+D:\Proyectos\PROYECTO INTEGRADOR\Git Migracion I\Proyecto_PIT\MvcAuth\MvcAuth\obj\Debug\MvcAuth.csproj.GenerateResource.cache
+D:\Proyectos\PROYECTO INTEGRADOR\Git Migracion I\Proyecto_PIT\MvcAuth\MvcAuth\obj\Debug\MvcAuth.csproj.CoreCompileInputs.cache
+D:\Proyectos\PROYECTO INTEGRADOR\Git Migracion I\Proyecto_PIT\MvcAuth\MvcAuth\obj\Debug\MvcAuth.csproj.CopyComplete
+D:\Proyectos\PROYECTO INTEGRADOR\Git Migracion I\Proyecto_PIT\MvcAuth\MvcAuth\obj\Debug\MvcAuth.dll
+D:\Proyectos\PROYECTO INTEGRADOR\Git Migracion I\Proyecto_PIT\MvcAuth\MvcAuth\obj\Debug\MvcAuth.pdb
+D:\Proyectos\PROYECTO INTEGRADOR\Proyecto Git Doctor II\MvcAuth\MvcAuth\bin\MvcAuth.dll.config
+D:\Proyectos\PROYECTO INTEGRADOR\Proyecto Git Doctor II\MvcAuth\MvcAuth\bin\MvcAuth.dll
+D:\Proyectos\PROYECTO INTEGRADOR\Proyecto Git Doctor II\MvcAuth\MvcAuth\bin\MvcAuth.pdb
+D:\Proyectos\PROYECTO INTEGRADOR\Proyecto Git Doctor II\MvcAuth\MvcAuth\bin\roslyn\csc.exe
+D:\Proyectos\PROYECTO INTEGRADOR\Proyecto Git Doctor II\MvcAuth\MvcAuth\bin\roslyn\csc.exe.config
+D:\Proyectos\PROYECTO INTEGRADOR\Proyecto Git Doctor II\MvcAuth\MvcAuth\bin\roslyn\csc.rsp
+D:\Proyectos\PROYECTO INTEGRADOR\Proyecto Git Doctor II\MvcAuth\MvcAuth\bin\roslyn\csi.exe
+D:\Proyectos\PROYECTO INTEGRADOR\Proyecto Git Doctor II\MvcAuth\MvcAuth\bin\roslyn\csi.exe.config
+D:\Proyectos\PROYECTO INTEGRADOR\Proyecto Git Doctor II\MvcAuth\MvcAuth\bin\roslyn\csi.rsp
+D:\Proyectos\PROYECTO INTEGRADOR\Proyecto Git Doctor II\MvcAuth\MvcAuth\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+D:\Proyectos\PROYECTO INTEGRADOR\Proyecto Git Doctor II\MvcAuth\MvcAuth\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+D:\Proyectos\PROYECTO INTEGRADOR\Proyecto Git Doctor II\MvcAuth\MvcAuth\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+D:\Proyectos\PROYECTO INTEGRADOR\Proyecto Git Doctor II\MvcAuth\MvcAuth\bin\roslyn\Microsoft.CodeAnalysis.dll
+D:\Proyectos\PROYECTO INTEGRADOR\Proyecto Git Doctor II\MvcAuth\MvcAuth\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+D:\Proyectos\PROYECTO INTEGRADOR\Proyecto Git Doctor II\MvcAuth\MvcAuth\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+D:\Proyectos\PROYECTO INTEGRADOR\Proyecto Git Doctor II\MvcAuth\MvcAuth\bin\roslyn\Microsoft.CSharp.Core.targets
+D:\Proyectos\PROYECTO INTEGRADOR\Proyecto Git Doctor II\MvcAuth\MvcAuth\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+D:\Proyectos\PROYECTO INTEGRADOR\Proyecto Git Doctor II\MvcAuth\MvcAuth\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+D:\Proyectos\PROYECTO INTEGRADOR\Proyecto Git Doctor II\MvcAuth\MvcAuth\bin\roslyn\Microsoft.Managed.Core.targets
+D:\Proyectos\PROYECTO INTEGRADOR\Proyecto Git Doctor II\MvcAuth\MvcAuth\bin\roslyn\Microsoft.VisualBasic.Core.targets
+D:\Proyectos\PROYECTO INTEGRADOR\Proyecto Git Doctor II\MvcAuth\MvcAuth\bin\roslyn\System.AppContext.dll
+D:\Proyectos\PROYECTO INTEGRADOR\Proyecto Git Doctor II\MvcAuth\MvcAuth\bin\roslyn\System.Collections.Immutable.dll
+D:\Proyectos\PROYECTO INTEGRADOR\Proyecto Git Doctor II\MvcAuth\MvcAuth\bin\roslyn\System.Console.dll
+D:\Proyectos\PROYECTO INTEGRADOR\Proyecto Git Doctor II\MvcAuth\MvcAuth\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+D:\Proyectos\PROYECTO INTEGRADOR\Proyecto Git Doctor II\MvcAuth\MvcAuth\bin\roslyn\System.Diagnostics.StackTrace.dll
+D:\Proyectos\PROYECTO INTEGRADOR\Proyecto Git Doctor II\MvcAuth\MvcAuth\bin\roslyn\System.IO.Compression.dll
+D:\Proyectos\PROYECTO INTEGRADOR\Proyecto Git Doctor II\MvcAuth\MvcAuth\bin\roslyn\System.IO.FileSystem.dll
+D:\Proyectos\PROYECTO INTEGRADOR\Proyecto Git Doctor II\MvcAuth\MvcAuth\bin\roslyn\System.IO.FileSystem.Primitives.dll
+D:\Proyectos\PROYECTO INTEGRADOR\Proyecto Git Doctor II\MvcAuth\MvcAuth\bin\roslyn\System.IO.Pipes.AccessControl.dll
+D:\Proyectos\PROYECTO INTEGRADOR\Proyecto Git Doctor II\MvcAuth\MvcAuth\bin\roslyn\System.IO.Pipes.dll
+D:\Proyectos\PROYECTO INTEGRADOR\Proyecto Git Doctor II\MvcAuth\MvcAuth\bin\roslyn\System.Reflection.Metadata.dll
+D:\Proyectos\PROYECTO INTEGRADOR\Proyecto Git Doctor II\MvcAuth\MvcAuth\bin\roslyn\System.Security.AccessControl.dll
+D:\Proyectos\PROYECTO INTEGRADOR\Proyecto Git Doctor II\MvcAuth\MvcAuth\bin\roslyn\System.Security.Claims.dll
+D:\Proyectos\PROYECTO INTEGRADOR\Proyecto Git Doctor II\MvcAuth\MvcAuth\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+D:\Proyectos\PROYECTO INTEGRADOR\Proyecto Git Doctor II\MvcAuth\MvcAuth\bin\roslyn\System.Security.Cryptography.Encoding.dll
+D:\Proyectos\PROYECTO INTEGRADOR\Proyecto Git Doctor II\MvcAuth\MvcAuth\bin\roslyn\System.Security.Cryptography.Primitives.dll
+D:\Proyectos\PROYECTO INTEGRADOR\Proyecto Git Doctor II\MvcAuth\MvcAuth\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+D:\Proyectos\PROYECTO INTEGRADOR\Proyecto Git Doctor II\MvcAuth\MvcAuth\bin\roslyn\System.Security.Principal.Windows.dll
+D:\Proyectos\PROYECTO INTEGRADOR\Proyecto Git Doctor II\MvcAuth\MvcAuth\bin\roslyn\System.Text.Encoding.CodePages.dll
+D:\Proyectos\PROYECTO INTEGRADOR\Proyecto Git Doctor II\MvcAuth\MvcAuth\bin\roslyn\System.ValueTuple.dll
+D:\Proyectos\PROYECTO INTEGRADOR\Proyecto Git Doctor II\MvcAuth\MvcAuth\bin\roslyn\System.Xml.ReaderWriter.dll
+D:\Proyectos\PROYECTO INTEGRADOR\Proyecto Git Doctor II\MvcAuth\MvcAuth\bin\roslyn\System.Xml.XmlDocument.dll
+D:\Proyectos\PROYECTO INTEGRADOR\Proyecto Git Doctor II\MvcAuth\MvcAuth\bin\roslyn\System.Xml.XPath.dll
+D:\Proyectos\PROYECTO INTEGRADOR\Proyecto Git Doctor II\MvcAuth\MvcAuth\bin\roslyn\System.Xml.XPath.XDocument.dll
+D:\Proyectos\PROYECTO INTEGRADOR\Proyecto Git Doctor II\MvcAuth\MvcAuth\bin\roslyn\vbc.exe
+D:\Proyectos\PROYECTO INTEGRADOR\Proyecto Git Doctor II\MvcAuth\MvcAuth\bin\roslyn\vbc.exe.config
+D:\Proyectos\PROYECTO INTEGRADOR\Proyecto Git Doctor II\MvcAuth\MvcAuth\bin\roslyn\vbc.rsp
+D:\Proyectos\PROYECTO INTEGRADOR\Proyecto Git Doctor II\MvcAuth\MvcAuth\bin\roslyn\VBCSCompiler.exe
+D:\Proyectos\PROYECTO INTEGRADOR\Proyecto Git Doctor II\MvcAuth\MvcAuth\bin\roslyn\VBCSCompiler.exe.config
+D:\Proyectos\PROYECTO INTEGRADOR\Proyecto Git Doctor II\MvcAuth\MvcAuth\bin\Antlr3.Runtime.dll
+D:\Proyectos\PROYECTO INTEGRADOR\Proyecto Git Doctor II\MvcAuth\MvcAuth\bin\EntityFramework.dll
+D:\Proyectos\PROYECTO INTEGRADOR\Proyecto Git Doctor II\MvcAuth\MvcAuth\bin\EntityFramework.SqlServer.dll
+D:\Proyectos\PROYECTO INTEGRADOR\Proyecto Git Doctor II\MvcAuth\MvcAuth\bin\Microsoft.AspNet.Identity.Core.dll
+D:\Proyectos\PROYECTO INTEGRADOR\Proyecto Git Doctor II\MvcAuth\MvcAuth\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+D:\Proyectos\PROYECTO INTEGRADOR\Proyecto Git Doctor II\MvcAuth\MvcAuth\bin\Microsoft.AspNet.Identity.Owin.dll
+D:\Proyectos\PROYECTO INTEGRADOR\Proyecto Git Doctor II\MvcAuth\MvcAuth\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+D:\Proyectos\PROYECTO INTEGRADOR\Proyecto Git Doctor II\MvcAuth\MvcAuth\bin\Microsoft.Owin.dll
+D:\Proyectos\PROYECTO INTEGRADOR\Proyecto Git Doctor II\MvcAuth\MvcAuth\bin\Microsoft.Owin.Host.SystemWeb.dll
+D:\Proyectos\PROYECTO INTEGRADOR\Proyecto Git Doctor II\MvcAuth\MvcAuth\bin\Microsoft.Owin.Security.Cookies.dll
+D:\Proyectos\PROYECTO INTEGRADOR\Proyecto Git Doctor II\MvcAuth\MvcAuth\bin\Microsoft.Owin.Security.dll
+D:\Proyectos\PROYECTO INTEGRADOR\Proyecto Git Doctor II\MvcAuth\MvcAuth\bin\Microsoft.Owin.Security.Facebook.dll
+D:\Proyectos\PROYECTO INTEGRADOR\Proyecto Git Doctor II\MvcAuth\MvcAuth\bin\Microsoft.Owin.Security.Google.dll
+D:\Proyectos\PROYECTO INTEGRADOR\Proyecto Git Doctor II\MvcAuth\MvcAuth\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+D:\Proyectos\PROYECTO INTEGRADOR\Proyecto Git Doctor II\MvcAuth\MvcAuth\bin\Microsoft.Owin.Security.OAuth.dll
+D:\Proyectos\PROYECTO INTEGRADOR\Proyecto Git Doctor II\MvcAuth\MvcAuth\bin\Microsoft.Owin.Security.Twitter.dll
+D:\Proyectos\PROYECTO INTEGRADOR\Proyecto Git Doctor II\MvcAuth\MvcAuth\bin\Microsoft.Web.Infrastructure.dll
+D:\Proyectos\PROYECTO INTEGRADOR\Proyecto Git Doctor II\MvcAuth\MvcAuth\bin\Newtonsoft.Json.dll
+D:\Proyectos\PROYECTO INTEGRADOR\Proyecto Git Doctor II\MvcAuth\MvcAuth\bin\Owin.dll
+D:\Proyectos\PROYECTO INTEGRADOR\Proyecto Git Doctor II\MvcAuth\MvcAuth\bin\System.Web.Helpers.dll
+D:\Proyectos\PROYECTO INTEGRADOR\Proyecto Git Doctor II\MvcAuth\MvcAuth\bin\System.Web.Mvc.dll
+D:\Proyectos\PROYECTO INTEGRADOR\Proyecto Git Doctor II\MvcAuth\MvcAuth\bin\System.Web.Optimization.dll
+D:\Proyectos\PROYECTO INTEGRADOR\Proyecto Git Doctor II\MvcAuth\MvcAuth\bin\System.Web.Razor.dll
+D:\Proyectos\PROYECTO INTEGRADOR\Proyecto Git Doctor II\MvcAuth\MvcAuth\bin\System.Web.WebPages.Deployment.dll
+D:\Proyectos\PROYECTO INTEGRADOR\Proyecto Git Doctor II\MvcAuth\MvcAuth\bin\System.Web.WebPages.dll
+D:\Proyectos\PROYECTO INTEGRADOR\Proyecto Git Doctor II\MvcAuth\MvcAuth\bin\System.Web.WebPages.Razor.dll
+D:\Proyectos\PROYECTO INTEGRADOR\Proyecto Git Doctor II\MvcAuth\MvcAuth\bin\WebGrease.dll
+D:\Proyectos\PROYECTO INTEGRADOR\Proyecto Git Doctor II\MvcAuth\MvcAuth\bin\System.Web.Helpers.xml
+D:\Proyectos\PROYECTO INTEGRADOR\Proyecto Git Doctor II\MvcAuth\MvcAuth\bin\System.Web.Mvc.xml
+D:\Proyectos\PROYECTO INTEGRADOR\Proyecto Git Doctor II\MvcAuth\MvcAuth\bin\System.Web.Optimization.xml
+D:\Proyectos\PROYECTO INTEGRADOR\Proyecto Git Doctor II\MvcAuth\MvcAuth\bin\System.Web.Razor.xml
+D:\Proyectos\PROYECTO INTEGRADOR\Proyecto Git Doctor II\MvcAuth\MvcAuth\bin\System.Web.WebPages.xml
+D:\Proyectos\PROYECTO INTEGRADOR\Proyecto Git Doctor II\MvcAuth\MvcAuth\bin\System.Web.WebPages.Deployment.xml
+D:\Proyectos\PROYECTO INTEGRADOR\Proyecto Git Doctor II\MvcAuth\MvcAuth\bin\System.Web.WebPages.Razor.xml
+D:\Proyectos\PROYECTO INTEGRADOR\Proyecto Git Doctor II\MvcAuth\MvcAuth\bin\Newtonsoft.Json.xml
+D:\Proyectos\PROYECTO INTEGRADOR\Proyecto Git Doctor II\MvcAuth\MvcAuth\bin\Antlr3.Runtime.pdb
+D:\Proyectos\PROYECTO INTEGRADOR\Proyecto Git Doctor II\MvcAuth\MvcAuth\bin\EntityFramework.xml
+D:\Proyectos\PROYECTO INTEGRADOR\Proyecto Git Doctor II\MvcAuth\MvcAuth\bin\EntityFramework.SqlServer.xml
+D:\Proyectos\PROYECTO INTEGRADOR\Proyecto Git Doctor II\MvcAuth\MvcAuth\bin\Microsoft.AspNet.Identity.Core.xml
+D:\Proyectos\PROYECTO INTEGRADOR\Proyecto Git Doctor II\MvcAuth\MvcAuth\bin\Microsoft.AspNet.Identity.Owin.xml
+D:\Proyectos\PROYECTO INTEGRADOR\Proyecto Git Doctor II\MvcAuth\MvcAuth\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+D:\Proyectos\PROYECTO INTEGRADOR\Proyecto Git Doctor II\MvcAuth\MvcAuth\bin\Microsoft.Owin.xml
+D:\Proyectos\PROYECTO INTEGRADOR\Proyecto Git Doctor II\MvcAuth\MvcAuth\bin\Microsoft.Owin.Host.SystemWeb.xml
+D:\Proyectos\PROYECTO INTEGRADOR\Proyecto Git Doctor II\MvcAuth\MvcAuth\bin\Microsoft.Owin.Security.xml
+D:\Proyectos\PROYECTO INTEGRADOR\Proyecto Git Doctor II\MvcAuth\MvcAuth\bin\Microsoft.Owin.Security.Facebook.xml
+D:\Proyectos\PROYECTO INTEGRADOR\Proyecto Git Doctor II\MvcAuth\MvcAuth\bin\Microsoft.Owin.Security.Cookies.xml
+D:\Proyectos\PROYECTO INTEGRADOR\Proyecto Git Doctor II\MvcAuth\MvcAuth\bin\Microsoft.Owin.Security.Google.xml
+D:\Proyectos\PROYECTO INTEGRADOR\Proyecto Git Doctor II\MvcAuth\MvcAuth\bin\Microsoft.Owin.Security.Twitter.xml
+D:\Proyectos\PROYECTO INTEGRADOR\Proyecto Git Doctor II\MvcAuth\MvcAuth\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+D:\Proyectos\PROYECTO INTEGRADOR\Proyecto Git Doctor II\MvcAuth\MvcAuth\bin\Microsoft.Owin.Security.OAuth.xml
+D:\Proyectos\PROYECTO INTEGRADOR\Proyecto Git Doctor II\MvcAuth\MvcAuth\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+D:\Proyectos\PROYECTO INTEGRADOR\Proyecto Git Doctor II\MvcAuth\MvcAuth\bin\es\System.Web.Helpers.resources.dll
+D:\Proyectos\PROYECTO INTEGRADOR\Proyecto Git Doctor II\MvcAuth\MvcAuth\bin\es\System.Web.Mvc.resources.dll
+D:\Proyectos\PROYECTO INTEGRADOR\Proyecto Git Doctor II\MvcAuth\MvcAuth\bin\es\System.Web.Optimization.resources.dll
+D:\Proyectos\PROYECTO INTEGRADOR\Proyecto Git Doctor II\MvcAuth\MvcAuth\bin\es\System.Web.Razor.resources.dll
+D:\Proyectos\PROYECTO INTEGRADOR\Proyecto Git Doctor II\MvcAuth\MvcAuth\bin\es\System.Web.WebPages.resources.dll
+D:\Proyectos\PROYECTO INTEGRADOR\Proyecto Git Doctor II\MvcAuth\MvcAuth\bin\es\System.Web.WebPages.Deployment.resources.dll
+D:\Proyectos\PROYECTO INTEGRADOR\Proyecto Git Doctor II\MvcAuth\MvcAuth\bin\es\System.Web.WebPages.Razor.resources.dll
+D:\Proyectos\PROYECTO INTEGRADOR\Proyecto Git Doctor II\MvcAuth\MvcAuth\bin\es\EntityFramework.resources.dll
+D:\Proyectos\PROYECTO INTEGRADOR\Proyecto Git Doctor II\MvcAuth\MvcAuth\bin\es\EntityFramework.SqlServer.resources.dll
+D:\Proyectos\PROYECTO INTEGRADOR\Proyecto Git Doctor II\MvcAuth\MvcAuth\bin\es\Microsoft.AspNet.Identity.Core.resources.dll
+D:\Proyectos\PROYECTO INTEGRADOR\Proyecto Git Doctor II\MvcAuth\MvcAuth\bin\es\Microsoft.AspNet.Identity.Owin.resources.dll
+D:\Proyectos\PROYECTO INTEGRADOR\Proyecto Git Doctor II\MvcAuth\MvcAuth\bin\es\Microsoft.AspNet.Identity.EntityFramework.resources.dll
+D:\Proyectos\PROYECTO INTEGRADOR\Proyecto Git Doctor II\MvcAuth\MvcAuth\obj\Debug\MvcAuth.Migrations.Init.resources
+D:\Proyectos\PROYECTO INTEGRADOR\Proyecto Git Doctor II\MvcAuth\MvcAuth\obj\Debug\MvcAuth.csproj.GenerateResource.cache
+D:\Proyectos\PROYECTO INTEGRADOR\Proyecto Git Doctor II\MvcAuth\MvcAuth\obj\Debug\MvcAuth.csproj.CoreCompileInputs.cache
+D:\Proyectos\PROYECTO INTEGRADOR\Proyecto Git Doctor II\MvcAuth\MvcAuth\obj\Debug\MvcAuth.csproj.CopyComplete
+D:\Proyectos\PROYECTO INTEGRADOR\Proyecto Git Doctor II\MvcAuth\MvcAuth\obj\Debug\MvcAuth.dll
+D:\Proyectos\PROYECTO INTEGRADOR\Proyecto Git Doctor II\MvcAuth\MvcAuth\obj\Debug\MvcAuth.pdb
+D:\Proyectos\PROYECTO INTEGRADOR\Proyecto Git Doctor II\MvcAuth\MvcAuth\obj\Debug\MvcAuth.csprojAssemblyReference.cache
+G:\New Activity\PITProject\MvcAuth\bin\MvcAuth.dll.config
+G:\New Activity\PITProject\MvcAuth\bin\MvcAuth.dll
+G:\New Activity\PITProject\MvcAuth\bin\MvcAuth.pdb
+G:\New Activity\PITProject\MvcAuth\bin\roslyn\csc.exe
+G:\New Activity\PITProject\MvcAuth\bin\roslyn\csc.exe.config
+G:\New Activity\PITProject\MvcAuth\bin\roslyn\csc.rsp
+G:\New Activity\PITProject\MvcAuth\bin\roslyn\csi.exe
+G:\New Activity\PITProject\MvcAuth\bin\roslyn\csi.exe.config
+G:\New Activity\PITProject\MvcAuth\bin\roslyn\csi.rsp
+G:\New Activity\PITProject\MvcAuth\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+G:\New Activity\PITProject\MvcAuth\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+G:\New Activity\PITProject\MvcAuth\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+G:\New Activity\PITProject\MvcAuth\bin\roslyn\Microsoft.CodeAnalysis.dll
+G:\New Activity\PITProject\MvcAuth\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+G:\New Activity\PITProject\MvcAuth\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+G:\New Activity\PITProject\MvcAuth\bin\roslyn\Microsoft.CSharp.Core.targets
+G:\New Activity\PITProject\MvcAuth\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+G:\New Activity\PITProject\MvcAuth\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+G:\New Activity\PITProject\MvcAuth\bin\roslyn\Microsoft.Managed.Core.targets
+G:\New Activity\PITProject\MvcAuth\bin\roslyn\Microsoft.VisualBasic.Core.targets
+G:\New Activity\PITProject\MvcAuth\bin\roslyn\System.AppContext.dll
+G:\New Activity\PITProject\MvcAuth\bin\roslyn\System.Collections.Immutable.dll
+G:\New Activity\PITProject\MvcAuth\bin\roslyn\System.Console.dll
+G:\New Activity\PITProject\MvcAuth\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+G:\New Activity\PITProject\MvcAuth\bin\roslyn\System.Diagnostics.StackTrace.dll
+G:\New Activity\PITProject\MvcAuth\bin\roslyn\System.IO.Compression.dll
+G:\New Activity\PITProject\MvcAuth\bin\roslyn\System.IO.FileSystem.dll
+G:\New Activity\PITProject\MvcAuth\bin\roslyn\System.IO.FileSystem.Primitives.dll
+G:\New Activity\PITProject\MvcAuth\bin\roslyn\System.IO.Pipes.AccessControl.dll
+G:\New Activity\PITProject\MvcAuth\bin\roslyn\System.IO.Pipes.dll
+G:\New Activity\PITProject\MvcAuth\bin\roslyn\System.Reflection.Metadata.dll
+G:\New Activity\PITProject\MvcAuth\bin\roslyn\System.Security.AccessControl.dll
+G:\New Activity\PITProject\MvcAuth\bin\roslyn\System.Security.Claims.dll
+G:\New Activity\PITProject\MvcAuth\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+G:\New Activity\PITProject\MvcAuth\bin\roslyn\System.Security.Cryptography.Encoding.dll
+G:\New Activity\PITProject\MvcAuth\bin\roslyn\System.Security.Cryptography.Primitives.dll
+G:\New Activity\PITProject\MvcAuth\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+G:\New Activity\PITProject\MvcAuth\bin\roslyn\System.Security.Principal.Windows.dll
+G:\New Activity\PITProject\MvcAuth\bin\roslyn\System.Text.Encoding.CodePages.dll
+G:\New Activity\PITProject\MvcAuth\bin\roslyn\System.ValueTuple.dll
+G:\New Activity\PITProject\MvcAuth\bin\roslyn\System.Xml.ReaderWriter.dll
+G:\New Activity\PITProject\MvcAuth\bin\roslyn\System.Xml.XmlDocument.dll
+G:\New Activity\PITProject\MvcAuth\bin\roslyn\System.Xml.XPath.dll
+G:\New Activity\PITProject\MvcAuth\bin\roslyn\System.Xml.XPath.XDocument.dll
+G:\New Activity\PITProject\MvcAuth\bin\roslyn\vbc.exe
+G:\New Activity\PITProject\MvcAuth\bin\roslyn\vbc.exe.config
+G:\New Activity\PITProject\MvcAuth\bin\roslyn\vbc.rsp
+G:\New Activity\PITProject\MvcAuth\bin\roslyn\VBCSCompiler.exe
+G:\New Activity\PITProject\MvcAuth\bin\roslyn\VBCSCompiler.exe.config
+G:\New Activity\PITProject\MvcAuth\bin\Antlr3.Runtime.dll
+G:\New Activity\PITProject\MvcAuth\bin\EntityFramework.dll
+G:\New Activity\PITProject\MvcAuth\bin\EntityFramework.SqlServer.dll
+G:\New Activity\PITProject\MvcAuth\bin\Microsoft.AspNet.Identity.Core.dll
+G:\New Activity\PITProject\MvcAuth\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+G:\New Activity\PITProject\MvcAuth\bin\Microsoft.AspNet.Identity.Owin.dll
+G:\New Activity\PITProject\MvcAuth\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+G:\New Activity\PITProject\MvcAuth\bin\Microsoft.Owin.dll
+G:\New Activity\PITProject\MvcAuth\bin\Microsoft.Owin.Host.SystemWeb.dll
+G:\New Activity\PITProject\MvcAuth\bin\Microsoft.Owin.Security.Cookies.dll
+G:\New Activity\PITProject\MvcAuth\bin\Microsoft.Owin.Security.dll
+G:\New Activity\PITProject\MvcAuth\bin\Microsoft.Owin.Security.Facebook.dll
+G:\New Activity\PITProject\MvcAuth\bin\Microsoft.Owin.Security.Google.dll
+G:\New Activity\PITProject\MvcAuth\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+G:\New Activity\PITProject\MvcAuth\bin\Microsoft.Owin.Security.OAuth.dll
+G:\New Activity\PITProject\MvcAuth\bin\Microsoft.Owin.Security.Twitter.dll
+G:\New Activity\PITProject\MvcAuth\bin\Microsoft.Web.Infrastructure.dll
+G:\New Activity\PITProject\MvcAuth\bin\Newtonsoft.Json.dll
+G:\New Activity\PITProject\MvcAuth\bin\Owin.dll
+G:\New Activity\PITProject\MvcAuth\bin\System.Web.Helpers.dll
+G:\New Activity\PITProject\MvcAuth\bin\System.Web.Mvc.dll
+G:\New Activity\PITProject\MvcAuth\bin\System.Web.Optimization.dll
+G:\New Activity\PITProject\MvcAuth\bin\System.Web.Razor.dll
+G:\New Activity\PITProject\MvcAuth\bin\System.Web.WebPages.Deployment.dll
+G:\New Activity\PITProject\MvcAuth\bin\System.Web.WebPages.dll
+G:\New Activity\PITProject\MvcAuth\bin\System.Web.WebPages.Razor.dll
+G:\New Activity\PITProject\MvcAuth\bin\WebGrease.dll
+G:\New Activity\PITProject\MvcAuth\bin\System.Web.Helpers.xml
+G:\New Activity\PITProject\MvcAuth\bin\System.Web.Mvc.xml
+G:\New Activity\PITProject\MvcAuth\bin\System.Web.Optimization.xml
+G:\New Activity\PITProject\MvcAuth\bin\System.Web.Razor.xml
+G:\New Activity\PITProject\MvcAuth\bin\System.Web.WebPages.xml
+G:\New Activity\PITProject\MvcAuth\bin\System.Web.WebPages.Deployment.xml
+G:\New Activity\PITProject\MvcAuth\bin\System.Web.WebPages.Razor.xml
+G:\New Activity\PITProject\MvcAuth\bin\Newtonsoft.Json.xml
+G:\New Activity\PITProject\MvcAuth\bin\Antlr3.Runtime.pdb
+G:\New Activity\PITProject\MvcAuth\bin\EntityFramework.xml
+G:\New Activity\PITProject\MvcAuth\bin\EntityFramework.SqlServer.xml
+G:\New Activity\PITProject\MvcAuth\bin\Microsoft.AspNet.Identity.Core.xml
+G:\New Activity\PITProject\MvcAuth\bin\Microsoft.AspNet.Identity.Owin.xml
+G:\New Activity\PITProject\MvcAuth\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+G:\New Activity\PITProject\MvcAuth\bin\Microsoft.Owin.xml
+G:\New Activity\PITProject\MvcAuth\bin\Microsoft.Owin.Host.SystemWeb.xml
+G:\New Activity\PITProject\MvcAuth\bin\Microsoft.Owin.Security.xml
+G:\New Activity\PITProject\MvcAuth\bin\Microsoft.Owin.Security.Facebook.xml
+G:\New Activity\PITProject\MvcAuth\bin\Microsoft.Owin.Security.Cookies.xml
+G:\New Activity\PITProject\MvcAuth\bin\Microsoft.Owin.Security.Google.xml
+G:\New Activity\PITProject\MvcAuth\bin\Microsoft.Owin.Security.Twitter.xml
+G:\New Activity\PITProject\MvcAuth\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+G:\New Activity\PITProject\MvcAuth\bin\Microsoft.Owin.Security.OAuth.xml
+G:\New Activity\PITProject\MvcAuth\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+G:\New Activity\PITProject\MvcAuth\bin\es\System.Web.Helpers.resources.dll
+G:\New Activity\PITProject\MvcAuth\bin\es\System.Web.Mvc.resources.dll
+G:\New Activity\PITProject\MvcAuth\bin\es\System.Web.Optimization.resources.dll
+G:\New Activity\PITProject\MvcAuth\bin\es\System.Web.Razor.resources.dll
+G:\New Activity\PITProject\MvcAuth\bin\es\System.Web.WebPages.resources.dll
+G:\New Activity\PITProject\MvcAuth\bin\es\System.Web.WebPages.Deployment.resources.dll
+G:\New Activity\PITProject\MvcAuth\bin\es\System.Web.WebPages.Razor.resources.dll
+G:\New Activity\PITProject\MvcAuth\bin\es\EntityFramework.resources.dll
+G:\New Activity\PITProject\MvcAuth\bin\es\EntityFramework.SqlServer.resources.dll
+G:\New Activity\PITProject\MvcAuth\bin\es\Microsoft.AspNet.Identity.Core.resources.dll
+G:\New Activity\PITProject\MvcAuth\bin\es\Microsoft.AspNet.Identity.Owin.resources.dll
+G:\New Activity\PITProject\MvcAuth\bin\es\Microsoft.AspNet.Identity.EntityFramework.resources.dll
+G:\New Activity\PITProject\MvcAuth\obj\Debug\MvcAuth.csprojAssemblyReference.cache
+G:\New Activity\PITProject\MvcAuth\obj\Debug\MvcAuth.Migrations.Init.resources
+G:\New Activity\PITProject\MvcAuth\obj\Debug\MvcAuth.csproj.GenerateResource.cache
+G:\New Activity\PITProject\MvcAuth\obj\Debug\MvcAuth.csproj.CopyComplete
+G:\New Activity\PITProject\MvcAuth\obj\Debug\MvcAuth.dll
+G:\New Activity\PITProject\MvcAuth\obj\Debug\MvcAuth.pdb
+C:\Users\ronal\Documents\Entregable_02\PITProject\MvcAuth\bin\MvcAuth.dll.config
+C:\Users\ronal\Documents\Entregable_02\PITProject\MvcAuth\bin\MvcAuth.dll
+C:\Users\ronal\Documents\Entregable_02\PITProject\MvcAuth\bin\MvcAuth.pdb
+C:\Users\ronal\Documents\Entregable_02\PITProject\MvcAuth\bin\roslyn\csc.exe
+C:\Users\ronal\Documents\Entregable_02\PITProject\MvcAuth\bin\roslyn\csc.exe.config
+C:\Users\ronal\Documents\Entregable_02\PITProject\MvcAuth\bin\roslyn\csc.rsp
+C:\Users\ronal\Documents\Entregable_02\PITProject\MvcAuth\bin\roslyn\csi.exe
+C:\Users\ronal\Documents\Entregable_02\PITProject\MvcAuth\bin\roslyn\csi.exe.config
+C:\Users\ronal\Documents\Entregable_02\PITProject\MvcAuth\bin\roslyn\csi.rsp
+C:\Users\ronal\Documents\Entregable_02\PITProject\MvcAuth\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\ronal\Documents\Entregable_02\PITProject\MvcAuth\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\ronal\Documents\Entregable_02\PITProject\MvcAuth\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\ronal\Documents\Entregable_02\PITProject\MvcAuth\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\ronal\Documents\Entregable_02\PITProject\MvcAuth\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\ronal\Documents\Entregable_02\PITProject\MvcAuth\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\ronal\Documents\Entregable_02\PITProject\MvcAuth\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\ronal\Documents\Entregable_02\PITProject\MvcAuth\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\ronal\Documents\Entregable_02\PITProject\MvcAuth\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\ronal\Documents\Entregable_02\PITProject\MvcAuth\bin\roslyn\Microsoft.Managed.Core.targets
+C:\Users\ronal\Documents\Entregable_02\PITProject\MvcAuth\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\ronal\Documents\Entregable_02\PITProject\MvcAuth\bin\roslyn\System.AppContext.dll
+C:\Users\ronal\Documents\Entregable_02\PITProject\MvcAuth\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\ronal\Documents\Entregable_02\PITProject\MvcAuth\bin\roslyn\System.Console.dll
+C:\Users\ronal\Documents\Entregable_02\PITProject\MvcAuth\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+C:\Users\ronal\Documents\Entregable_02\PITProject\MvcAuth\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\ronal\Documents\Entregable_02\PITProject\MvcAuth\bin\roslyn\System.IO.Compression.dll
+C:\Users\ronal\Documents\Entregable_02\PITProject\MvcAuth\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\ronal\Documents\Entregable_02\PITProject\MvcAuth\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\ronal\Documents\Entregable_02\PITProject\MvcAuth\bin\roslyn\System.IO.Pipes.AccessControl.dll
+C:\Users\ronal\Documents\Entregable_02\PITProject\MvcAuth\bin\roslyn\System.IO.Pipes.dll
+C:\Users\ronal\Documents\Entregable_02\PITProject\MvcAuth\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\ronal\Documents\Entregable_02\PITProject\MvcAuth\bin\roslyn\System.Security.AccessControl.dll
+C:\Users\ronal\Documents\Entregable_02\PITProject\MvcAuth\bin\roslyn\System.Security.Claims.dll
+C:\Users\ronal\Documents\Entregable_02\PITProject\MvcAuth\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+C:\Users\ronal\Documents\Entregable_02\PITProject\MvcAuth\bin\roslyn\System.Security.Cryptography.Encoding.dll
+C:\Users\ronal\Documents\Entregable_02\PITProject\MvcAuth\bin\roslyn\System.Security.Cryptography.Primitives.dll
+C:\Users\ronal\Documents\Entregable_02\PITProject\MvcAuth\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+C:\Users\ronal\Documents\Entregable_02\PITProject\MvcAuth\bin\roslyn\System.Security.Principal.Windows.dll
+C:\Users\ronal\Documents\Entregable_02\PITProject\MvcAuth\bin\roslyn\System.Text.Encoding.CodePages.dll
+C:\Users\ronal\Documents\Entregable_02\PITProject\MvcAuth\bin\roslyn\System.ValueTuple.dll
+C:\Users\ronal\Documents\Entregable_02\PITProject\MvcAuth\bin\roslyn\System.Xml.ReaderWriter.dll
+C:\Users\ronal\Documents\Entregable_02\PITProject\MvcAuth\bin\roslyn\System.Xml.XmlDocument.dll
+C:\Users\ronal\Documents\Entregable_02\PITProject\MvcAuth\bin\roslyn\System.Xml.XPath.dll
+C:\Users\ronal\Documents\Entregable_02\PITProject\MvcAuth\bin\roslyn\System.Xml.XPath.XDocument.dll
+C:\Users\ronal\Documents\Entregable_02\PITProject\MvcAuth\bin\roslyn\vbc.exe
+C:\Users\ronal\Documents\Entregable_02\PITProject\MvcAuth\bin\roslyn\vbc.exe.config
+C:\Users\ronal\Documents\Entregable_02\PITProject\MvcAuth\bin\roslyn\vbc.rsp
+C:\Users\ronal\Documents\Entregable_02\PITProject\MvcAuth\bin\roslyn\VBCSCompiler.exe
+C:\Users\ronal\Documents\Entregable_02\PITProject\MvcAuth\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\ronal\Documents\Entregable_02\PITProject\MvcAuth\bin\Antlr3.Runtime.dll
+C:\Users\ronal\Documents\Entregable_02\PITProject\MvcAuth\bin\EntityFramework.dll
+C:\Users\ronal\Documents\Entregable_02\PITProject\MvcAuth\bin\EntityFramework.SqlServer.dll
+C:\Users\ronal\Documents\Entregable_02\PITProject\MvcAuth\bin\Microsoft.AspNet.Identity.Core.dll
+C:\Users\ronal\Documents\Entregable_02\PITProject\MvcAuth\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+C:\Users\ronal\Documents\Entregable_02\PITProject\MvcAuth\bin\Microsoft.AspNet.Identity.Owin.dll
+C:\Users\ronal\Documents\Entregable_02\PITProject\MvcAuth\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\ronal\Documents\Entregable_02\PITProject\MvcAuth\bin\Microsoft.Owin.dll
+C:\Users\ronal\Documents\Entregable_02\PITProject\MvcAuth\bin\Microsoft.Owin.Host.SystemWeb.dll
+C:\Users\ronal\Documents\Entregable_02\PITProject\MvcAuth\bin\Microsoft.Owin.Security.Cookies.dll
+C:\Users\ronal\Documents\Entregable_02\PITProject\MvcAuth\bin\Microsoft.Owin.Security.dll
+C:\Users\ronal\Documents\Entregable_02\PITProject\MvcAuth\bin\Microsoft.Owin.Security.Facebook.dll
+C:\Users\ronal\Documents\Entregable_02\PITProject\MvcAuth\bin\Microsoft.Owin.Security.Google.dll
+C:\Users\ronal\Documents\Entregable_02\PITProject\MvcAuth\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+C:\Users\ronal\Documents\Entregable_02\PITProject\MvcAuth\bin\Microsoft.Owin.Security.OAuth.dll
+C:\Users\ronal\Documents\Entregable_02\PITProject\MvcAuth\bin\Microsoft.Owin.Security.Twitter.dll
+C:\Users\ronal\Documents\Entregable_02\PITProject\MvcAuth\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\ronal\Documents\Entregable_02\PITProject\MvcAuth\bin\Newtonsoft.Json.dll
+C:\Users\ronal\Documents\Entregable_02\PITProject\MvcAuth\bin\Owin.dll
+C:\Users\ronal\Documents\Entregable_02\PITProject\MvcAuth\bin\System.Web.Helpers.dll
+C:\Users\ronal\Documents\Entregable_02\PITProject\MvcAuth\bin\System.Web.Mvc.dll
+C:\Users\ronal\Documents\Entregable_02\PITProject\MvcAuth\bin\System.Web.Optimization.dll
+C:\Users\ronal\Documents\Entregable_02\PITProject\MvcAuth\bin\System.Web.Razor.dll
+C:\Users\ronal\Documents\Entregable_02\PITProject\MvcAuth\bin\System.Web.WebPages.Deployment.dll
+C:\Users\ronal\Documents\Entregable_02\PITProject\MvcAuth\bin\System.Web.WebPages.dll
+C:\Users\ronal\Documents\Entregable_02\PITProject\MvcAuth\bin\System.Web.WebPages.Razor.dll
+C:\Users\ronal\Documents\Entregable_02\PITProject\MvcAuth\bin\WebGrease.dll
+C:\Users\ronal\Documents\Entregable_02\PITProject\MvcAuth\bin\System.Web.Helpers.xml
+C:\Users\ronal\Documents\Entregable_02\PITProject\MvcAuth\bin\System.Web.Mvc.xml
+C:\Users\ronal\Documents\Entregable_02\PITProject\MvcAuth\bin\System.Web.Optimization.xml
+C:\Users\ronal\Documents\Entregable_02\PITProject\MvcAuth\bin\System.Web.Razor.xml
+C:\Users\ronal\Documents\Entregable_02\PITProject\MvcAuth\bin\System.Web.WebPages.xml
+C:\Users\ronal\Documents\Entregable_02\PITProject\MvcAuth\bin\System.Web.WebPages.Deployment.xml
+C:\Users\ronal\Documents\Entregable_02\PITProject\MvcAuth\bin\System.Web.WebPages.Razor.xml
+C:\Users\ronal\Documents\Entregable_02\PITProject\MvcAuth\bin\Newtonsoft.Json.xml
+C:\Users\ronal\Documents\Entregable_02\PITProject\MvcAuth\bin\Antlr3.Runtime.pdb
+C:\Users\ronal\Documents\Entregable_02\PITProject\MvcAuth\bin\EntityFramework.xml
+C:\Users\ronal\Documents\Entregable_02\PITProject\MvcAuth\bin\EntityFramework.SqlServer.xml
+C:\Users\ronal\Documents\Entregable_02\PITProject\MvcAuth\bin\Microsoft.AspNet.Identity.Core.xml
+C:\Users\ronal\Documents\Entregable_02\PITProject\MvcAuth\bin\Microsoft.AspNet.Identity.Owin.xml
+C:\Users\ronal\Documents\Entregable_02\PITProject\MvcAuth\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+C:\Users\ronal\Documents\Entregable_02\PITProject\MvcAuth\bin\Microsoft.Owin.xml
+C:\Users\ronal\Documents\Entregable_02\PITProject\MvcAuth\bin\Microsoft.Owin.Host.SystemWeb.xml
+C:\Users\ronal\Documents\Entregable_02\PITProject\MvcAuth\bin\Microsoft.Owin.Security.xml
+C:\Users\ronal\Documents\Entregable_02\PITProject\MvcAuth\bin\Microsoft.Owin.Security.Facebook.xml
+C:\Users\ronal\Documents\Entregable_02\PITProject\MvcAuth\bin\Microsoft.Owin.Security.Cookies.xml
+C:\Users\ronal\Documents\Entregable_02\PITProject\MvcAuth\bin\Microsoft.Owin.Security.Google.xml
+C:\Users\ronal\Documents\Entregable_02\PITProject\MvcAuth\bin\Microsoft.Owin.Security.Twitter.xml
+C:\Users\ronal\Documents\Entregable_02\PITProject\MvcAuth\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+C:\Users\ronal\Documents\Entregable_02\PITProject\MvcAuth\bin\Microsoft.Owin.Security.OAuth.xml
+C:\Users\ronal\Documents\Entregable_02\PITProject\MvcAuth\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\ronal\Documents\Entregable_02\PITProject\MvcAuth\bin\es\System.Web.Helpers.resources.dll
+C:\Users\ronal\Documents\Entregable_02\PITProject\MvcAuth\bin\es\System.Web.Mvc.resources.dll
+C:\Users\ronal\Documents\Entregable_02\PITProject\MvcAuth\bin\es\System.Web.Optimization.resources.dll
+C:\Users\ronal\Documents\Entregable_02\PITProject\MvcAuth\bin\es\System.Web.Razor.resources.dll
+C:\Users\ronal\Documents\Entregable_02\PITProject\MvcAuth\bin\es\System.Web.WebPages.resources.dll
+C:\Users\ronal\Documents\Entregable_02\PITProject\MvcAuth\bin\es\System.Web.WebPages.Deployment.resources.dll
+C:\Users\ronal\Documents\Entregable_02\PITProject\MvcAuth\bin\es\System.Web.WebPages.Razor.resources.dll
+C:\Users\ronal\Documents\Entregable_02\PITProject\MvcAuth\bin\es\EntityFramework.resources.dll
+C:\Users\ronal\Documents\Entregable_02\PITProject\MvcAuth\bin\es\EntityFramework.SqlServer.resources.dll
+C:\Users\ronal\Documents\Entregable_02\PITProject\MvcAuth\bin\es\Microsoft.AspNet.Identity.Core.resources.dll
+C:\Users\ronal\Documents\Entregable_02\PITProject\MvcAuth\bin\es\Microsoft.AspNet.Identity.Owin.resources.dll
+C:\Users\ronal\Documents\Entregable_02\PITProject\MvcAuth\bin\es\Microsoft.AspNet.Identity.EntityFramework.resources.dll
+C:\Users\ronal\Documents\Entregable_02\PITProject\MvcAuth\obj\Debug\MvcAuth.csprojAssemblyReference.cache
+C:\Users\ronal\Documents\Entregable_02\PITProject\MvcAuth\obj\Debug\MvcAuth.Migrations.Init.resources
+C:\Users\ronal\Documents\Entregable_02\PITProject\MvcAuth\obj\Debug\MvcAuth.csproj.GenerateResource.cache
+C:\Users\ronal\Documents\Entregable_02\PITProject\MvcAuth\obj\Debug\MvcAuth.csproj.CopyComplete
+C:\Users\ronal\Documents\Entregable_02\PITProject\MvcAuth\obj\Debug\MvcAuth.dll
+C:\Users\ronal\Documents\Entregable_02\PITProject\MvcAuth\obj\Debug\MvcAuth.pdb
+D:\Proyectos\PROYECTO INTEGRADOR\Proyecto Git Doctor III\PITProject-master\MvcAuth\bin\MvcAuth.dll.config
+D:\Proyectos\PROYECTO INTEGRADOR\Proyecto Git Doctor III\PITProject-master\MvcAuth\bin\MvcAuth.dll
+D:\Proyectos\PROYECTO INTEGRADOR\Proyecto Git Doctor III\PITProject-master\MvcAuth\bin\MvcAuth.pdb
+D:\Proyectos\PROYECTO INTEGRADOR\Proyecto Git Doctor III\PITProject-master\MvcAuth\bin\roslyn\csc.exe
+D:\Proyectos\PROYECTO INTEGRADOR\Proyecto Git Doctor III\PITProject-master\MvcAuth\bin\roslyn\csc.exe.config
+D:\Proyectos\PROYECTO INTEGRADOR\Proyecto Git Doctor III\PITProject-master\MvcAuth\bin\roslyn\csc.rsp
+D:\Proyectos\PROYECTO INTEGRADOR\Proyecto Git Doctor III\PITProject-master\MvcAuth\bin\roslyn\csi.exe
+D:\Proyectos\PROYECTO INTEGRADOR\Proyecto Git Doctor III\PITProject-master\MvcAuth\bin\roslyn\csi.exe.config
+D:\Proyectos\PROYECTO INTEGRADOR\Proyecto Git Doctor III\PITProject-master\MvcAuth\bin\roslyn\csi.rsp
+D:\Proyectos\PROYECTO INTEGRADOR\Proyecto Git Doctor III\PITProject-master\MvcAuth\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+D:\Proyectos\PROYECTO INTEGRADOR\Proyecto Git Doctor III\PITProject-master\MvcAuth\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+D:\Proyectos\PROYECTO INTEGRADOR\Proyecto Git Doctor III\PITProject-master\MvcAuth\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+D:\Proyectos\PROYECTO INTEGRADOR\Proyecto Git Doctor III\PITProject-master\MvcAuth\bin\roslyn\Microsoft.CodeAnalysis.dll
+D:\Proyectos\PROYECTO INTEGRADOR\Proyecto Git Doctor III\PITProject-master\MvcAuth\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+D:\Proyectos\PROYECTO INTEGRADOR\Proyecto Git Doctor III\PITProject-master\MvcAuth\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+D:\Proyectos\PROYECTO INTEGRADOR\Proyecto Git Doctor III\PITProject-master\MvcAuth\bin\roslyn\Microsoft.CSharp.Core.targets
+D:\Proyectos\PROYECTO INTEGRADOR\Proyecto Git Doctor III\PITProject-master\MvcAuth\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+D:\Proyectos\PROYECTO INTEGRADOR\Proyecto Git Doctor III\PITProject-master\MvcAuth\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+D:\Proyectos\PROYECTO INTEGRADOR\Proyecto Git Doctor III\PITProject-master\MvcAuth\bin\roslyn\Microsoft.Managed.Core.targets
+D:\Proyectos\PROYECTO INTEGRADOR\Proyecto Git Doctor III\PITProject-master\MvcAuth\bin\roslyn\Microsoft.VisualBasic.Core.targets
+D:\Proyectos\PROYECTO INTEGRADOR\Proyecto Git Doctor III\PITProject-master\MvcAuth\bin\roslyn\System.AppContext.dll
+D:\Proyectos\PROYECTO INTEGRADOR\Proyecto Git Doctor III\PITProject-master\MvcAuth\bin\roslyn\System.Collections.Immutable.dll
+D:\Proyectos\PROYECTO INTEGRADOR\Proyecto Git Doctor III\PITProject-master\MvcAuth\bin\roslyn\System.Console.dll
+D:\Proyectos\PROYECTO INTEGRADOR\Proyecto Git Doctor III\PITProject-master\MvcAuth\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+D:\Proyectos\PROYECTO INTEGRADOR\Proyecto Git Doctor III\PITProject-master\MvcAuth\bin\roslyn\System.Diagnostics.StackTrace.dll
+D:\Proyectos\PROYECTO INTEGRADOR\Proyecto Git Doctor III\PITProject-master\MvcAuth\bin\roslyn\System.IO.Compression.dll
+D:\Proyectos\PROYECTO INTEGRADOR\Proyecto Git Doctor III\PITProject-master\MvcAuth\bin\roslyn\System.IO.FileSystem.dll
+D:\Proyectos\PROYECTO INTEGRADOR\Proyecto Git Doctor III\PITProject-master\MvcAuth\bin\roslyn\System.IO.FileSystem.Primitives.dll
+D:\Proyectos\PROYECTO INTEGRADOR\Proyecto Git Doctor III\PITProject-master\MvcAuth\bin\roslyn\System.IO.Pipes.AccessControl.dll
+D:\Proyectos\PROYECTO INTEGRADOR\Proyecto Git Doctor III\PITProject-master\MvcAuth\bin\roslyn\System.IO.Pipes.dll
+D:\Proyectos\PROYECTO INTEGRADOR\Proyecto Git Doctor III\PITProject-master\MvcAuth\bin\roslyn\System.Reflection.Metadata.dll
+D:\Proyectos\PROYECTO INTEGRADOR\Proyecto Git Doctor III\PITProject-master\MvcAuth\bin\roslyn\System.Security.AccessControl.dll
+D:\Proyectos\PROYECTO INTEGRADOR\Proyecto Git Doctor III\PITProject-master\MvcAuth\bin\roslyn\System.Security.Claims.dll
+D:\Proyectos\PROYECTO INTEGRADOR\Proyecto Git Doctor III\PITProject-master\MvcAuth\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+D:\Proyectos\PROYECTO INTEGRADOR\Proyecto Git Doctor III\PITProject-master\MvcAuth\bin\roslyn\System.Security.Cryptography.Encoding.dll
+D:\Proyectos\PROYECTO INTEGRADOR\Proyecto Git Doctor III\PITProject-master\MvcAuth\bin\roslyn\System.Security.Cryptography.Primitives.dll
+D:\Proyectos\PROYECTO INTEGRADOR\Proyecto Git Doctor III\PITProject-master\MvcAuth\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+D:\Proyectos\PROYECTO INTEGRADOR\Proyecto Git Doctor III\PITProject-master\MvcAuth\bin\roslyn\System.Security.Principal.Windows.dll
+D:\Proyectos\PROYECTO INTEGRADOR\Proyecto Git Doctor III\PITProject-master\MvcAuth\bin\roslyn\System.Text.Encoding.CodePages.dll
+D:\Proyectos\PROYECTO INTEGRADOR\Proyecto Git Doctor III\PITProject-master\MvcAuth\bin\roslyn\System.ValueTuple.dll
+D:\Proyectos\PROYECTO INTEGRADOR\Proyecto Git Doctor III\PITProject-master\MvcAuth\bin\roslyn\System.Xml.ReaderWriter.dll
+D:\Proyectos\PROYECTO INTEGRADOR\Proyecto Git Doctor III\PITProject-master\MvcAuth\bin\roslyn\System.Xml.XmlDocument.dll
+D:\Proyectos\PROYECTO INTEGRADOR\Proyecto Git Doctor III\PITProject-master\MvcAuth\bin\roslyn\System.Xml.XPath.dll
+D:\Proyectos\PROYECTO INTEGRADOR\Proyecto Git Doctor III\PITProject-master\MvcAuth\bin\roslyn\System.Xml.XPath.XDocument.dll
+D:\Proyectos\PROYECTO INTEGRADOR\Proyecto Git Doctor III\PITProject-master\MvcAuth\bin\roslyn\vbc.exe
+D:\Proyectos\PROYECTO INTEGRADOR\Proyecto Git Doctor III\PITProject-master\MvcAuth\bin\roslyn\vbc.exe.config
+D:\Proyectos\PROYECTO INTEGRADOR\Proyecto Git Doctor III\PITProject-master\MvcAuth\bin\roslyn\vbc.rsp
+D:\Proyectos\PROYECTO INTEGRADOR\Proyecto Git Doctor III\PITProject-master\MvcAuth\bin\roslyn\VBCSCompiler.exe
+D:\Proyectos\PROYECTO INTEGRADOR\Proyecto Git Doctor III\PITProject-master\MvcAuth\bin\roslyn\VBCSCompiler.exe.config
+D:\Proyectos\PROYECTO INTEGRADOR\Proyecto Git Doctor III\PITProject-master\MvcAuth\bin\Antlr3.Runtime.dll
+D:\Proyectos\PROYECTO INTEGRADOR\Proyecto Git Doctor III\PITProject-master\MvcAuth\bin\EntityFramework.dll
+D:\Proyectos\PROYECTO INTEGRADOR\Proyecto Git Doctor III\PITProject-master\MvcAuth\bin\EntityFramework.SqlServer.dll
+D:\Proyectos\PROYECTO INTEGRADOR\Proyecto Git Doctor III\PITProject-master\MvcAuth\bin\Microsoft.AspNet.Identity.Core.dll
+D:\Proyectos\PROYECTO INTEGRADOR\Proyecto Git Doctor III\PITProject-master\MvcAuth\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+D:\Proyectos\PROYECTO INTEGRADOR\Proyecto Git Doctor III\PITProject-master\MvcAuth\bin\Microsoft.AspNet.Identity.Owin.dll
+D:\Proyectos\PROYECTO INTEGRADOR\Proyecto Git Doctor III\PITProject-master\MvcAuth\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+D:\Proyectos\PROYECTO INTEGRADOR\Proyecto Git Doctor III\PITProject-master\MvcAuth\bin\Microsoft.Owin.dll
+D:\Proyectos\PROYECTO INTEGRADOR\Proyecto Git Doctor III\PITProject-master\MvcAuth\bin\Microsoft.Owin.Host.SystemWeb.dll
+D:\Proyectos\PROYECTO INTEGRADOR\Proyecto Git Doctor III\PITProject-master\MvcAuth\bin\Microsoft.Owin.Security.Cookies.dll
+D:\Proyectos\PROYECTO INTEGRADOR\Proyecto Git Doctor III\PITProject-master\MvcAuth\bin\Microsoft.Owin.Security.dll
+D:\Proyectos\PROYECTO INTEGRADOR\Proyecto Git Doctor III\PITProject-master\MvcAuth\bin\Microsoft.Owin.Security.Facebook.dll
+D:\Proyectos\PROYECTO INTEGRADOR\Proyecto Git Doctor III\PITProject-master\MvcAuth\bin\Microsoft.Owin.Security.Google.dll
+D:\Proyectos\PROYECTO INTEGRADOR\Proyecto Git Doctor III\PITProject-master\MvcAuth\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+D:\Proyectos\PROYECTO INTEGRADOR\Proyecto Git Doctor III\PITProject-master\MvcAuth\bin\Microsoft.Owin.Security.OAuth.dll
+D:\Proyectos\PROYECTO INTEGRADOR\Proyecto Git Doctor III\PITProject-master\MvcAuth\bin\Microsoft.Owin.Security.Twitter.dll
+D:\Proyectos\PROYECTO INTEGRADOR\Proyecto Git Doctor III\PITProject-master\MvcAuth\bin\Microsoft.Web.Infrastructure.dll
+D:\Proyectos\PROYECTO INTEGRADOR\Proyecto Git Doctor III\PITProject-master\MvcAuth\bin\Newtonsoft.Json.dll
+D:\Proyectos\PROYECTO INTEGRADOR\Proyecto Git Doctor III\PITProject-master\MvcAuth\bin\Owin.dll
+D:\Proyectos\PROYECTO INTEGRADOR\Proyecto Git Doctor III\PITProject-master\MvcAuth\bin\System.Web.Helpers.dll
+D:\Proyectos\PROYECTO INTEGRADOR\Proyecto Git Doctor III\PITProject-master\MvcAuth\bin\System.Web.Mvc.dll
+D:\Proyectos\PROYECTO INTEGRADOR\Proyecto Git Doctor III\PITProject-master\MvcAuth\bin\System.Web.Optimization.dll
+D:\Proyectos\PROYECTO INTEGRADOR\Proyecto Git Doctor III\PITProject-master\MvcAuth\bin\System.Web.Razor.dll
+D:\Proyectos\PROYECTO INTEGRADOR\Proyecto Git Doctor III\PITProject-master\MvcAuth\bin\System.Web.WebPages.Deployment.dll
+D:\Proyectos\PROYECTO INTEGRADOR\Proyecto Git Doctor III\PITProject-master\MvcAuth\bin\System.Web.WebPages.dll
+D:\Proyectos\PROYECTO INTEGRADOR\Proyecto Git Doctor III\PITProject-master\MvcAuth\bin\System.Web.WebPages.Razor.dll
+D:\Proyectos\PROYECTO INTEGRADOR\Proyecto Git Doctor III\PITProject-master\MvcAuth\bin\WebGrease.dll
+D:\Proyectos\PROYECTO INTEGRADOR\Proyecto Git Doctor III\PITProject-master\MvcAuth\bin\System.Web.Helpers.xml
+D:\Proyectos\PROYECTO INTEGRADOR\Proyecto Git Doctor III\PITProject-master\MvcAuth\bin\System.Web.Mvc.xml
+D:\Proyectos\PROYECTO INTEGRADOR\Proyecto Git Doctor III\PITProject-master\MvcAuth\bin\System.Web.Optimization.xml
+D:\Proyectos\PROYECTO INTEGRADOR\Proyecto Git Doctor III\PITProject-master\MvcAuth\bin\System.Web.Razor.xml
+D:\Proyectos\PROYECTO INTEGRADOR\Proyecto Git Doctor III\PITProject-master\MvcAuth\bin\System.Web.WebPages.xml
+D:\Proyectos\PROYECTO INTEGRADOR\Proyecto Git Doctor III\PITProject-master\MvcAuth\bin\System.Web.WebPages.Deployment.xml
+D:\Proyectos\PROYECTO INTEGRADOR\Proyecto Git Doctor III\PITProject-master\MvcAuth\bin\System.Web.WebPages.Razor.xml
+D:\Proyectos\PROYECTO INTEGRADOR\Proyecto Git Doctor III\PITProject-master\MvcAuth\bin\Newtonsoft.Json.xml
+D:\Proyectos\PROYECTO INTEGRADOR\Proyecto Git Doctor III\PITProject-master\MvcAuth\bin\Antlr3.Runtime.pdb
+D:\Proyectos\PROYECTO INTEGRADOR\Proyecto Git Doctor III\PITProject-master\MvcAuth\bin\EntityFramework.xml
+D:\Proyectos\PROYECTO INTEGRADOR\Proyecto Git Doctor III\PITProject-master\MvcAuth\bin\EntityFramework.SqlServer.xml
+D:\Proyectos\PROYECTO INTEGRADOR\Proyecto Git Doctor III\PITProject-master\MvcAuth\bin\Microsoft.AspNet.Identity.Core.xml
+D:\Proyectos\PROYECTO INTEGRADOR\Proyecto Git Doctor III\PITProject-master\MvcAuth\bin\Microsoft.AspNet.Identity.Owin.xml
+D:\Proyectos\PROYECTO INTEGRADOR\Proyecto Git Doctor III\PITProject-master\MvcAuth\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+D:\Proyectos\PROYECTO INTEGRADOR\Proyecto Git Doctor III\PITProject-master\MvcAuth\bin\Microsoft.Owin.xml
+D:\Proyectos\PROYECTO INTEGRADOR\Proyecto Git Doctor III\PITProject-master\MvcAuth\bin\Microsoft.Owin.Host.SystemWeb.xml
+D:\Proyectos\PROYECTO INTEGRADOR\Proyecto Git Doctor III\PITProject-master\MvcAuth\bin\Microsoft.Owin.Security.xml
+D:\Proyectos\PROYECTO INTEGRADOR\Proyecto Git Doctor III\PITProject-master\MvcAuth\bin\Microsoft.Owin.Security.Facebook.xml
+D:\Proyectos\PROYECTO INTEGRADOR\Proyecto Git Doctor III\PITProject-master\MvcAuth\bin\Microsoft.Owin.Security.Cookies.xml
+D:\Proyectos\PROYECTO INTEGRADOR\Proyecto Git Doctor III\PITProject-master\MvcAuth\bin\Microsoft.Owin.Security.Google.xml
+D:\Proyectos\PROYECTO INTEGRADOR\Proyecto Git Doctor III\PITProject-master\MvcAuth\bin\Microsoft.Owin.Security.Twitter.xml
+D:\Proyectos\PROYECTO INTEGRADOR\Proyecto Git Doctor III\PITProject-master\MvcAuth\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+D:\Proyectos\PROYECTO INTEGRADOR\Proyecto Git Doctor III\PITProject-master\MvcAuth\bin\Microsoft.Owin.Security.OAuth.xml
+D:\Proyectos\PROYECTO INTEGRADOR\Proyecto Git Doctor III\PITProject-master\MvcAuth\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+D:\Proyectos\PROYECTO INTEGRADOR\Proyecto Git Doctor III\PITProject-master\MvcAuth\bin\es\System.Web.Helpers.resources.dll
+D:\Proyectos\PROYECTO INTEGRADOR\Proyecto Git Doctor III\PITProject-master\MvcAuth\bin\es\System.Web.Mvc.resources.dll
+D:\Proyectos\PROYECTO INTEGRADOR\Proyecto Git Doctor III\PITProject-master\MvcAuth\bin\es\System.Web.Optimization.resources.dll
+D:\Proyectos\PROYECTO INTEGRADOR\Proyecto Git Doctor III\PITProject-master\MvcAuth\bin\es\System.Web.Razor.resources.dll
+D:\Proyectos\PROYECTO INTEGRADOR\Proyecto Git Doctor III\PITProject-master\MvcAuth\bin\es\System.Web.WebPages.resources.dll
+D:\Proyectos\PROYECTO INTEGRADOR\Proyecto Git Doctor III\PITProject-master\MvcAuth\bin\es\System.Web.WebPages.Deployment.resources.dll
+D:\Proyectos\PROYECTO INTEGRADOR\Proyecto Git Doctor III\PITProject-master\MvcAuth\bin\es\System.Web.WebPages.Razor.resources.dll
+D:\Proyectos\PROYECTO INTEGRADOR\Proyecto Git Doctor III\PITProject-master\MvcAuth\bin\es\EntityFramework.resources.dll
+D:\Proyectos\PROYECTO INTEGRADOR\Proyecto Git Doctor III\PITProject-master\MvcAuth\bin\es\EntityFramework.SqlServer.resources.dll
+D:\Proyectos\PROYECTO INTEGRADOR\Proyecto Git Doctor III\PITProject-master\MvcAuth\bin\es\Microsoft.AspNet.Identity.Core.resources.dll
+D:\Proyectos\PROYECTO INTEGRADOR\Proyecto Git Doctor III\PITProject-master\MvcAuth\bin\es\Microsoft.AspNet.Identity.Owin.resources.dll
+D:\Proyectos\PROYECTO INTEGRADOR\Proyecto Git Doctor III\PITProject-master\MvcAuth\bin\es\Microsoft.AspNet.Identity.EntityFramework.resources.dll
+D:\Proyectos\PROYECTO INTEGRADOR\Proyecto Git Doctor III\PITProject-master\MvcAuth\obj\Debug\MvcAuth.Migrations.Init.resources
+D:\Proyectos\PROYECTO INTEGRADOR\Proyecto Git Doctor III\PITProject-master\MvcAuth\obj\Debug\MvcAuth.csproj.GenerateResource.cache
+D:\Proyectos\PROYECTO INTEGRADOR\Proyecto Git Doctor III\PITProject-master\MvcAuth\obj\Debug\MvcAuth.csproj.CoreCompileInputs.cache
+D:\Proyectos\PROYECTO INTEGRADOR\Proyecto Git Doctor III\PITProject-master\MvcAuth\obj\Debug\MvcAuth.csproj.CopyComplete
+D:\Proyectos\PROYECTO INTEGRADOR\Proyecto Git Doctor III\PITProject-master\MvcAuth\obj\Debug\MvcAuth.dll
+D:\Proyectos\PROYECTO INTEGRADOR\Proyecto Git Doctor III\PITProject-master\MvcAuth\obj\Debug\MvcAuth.pdb
+D:\Proyectos\PROYECTO INTEGRADOR\Proyecto Git Doctor III\PITProject-master\MvcAuth\obj\Debug\MvcAuth.csprojAssemblyReference.cache
+C:\Users\hhps\Desktop\PIT Progreso\PITProject-master\MvcAuth\bin\MvcAuth.dll.config
+C:\Users\hhps\Desktop\PIT Progreso\PITProject-master\MvcAuth\bin\MvcAuth.dll
+C:\Users\hhps\Desktop\PIT Progreso\PITProject-master\MvcAuth\bin\MvcAuth.pdb
+C:\Users\hhps\Desktop\PIT Progreso\PITProject-master\MvcAuth\bin\roslyn\csc.exe
+C:\Users\hhps\Desktop\PIT Progreso\PITProject-master\MvcAuth\bin\roslyn\csc.exe.config
+C:\Users\hhps\Desktop\PIT Progreso\PITProject-master\MvcAuth\bin\roslyn\csc.rsp
+C:\Users\hhps\Desktop\PIT Progreso\PITProject-master\MvcAuth\bin\roslyn\csi.exe
+C:\Users\hhps\Desktop\PIT Progreso\PITProject-master\MvcAuth\bin\roslyn\csi.exe.config
+C:\Users\hhps\Desktop\PIT Progreso\PITProject-master\MvcAuth\bin\roslyn\csi.rsp
+C:\Users\hhps\Desktop\PIT Progreso\PITProject-master\MvcAuth\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\hhps\Desktop\PIT Progreso\PITProject-master\MvcAuth\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\hhps\Desktop\PIT Progreso\PITProject-master\MvcAuth\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\hhps\Desktop\PIT Progreso\PITProject-master\MvcAuth\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\hhps\Desktop\PIT Progreso\PITProject-master\MvcAuth\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\hhps\Desktop\PIT Progreso\PITProject-master\MvcAuth\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\hhps\Desktop\PIT Progreso\PITProject-master\MvcAuth\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\hhps\Desktop\PIT Progreso\PITProject-master\MvcAuth\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\hhps\Desktop\PIT Progreso\PITProject-master\MvcAuth\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\hhps\Desktop\PIT Progreso\PITProject-master\MvcAuth\bin\roslyn\Microsoft.Managed.Core.targets
+C:\Users\hhps\Desktop\PIT Progreso\PITProject-master\MvcAuth\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\hhps\Desktop\PIT Progreso\PITProject-master\MvcAuth\bin\roslyn\System.AppContext.dll
+C:\Users\hhps\Desktop\PIT Progreso\PITProject-master\MvcAuth\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\hhps\Desktop\PIT Progreso\PITProject-master\MvcAuth\bin\roslyn\System.Console.dll
+C:\Users\hhps\Desktop\PIT Progreso\PITProject-master\MvcAuth\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+C:\Users\hhps\Desktop\PIT Progreso\PITProject-master\MvcAuth\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\hhps\Desktop\PIT Progreso\PITProject-master\MvcAuth\bin\roslyn\System.IO.Compression.dll
+C:\Users\hhps\Desktop\PIT Progreso\PITProject-master\MvcAuth\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\hhps\Desktop\PIT Progreso\PITProject-master\MvcAuth\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\hhps\Desktop\PIT Progreso\PITProject-master\MvcAuth\bin\roslyn\System.IO.Pipes.AccessControl.dll
+C:\Users\hhps\Desktop\PIT Progreso\PITProject-master\MvcAuth\bin\roslyn\System.IO.Pipes.dll
+C:\Users\hhps\Desktop\PIT Progreso\PITProject-master\MvcAuth\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\hhps\Desktop\PIT Progreso\PITProject-master\MvcAuth\bin\roslyn\System.Security.AccessControl.dll
+C:\Users\hhps\Desktop\PIT Progreso\PITProject-master\MvcAuth\bin\roslyn\System.Security.Claims.dll
+C:\Users\hhps\Desktop\PIT Progreso\PITProject-master\MvcAuth\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+C:\Users\hhps\Desktop\PIT Progreso\PITProject-master\MvcAuth\bin\roslyn\System.Security.Cryptography.Encoding.dll
+C:\Users\hhps\Desktop\PIT Progreso\PITProject-master\MvcAuth\bin\roslyn\System.Security.Cryptography.Primitives.dll
+C:\Users\hhps\Desktop\PIT Progreso\PITProject-master\MvcAuth\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+C:\Users\hhps\Desktop\PIT Progreso\PITProject-master\MvcAuth\bin\roslyn\System.Security.Principal.Windows.dll
+C:\Users\hhps\Desktop\PIT Progreso\PITProject-master\MvcAuth\bin\roslyn\System.Text.Encoding.CodePages.dll
+C:\Users\hhps\Desktop\PIT Progreso\PITProject-master\MvcAuth\bin\roslyn\System.ValueTuple.dll
+C:\Users\hhps\Desktop\PIT Progreso\PITProject-master\MvcAuth\bin\roslyn\System.Xml.ReaderWriter.dll
+C:\Users\hhps\Desktop\PIT Progreso\PITProject-master\MvcAuth\bin\roslyn\System.Xml.XmlDocument.dll
+C:\Users\hhps\Desktop\PIT Progreso\PITProject-master\MvcAuth\bin\roslyn\System.Xml.XPath.dll
+C:\Users\hhps\Desktop\PIT Progreso\PITProject-master\MvcAuth\bin\roslyn\System.Xml.XPath.XDocument.dll
+C:\Users\hhps\Desktop\PIT Progreso\PITProject-master\MvcAuth\bin\roslyn\vbc.exe
+C:\Users\hhps\Desktop\PIT Progreso\PITProject-master\MvcAuth\bin\roslyn\vbc.exe.config
+C:\Users\hhps\Desktop\PIT Progreso\PITProject-master\MvcAuth\bin\roslyn\vbc.rsp
+C:\Users\hhps\Desktop\PIT Progreso\PITProject-master\MvcAuth\bin\roslyn\VBCSCompiler.exe
+C:\Users\hhps\Desktop\PIT Progreso\PITProject-master\MvcAuth\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\hhps\Desktop\PIT Progreso\PITProject-master\MvcAuth\bin\Antlr3.Runtime.dll
+C:\Users\hhps\Desktop\PIT Progreso\PITProject-master\MvcAuth\bin\EntityFramework.dll
+C:\Users\hhps\Desktop\PIT Progreso\PITProject-master\MvcAuth\bin\EntityFramework.SqlServer.dll
+C:\Users\hhps\Desktop\PIT Progreso\PITProject-master\MvcAuth\bin\Microsoft.AspNet.Identity.Core.dll
+C:\Users\hhps\Desktop\PIT Progreso\PITProject-master\MvcAuth\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+C:\Users\hhps\Desktop\PIT Progreso\PITProject-master\MvcAuth\bin\Microsoft.AspNet.Identity.Owin.dll
+C:\Users\hhps\Desktop\PIT Progreso\PITProject-master\MvcAuth\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\hhps\Desktop\PIT Progreso\PITProject-master\MvcAuth\bin\Microsoft.Owin.dll
+C:\Users\hhps\Desktop\PIT Progreso\PITProject-master\MvcAuth\bin\Microsoft.Owin.Host.SystemWeb.dll
+C:\Users\hhps\Desktop\PIT Progreso\PITProject-master\MvcAuth\bin\Microsoft.Owin.Security.Cookies.dll
+C:\Users\hhps\Desktop\PIT Progreso\PITProject-master\MvcAuth\bin\Microsoft.Owin.Security.dll
+C:\Users\hhps\Desktop\PIT Progreso\PITProject-master\MvcAuth\bin\Microsoft.Owin.Security.Facebook.dll
+C:\Users\hhps\Desktop\PIT Progreso\PITProject-master\MvcAuth\bin\Microsoft.Owin.Security.Google.dll
+C:\Users\hhps\Desktop\PIT Progreso\PITProject-master\MvcAuth\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+C:\Users\hhps\Desktop\PIT Progreso\PITProject-master\MvcAuth\bin\Microsoft.Owin.Security.OAuth.dll
+C:\Users\hhps\Desktop\PIT Progreso\PITProject-master\MvcAuth\bin\Microsoft.Owin.Security.Twitter.dll
+C:\Users\hhps\Desktop\PIT Progreso\PITProject-master\MvcAuth\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\hhps\Desktop\PIT Progreso\PITProject-master\MvcAuth\bin\Newtonsoft.Json.dll
+C:\Users\hhps\Desktop\PIT Progreso\PITProject-master\MvcAuth\bin\Owin.dll
+C:\Users\hhps\Desktop\PIT Progreso\PITProject-master\MvcAuth\bin\System.Web.Helpers.dll
+C:\Users\hhps\Desktop\PIT Progreso\PITProject-master\MvcAuth\bin\System.Web.Mvc.dll
+C:\Users\hhps\Desktop\PIT Progreso\PITProject-master\MvcAuth\bin\System.Web.Optimization.dll
+C:\Users\hhps\Desktop\PIT Progreso\PITProject-master\MvcAuth\bin\System.Web.Razor.dll
+C:\Users\hhps\Desktop\PIT Progreso\PITProject-master\MvcAuth\bin\System.Web.WebPages.Deployment.dll
+C:\Users\hhps\Desktop\PIT Progreso\PITProject-master\MvcAuth\bin\System.Web.WebPages.dll
+C:\Users\hhps\Desktop\PIT Progreso\PITProject-master\MvcAuth\bin\System.Web.WebPages.Razor.dll
+C:\Users\hhps\Desktop\PIT Progreso\PITProject-master\MvcAuth\bin\WebGrease.dll
+C:\Users\hhps\Desktop\PIT Progreso\PITProject-master\MvcAuth\bin\System.Web.Helpers.xml
+C:\Users\hhps\Desktop\PIT Progreso\PITProject-master\MvcAuth\bin\System.Web.Mvc.xml
+C:\Users\hhps\Desktop\PIT Progreso\PITProject-master\MvcAuth\bin\System.Web.Optimization.xml
+C:\Users\hhps\Desktop\PIT Progreso\PITProject-master\MvcAuth\bin\System.Web.Razor.xml
+C:\Users\hhps\Desktop\PIT Progreso\PITProject-master\MvcAuth\bin\System.Web.WebPages.xml
+C:\Users\hhps\Desktop\PIT Progreso\PITProject-master\MvcAuth\bin\System.Web.WebPages.Deployment.xml
+C:\Users\hhps\Desktop\PIT Progreso\PITProject-master\MvcAuth\bin\System.Web.WebPages.Razor.xml
+C:\Users\hhps\Desktop\PIT Progreso\PITProject-master\MvcAuth\bin\Newtonsoft.Json.xml
+C:\Users\hhps\Desktop\PIT Progreso\PITProject-master\MvcAuth\bin\Antlr3.Runtime.pdb
+C:\Users\hhps\Desktop\PIT Progreso\PITProject-master\MvcAuth\bin\EntityFramework.xml
+C:\Users\hhps\Desktop\PIT Progreso\PITProject-master\MvcAuth\bin\EntityFramework.SqlServer.xml
+C:\Users\hhps\Desktop\PIT Progreso\PITProject-master\MvcAuth\bin\Microsoft.AspNet.Identity.Core.xml
+C:\Users\hhps\Desktop\PIT Progreso\PITProject-master\MvcAuth\bin\Microsoft.AspNet.Identity.Owin.xml
+C:\Users\hhps\Desktop\PIT Progreso\PITProject-master\MvcAuth\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+C:\Users\hhps\Desktop\PIT Progreso\PITProject-master\MvcAuth\bin\Microsoft.Owin.xml
+C:\Users\hhps\Desktop\PIT Progreso\PITProject-master\MvcAuth\bin\Microsoft.Owin.Host.SystemWeb.xml
+C:\Users\hhps\Desktop\PIT Progreso\PITProject-master\MvcAuth\bin\Microsoft.Owin.Security.xml
+C:\Users\hhps\Desktop\PIT Progreso\PITProject-master\MvcAuth\bin\Microsoft.Owin.Security.Facebook.xml
+C:\Users\hhps\Desktop\PIT Progreso\PITProject-master\MvcAuth\bin\Microsoft.Owin.Security.Cookies.xml
+C:\Users\hhps\Desktop\PIT Progreso\PITProject-master\MvcAuth\bin\Microsoft.Owin.Security.Google.xml
+C:\Users\hhps\Desktop\PIT Progreso\PITProject-master\MvcAuth\bin\Microsoft.Owin.Security.Twitter.xml
+C:\Users\hhps\Desktop\PIT Progreso\PITProject-master\MvcAuth\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+C:\Users\hhps\Desktop\PIT Progreso\PITProject-master\MvcAuth\bin\Microsoft.Owin.Security.OAuth.xml
+C:\Users\hhps\Desktop\PIT Progreso\PITProject-master\MvcAuth\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\hhps\Desktop\PIT Progreso\PITProject-master\MvcAuth\bin\es\System.Web.Helpers.resources.dll
+C:\Users\hhps\Desktop\PIT Progreso\PITProject-master\MvcAuth\bin\es\System.Web.Mvc.resources.dll
+C:\Users\hhps\Desktop\PIT Progreso\PITProject-master\MvcAuth\bin\es\System.Web.Optimization.resources.dll
+C:\Users\hhps\Desktop\PIT Progreso\PITProject-master\MvcAuth\bin\es\System.Web.Razor.resources.dll
+C:\Users\hhps\Desktop\PIT Progreso\PITProject-master\MvcAuth\bin\es\System.Web.WebPages.resources.dll
+C:\Users\hhps\Desktop\PIT Progreso\PITProject-master\MvcAuth\bin\es\System.Web.WebPages.Deployment.resources.dll
+C:\Users\hhps\Desktop\PIT Progreso\PITProject-master\MvcAuth\bin\es\System.Web.WebPages.Razor.resources.dll
+C:\Users\hhps\Desktop\PIT Progreso\PITProject-master\MvcAuth\bin\es\EntityFramework.resources.dll
+C:\Users\hhps\Desktop\PIT Progreso\PITProject-master\MvcAuth\bin\es\EntityFramework.SqlServer.resources.dll
+C:\Users\hhps\Desktop\PIT Progreso\PITProject-master\MvcAuth\bin\es\Microsoft.AspNet.Identity.Core.resources.dll
+C:\Users\hhps\Desktop\PIT Progreso\PITProject-master\MvcAuth\bin\es\Microsoft.AspNet.Identity.Owin.resources.dll
+C:\Users\hhps\Desktop\PIT Progreso\PITProject-master\MvcAuth\bin\es\Microsoft.AspNet.Identity.EntityFramework.resources.dll
+C:\Users\hhps\Desktop\PIT Progreso\PITProject-master\MvcAuth\obj\Debug\MvcAuth.csprojAssemblyReference.cache
+C:\Users\hhps\Desktop\PIT Progreso\PITProject-master\MvcAuth\obj\Debug\MvcAuth.Migrations.Init.resources
+C:\Users\hhps\Desktop\PIT Progreso\PITProject-master\MvcAuth\obj\Debug\MvcAuth.csproj.GenerateResource.cache
+C:\Users\hhps\Desktop\PIT Progreso\PITProject-master\MvcAuth\obj\Debug\MvcAuth.csproj.CopyComplete
+C:\Users\hhps\Desktop\PIT Progreso\PITProject-master\MvcAuth\obj\Debug\MvcAuth.dll
+C:\Users\hhps\Desktop\PIT Progreso\PITProject-master\MvcAuth\obj\Debug\MvcAuth.pdb
+C:\Users\ronal\Documents\Servicio\Version-G2-1\PITProject-master\MvcAuth\bin\MvcAuth.dll.config
+C:\Users\ronal\Documents\Servicio\Version-G2-1\PITProject-master\MvcAuth\bin\MvcAuth.dll
+C:\Users\ronal\Documents\Servicio\Version-G2-1\PITProject-master\MvcAuth\bin\MvcAuth.pdb
+C:\Users\ronal\Documents\Servicio\Version-G2-1\PITProject-master\MvcAuth\bin\roslyn\csc.exe
+C:\Users\ronal\Documents\Servicio\Version-G2-1\PITProject-master\MvcAuth\bin\roslyn\csc.exe.config
+C:\Users\ronal\Documents\Servicio\Version-G2-1\PITProject-master\MvcAuth\bin\roslyn\csc.rsp
+C:\Users\ronal\Documents\Servicio\Version-G2-1\PITProject-master\MvcAuth\bin\roslyn\csi.exe
+C:\Users\ronal\Documents\Servicio\Version-G2-1\PITProject-master\MvcAuth\bin\roslyn\csi.exe.config
+C:\Users\ronal\Documents\Servicio\Version-G2-1\PITProject-master\MvcAuth\bin\roslyn\csi.rsp
+C:\Users\ronal\Documents\Servicio\Version-G2-1\PITProject-master\MvcAuth\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\ronal\Documents\Servicio\Version-G2-1\PITProject-master\MvcAuth\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\ronal\Documents\Servicio\Version-G2-1\PITProject-master\MvcAuth\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\ronal\Documents\Servicio\Version-G2-1\PITProject-master\MvcAuth\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\ronal\Documents\Servicio\Version-G2-1\PITProject-master\MvcAuth\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\ronal\Documents\Servicio\Version-G2-1\PITProject-master\MvcAuth\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\ronal\Documents\Servicio\Version-G2-1\PITProject-master\MvcAuth\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\ronal\Documents\Servicio\Version-G2-1\PITProject-master\MvcAuth\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\ronal\Documents\Servicio\Version-G2-1\PITProject-master\MvcAuth\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\ronal\Documents\Servicio\Version-G2-1\PITProject-master\MvcAuth\bin\roslyn\Microsoft.Managed.Core.targets
+C:\Users\ronal\Documents\Servicio\Version-G2-1\PITProject-master\MvcAuth\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\ronal\Documents\Servicio\Version-G2-1\PITProject-master\MvcAuth\bin\roslyn\System.AppContext.dll
+C:\Users\ronal\Documents\Servicio\Version-G2-1\PITProject-master\MvcAuth\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\ronal\Documents\Servicio\Version-G2-1\PITProject-master\MvcAuth\bin\roslyn\System.Console.dll
+C:\Users\ronal\Documents\Servicio\Version-G2-1\PITProject-master\MvcAuth\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+C:\Users\ronal\Documents\Servicio\Version-G2-1\PITProject-master\MvcAuth\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\ronal\Documents\Servicio\Version-G2-1\PITProject-master\MvcAuth\bin\roslyn\System.IO.Compression.dll
+C:\Users\ronal\Documents\Servicio\Version-G2-1\PITProject-master\MvcAuth\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\ronal\Documents\Servicio\Version-G2-1\PITProject-master\MvcAuth\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\ronal\Documents\Servicio\Version-G2-1\PITProject-master\MvcAuth\bin\roslyn\System.IO.Pipes.AccessControl.dll
+C:\Users\ronal\Documents\Servicio\Version-G2-1\PITProject-master\MvcAuth\bin\roslyn\System.IO.Pipes.dll
+C:\Users\ronal\Documents\Servicio\Version-G2-1\PITProject-master\MvcAuth\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\ronal\Documents\Servicio\Version-G2-1\PITProject-master\MvcAuth\bin\roslyn\System.Security.AccessControl.dll
+C:\Users\ronal\Documents\Servicio\Version-G2-1\PITProject-master\MvcAuth\bin\roslyn\System.Security.Claims.dll
+C:\Users\ronal\Documents\Servicio\Version-G2-1\PITProject-master\MvcAuth\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+C:\Users\ronal\Documents\Servicio\Version-G2-1\PITProject-master\MvcAuth\bin\roslyn\System.Security.Cryptography.Encoding.dll
+C:\Users\ronal\Documents\Servicio\Version-G2-1\PITProject-master\MvcAuth\bin\roslyn\System.Security.Cryptography.Primitives.dll
+C:\Users\ronal\Documents\Servicio\Version-G2-1\PITProject-master\MvcAuth\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+C:\Users\ronal\Documents\Servicio\Version-G2-1\PITProject-master\MvcAuth\bin\roslyn\System.Security.Principal.Windows.dll
+C:\Users\ronal\Documents\Servicio\Version-G2-1\PITProject-master\MvcAuth\bin\roslyn\System.Text.Encoding.CodePages.dll
+C:\Users\ronal\Documents\Servicio\Version-G2-1\PITProject-master\MvcAuth\bin\roslyn\System.ValueTuple.dll
+C:\Users\ronal\Documents\Servicio\Version-G2-1\PITProject-master\MvcAuth\bin\roslyn\System.Xml.ReaderWriter.dll
+C:\Users\ronal\Documents\Servicio\Version-G2-1\PITProject-master\MvcAuth\bin\roslyn\System.Xml.XmlDocument.dll
+C:\Users\ronal\Documents\Servicio\Version-G2-1\PITProject-master\MvcAuth\bin\roslyn\System.Xml.XPath.dll
+C:\Users\ronal\Documents\Servicio\Version-G2-1\PITProject-master\MvcAuth\bin\roslyn\System.Xml.XPath.XDocument.dll
+C:\Users\ronal\Documents\Servicio\Version-G2-1\PITProject-master\MvcAuth\bin\roslyn\vbc.exe
+C:\Users\ronal\Documents\Servicio\Version-G2-1\PITProject-master\MvcAuth\bin\roslyn\vbc.exe.config
+C:\Users\ronal\Documents\Servicio\Version-G2-1\PITProject-master\MvcAuth\bin\roslyn\vbc.rsp
+C:\Users\ronal\Documents\Servicio\Version-G2-1\PITProject-master\MvcAuth\bin\roslyn\VBCSCompiler.exe
+C:\Users\ronal\Documents\Servicio\Version-G2-1\PITProject-master\MvcAuth\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\ronal\Documents\Servicio\Version-G2-1\PITProject-master\MvcAuth\bin\Antlr3.Runtime.dll
+C:\Users\ronal\Documents\Servicio\Version-G2-1\PITProject-master\MvcAuth\bin\EntityFramework.dll
+C:\Users\ronal\Documents\Servicio\Version-G2-1\PITProject-master\MvcAuth\bin\EntityFramework.SqlServer.dll
+C:\Users\ronal\Documents\Servicio\Version-G2-1\PITProject-master\MvcAuth\bin\Microsoft.AspNet.Identity.Core.dll
+C:\Users\ronal\Documents\Servicio\Version-G2-1\PITProject-master\MvcAuth\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+C:\Users\ronal\Documents\Servicio\Version-G2-1\PITProject-master\MvcAuth\bin\Microsoft.AspNet.Identity.Owin.dll
+C:\Users\ronal\Documents\Servicio\Version-G2-1\PITProject-master\MvcAuth\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\ronal\Documents\Servicio\Version-G2-1\PITProject-master\MvcAuth\bin\Microsoft.Owin.dll
+C:\Users\ronal\Documents\Servicio\Version-G2-1\PITProject-master\MvcAuth\bin\Microsoft.Owin.Host.SystemWeb.dll
+C:\Users\ronal\Documents\Servicio\Version-G2-1\PITProject-master\MvcAuth\bin\Microsoft.Owin.Security.Cookies.dll
+C:\Users\ronal\Documents\Servicio\Version-G2-1\PITProject-master\MvcAuth\bin\Microsoft.Owin.Security.dll
+C:\Users\ronal\Documents\Servicio\Version-G2-1\PITProject-master\MvcAuth\bin\Microsoft.Owin.Security.Facebook.dll
+C:\Users\ronal\Documents\Servicio\Version-G2-1\PITProject-master\MvcAuth\bin\Microsoft.Owin.Security.Google.dll
+C:\Users\ronal\Documents\Servicio\Version-G2-1\PITProject-master\MvcAuth\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+C:\Users\ronal\Documents\Servicio\Version-G2-1\PITProject-master\MvcAuth\bin\Microsoft.Owin.Security.OAuth.dll
+C:\Users\ronal\Documents\Servicio\Version-G2-1\PITProject-master\MvcAuth\bin\Microsoft.Owin.Security.Twitter.dll
+C:\Users\ronal\Documents\Servicio\Version-G2-1\PITProject-master\MvcAuth\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\ronal\Documents\Servicio\Version-G2-1\PITProject-master\MvcAuth\bin\Newtonsoft.Json.dll
+C:\Users\ronal\Documents\Servicio\Version-G2-1\PITProject-master\MvcAuth\bin\Owin.dll
+C:\Users\ronal\Documents\Servicio\Version-G2-1\PITProject-master\MvcAuth\bin\System.Web.Helpers.dll
+C:\Users\ronal\Documents\Servicio\Version-G2-1\PITProject-master\MvcAuth\bin\System.Web.Mvc.dll
+C:\Users\ronal\Documents\Servicio\Version-G2-1\PITProject-master\MvcAuth\bin\System.Web.Optimization.dll
+C:\Users\ronal\Documents\Servicio\Version-G2-1\PITProject-master\MvcAuth\bin\System.Web.Razor.dll
+C:\Users\ronal\Documents\Servicio\Version-G2-1\PITProject-master\MvcAuth\bin\System.Web.WebPages.Deployment.dll
+C:\Users\ronal\Documents\Servicio\Version-G2-1\PITProject-master\MvcAuth\bin\System.Web.WebPages.dll
+C:\Users\ronal\Documents\Servicio\Version-G2-1\PITProject-master\MvcAuth\bin\System.Web.WebPages.Razor.dll
+C:\Users\ronal\Documents\Servicio\Version-G2-1\PITProject-master\MvcAuth\bin\WebGrease.dll
+C:\Users\ronal\Documents\Servicio\Version-G2-1\PITProject-master\MvcAuth\bin\System.Web.Helpers.xml
+C:\Users\ronal\Documents\Servicio\Version-G2-1\PITProject-master\MvcAuth\bin\System.Web.Mvc.xml
+C:\Users\ronal\Documents\Servicio\Version-G2-1\PITProject-master\MvcAuth\bin\System.Web.Optimization.xml
+C:\Users\ronal\Documents\Servicio\Version-G2-1\PITProject-master\MvcAuth\bin\System.Web.Razor.xml
+C:\Users\ronal\Documents\Servicio\Version-G2-1\PITProject-master\MvcAuth\bin\System.Web.WebPages.xml
+C:\Users\ronal\Documents\Servicio\Version-G2-1\PITProject-master\MvcAuth\bin\System.Web.WebPages.Deployment.xml
+C:\Users\ronal\Documents\Servicio\Version-G2-1\PITProject-master\MvcAuth\bin\System.Web.WebPages.Razor.xml
+C:\Users\ronal\Documents\Servicio\Version-G2-1\PITProject-master\MvcAuth\bin\Newtonsoft.Json.xml
+C:\Users\ronal\Documents\Servicio\Version-G2-1\PITProject-master\MvcAuth\bin\Antlr3.Runtime.pdb
+C:\Users\ronal\Documents\Servicio\Version-G2-1\PITProject-master\MvcAuth\bin\EntityFramework.xml
+C:\Users\ronal\Documents\Servicio\Version-G2-1\PITProject-master\MvcAuth\bin\EntityFramework.SqlServer.xml
+C:\Users\ronal\Documents\Servicio\Version-G2-1\PITProject-master\MvcAuth\bin\Microsoft.AspNet.Identity.Core.xml
+C:\Users\ronal\Documents\Servicio\Version-G2-1\PITProject-master\MvcAuth\bin\Microsoft.AspNet.Identity.Owin.xml
+C:\Users\ronal\Documents\Servicio\Version-G2-1\PITProject-master\MvcAuth\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+C:\Users\ronal\Documents\Servicio\Version-G2-1\PITProject-master\MvcAuth\bin\Microsoft.Owin.xml
+C:\Users\ronal\Documents\Servicio\Version-G2-1\PITProject-master\MvcAuth\bin\Microsoft.Owin.Host.SystemWeb.xml
+C:\Users\ronal\Documents\Servicio\Version-G2-1\PITProject-master\MvcAuth\bin\Microsoft.Owin.Security.xml
+C:\Users\ronal\Documents\Servicio\Version-G2-1\PITProject-master\MvcAuth\bin\Microsoft.Owin.Security.Facebook.xml
+C:\Users\ronal\Documents\Servicio\Version-G2-1\PITProject-master\MvcAuth\bin\Microsoft.Owin.Security.Cookies.xml
+C:\Users\ronal\Documents\Servicio\Version-G2-1\PITProject-master\MvcAuth\bin\Microsoft.Owin.Security.Google.xml
+C:\Users\ronal\Documents\Servicio\Version-G2-1\PITProject-master\MvcAuth\bin\Microsoft.Owin.Security.Twitter.xml
+C:\Users\ronal\Documents\Servicio\Version-G2-1\PITProject-master\MvcAuth\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+C:\Users\ronal\Documents\Servicio\Version-G2-1\PITProject-master\MvcAuth\bin\Microsoft.Owin.Security.OAuth.xml
+C:\Users\ronal\Documents\Servicio\Version-G2-1\PITProject-master\MvcAuth\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\ronal\Documents\Servicio\Version-G2-1\PITProject-master\MvcAuth\bin\es\System.Web.Helpers.resources.dll
+C:\Users\ronal\Documents\Servicio\Version-G2-1\PITProject-master\MvcAuth\bin\es\System.Web.Mvc.resources.dll
+C:\Users\ronal\Documents\Servicio\Version-G2-1\PITProject-master\MvcAuth\bin\es\System.Web.Optimization.resources.dll
+C:\Users\ronal\Documents\Servicio\Version-G2-1\PITProject-master\MvcAuth\bin\es\System.Web.Razor.resources.dll
+C:\Users\ronal\Documents\Servicio\Version-G2-1\PITProject-master\MvcAuth\bin\es\System.Web.WebPages.resources.dll
+C:\Users\ronal\Documents\Servicio\Version-G2-1\PITProject-master\MvcAuth\bin\es\System.Web.WebPages.Deployment.resources.dll
+C:\Users\ronal\Documents\Servicio\Version-G2-1\PITProject-master\MvcAuth\bin\es\System.Web.WebPages.Razor.resources.dll
+C:\Users\ronal\Documents\Servicio\Version-G2-1\PITProject-master\MvcAuth\bin\es\EntityFramework.resources.dll
+C:\Users\ronal\Documents\Servicio\Version-G2-1\PITProject-master\MvcAuth\bin\es\EntityFramework.SqlServer.resources.dll
+C:\Users\ronal\Documents\Servicio\Version-G2-1\PITProject-master\MvcAuth\bin\es\Microsoft.AspNet.Identity.Core.resources.dll
+C:\Users\ronal\Documents\Servicio\Version-G2-1\PITProject-master\MvcAuth\bin\es\Microsoft.AspNet.Identity.Owin.resources.dll
+C:\Users\ronal\Documents\Servicio\Version-G2-1\PITProject-master\MvcAuth\bin\es\Microsoft.AspNet.Identity.EntityFramework.resources.dll
+C:\Users\ronal\Documents\Servicio\Version-G2-1\PITProject-master\MvcAuth\obj\Debug\MvcAuth.csprojAssemblyReference.cache
+C:\Users\ronal\Documents\Servicio\Version-G2-1\PITProject-master\MvcAuth\obj\Debug\MvcAuth.Migrations.Init.resources
+C:\Users\ronal\Documents\Servicio\Version-G2-1\PITProject-master\MvcAuth\obj\Debug\MvcAuth.csproj.GenerateResource.cache
+C:\Users\ronal\Documents\Servicio\Version-G2-1\PITProject-master\MvcAuth\obj\Debug\MvcAuth.csproj.CopyComplete
+C:\Users\ronal\Documents\Servicio\Version-G2-1\PITProject-master\MvcAuth\obj\Debug\MvcAuth.dll
+C:\Users\ronal\Documents\Servicio\Version-G2-1\PITProject-master\MvcAuth\obj\Debug\MvcAuth.pdb
+D:\Proyectos\PROYECTO INTEGRADOR\Proyecto Git Doctor III\Intermedio before somee\PITProject-master\MvcAuth\bin\MvcAuth.dll.config
+D:\Proyectos\PROYECTO INTEGRADOR\Proyecto Git Doctor III\Intermedio before somee\PITProject-master\MvcAuth\bin\MvcAuth.dll
+D:\Proyectos\PROYECTO INTEGRADOR\Proyecto Git Doctor III\Intermedio before somee\PITProject-master\MvcAuth\bin\MvcAuth.pdb
+D:\Proyectos\PROYECTO INTEGRADOR\Proyecto Git Doctor III\Intermedio before somee\PITProject-master\MvcAuth\bin\roslyn\csc.exe
+D:\Proyectos\PROYECTO INTEGRADOR\Proyecto Git Doctor III\Intermedio before somee\PITProject-master\MvcAuth\bin\roslyn\csc.exe.config
+D:\Proyectos\PROYECTO INTEGRADOR\Proyecto Git Doctor III\Intermedio before somee\PITProject-master\MvcAuth\bin\roslyn\csc.rsp
+D:\Proyectos\PROYECTO INTEGRADOR\Proyecto Git Doctor III\Intermedio before somee\PITProject-master\MvcAuth\bin\roslyn\csi.exe
+D:\Proyectos\PROYECTO INTEGRADOR\Proyecto Git Doctor III\Intermedio before somee\PITProject-master\MvcAuth\bin\roslyn\csi.exe.config
+D:\Proyectos\PROYECTO INTEGRADOR\Proyecto Git Doctor III\Intermedio before somee\PITProject-master\MvcAuth\bin\roslyn\csi.rsp
+D:\Proyectos\PROYECTO INTEGRADOR\Proyecto Git Doctor III\Intermedio before somee\PITProject-master\MvcAuth\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+D:\Proyectos\PROYECTO INTEGRADOR\Proyecto Git Doctor III\Intermedio before somee\PITProject-master\MvcAuth\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+D:\Proyectos\PROYECTO INTEGRADOR\Proyecto Git Doctor III\Intermedio before somee\PITProject-master\MvcAuth\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+D:\Proyectos\PROYECTO INTEGRADOR\Proyecto Git Doctor III\Intermedio before somee\PITProject-master\MvcAuth\bin\roslyn\Microsoft.CodeAnalysis.dll
+D:\Proyectos\PROYECTO INTEGRADOR\Proyecto Git Doctor III\Intermedio before somee\PITProject-master\MvcAuth\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+D:\Proyectos\PROYECTO INTEGRADOR\Proyecto Git Doctor III\Intermedio before somee\PITProject-master\MvcAuth\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+D:\Proyectos\PROYECTO INTEGRADOR\Proyecto Git Doctor III\Intermedio before somee\PITProject-master\MvcAuth\bin\roslyn\Microsoft.CSharp.Core.targets
+D:\Proyectos\PROYECTO INTEGRADOR\Proyecto Git Doctor III\Intermedio before somee\PITProject-master\MvcAuth\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+D:\Proyectos\PROYECTO INTEGRADOR\Proyecto Git Doctor III\Intermedio before somee\PITProject-master\MvcAuth\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+D:\Proyectos\PROYECTO INTEGRADOR\Proyecto Git Doctor III\Intermedio before somee\PITProject-master\MvcAuth\bin\roslyn\Microsoft.Managed.Core.targets
+D:\Proyectos\PROYECTO INTEGRADOR\Proyecto Git Doctor III\Intermedio before somee\PITProject-master\MvcAuth\bin\roslyn\Microsoft.VisualBasic.Core.targets
+D:\Proyectos\PROYECTO INTEGRADOR\Proyecto Git Doctor III\Intermedio before somee\PITProject-master\MvcAuth\bin\roslyn\System.AppContext.dll
+D:\Proyectos\PROYECTO INTEGRADOR\Proyecto Git Doctor III\Intermedio before somee\PITProject-master\MvcAuth\bin\roslyn\System.Collections.Immutable.dll
+D:\Proyectos\PROYECTO INTEGRADOR\Proyecto Git Doctor III\Intermedio before somee\PITProject-master\MvcAuth\bin\roslyn\System.Console.dll
+D:\Proyectos\PROYECTO INTEGRADOR\Proyecto Git Doctor III\Intermedio before somee\PITProject-master\MvcAuth\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+D:\Proyectos\PROYECTO INTEGRADOR\Proyecto Git Doctor III\Intermedio before somee\PITProject-master\MvcAuth\bin\roslyn\System.Diagnostics.StackTrace.dll
+D:\Proyectos\PROYECTO INTEGRADOR\Proyecto Git Doctor III\Intermedio before somee\PITProject-master\MvcAuth\bin\roslyn\System.IO.Compression.dll
+D:\Proyectos\PROYECTO INTEGRADOR\Proyecto Git Doctor III\Intermedio before somee\PITProject-master\MvcAuth\bin\roslyn\System.IO.FileSystem.dll
+D:\Proyectos\PROYECTO INTEGRADOR\Proyecto Git Doctor III\Intermedio before somee\PITProject-master\MvcAuth\bin\roslyn\System.IO.FileSystem.Primitives.dll
+D:\Proyectos\PROYECTO INTEGRADOR\Proyecto Git Doctor III\Intermedio before somee\PITProject-master\MvcAuth\bin\roslyn\System.IO.Pipes.AccessControl.dll
+D:\Proyectos\PROYECTO INTEGRADOR\Proyecto Git Doctor III\Intermedio before somee\PITProject-master\MvcAuth\bin\roslyn\System.IO.Pipes.dll
+D:\Proyectos\PROYECTO INTEGRADOR\Proyecto Git Doctor III\Intermedio before somee\PITProject-master\MvcAuth\bin\roslyn\System.Reflection.Metadata.dll
+D:\Proyectos\PROYECTO INTEGRADOR\Proyecto Git Doctor III\Intermedio before somee\PITProject-master\MvcAuth\bin\roslyn\System.Security.AccessControl.dll
+D:\Proyectos\PROYECTO INTEGRADOR\Proyecto Git Doctor III\Intermedio before somee\PITProject-master\MvcAuth\bin\roslyn\System.Security.Claims.dll
+D:\Proyectos\PROYECTO INTEGRADOR\Proyecto Git Doctor III\Intermedio before somee\PITProject-master\MvcAuth\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+D:\Proyectos\PROYECTO INTEGRADOR\Proyecto Git Doctor III\Intermedio before somee\PITProject-master\MvcAuth\bin\roslyn\System.Security.Cryptography.Encoding.dll
+D:\Proyectos\PROYECTO INTEGRADOR\Proyecto Git Doctor III\Intermedio before somee\PITProject-master\MvcAuth\bin\roslyn\System.Security.Cryptography.Primitives.dll
+D:\Proyectos\PROYECTO INTEGRADOR\Proyecto Git Doctor III\Intermedio before somee\PITProject-master\MvcAuth\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+D:\Proyectos\PROYECTO INTEGRADOR\Proyecto Git Doctor III\Intermedio before somee\PITProject-master\MvcAuth\bin\roslyn\System.Security.Principal.Windows.dll
+D:\Proyectos\PROYECTO INTEGRADOR\Proyecto Git Doctor III\Intermedio before somee\PITProject-master\MvcAuth\bin\roslyn\System.Text.Encoding.CodePages.dll
+D:\Proyectos\PROYECTO INTEGRADOR\Proyecto Git Doctor III\Intermedio before somee\PITProject-master\MvcAuth\bin\roslyn\System.ValueTuple.dll
+D:\Proyectos\PROYECTO INTEGRADOR\Proyecto Git Doctor III\Intermedio before somee\PITProject-master\MvcAuth\bin\roslyn\System.Xml.ReaderWriter.dll
+D:\Proyectos\PROYECTO INTEGRADOR\Proyecto Git Doctor III\Intermedio before somee\PITProject-master\MvcAuth\bin\roslyn\System.Xml.XmlDocument.dll
+D:\Proyectos\PROYECTO INTEGRADOR\Proyecto Git Doctor III\Intermedio before somee\PITProject-master\MvcAuth\bin\roslyn\System.Xml.XPath.dll
+D:\Proyectos\PROYECTO INTEGRADOR\Proyecto Git Doctor III\Intermedio before somee\PITProject-master\MvcAuth\bin\roslyn\System.Xml.XPath.XDocument.dll
+D:\Proyectos\PROYECTO INTEGRADOR\Proyecto Git Doctor III\Intermedio before somee\PITProject-master\MvcAuth\bin\roslyn\vbc.exe
+D:\Proyectos\PROYECTO INTEGRADOR\Proyecto Git Doctor III\Intermedio before somee\PITProject-master\MvcAuth\bin\roslyn\vbc.exe.config
+D:\Proyectos\PROYECTO INTEGRADOR\Proyecto Git Doctor III\Intermedio before somee\PITProject-master\MvcAuth\bin\roslyn\vbc.rsp
+D:\Proyectos\PROYECTO INTEGRADOR\Proyecto Git Doctor III\Intermedio before somee\PITProject-master\MvcAuth\bin\roslyn\VBCSCompiler.exe
+D:\Proyectos\PROYECTO INTEGRADOR\Proyecto Git Doctor III\Intermedio before somee\PITProject-master\MvcAuth\bin\roslyn\VBCSCompiler.exe.config
+D:\Proyectos\PROYECTO INTEGRADOR\Proyecto Git Doctor III\Intermedio before somee\PITProject-master\MvcAuth\bin\Antlr3.Runtime.dll
+D:\Proyectos\PROYECTO INTEGRADOR\Proyecto Git Doctor III\Intermedio before somee\PITProject-master\MvcAuth\bin\EntityFramework.dll
+D:\Proyectos\PROYECTO INTEGRADOR\Proyecto Git Doctor III\Intermedio before somee\PITProject-master\MvcAuth\bin\EntityFramework.SqlServer.dll
+D:\Proyectos\PROYECTO INTEGRADOR\Proyecto Git Doctor III\Intermedio before somee\PITProject-master\MvcAuth\bin\Microsoft.AspNet.Identity.Core.dll
+D:\Proyectos\PROYECTO INTEGRADOR\Proyecto Git Doctor III\Intermedio before somee\PITProject-master\MvcAuth\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+D:\Proyectos\PROYECTO INTEGRADOR\Proyecto Git Doctor III\Intermedio before somee\PITProject-master\MvcAuth\bin\Microsoft.AspNet.Identity.Owin.dll
+D:\Proyectos\PROYECTO INTEGRADOR\Proyecto Git Doctor III\Intermedio before somee\PITProject-master\MvcAuth\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+D:\Proyectos\PROYECTO INTEGRADOR\Proyecto Git Doctor III\Intermedio before somee\PITProject-master\MvcAuth\bin\Microsoft.Owin.dll
+D:\Proyectos\PROYECTO INTEGRADOR\Proyecto Git Doctor III\Intermedio before somee\PITProject-master\MvcAuth\bin\Microsoft.Owin.Host.SystemWeb.dll
+D:\Proyectos\PROYECTO INTEGRADOR\Proyecto Git Doctor III\Intermedio before somee\PITProject-master\MvcAuth\bin\Microsoft.Owin.Security.Cookies.dll
+D:\Proyectos\PROYECTO INTEGRADOR\Proyecto Git Doctor III\Intermedio before somee\PITProject-master\MvcAuth\bin\Microsoft.Owin.Security.dll
+D:\Proyectos\PROYECTO INTEGRADOR\Proyecto Git Doctor III\Intermedio before somee\PITProject-master\MvcAuth\bin\Microsoft.Owin.Security.Facebook.dll
+D:\Proyectos\PROYECTO INTEGRADOR\Proyecto Git Doctor III\Intermedio before somee\PITProject-master\MvcAuth\bin\Microsoft.Owin.Security.Google.dll
+D:\Proyectos\PROYECTO INTEGRADOR\Proyecto Git Doctor III\Intermedio before somee\PITProject-master\MvcAuth\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+D:\Proyectos\PROYECTO INTEGRADOR\Proyecto Git Doctor III\Intermedio before somee\PITProject-master\MvcAuth\bin\Microsoft.Owin.Security.OAuth.dll
+D:\Proyectos\PROYECTO INTEGRADOR\Proyecto Git Doctor III\Intermedio before somee\PITProject-master\MvcAuth\bin\Microsoft.Owin.Security.Twitter.dll
+D:\Proyectos\PROYECTO INTEGRADOR\Proyecto Git Doctor III\Intermedio before somee\PITProject-master\MvcAuth\bin\Microsoft.Web.Infrastructure.dll
+D:\Proyectos\PROYECTO INTEGRADOR\Proyecto Git Doctor III\Intermedio before somee\PITProject-master\MvcAuth\bin\Newtonsoft.Json.dll
+D:\Proyectos\PROYECTO INTEGRADOR\Proyecto Git Doctor III\Intermedio before somee\PITProject-master\MvcAuth\bin\Owin.dll
+D:\Proyectos\PROYECTO INTEGRADOR\Proyecto Git Doctor III\Intermedio before somee\PITProject-master\MvcAuth\bin\System.Web.Helpers.dll
+D:\Proyectos\PROYECTO INTEGRADOR\Proyecto Git Doctor III\Intermedio before somee\PITProject-master\MvcAuth\bin\System.Web.Mvc.dll
+D:\Proyectos\PROYECTO INTEGRADOR\Proyecto Git Doctor III\Intermedio before somee\PITProject-master\MvcAuth\bin\System.Web.Optimization.dll
+D:\Proyectos\PROYECTO INTEGRADOR\Proyecto Git Doctor III\Intermedio before somee\PITProject-master\MvcAuth\bin\System.Web.Razor.dll
+D:\Proyectos\PROYECTO INTEGRADOR\Proyecto Git Doctor III\Intermedio before somee\PITProject-master\MvcAuth\bin\System.Web.WebPages.Deployment.dll
+D:\Proyectos\PROYECTO INTEGRADOR\Proyecto Git Doctor III\Intermedio before somee\PITProject-master\MvcAuth\bin\System.Web.WebPages.dll
+D:\Proyectos\PROYECTO INTEGRADOR\Proyecto Git Doctor III\Intermedio before somee\PITProject-master\MvcAuth\bin\System.Web.WebPages.Razor.dll
+D:\Proyectos\PROYECTO INTEGRADOR\Proyecto Git Doctor III\Intermedio before somee\PITProject-master\MvcAuth\bin\WebGrease.dll
+D:\Proyectos\PROYECTO INTEGRADOR\Proyecto Git Doctor III\Intermedio before somee\PITProject-master\MvcAuth\bin\System.Web.Helpers.xml
+D:\Proyectos\PROYECTO INTEGRADOR\Proyecto Git Doctor III\Intermedio before somee\PITProject-master\MvcAuth\bin\System.Web.Mvc.xml
+D:\Proyectos\PROYECTO INTEGRADOR\Proyecto Git Doctor III\Intermedio before somee\PITProject-master\MvcAuth\bin\System.Web.Optimization.xml
+D:\Proyectos\PROYECTO INTEGRADOR\Proyecto Git Doctor III\Intermedio before somee\PITProject-master\MvcAuth\bin\System.Web.Razor.xml
+D:\Proyectos\PROYECTO INTEGRADOR\Proyecto Git Doctor III\Intermedio before somee\PITProject-master\MvcAuth\bin\System.Web.WebPages.xml
+D:\Proyectos\PROYECTO INTEGRADOR\Proyecto Git Doctor III\Intermedio before somee\PITProject-master\MvcAuth\bin\System.Web.WebPages.Deployment.xml
+D:\Proyectos\PROYECTO INTEGRADOR\Proyecto Git Doctor III\Intermedio before somee\PITProject-master\MvcAuth\bin\System.Web.WebPages.Razor.xml
+D:\Proyectos\PROYECTO INTEGRADOR\Proyecto Git Doctor III\Intermedio before somee\PITProject-master\MvcAuth\bin\Newtonsoft.Json.xml
+D:\Proyectos\PROYECTO INTEGRADOR\Proyecto Git Doctor III\Intermedio before somee\PITProject-master\MvcAuth\bin\Antlr3.Runtime.pdb
+D:\Proyectos\PROYECTO INTEGRADOR\Proyecto Git Doctor III\Intermedio before somee\PITProject-master\MvcAuth\bin\EntityFramework.xml
+D:\Proyectos\PROYECTO INTEGRADOR\Proyecto Git Doctor III\Intermedio before somee\PITProject-master\MvcAuth\bin\EntityFramework.SqlServer.xml
+D:\Proyectos\PROYECTO INTEGRADOR\Proyecto Git Doctor III\Intermedio before somee\PITProject-master\MvcAuth\bin\Microsoft.AspNet.Identity.Core.xml
+D:\Proyectos\PROYECTO INTEGRADOR\Proyecto Git Doctor III\Intermedio before somee\PITProject-master\MvcAuth\bin\Microsoft.AspNet.Identity.Owin.xml
+D:\Proyectos\PROYECTO INTEGRADOR\Proyecto Git Doctor III\Intermedio before somee\PITProject-master\MvcAuth\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+D:\Proyectos\PROYECTO INTEGRADOR\Proyecto Git Doctor III\Intermedio before somee\PITProject-master\MvcAuth\bin\Microsoft.Owin.xml
+D:\Proyectos\PROYECTO INTEGRADOR\Proyecto Git Doctor III\Intermedio before somee\PITProject-master\MvcAuth\bin\Microsoft.Owin.Host.SystemWeb.xml
+D:\Proyectos\PROYECTO INTEGRADOR\Proyecto Git Doctor III\Intermedio before somee\PITProject-master\MvcAuth\bin\Microsoft.Owin.Security.xml
+D:\Proyectos\PROYECTO INTEGRADOR\Proyecto Git Doctor III\Intermedio before somee\PITProject-master\MvcAuth\bin\Microsoft.Owin.Security.Facebook.xml
+D:\Proyectos\PROYECTO INTEGRADOR\Proyecto Git Doctor III\Intermedio before somee\PITProject-master\MvcAuth\bin\Microsoft.Owin.Security.Cookies.xml
+D:\Proyectos\PROYECTO INTEGRADOR\Proyecto Git Doctor III\Intermedio before somee\PITProject-master\MvcAuth\bin\Microsoft.Owin.Security.Google.xml
+D:\Proyectos\PROYECTO INTEGRADOR\Proyecto Git Doctor III\Intermedio before somee\PITProject-master\MvcAuth\bin\Microsoft.Owin.Security.Twitter.xml
+D:\Proyectos\PROYECTO INTEGRADOR\Proyecto Git Doctor III\Intermedio before somee\PITProject-master\MvcAuth\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+D:\Proyectos\PROYECTO INTEGRADOR\Proyecto Git Doctor III\Intermedio before somee\PITProject-master\MvcAuth\bin\Microsoft.Owin.Security.OAuth.xml
+D:\Proyectos\PROYECTO INTEGRADOR\Proyecto Git Doctor III\Intermedio before somee\PITProject-master\MvcAuth\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+D:\Proyectos\PROYECTO INTEGRADOR\Proyecto Git Doctor III\Intermedio before somee\PITProject-master\MvcAuth\bin\es\System.Web.Helpers.resources.dll
+D:\Proyectos\PROYECTO INTEGRADOR\Proyecto Git Doctor III\Intermedio before somee\PITProject-master\MvcAuth\bin\es\System.Web.Mvc.resources.dll
+D:\Proyectos\PROYECTO INTEGRADOR\Proyecto Git Doctor III\Intermedio before somee\PITProject-master\MvcAuth\bin\es\System.Web.Optimization.resources.dll
+D:\Proyectos\PROYECTO INTEGRADOR\Proyecto Git Doctor III\Intermedio before somee\PITProject-master\MvcAuth\bin\es\System.Web.Razor.resources.dll
+D:\Proyectos\PROYECTO INTEGRADOR\Proyecto Git Doctor III\Intermedio before somee\PITProject-master\MvcAuth\bin\es\System.Web.WebPages.resources.dll
+D:\Proyectos\PROYECTO INTEGRADOR\Proyecto Git Doctor III\Intermedio before somee\PITProject-master\MvcAuth\bin\es\System.Web.WebPages.Deployment.resources.dll
+D:\Proyectos\PROYECTO INTEGRADOR\Proyecto Git Doctor III\Intermedio before somee\PITProject-master\MvcAuth\bin\es\System.Web.WebPages.Razor.resources.dll
+D:\Proyectos\PROYECTO INTEGRADOR\Proyecto Git Doctor III\Intermedio before somee\PITProject-master\MvcAuth\bin\es\EntityFramework.resources.dll
+D:\Proyectos\PROYECTO INTEGRADOR\Proyecto Git Doctor III\Intermedio before somee\PITProject-master\MvcAuth\bin\es\EntityFramework.SqlServer.resources.dll
+D:\Proyectos\PROYECTO INTEGRADOR\Proyecto Git Doctor III\Intermedio before somee\PITProject-master\MvcAuth\bin\es\Microsoft.AspNet.Identity.Core.resources.dll
+D:\Proyectos\PROYECTO INTEGRADOR\Proyecto Git Doctor III\Intermedio before somee\PITProject-master\MvcAuth\bin\es\Microsoft.AspNet.Identity.Owin.resources.dll
+D:\Proyectos\PROYECTO INTEGRADOR\Proyecto Git Doctor III\Intermedio before somee\PITProject-master\MvcAuth\bin\es\Microsoft.AspNet.Identity.EntityFramework.resources.dll
+D:\Proyectos\PROYECTO INTEGRADOR\Proyecto Git Doctor III\Intermedio before somee\PITProject-master\MvcAuth\obj\Debug\MvcAuth.Migrations.Init.resources
+D:\Proyectos\PROYECTO INTEGRADOR\Proyecto Git Doctor III\Intermedio before somee\PITProject-master\MvcAuth\obj\Debug\MvcAuth.csproj.GenerateResource.cache
+D:\Proyectos\PROYECTO INTEGRADOR\Proyecto Git Doctor III\Intermedio before somee\PITProject-master\MvcAuth\obj\Debug\MvcAuth.csproj.CoreCompileInputs.cache
+D:\Proyectos\PROYECTO INTEGRADOR\Proyecto Git Doctor III\Intermedio before somee\PITProject-master\MvcAuth\obj\Debug\MvcAuth.csproj.CopyComplete
+D:\Proyectos\PROYECTO INTEGRADOR\Proyecto Git Doctor III\Intermedio before somee\PITProject-master\MvcAuth\obj\Debug\MvcAuth.dll
+D:\Proyectos\PROYECTO INTEGRADOR\Proyecto Git Doctor III\Intermedio before somee\PITProject-master\MvcAuth\obj\Debug\MvcAuth.pdb
+D:\Proyectos\PROYECTO INTEGRADOR\Proyecto Git Doctor III\Intermedio before somee\PITProject-master\MvcAuth\obj\Debug\MvcAuth.csprojAssemblyReference.cache
+C:\Users\MAX PEREYRA\Desktop\geral\PITProject-master\MvcAuth\bin\MvcAuth.dll.config
+C:\Users\MAX PEREYRA\Desktop\geral\PITProject-master\MvcAuth\bin\MvcAuth.dll
+C:\Users\MAX PEREYRA\Desktop\geral\PITProject-master\MvcAuth\bin\MvcAuth.pdb
+C:\Users\MAX PEREYRA\Desktop\geral\PITProject-master\MvcAuth\bin\roslyn\csc.exe
+C:\Users\MAX PEREYRA\Desktop\geral\PITProject-master\MvcAuth\bin\roslyn\csc.exe.config
+C:\Users\MAX PEREYRA\Desktop\geral\PITProject-master\MvcAuth\bin\roslyn\csc.rsp
+C:\Users\MAX PEREYRA\Desktop\geral\PITProject-master\MvcAuth\bin\roslyn\csi.exe
+C:\Users\MAX PEREYRA\Desktop\geral\PITProject-master\MvcAuth\bin\roslyn\csi.exe.config
+C:\Users\MAX PEREYRA\Desktop\geral\PITProject-master\MvcAuth\bin\roslyn\csi.rsp
+C:\Users\MAX PEREYRA\Desktop\geral\PITProject-master\MvcAuth\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\MAX PEREYRA\Desktop\geral\PITProject-master\MvcAuth\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\MAX PEREYRA\Desktop\geral\PITProject-master\MvcAuth\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\MAX PEREYRA\Desktop\geral\PITProject-master\MvcAuth\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\MAX PEREYRA\Desktop\geral\PITProject-master\MvcAuth\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\MAX PEREYRA\Desktop\geral\PITProject-master\MvcAuth\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\MAX PEREYRA\Desktop\geral\PITProject-master\MvcAuth\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\MAX PEREYRA\Desktop\geral\PITProject-master\MvcAuth\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\MAX PEREYRA\Desktop\geral\PITProject-master\MvcAuth\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\MAX PEREYRA\Desktop\geral\PITProject-master\MvcAuth\bin\roslyn\Microsoft.Managed.Core.targets
+C:\Users\MAX PEREYRA\Desktop\geral\PITProject-master\MvcAuth\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\MAX PEREYRA\Desktop\geral\PITProject-master\MvcAuth\bin\roslyn\System.AppContext.dll
+C:\Users\MAX PEREYRA\Desktop\geral\PITProject-master\MvcAuth\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\MAX PEREYRA\Desktop\geral\PITProject-master\MvcAuth\bin\roslyn\System.Console.dll
+C:\Users\MAX PEREYRA\Desktop\geral\PITProject-master\MvcAuth\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+C:\Users\MAX PEREYRA\Desktop\geral\PITProject-master\MvcAuth\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\MAX PEREYRA\Desktop\geral\PITProject-master\MvcAuth\bin\roslyn\System.IO.Compression.dll
+C:\Users\MAX PEREYRA\Desktop\geral\PITProject-master\MvcAuth\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\MAX PEREYRA\Desktop\geral\PITProject-master\MvcAuth\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\MAX PEREYRA\Desktop\geral\PITProject-master\MvcAuth\bin\roslyn\System.IO.Pipes.AccessControl.dll
+C:\Users\MAX PEREYRA\Desktop\geral\PITProject-master\MvcAuth\bin\roslyn\System.IO.Pipes.dll
+C:\Users\MAX PEREYRA\Desktop\geral\PITProject-master\MvcAuth\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\MAX PEREYRA\Desktop\geral\PITProject-master\MvcAuth\bin\roslyn\System.Security.AccessControl.dll
+C:\Users\MAX PEREYRA\Desktop\geral\PITProject-master\MvcAuth\bin\roslyn\System.Security.Claims.dll
+C:\Users\MAX PEREYRA\Desktop\geral\PITProject-master\MvcAuth\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+C:\Users\MAX PEREYRA\Desktop\geral\PITProject-master\MvcAuth\bin\roslyn\System.Security.Cryptography.Encoding.dll
+C:\Users\MAX PEREYRA\Desktop\geral\PITProject-master\MvcAuth\bin\roslyn\System.Security.Cryptography.Primitives.dll
+C:\Users\MAX PEREYRA\Desktop\geral\PITProject-master\MvcAuth\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+C:\Users\MAX PEREYRA\Desktop\geral\PITProject-master\MvcAuth\bin\roslyn\System.Security.Principal.Windows.dll
+C:\Users\MAX PEREYRA\Desktop\geral\PITProject-master\MvcAuth\bin\roslyn\System.Text.Encoding.CodePages.dll
+C:\Users\MAX PEREYRA\Desktop\geral\PITProject-master\MvcAuth\bin\roslyn\System.ValueTuple.dll
+C:\Users\MAX PEREYRA\Desktop\geral\PITProject-master\MvcAuth\bin\roslyn\System.Xml.ReaderWriter.dll
+C:\Users\MAX PEREYRA\Desktop\geral\PITProject-master\MvcAuth\bin\roslyn\System.Xml.XmlDocument.dll
+C:\Users\MAX PEREYRA\Desktop\geral\PITProject-master\MvcAuth\bin\roslyn\System.Xml.XPath.dll
+C:\Users\MAX PEREYRA\Desktop\geral\PITProject-master\MvcAuth\bin\roslyn\System.Xml.XPath.XDocument.dll
+C:\Users\MAX PEREYRA\Desktop\geral\PITProject-master\MvcAuth\bin\roslyn\vbc.exe
+C:\Users\MAX PEREYRA\Desktop\geral\PITProject-master\MvcAuth\bin\roslyn\vbc.exe.config
+C:\Users\MAX PEREYRA\Desktop\geral\PITProject-master\MvcAuth\bin\roslyn\vbc.rsp
+C:\Users\MAX PEREYRA\Desktop\geral\PITProject-master\MvcAuth\bin\roslyn\VBCSCompiler.exe
+C:\Users\MAX PEREYRA\Desktop\geral\PITProject-master\MvcAuth\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\MAX PEREYRA\Desktop\geral\PITProject-master\MvcAuth\bin\Antlr3.Runtime.dll
+C:\Users\MAX PEREYRA\Desktop\geral\PITProject-master\MvcAuth\bin\EntityFramework.dll
+C:\Users\MAX PEREYRA\Desktop\geral\PITProject-master\MvcAuth\bin\EntityFramework.SqlServer.dll
+C:\Users\MAX PEREYRA\Desktop\geral\PITProject-master\MvcAuth\bin\Microsoft.AspNet.Identity.Core.dll
+C:\Users\MAX PEREYRA\Desktop\geral\PITProject-master\MvcAuth\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+C:\Users\MAX PEREYRA\Desktop\geral\PITProject-master\MvcAuth\bin\Microsoft.AspNet.Identity.Owin.dll
+C:\Users\MAX PEREYRA\Desktop\geral\PITProject-master\MvcAuth\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\MAX PEREYRA\Desktop\geral\PITProject-master\MvcAuth\bin\Microsoft.Owin.dll
+C:\Users\MAX PEREYRA\Desktop\geral\PITProject-master\MvcAuth\bin\Microsoft.Owin.Host.SystemWeb.dll
+C:\Users\MAX PEREYRA\Desktop\geral\PITProject-master\MvcAuth\bin\Microsoft.Owin.Security.Cookies.dll
+C:\Users\MAX PEREYRA\Desktop\geral\PITProject-master\MvcAuth\bin\Microsoft.Owin.Security.dll
+C:\Users\MAX PEREYRA\Desktop\geral\PITProject-master\MvcAuth\bin\Microsoft.Owin.Security.Facebook.dll
+C:\Users\MAX PEREYRA\Desktop\geral\PITProject-master\MvcAuth\bin\Microsoft.Owin.Security.Google.dll
+C:\Users\MAX PEREYRA\Desktop\geral\PITProject-master\MvcAuth\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+C:\Users\MAX PEREYRA\Desktop\geral\PITProject-master\MvcAuth\bin\Microsoft.Owin.Security.OAuth.dll
+C:\Users\MAX PEREYRA\Desktop\geral\PITProject-master\MvcAuth\bin\Microsoft.Owin.Security.Twitter.dll
+C:\Users\MAX PEREYRA\Desktop\geral\PITProject-master\MvcAuth\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\MAX PEREYRA\Desktop\geral\PITProject-master\MvcAuth\bin\Newtonsoft.Json.dll
+C:\Users\MAX PEREYRA\Desktop\geral\PITProject-master\MvcAuth\bin\Owin.dll
+C:\Users\MAX PEREYRA\Desktop\geral\PITProject-master\MvcAuth\bin\System.Web.Helpers.dll
+C:\Users\MAX PEREYRA\Desktop\geral\PITProject-master\MvcAuth\bin\System.Web.Mvc.dll
+C:\Users\MAX PEREYRA\Desktop\geral\PITProject-master\MvcAuth\bin\System.Web.Optimization.dll
+C:\Users\MAX PEREYRA\Desktop\geral\PITProject-master\MvcAuth\bin\System.Web.Razor.dll
+C:\Users\MAX PEREYRA\Desktop\geral\PITProject-master\MvcAuth\bin\System.Web.WebPages.Deployment.dll
+C:\Users\MAX PEREYRA\Desktop\geral\PITProject-master\MvcAuth\bin\System.Web.WebPages.dll
+C:\Users\MAX PEREYRA\Desktop\geral\PITProject-master\MvcAuth\bin\System.Web.WebPages.Razor.dll
+C:\Users\MAX PEREYRA\Desktop\geral\PITProject-master\MvcAuth\bin\WebGrease.dll
+C:\Users\MAX PEREYRA\Desktop\geral\PITProject-master\MvcAuth\bin\System.Web.Helpers.xml
+C:\Users\MAX PEREYRA\Desktop\geral\PITProject-master\MvcAuth\bin\System.Web.Mvc.xml
+C:\Users\MAX PEREYRA\Desktop\geral\PITProject-master\MvcAuth\bin\System.Web.Optimization.xml
+C:\Users\MAX PEREYRA\Desktop\geral\PITProject-master\MvcAuth\bin\System.Web.Razor.xml
+C:\Users\MAX PEREYRA\Desktop\geral\PITProject-master\MvcAuth\bin\System.Web.WebPages.xml
+C:\Users\MAX PEREYRA\Desktop\geral\PITProject-master\MvcAuth\bin\System.Web.WebPages.Deployment.xml
+C:\Users\MAX PEREYRA\Desktop\geral\PITProject-master\MvcAuth\bin\System.Web.WebPages.Razor.xml
+C:\Users\MAX PEREYRA\Desktop\geral\PITProject-master\MvcAuth\bin\Newtonsoft.Json.xml
+C:\Users\MAX PEREYRA\Desktop\geral\PITProject-master\MvcAuth\bin\Antlr3.Runtime.pdb
+C:\Users\MAX PEREYRA\Desktop\geral\PITProject-master\MvcAuth\bin\EntityFramework.xml
+C:\Users\MAX PEREYRA\Desktop\geral\PITProject-master\MvcAuth\bin\EntityFramework.SqlServer.xml
+C:\Users\MAX PEREYRA\Desktop\geral\PITProject-master\MvcAuth\bin\Microsoft.AspNet.Identity.Core.xml
+C:\Users\MAX PEREYRA\Desktop\geral\PITProject-master\MvcAuth\bin\Microsoft.AspNet.Identity.Owin.xml
+C:\Users\MAX PEREYRA\Desktop\geral\PITProject-master\MvcAuth\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+C:\Users\MAX PEREYRA\Desktop\geral\PITProject-master\MvcAuth\bin\Microsoft.Owin.xml
+C:\Users\MAX PEREYRA\Desktop\geral\PITProject-master\MvcAuth\bin\Microsoft.Owin.Host.SystemWeb.xml
+C:\Users\MAX PEREYRA\Desktop\geral\PITProject-master\MvcAuth\bin\Microsoft.Owin.Security.xml
+C:\Users\MAX PEREYRA\Desktop\geral\PITProject-master\MvcAuth\bin\Microsoft.Owin.Security.Facebook.xml
+C:\Users\MAX PEREYRA\Desktop\geral\PITProject-master\MvcAuth\bin\Microsoft.Owin.Security.Cookies.xml
+C:\Users\MAX PEREYRA\Desktop\geral\PITProject-master\MvcAuth\bin\Microsoft.Owin.Security.Google.xml
+C:\Users\MAX PEREYRA\Desktop\geral\PITProject-master\MvcAuth\bin\Microsoft.Owin.Security.Twitter.xml
+C:\Users\MAX PEREYRA\Desktop\geral\PITProject-master\MvcAuth\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+C:\Users\MAX PEREYRA\Desktop\geral\PITProject-master\MvcAuth\bin\Microsoft.Owin.Security.OAuth.xml
+C:\Users\MAX PEREYRA\Desktop\geral\PITProject-master\MvcAuth\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\MAX PEREYRA\Desktop\geral\PITProject-master\MvcAuth\bin\es\System.Web.Helpers.resources.dll
+C:\Users\MAX PEREYRA\Desktop\geral\PITProject-master\MvcAuth\bin\es\System.Web.Mvc.resources.dll
+C:\Users\MAX PEREYRA\Desktop\geral\PITProject-master\MvcAuth\bin\es\System.Web.Optimization.resources.dll
+C:\Users\MAX PEREYRA\Desktop\geral\PITProject-master\MvcAuth\bin\es\System.Web.Razor.resources.dll
+C:\Users\MAX PEREYRA\Desktop\geral\PITProject-master\MvcAuth\bin\es\System.Web.WebPages.resources.dll
+C:\Users\MAX PEREYRA\Desktop\geral\PITProject-master\MvcAuth\bin\es\System.Web.WebPages.Deployment.resources.dll
+C:\Users\MAX PEREYRA\Desktop\geral\PITProject-master\MvcAuth\bin\es\System.Web.WebPages.Razor.resources.dll
+C:\Users\MAX PEREYRA\Desktop\geral\PITProject-master\MvcAuth\bin\es\EntityFramework.resources.dll
+C:\Users\MAX PEREYRA\Desktop\geral\PITProject-master\MvcAuth\bin\es\EntityFramework.SqlServer.resources.dll
+C:\Users\MAX PEREYRA\Desktop\geral\PITProject-master\MvcAuth\bin\es\Microsoft.AspNet.Identity.Core.resources.dll
+C:\Users\MAX PEREYRA\Desktop\geral\PITProject-master\MvcAuth\bin\es\Microsoft.AspNet.Identity.Owin.resources.dll
+C:\Users\MAX PEREYRA\Desktop\geral\PITProject-master\MvcAuth\bin\es\Microsoft.AspNet.Identity.EntityFramework.resources.dll
+C:\Users\MAX PEREYRA\Desktop\geral\PITProject-master\MvcAuth\obj\Debug\MvcAuth.csprojAssemblyReference.cache
+C:\Users\MAX PEREYRA\Desktop\geral\PITProject-master\MvcAuth\obj\Debug\MvcAuth.Migrations.Init.resources
+C:\Users\MAX PEREYRA\Desktop\geral\PITProject-master\MvcAuth\obj\Debug\MvcAuth.csproj.GenerateResource.cache
+C:\Users\MAX PEREYRA\Desktop\geral\PITProject-master\MvcAuth\obj\Debug\MvcAuth.csproj.CoreCompileInputs.cache
+C:\Users\MAX PEREYRA\Desktop\geral\PITProject-master\MvcAuth\obj\Debug\MvcAuth.csproj.CopyComplete
+C:\Users\MAX PEREYRA\Desktop\geral\PITProject-master\MvcAuth\obj\Debug\MvcAuth.dll
+C:\Users\MAX PEREYRA\Desktop\geral\PITProject-master\MvcAuth\obj\Debug\MvcAuth.pdb
+C:\Users\ronal\Desktop\Final\PITProject-master\MvcAuth\bin\MvcAuth.dll.config
+C:\Users\ronal\Desktop\Final\PITProject-master\MvcAuth\bin\MvcAuth.dll
+C:\Users\ronal\Desktop\Final\PITProject-master\MvcAuth\bin\MvcAuth.pdb
+C:\Users\ronal\Desktop\Final\PITProject-master\MvcAuth\bin\roslyn\csc.exe
+C:\Users\ronal\Desktop\Final\PITProject-master\MvcAuth\bin\roslyn\csc.exe.config
+C:\Users\ronal\Desktop\Final\PITProject-master\MvcAuth\bin\roslyn\csc.rsp
+C:\Users\ronal\Desktop\Final\PITProject-master\MvcAuth\bin\roslyn\csi.exe
+C:\Users\ronal\Desktop\Final\PITProject-master\MvcAuth\bin\roslyn\csi.exe.config
+C:\Users\ronal\Desktop\Final\PITProject-master\MvcAuth\bin\roslyn\csi.rsp
+C:\Users\ronal\Desktop\Final\PITProject-master\MvcAuth\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\ronal\Desktop\Final\PITProject-master\MvcAuth\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\ronal\Desktop\Final\PITProject-master\MvcAuth\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\ronal\Desktop\Final\PITProject-master\MvcAuth\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\ronal\Desktop\Final\PITProject-master\MvcAuth\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\ronal\Desktop\Final\PITProject-master\MvcAuth\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\ronal\Desktop\Final\PITProject-master\MvcAuth\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\ronal\Desktop\Final\PITProject-master\MvcAuth\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\ronal\Desktop\Final\PITProject-master\MvcAuth\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\ronal\Desktop\Final\PITProject-master\MvcAuth\bin\roslyn\Microsoft.Managed.Core.targets
+C:\Users\ronal\Desktop\Final\PITProject-master\MvcAuth\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\ronal\Desktop\Final\PITProject-master\MvcAuth\bin\roslyn\System.AppContext.dll
+C:\Users\ronal\Desktop\Final\PITProject-master\MvcAuth\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\ronal\Desktop\Final\PITProject-master\MvcAuth\bin\roslyn\System.Console.dll
+C:\Users\ronal\Desktop\Final\PITProject-master\MvcAuth\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+C:\Users\ronal\Desktop\Final\PITProject-master\MvcAuth\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\ronal\Desktop\Final\PITProject-master\MvcAuth\bin\roslyn\System.IO.Compression.dll
+C:\Users\ronal\Desktop\Final\PITProject-master\MvcAuth\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\ronal\Desktop\Final\PITProject-master\MvcAuth\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\ronal\Desktop\Final\PITProject-master\MvcAuth\bin\roslyn\System.IO.Pipes.AccessControl.dll
+C:\Users\ronal\Desktop\Final\PITProject-master\MvcAuth\bin\roslyn\System.IO.Pipes.dll
+C:\Users\ronal\Desktop\Final\PITProject-master\MvcAuth\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\ronal\Desktop\Final\PITProject-master\MvcAuth\bin\roslyn\System.Security.AccessControl.dll
+C:\Users\ronal\Desktop\Final\PITProject-master\MvcAuth\bin\roslyn\System.Security.Claims.dll
+C:\Users\ronal\Desktop\Final\PITProject-master\MvcAuth\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+C:\Users\ronal\Desktop\Final\PITProject-master\MvcAuth\bin\roslyn\System.Security.Cryptography.Encoding.dll
+C:\Users\ronal\Desktop\Final\PITProject-master\MvcAuth\bin\roslyn\System.Security.Cryptography.Primitives.dll
+C:\Users\ronal\Desktop\Final\PITProject-master\MvcAuth\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+C:\Users\ronal\Desktop\Final\PITProject-master\MvcAuth\bin\roslyn\System.Security.Principal.Windows.dll
+C:\Users\ronal\Desktop\Final\PITProject-master\MvcAuth\bin\roslyn\System.Text.Encoding.CodePages.dll
+C:\Users\ronal\Desktop\Final\PITProject-master\MvcAuth\bin\roslyn\System.ValueTuple.dll
+C:\Users\ronal\Desktop\Final\PITProject-master\MvcAuth\bin\roslyn\System.Xml.ReaderWriter.dll
+C:\Users\ronal\Desktop\Final\PITProject-master\MvcAuth\bin\roslyn\System.Xml.XmlDocument.dll
+C:\Users\ronal\Desktop\Final\PITProject-master\MvcAuth\bin\roslyn\System.Xml.XPath.dll
+C:\Users\ronal\Desktop\Final\PITProject-master\MvcAuth\bin\roslyn\System.Xml.XPath.XDocument.dll
+C:\Users\ronal\Desktop\Final\PITProject-master\MvcAuth\bin\roslyn\vbc.exe
+C:\Users\ronal\Desktop\Final\PITProject-master\MvcAuth\bin\roslyn\vbc.exe.config
+C:\Users\ronal\Desktop\Final\PITProject-master\MvcAuth\bin\roslyn\vbc.rsp
+C:\Users\ronal\Desktop\Final\PITProject-master\MvcAuth\bin\roslyn\VBCSCompiler.exe
+C:\Users\ronal\Desktop\Final\PITProject-master\MvcAuth\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\ronal\Desktop\Final\PITProject-master\MvcAuth\bin\Antlr3.Runtime.dll
+C:\Users\ronal\Desktop\Final\PITProject-master\MvcAuth\bin\EntityFramework.dll
+C:\Users\ronal\Desktop\Final\PITProject-master\MvcAuth\bin\EntityFramework.SqlServer.dll
+C:\Users\ronal\Desktop\Final\PITProject-master\MvcAuth\bin\Microsoft.AspNet.Identity.Core.dll
+C:\Users\ronal\Desktop\Final\PITProject-master\MvcAuth\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+C:\Users\ronal\Desktop\Final\PITProject-master\MvcAuth\bin\Microsoft.AspNet.Identity.Owin.dll
+C:\Users\ronal\Desktop\Final\PITProject-master\MvcAuth\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\ronal\Desktop\Final\PITProject-master\MvcAuth\bin\Microsoft.Owin.dll
+C:\Users\ronal\Desktop\Final\PITProject-master\MvcAuth\bin\Microsoft.Owin.Host.SystemWeb.dll
+C:\Users\ronal\Desktop\Final\PITProject-master\MvcAuth\bin\Microsoft.Owin.Security.Cookies.dll
+C:\Users\ronal\Desktop\Final\PITProject-master\MvcAuth\bin\Microsoft.Owin.Security.dll
+C:\Users\ronal\Desktop\Final\PITProject-master\MvcAuth\bin\Microsoft.Owin.Security.Facebook.dll
+C:\Users\ronal\Desktop\Final\PITProject-master\MvcAuth\bin\Microsoft.Owin.Security.Google.dll
+C:\Users\ronal\Desktop\Final\PITProject-master\MvcAuth\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+C:\Users\ronal\Desktop\Final\PITProject-master\MvcAuth\bin\Microsoft.Owin.Security.OAuth.dll
+C:\Users\ronal\Desktop\Final\PITProject-master\MvcAuth\bin\Microsoft.Owin.Security.Twitter.dll
+C:\Users\ronal\Desktop\Final\PITProject-master\MvcAuth\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\ronal\Desktop\Final\PITProject-master\MvcAuth\bin\Newtonsoft.Json.dll
+C:\Users\ronal\Desktop\Final\PITProject-master\MvcAuth\bin\Owin.dll
+C:\Users\ronal\Desktop\Final\PITProject-master\MvcAuth\bin\System.Web.Helpers.dll
+C:\Users\ronal\Desktop\Final\PITProject-master\MvcAuth\bin\System.Web.Mvc.dll
+C:\Users\ronal\Desktop\Final\PITProject-master\MvcAuth\bin\System.Web.Optimization.dll
+C:\Users\ronal\Desktop\Final\PITProject-master\MvcAuth\bin\System.Web.Razor.dll
+C:\Users\ronal\Desktop\Final\PITProject-master\MvcAuth\bin\System.Web.WebPages.Deployment.dll
+C:\Users\ronal\Desktop\Final\PITProject-master\MvcAuth\bin\System.Web.WebPages.dll
+C:\Users\ronal\Desktop\Final\PITProject-master\MvcAuth\bin\System.Web.WebPages.Razor.dll
+C:\Users\ronal\Desktop\Final\PITProject-master\MvcAuth\bin\WebGrease.dll
+C:\Users\ronal\Desktop\Final\PITProject-master\MvcAuth\bin\System.Web.Helpers.xml
+C:\Users\ronal\Desktop\Final\PITProject-master\MvcAuth\bin\System.Web.Mvc.xml
+C:\Users\ronal\Desktop\Final\PITProject-master\MvcAuth\bin\System.Web.Optimization.xml
+C:\Users\ronal\Desktop\Final\PITProject-master\MvcAuth\bin\System.Web.Razor.xml
+C:\Users\ronal\Desktop\Final\PITProject-master\MvcAuth\bin\System.Web.WebPages.xml
+C:\Users\ronal\Desktop\Final\PITProject-master\MvcAuth\bin\System.Web.WebPages.Deployment.xml
+C:\Users\ronal\Desktop\Final\PITProject-master\MvcAuth\bin\System.Web.WebPages.Razor.xml
+C:\Users\ronal\Desktop\Final\PITProject-master\MvcAuth\bin\Newtonsoft.Json.xml
+C:\Users\ronal\Desktop\Final\PITProject-master\MvcAuth\bin\Antlr3.Runtime.pdb
+C:\Users\ronal\Desktop\Final\PITProject-master\MvcAuth\bin\EntityFramework.xml
+C:\Users\ronal\Desktop\Final\PITProject-master\MvcAuth\bin\EntityFramework.SqlServer.xml
+C:\Users\ronal\Desktop\Final\PITProject-master\MvcAuth\bin\Microsoft.AspNet.Identity.Core.xml
+C:\Users\ronal\Desktop\Final\PITProject-master\MvcAuth\bin\Microsoft.AspNet.Identity.Owin.xml
+C:\Users\ronal\Desktop\Final\PITProject-master\MvcAuth\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+C:\Users\ronal\Desktop\Final\PITProject-master\MvcAuth\bin\Microsoft.Owin.xml
+C:\Users\ronal\Desktop\Final\PITProject-master\MvcAuth\bin\Microsoft.Owin.Host.SystemWeb.xml
+C:\Users\ronal\Desktop\Final\PITProject-master\MvcAuth\bin\Microsoft.Owin.Security.xml
+C:\Users\ronal\Desktop\Final\PITProject-master\MvcAuth\bin\Microsoft.Owin.Security.Facebook.xml
+C:\Users\ronal\Desktop\Final\PITProject-master\MvcAuth\bin\Microsoft.Owin.Security.Cookies.xml
+C:\Users\ronal\Desktop\Final\PITProject-master\MvcAuth\bin\Microsoft.Owin.Security.Google.xml
+C:\Users\ronal\Desktop\Final\PITProject-master\MvcAuth\bin\Microsoft.Owin.Security.Twitter.xml
+C:\Users\ronal\Desktop\Final\PITProject-master\MvcAuth\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+C:\Users\ronal\Desktop\Final\PITProject-master\MvcAuth\bin\Microsoft.Owin.Security.OAuth.xml
+C:\Users\ronal\Desktop\Final\PITProject-master\MvcAuth\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\ronal\Desktop\Final\PITProject-master\MvcAuth\bin\es\System.Web.Helpers.resources.dll
+C:\Users\ronal\Desktop\Final\PITProject-master\MvcAuth\bin\es\System.Web.Mvc.resources.dll
+C:\Users\ronal\Desktop\Final\PITProject-master\MvcAuth\bin\es\System.Web.Optimization.resources.dll
+C:\Users\ronal\Desktop\Final\PITProject-master\MvcAuth\bin\es\System.Web.Razor.resources.dll
+C:\Users\ronal\Desktop\Final\PITProject-master\MvcAuth\bin\es\System.Web.WebPages.resources.dll
+C:\Users\ronal\Desktop\Final\PITProject-master\MvcAuth\bin\es\System.Web.WebPages.Deployment.resources.dll
+C:\Users\ronal\Desktop\Final\PITProject-master\MvcAuth\bin\es\System.Web.WebPages.Razor.resources.dll
+C:\Users\ronal\Desktop\Final\PITProject-master\MvcAuth\bin\es\EntityFramework.resources.dll
+C:\Users\ronal\Desktop\Final\PITProject-master\MvcAuth\bin\es\EntityFramework.SqlServer.resources.dll
+C:\Users\ronal\Desktop\Final\PITProject-master\MvcAuth\bin\es\Microsoft.AspNet.Identity.Core.resources.dll
+C:\Users\ronal\Desktop\Final\PITProject-master\MvcAuth\bin\es\Microsoft.AspNet.Identity.Owin.resources.dll
+C:\Users\ronal\Desktop\Final\PITProject-master\MvcAuth\bin\es\Microsoft.AspNet.Identity.EntityFramework.resources.dll
+C:\Users\ronal\Desktop\Final\PITProject-master\MvcAuth\obj\Debug\MvcAuth.csprojAssemblyReference.cache
+C:\Users\ronal\Desktop\Final\PITProject-master\MvcAuth\obj\Debug\MvcAuth.Migrations.Init.resources
+C:\Users\ronal\Desktop\Final\PITProject-master\MvcAuth\obj\Debug\MvcAuth.csproj.GenerateResource.cache
+C:\Users\ronal\Desktop\Final\PITProject-master\MvcAuth\obj\Debug\MvcAuth.csproj.CopyComplete
+C:\Users\ronal\Desktop\Final\PITProject-master\MvcAuth\obj\Debug\MvcAuth.dll
+C:\Users\ronal\Desktop\Final\PITProject-master\MvcAuth\obj\Debug\MvcAuth.pdb
+D:\Proyectos\PROYECTO INTEGRADOR\Proyecto Git Doctor IV\Recurso I\PITProject-master\MvcAuth\bin\MvcAuth.dll.config
+D:\Proyectos\PROYECTO INTEGRADOR\Proyecto Git Doctor IV\Recurso I\PITProject-master\MvcAuth\bin\MvcAuth.dll
+D:\Proyectos\PROYECTO INTEGRADOR\Proyecto Git Doctor IV\Recurso I\PITProject-master\MvcAuth\bin\MvcAuth.pdb
+D:\Proyectos\PROYECTO INTEGRADOR\Proyecto Git Doctor IV\Recurso I\PITProject-master\MvcAuth\bin\roslyn\csc.exe
+D:\Proyectos\PROYECTO INTEGRADOR\Proyecto Git Doctor IV\Recurso I\PITProject-master\MvcAuth\bin\roslyn\csc.exe.config
+D:\Proyectos\PROYECTO INTEGRADOR\Proyecto Git Doctor IV\Recurso I\PITProject-master\MvcAuth\bin\roslyn\csc.rsp
+D:\Proyectos\PROYECTO INTEGRADOR\Proyecto Git Doctor IV\Recurso I\PITProject-master\MvcAuth\bin\roslyn\csi.exe
+D:\Proyectos\PROYECTO INTEGRADOR\Proyecto Git Doctor IV\Recurso I\PITProject-master\MvcAuth\bin\roslyn\csi.exe.config
+D:\Proyectos\PROYECTO INTEGRADOR\Proyecto Git Doctor IV\Recurso I\PITProject-master\MvcAuth\bin\roslyn\csi.rsp
+D:\Proyectos\PROYECTO INTEGRADOR\Proyecto Git Doctor IV\Recurso I\PITProject-master\MvcAuth\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+D:\Proyectos\PROYECTO INTEGRADOR\Proyecto Git Doctor IV\Recurso I\PITProject-master\MvcAuth\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+D:\Proyectos\PROYECTO INTEGRADOR\Proyecto Git Doctor IV\Recurso I\PITProject-master\MvcAuth\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+D:\Proyectos\PROYECTO INTEGRADOR\Proyecto Git Doctor IV\Recurso I\PITProject-master\MvcAuth\bin\roslyn\Microsoft.CodeAnalysis.dll
+D:\Proyectos\PROYECTO INTEGRADOR\Proyecto Git Doctor IV\Recurso I\PITProject-master\MvcAuth\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+D:\Proyectos\PROYECTO INTEGRADOR\Proyecto Git Doctor IV\Recurso I\PITProject-master\MvcAuth\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+D:\Proyectos\PROYECTO INTEGRADOR\Proyecto Git Doctor IV\Recurso I\PITProject-master\MvcAuth\bin\roslyn\Microsoft.CSharp.Core.targets
+D:\Proyectos\PROYECTO INTEGRADOR\Proyecto Git Doctor IV\Recurso I\PITProject-master\MvcAuth\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+D:\Proyectos\PROYECTO INTEGRADOR\Proyecto Git Doctor IV\Recurso I\PITProject-master\MvcAuth\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+D:\Proyectos\PROYECTO INTEGRADOR\Proyecto Git Doctor IV\Recurso I\PITProject-master\MvcAuth\bin\roslyn\Microsoft.Managed.Core.targets
+D:\Proyectos\PROYECTO INTEGRADOR\Proyecto Git Doctor IV\Recurso I\PITProject-master\MvcAuth\bin\roslyn\Microsoft.VisualBasic.Core.targets
+D:\Proyectos\PROYECTO INTEGRADOR\Proyecto Git Doctor IV\Recurso I\PITProject-master\MvcAuth\bin\roslyn\System.AppContext.dll
+D:\Proyectos\PROYECTO INTEGRADOR\Proyecto Git Doctor IV\Recurso I\PITProject-master\MvcAuth\bin\roslyn\System.Collections.Immutable.dll
+D:\Proyectos\PROYECTO INTEGRADOR\Proyecto Git Doctor IV\Recurso I\PITProject-master\MvcAuth\bin\roslyn\System.Console.dll
+D:\Proyectos\PROYECTO INTEGRADOR\Proyecto Git Doctor IV\Recurso I\PITProject-master\MvcAuth\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+D:\Proyectos\PROYECTO INTEGRADOR\Proyecto Git Doctor IV\Recurso I\PITProject-master\MvcAuth\bin\roslyn\System.Diagnostics.StackTrace.dll
+D:\Proyectos\PROYECTO INTEGRADOR\Proyecto Git Doctor IV\Recurso I\PITProject-master\MvcAuth\bin\roslyn\System.IO.Compression.dll
+D:\Proyectos\PROYECTO INTEGRADOR\Proyecto Git Doctor IV\Recurso I\PITProject-master\MvcAuth\bin\roslyn\System.IO.FileSystem.dll
+D:\Proyectos\PROYECTO INTEGRADOR\Proyecto Git Doctor IV\Recurso I\PITProject-master\MvcAuth\bin\roslyn\System.IO.FileSystem.Primitives.dll
+D:\Proyectos\PROYECTO INTEGRADOR\Proyecto Git Doctor IV\Recurso I\PITProject-master\MvcAuth\bin\roslyn\System.IO.Pipes.AccessControl.dll
+D:\Proyectos\PROYECTO INTEGRADOR\Proyecto Git Doctor IV\Recurso I\PITProject-master\MvcAuth\bin\roslyn\System.IO.Pipes.dll
+D:\Proyectos\PROYECTO INTEGRADOR\Proyecto Git Doctor IV\Recurso I\PITProject-master\MvcAuth\bin\roslyn\System.Reflection.Metadata.dll
+D:\Proyectos\PROYECTO INTEGRADOR\Proyecto Git Doctor IV\Recurso I\PITProject-master\MvcAuth\bin\roslyn\System.Security.AccessControl.dll
+D:\Proyectos\PROYECTO INTEGRADOR\Proyecto Git Doctor IV\Recurso I\PITProject-master\MvcAuth\bin\roslyn\System.Security.Claims.dll
+D:\Proyectos\PROYECTO INTEGRADOR\Proyecto Git Doctor IV\Recurso I\PITProject-master\MvcAuth\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+D:\Proyectos\PROYECTO INTEGRADOR\Proyecto Git Doctor IV\Recurso I\PITProject-master\MvcAuth\bin\roslyn\System.Security.Cryptography.Encoding.dll
+D:\Proyectos\PROYECTO INTEGRADOR\Proyecto Git Doctor IV\Recurso I\PITProject-master\MvcAuth\bin\roslyn\System.Security.Cryptography.Primitives.dll
+D:\Proyectos\PROYECTO INTEGRADOR\Proyecto Git Doctor IV\Recurso I\PITProject-master\MvcAuth\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+D:\Proyectos\PROYECTO INTEGRADOR\Proyecto Git Doctor IV\Recurso I\PITProject-master\MvcAuth\bin\roslyn\System.Security.Principal.Windows.dll
+D:\Proyectos\PROYECTO INTEGRADOR\Proyecto Git Doctor IV\Recurso I\PITProject-master\MvcAuth\bin\roslyn\System.Text.Encoding.CodePages.dll
+D:\Proyectos\PROYECTO INTEGRADOR\Proyecto Git Doctor IV\Recurso I\PITProject-master\MvcAuth\bin\roslyn\System.ValueTuple.dll
+D:\Proyectos\PROYECTO INTEGRADOR\Proyecto Git Doctor IV\Recurso I\PITProject-master\MvcAuth\bin\roslyn\System.Xml.ReaderWriter.dll
+D:\Proyectos\PROYECTO INTEGRADOR\Proyecto Git Doctor IV\Recurso I\PITProject-master\MvcAuth\bin\roslyn\System.Xml.XmlDocument.dll
+D:\Proyectos\PROYECTO INTEGRADOR\Proyecto Git Doctor IV\Recurso I\PITProject-master\MvcAuth\bin\roslyn\System.Xml.XPath.dll
+D:\Proyectos\PROYECTO INTEGRADOR\Proyecto Git Doctor IV\Recurso I\PITProject-master\MvcAuth\bin\roslyn\System.Xml.XPath.XDocument.dll
+D:\Proyectos\PROYECTO INTEGRADOR\Proyecto Git Doctor IV\Recurso I\PITProject-master\MvcAuth\bin\roslyn\vbc.exe
+D:\Proyectos\PROYECTO INTEGRADOR\Proyecto Git Doctor IV\Recurso I\PITProject-master\MvcAuth\bin\roslyn\vbc.exe.config
+D:\Proyectos\PROYECTO INTEGRADOR\Proyecto Git Doctor IV\Recurso I\PITProject-master\MvcAuth\bin\roslyn\vbc.rsp
+D:\Proyectos\PROYECTO INTEGRADOR\Proyecto Git Doctor IV\Recurso I\PITProject-master\MvcAuth\bin\roslyn\VBCSCompiler.exe
+D:\Proyectos\PROYECTO INTEGRADOR\Proyecto Git Doctor IV\Recurso I\PITProject-master\MvcAuth\bin\roslyn\VBCSCompiler.exe.config
+D:\Proyectos\PROYECTO INTEGRADOR\Proyecto Git Doctor IV\Recurso I\PITProject-master\MvcAuth\bin\Antlr3.Runtime.dll
+D:\Proyectos\PROYECTO INTEGRADOR\Proyecto Git Doctor IV\Recurso I\PITProject-master\MvcAuth\bin\EntityFramework.dll
+D:\Proyectos\PROYECTO INTEGRADOR\Proyecto Git Doctor IV\Recurso I\PITProject-master\MvcAuth\bin\EntityFramework.SqlServer.dll
+D:\Proyectos\PROYECTO INTEGRADOR\Proyecto Git Doctor IV\Recurso I\PITProject-master\MvcAuth\bin\Microsoft.AspNet.Identity.Core.dll
+D:\Proyectos\PROYECTO INTEGRADOR\Proyecto Git Doctor IV\Recurso I\PITProject-master\MvcAuth\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+D:\Proyectos\PROYECTO INTEGRADOR\Proyecto Git Doctor IV\Recurso I\PITProject-master\MvcAuth\bin\Microsoft.AspNet.Identity.Owin.dll
+D:\Proyectos\PROYECTO INTEGRADOR\Proyecto Git Doctor IV\Recurso I\PITProject-master\MvcAuth\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+D:\Proyectos\PROYECTO INTEGRADOR\Proyecto Git Doctor IV\Recurso I\PITProject-master\MvcAuth\bin\Microsoft.Owin.dll
+D:\Proyectos\PROYECTO INTEGRADOR\Proyecto Git Doctor IV\Recurso I\PITProject-master\MvcAuth\bin\Microsoft.Owin.Host.SystemWeb.dll
+D:\Proyectos\PROYECTO INTEGRADOR\Proyecto Git Doctor IV\Recurso I\PITProject-master\MvcAuth\bin\Microsoft.Owin.Security.Cookies.dll
+D:\Proyectos\PROYECTO INTEGRADOR\Proyecto Git Doctor IV\Recurso I\PITProject-master\MvcAuth\bin\Microsoft.Owin.Security.dll
+D:\Proyectos\PROYECTO INTEGRADOR\Proyecto Git Doctor IV\Recurso I\PITProject-master\MvcAuth\bin\Microsoft.Owin.Security.Facebook.dll
+D:\Proyectos\PROYECTO INTEGRADOR\Proyecto Git Doctor IV\Recurso I\PITProject-master\MvcAuth\bin\Microsoft.Owin.Security.Google.dll
+D:\Proyectos\PROYECTO INTEGRADOR\Proyecto Git Doctor IV\Recurso I\PITProject-master\MvcAuth\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+D:\Proyectos\PROYECTO INTEGRADOR\Proyecto Git Doctor IV\Recurso I\PITProject-master\MvcAuth\bin\Microsoft.Owin.Security.OAuth.dll
+D:\Proyectos\PROYECTO INTEGRADOR\Proyecto Git Doctor IV\Recurso I\PITProject-master\MvcAuth\bin\Microsoft.Owin.Security.Twitter.dll
+D:\Proyectos\PROYECTO INTEGRADOR\Proyecto Git Doctor IV\Recurso I\PITProject-master\MvcAuth\bin\Microsoft.Web.Infrastructure.dll
+D:\Proyectos\PROYECTO INTEGRADOR\Proyecto Git Doctor IV\Recurso I\PITProject-master\MvcAuth\bin\Newtonsoft.Json.dll
+D:\Proyectos\PROYECTO INTEGRADOR\Proyecto Git Doctor IV\Recurso I\PITProject-master\MvcAuth\bin\Owin.dll
+D:\Proyectos\PROYECTO INTEGRADOR\Proyecto Git Doctor IV\Recurso I\PITProject-master\MvcAuth\bin\System.Web.Helpers.dll
+D:\Proyectos\PROYECTO INTEGRADOR\Proyecto Git Doctor IV\Recurso I\PITProject-master\MvcAuth\bin\System.Web.Mvc.dll
+D:\Proyectos\PROYECTO INTEGRADOR\Proyecto Git Doctor IV\Recurso I\PITProject-master\MvcAuth\bin\System.Web.Optimization.dll
+D:\Proyectos\PROYECTO INTEGRADOR\Proyecto Git Doctor IV\Recurso I\PITProject-master\MvcAuth\bin\System.Web.Razor.dll
+D:\Proyectos\PROYECTO INTEGRADOR\Proyecto Git Doctor IV\Recurso I\PITProject-master\MvcAuth\bin\System.Web.WebPages.Deployment.dll
+D:\Proyectos\PROYECTO INTEGRADOR\Proyecto Git Doctor IV\Recurso I\PITProject-master\MvcAuth\bin\System.Web.WebPages.dll
+D:\Proyectos\PROYECTO INTEGRADOR\Proyecto Git Doctor IV\Recurso I\PITProject-master\MvcAuth\bin\System.Web.WebPages.Razor.dll
+D:\Proyectos\PROYECTO INTEGRADOR\Proyecto Git Doctor IV\Recurso I\PITProject-master\MvcAuth\bin\WebGrease.dll
+D:\Proyectos\PROYECTO INTEGRADOR\Proyecto Git Doctor IV\Recurso I\PITProject-master\MvcAuth\bin\System.Web.Helpers.xml
+D:\Proyectos\PROYECTO INTEGRADOR\Proyecto Git Doctor IV\Recurso I\PITProject-master\MvcAuth\bin\System.Web.Mvc.xml
+D:\Proyectos\PROYECTO INTEGRADOR\Proyecto Git Doctor IV\Recurso I\PITProject-master\MvcAuth\bin\System.Web.Optimization.xml
+D:\Proyectos\PROYECTO INTEGRADOR\Proyecto Git Doctor IV\Recurso I\PITProject-master\MvcAuth\bin\System.Web.Razor.xml
+D:\Proyectos\PROYECTO INTEGRADOR\Proyecto Git Doctor IV\Recurso I\PITProject-master\MvcAuth\bin\System.Web.WebPages.xml
+D:\Proyectos\PROYECTO INTEGRADOR\Proyecto Git Doctor IV\Recurso I\PITProject-master\MvcAuth\bin\System.Web.WebPages.Deployment.xml
+D:\Proyectos\PROYECTO INTEGRADOR\Proyecto Git Doctor IV\Recurso I\PITProject-master\MvcAuth\bin\System.Web.WebPages.Razor.xml
+D:\Proyectos\PROYECTO INTEGRADOR\Proyecto Git Doctor IV\Recurso I\PITProject-master\MvcAuth\bin\Newtonsoft.Json.xml
+D:\Proyectos\PROYECTO INTEGRADOR\Proyecto Git Doctor IV\Recurso I\PITProject-master\MvcAuth\bin\Antlr3.Runtime.pdb
+D:\Proyectos\PROYECTO INTEGRADOR\Proyecto Git Doctor IV\Recurso I\PITProject-master\MvcAuth\bin\EntityFramework.xml
+D:\Proyectos\PROYECTO INTEGRADOR\Proyecto Git Doctor IV\Recurso I\PITProject-master\MvcAuth\bin\EntityFramework.SqlServer.xml
+D:\Proyectos\PROYECTO INTEGRADOR\Proyecto Git Doctor IV\Recurso I\PITProject-master\MvcAuth\bin\Microsoft.AspNet.Identity.Core.xml
+D:\Proyectos\PROYECTO INTEGRADOR\Proyecto Git Doctor IV\Recurso I\PITProject-master\MvcAuth\bin\Microsoft.AspNet.Identity.Owin.xml
+D:\Proyectos\PROYECTO INTEGRADOR\Proyecto Git Doctor IV\Recurso I\PITProject-master\MvcAuth\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+D:\Proyectos\PROYECTO INTEGRADOR\Proyecto Git Doctor IV\Recurso I\PITProject-master\MvcAuth\bin\Microsoft.Owin.xml
+D:\Proyectos\PROYECTO INTEGRADOR\Proyecto Git Doctor IV\Recurso I\PITProject-master\MvcAuth\bin\Microsoft.Owin.Host.SystemWeb.xml
+D:\Proyectos\PROYECTO INTEGRADOR\Proyecto Git Doctor IV\Recurso I\PITProject-master\MvcAuth\bin\Microsoft.Owin.Security.xml
+D:\Proyectos\PROYECTO INTEGRADOR\Proyecto Git Doctor IV\Recurso I\PITProject-master\MvcAuth\bin\Microsoft.Owin.Security.Facebook.xml
+D:\Proyectos\PROYECTO INTEGRADOR\Proyecto Git Doctor IV\Recurso I\PITProject-master\MvcAuth\bin\Microsoft.Owin.Security.Cookies.xml
+D:\Proyectos\PROYECTO INTEGRADOR\Proyecto Git Doctor IV\Recurso I\PITProject-master\MvcAuth\bin\Microsoft.Owin.Security.Google.xml
+D:\Proyectos\PROYECTO INTEGRADOR\Proyecto Git Doctor IV\Recurso I\PITProject-master\MvcAuth\bin\Microsoft.Owin.Security.Twitter.xml
+D:\Proyectos\PROYECTO INTEGRADOR\Proyecto Git Doctor IV\Recurso I\PITProject-master\MvcAuth\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+D:\Proyectos\PROYECTO INTEGRADOR\Proyecto Git Doctor IV\Recurso I\PITProject-master\MvcAuth\bin\Microsoft.Owin.Security.OAuth.xml
+D:\Proyectos\PROYECTO INTEGRADOR\Proyecto Git Doctor IV\Recurso I\PITProject-master\MvcAuth\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+D:\Proyectos\PROYECTO INTEGRADOR\Proyecto Git Doctor IV\Recurso I\PITProject-master\MvcAuth\bin\es\System.Web.Helpers.resources.dll
+D:\Proyectos\PROYECTO INTEGRADOR\Proyecto Git Doctor IV\Recurso I\PITProject-master\MvcAuth\bin\es\System.Web.Mvc.resources.dll
+D:\Proyectos\PROYECTO INTEGRADOR\Proyecto Git Doctor IV\Recurso I\PITProject-master\MvcAuth\bin\es\System.Web.Optimization.resources.dll
+D:\Proyectos\PROYECTO INTEGRADOR\Proyecto Git Doctor IV\Recurso I\PITProject-master\MvcAuth\bin\es\System.Web.Razor.resources.dll
+D:\Proyectos\PROYECTO INTEGRADOR\Proyecto Git Doctor IV\Recurso I\PITProject-master\MvcAuth\bin\es\System.Web.WebPages.resources.dll
+D:\Proyectos\PROYECTO INTEGRADOR\Proyecto Git Doctor IV\Recurso I\PITProject-master\MvcAuth\bin\es\System.Web.WebPages.Deployment.resources.dll
+D:\Proyectos\PROYECTO INTEGRADOR\Proyecto Git Doctor IV\Recurso I\PITProject-master\MvcAuth\bin\es\System.Web.WebPages.Razor.resources.dll
+D:\Proyectos\PROYECTO INTEGRADOR\Proyecto Git Doctor IV\Recurso I\PITProject-master\MvcAuth\bin\es\EntityFramework.resources.dll
+D:\Proyectos\PROYECTO INTEGRADOR\Proyecto Git Doctor IV\Recurso I\PITProject-master\MvcAuth\bin\es\EntityFramework.SqlServer.resources.dll
+D:\Proyectos\PROYECTO INTEGRADOR\Proyecto Git Doctor IV\Recurso I\PITProject-master\MvcAuth\bin\es\Microsoft.AspNet.Identity.Core.resources.dll
+D:\Proyectos\PROYECTO INTEGRADOR\Proyecto Git Doctor IV\Recurso I\PITProject-master\MvcAuth\bin\es\Microsoft.AspNet.Identity.Owin.resources.dll
+D:\Proyectos\PROYECTO INTEGRADOR\Proyecto Git Doctor IV\Recurso I\PITProject-master\MvcAuth\bin\es\Microsoft.AspNet.Identity.EntityFramework.resources.dll
+D:\Proyectos\PROYECTO INTEGRADOR\Proyecto Git Doctor IV\Recurso I\PITProject-master\MvcAuth\obj\Debug\MvcAuth.Migrations.Init.resources
+D:\Proyectos\PROYECTO INTEGRADOR\Proyecto Git Doctor IV\Recurso I\PITProject-master\MvcAuth\obj\Debug\MvcAuth.csproj.GenerateResource.cache
+D:\Proyectos\PROYECTO INTEGRADOR\Proyecto Git Doctor IV\Recurso I\PITProject-master\MvcAuth\obj\Debug\MvcAuth.csproj.CoreCompileInputs.cache
+D:\Proyectos\PROYECTO INTEGRADOR\Proyecto Git Doctor IV\Recurso I\PITProject-master\MvcAuth\obj\Debug\MvcAuth.csproj.CopyComplete
+D:\Proyectos\PROYECTO INTEGRADOR\Proyecto Git Doctor IV\Recurso I\PITProject-master\MvcAuth\obj\Debug\MvcAuth.dll
+D:\Proyectos\PROYECTO INTEGRADOR\Proyecto Git Doctor IV\Recurso I\PITProject-master\MvcAuth\obj\Debug\MvcAuth.pdb

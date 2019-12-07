@@ -1,0 +1,225 @@
+﻿@model IEnumerable<MvcAuth.Models.tb_Doctor>
+
+@{
+    ViewBag.Title = "listaDoctores";
+}
+
+<h2>listaDoctores</h2>
+
+<p>
+    @Html.ActionLink("Create New", "Create")
+</p>
+<table class="table">
+    <tr>
+        <th>
+            @Html.DisplayNameFor(model => model.nomDoctor)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.dniDoctor)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.cmpDoctor)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.dirDoctor)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.telDoctor)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.emailDoctor)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Precio)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.PrecioAnterior)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.ImageURL)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.TextoAlternativo)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.caracteristica1)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.caracteristica2)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.caracteristica3)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.caracteristica4)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.caracteristica5)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Placa)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.TituloOferta)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.ClaseDistintaOferta)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.DescripcionCorta)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.DescripcionLarga)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.nota)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.agregarCarro)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.caracteristica6)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.caracteristica7)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.caracteristica8)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.porc1)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.porc2)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.porc3)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.porc4)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.AspNetUsers.Email)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.tb_Categoria.nomCtegoria)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.tb_Distrito.nomDistrito)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.tb_Horario.dia)
+        </th>
+        <th></th>
+    </tr>
+
+@foreach (var item in Model) {
+    <tr>
+        <td>
+            @Html.DisplayFor(modelItem => item.nomDoctor)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.dniDoctor)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.cmpDoctor)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.dirDoctor)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.telDoctor)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.emailDoctor)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Precio)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.PrecioAnterior)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.ImageURL)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.TextoAlternativo)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.caracteristica1)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.caracteristica2)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.caracteristica3)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.caracteristica4)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.caracteristica5)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Placa)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.TituloOferta)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.ClaseDistintaOferta)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.DescripcionCorta)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.DescripcionLarga)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.nota)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.agregarCarro)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.caracteristica6)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.caracteristica7)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.caracteristica8)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.porc1)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.porc2)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.porc3)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.porc4)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.AspNetUsers.Email)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.tb_Categoria.nomCtegoria)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.tb_Distrito.nomDistrito)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.tb_Horario.dia)
+        </td>
+        <td>
+            @Html.ActionLink("Edit", "Edit", new { id=item.idDoctor }) |
+            @Html.ActionLink("Details", "Details", new { id=item.idDoctor }) |
+            @Html.ActionLink("Delete", "Delete", new { id=item.idDoctor })
+        </td>
+    </tr>
+}
+
+</table>

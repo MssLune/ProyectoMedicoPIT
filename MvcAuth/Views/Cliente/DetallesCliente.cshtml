@@ -1,0 +1,93 @@
+﻿@model MvcAuth.Models.tb_ClienteEx
+@{
+    ViewBag.Title = "DetallesCliente";
+}
+
+<section class="inner-bg over-layer-black" style="background-color:rgba(242,242,242,0.9); ">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-4">
+                <div class="mini-title inner-style-2">
+                    <h3>DETALLES DEL CLIENTE</h3>
+                    <p><a href="index-one.html">Inicio</a> <span class="fa fa-angle-right"></span> <a href="#">Detalles Cliente</a></p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- Team start -->
+<section class="team-area">
+    <div class="container">
+        <div class="section-content">
+            <div class="row">
+                <div class="col-md-5">
+                    <div class="team-item-2">
+                        <img src="~/Assets/img/bg/user.jpg" alt="">
+                        <div class="team-contact">
+                            <ul>
+                                <li><a href="#"><svg class="fa fa-twitter" style="width:45px;height:45px;"><use xlink:href="#twitter" /></svg></a></li>
+                                <li><a href="#"><svg class="fa fa-linkedin" style="width:45px;height:45px;"><use xlink:href="#linkedin" /></svg></a></li>
+                                <li><a href="#"><svg class="fa fa-dribbble" style="width:45px;height:45px;"><use xlink:href="#facebook" /></svg></a></li>
+                            </ul>
+                        </div>
+                        <div class="team-content">
+                            <h4><a href="#">@Model.nomCliente  @Model.apeCliente</a></h4>
+                            <h6>@Model.dniCliente</h6>
+                            <div class="team-content-icon">
+                                <svg class="team-content-icon" style="width:25px;height:25px;">
+                                    <use xlink:href="#like" />
+                                </svg>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="team-details">
+                        <address>
+                            <ul>
+                                <li><i class="flaticon-035-website"></i><a href="mailto:">@Model.Email</a></li>
+                                <li><i class="flaticon-011-web"></i><a href="#">Web: www.TC-Doctor.com</a></li>
+                            </ul>
+                        </address>
+                    </div>
+                    <div class="bg-f8 padding-20 margin-top-50">
+                        <div class="footer-item footer-widget-one margin-bottom-10">
+                            
+                           
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-7 team-area">
+                    <div class="team-details-content">
+                        <h2><a href="#"> @Model.UserName </a></h2>
+                        <h6>@Model.tb_Distrito.nomDistrito</h6>
+                        <h4>Información</h4>
+                        <p>
+                            
+                                <ul class="list-style margin-left-10">
+                                    <li><i class="fa fa-angle-right margin-right-10"></i> @Model.dniCliente</li>
+                                </ul>
+                               
+                                <div class="margin-bottom-30">
+                                    <h4>DATOS PERSONALES</h4>
+                                    <div class="border-style-2 margin-bottom-30"></div>
+                                    <ul class="list-style margin-left-10">
+                                        <li><i class="fa fa-angle-right margin-right-10"></i> <strong>@Model.fechaNacimiento</strong></li>
+                                        <li><i class="fa fa-angle-right margin-right-10"></i> @Model.edad</li>
+                                        <li><i class="fa fa-angle-right margin-right-10"></i> @Model.genero</li>
+                                    </ul>
+                                </div>
+                                <div class="margin-bottom-30">
+                                    <h4>CONTACTO</h4>
+                                    <div class="border-style-2 margin-bottom-30"></div>
+                                    <ul class="list-style margin-left-10">
+                                        <li><i class="fa fa-angle-right margin-right-10"></i> @Model.Email</li>
+                                        <li><i class="fa fa-angle-right margin-right-10"></i><strong>@Model.telefono</strong> </li>
+                                        <li><i class="fa fa-angle-right margin-right-10"></i> @Model.direccion</li>
+                                    </ul>
+                                </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>

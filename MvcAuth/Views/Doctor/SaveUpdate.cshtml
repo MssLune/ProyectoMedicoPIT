@@ -1,0 +1,243 @@
+﻿@model MvcAuth.Models.tb_Doctor
+
+@{
+    ViewBag.Title = "SaveUpdate";
+}
+
+<h2 class="text-center">Información</h2>
+
+@using (Html.BeginForm("SaveUpdate","Doctor",FormMethod.Post,new{enctype="multipart/form-data"}))
+{
+    @Html.AntiForgeryToken()
+    <div class="container">
+
+        <div class="row">
+            <h4 class="text-center">Personal</h4>
+            <hr />
+            @Html.ValidationSummary(true, "", new { @class = "text-danger" })
+            @Html.HiddenFor(model => model.idDoctor)
+
+            @*    <div class="form-group">
+            @Html.LabelFor(model => model.Id, htmlAttributes: new { @class = "control-label col-md-2" })
+            <div class="col-md-10">
+                @Html.EditorFor(model => model.Id, new { htmlAttributes = new { @class = "form-control" } })
+                @Html.ValidationMessageFor(model => model.Id, "", new { @class = "text-danger" })
+            </div>
+        </div>
+            *@
+
+            <div class="col-sm-6">
+                <div class="col-md-12">
+                    @Html.EditorFor(model => model.idUser, new { htmlAttributes = new { @class = "form-control text-center col-ms-4", @ReadOnly = "ReadOnly" } })
+                    @Html.ValidationMessageFor(model => model.idUser, "", new { @class = "text-danger" })
+                </div>
+            </div>
+            <div class="col-sm-6">
+                <div class="col-md-12">
+                    @Html.EditorFor(model => model.idDoctor, new { htmlAttributes = new { @class = "form-control  text-center col-ms-4", @ReadOnly = "ReadOnly" } })
+                    @Html.ValidationMessageFor(model => model.idDoctor, "", new { @class = "text-danger" })
+                </div>
+            </div>
+
+            <div class="col-sm-4">
+                <label class="control-label text-center col-sm-10">Nombre</label>
+                <div class="col-md-10">
+                    @Html.EditorFor(model => model.nomDoctor, new { htmlAttributes = new { @class = "form-control text-center", @ReadOnly = "ReadOnly" } })
+                    @Html.ValidationMessageFor(model => model.nomDoctor, "", new { @class = "text-danger" })
+                </div>
+            </div>
+
+            <div class="col-sm-4">
+                <label class="control-label text-center col-sm-10">DNI</label>
+                <div class="col-md-10">
+                    @Html.EditorFor(model => model.dniDoctor, new { htmlAttributes = new { @class = "form-control text-center col-sm-4", @ReadOnly = "ReadOnly" } })
+                    @Html.ValidationMessageFor(model => model.dniDoctor, "", new { @class = "text-danger" })
+                </div>
+            </div>
+
+            <div class="col-sm-4">
+                <label class="control-label text-center col-sm-12">CMP</label>
+                <div class="col-md-12">
+                    @Html.EditorFor(model => model.cmpDoctor, new { htmlAttributes = new { @class = "form-control text-center", @ReadOnly = "ReadOnly" } })
+                    @Html.ValidationMessageFor(model => model.cmpDoctor, "", new { @class = "text-danger" })
+                </div>
+            </div>
+
+            <div class="col-sm-12">
+                <label class="control-label text-center  col-sm-12">Información</label>
+                <div class="col-md-12">
+                    @Html.EditorFor(model => model.DescripcionLarga, new { htmlAttributes = new { @class = "form-control text-center" } })
+                    @Html.ValidationMessageFor(model => model.DescripcionLarga, "", new { @class = "text-danger" })
+                </div>
+            </div>
+            <div class="col-sm-12">
+                <label class="control-label text-center  col-sm-12">Email</label>
+                <div class="col-md-12">
+                    @Html.EditorFor(model => model.emailDoctor, new { htmlAttributes = new { @class = "form-control text-center" } })
+                    @Html.ValidationMessageFor(model => model.emailDoctor, "", new { @class = "text-danger" })
+                </div>
+            </div>
+            <div class="col-sm-12">
+                <label class="control-label text-center  col-sm-12">Foto</label>
+                <div class="col-md-12">
+                    <img width="100" src="@Url.Action("getImage","Doctor",new { Model.idDoctor})/>
+                    <input type="file" name="imageload" />
+                    @Html.ValidationMessageFor(model => model.ImageURL, "", new { @class = "text-danger" })
+                </div>
+            </div>
+            <div class="col-sm-6">
+                <label class="control-label text-center  col-sm-10">Especialidad</label>
+                <div class="col-md-10">
+                    @Html.EditorFor(model => model.porc1, new { htmlAttributes = new { @class = "form-control text-center col-sm-4" } })
+                    @Html.ValidationMessageFor(model => model.porc1, "", new { @class = "text-danger" })
+                </div>
+            </div>
+
+            <div class="col-sm-6">
+                <label class="control-label text-center  col-sm-10">Práctica</label>
+                <div class="col-md-10">
+                    @Html.EditorFor(model => model.porc2, new { htmlAttributes = new { @class = "form-control text-center col-sm-4" } })
+                    @Html.ValidationMessageFor(model => model.porc2, "", new { @class = "text-danger" })
+                </div>
+            </div>
+
+            <div class="col-sm-6">
+                <label class="control-label text-center  col-sm-10">Cirugía</label>
+                <div class="col-md-10">
+                    @Html.EditorFor(model => model.porc3, new { htmlAttributes = new { @class = "form-control text-center col-sm-4" } })
+                    @Html.ValidationMessageFor(model => model.porc3, "", new { @class = "text-danger" })
+                </div>
+            </div>
+
+            <div class="col-sm-6">
+                <label class="control-label text-center  col-sm-10">Farmacología</label>
+                <div class="col-md-10">
+                    @Html.EditorFor(model => model.porc4, new { htmlAttributes = new { @class = "form-control text-center col-sm-4" } })
+                    @Html.ValidationMessageFor(model => model.porc4, "", new { @class = "text-danger" })
+                </div>
+            </div>
+
+            <div class="col-sm-6">
+                <label class="control-label text-center  col-sm-10">Página Web</label>
+                <div class="col-md-10">
+                    @Html.EditorFor(model => model.DescripcionCorta, new { htmlAttributes = new { @class = "form-control text-center col-sm-4" } })
+                    @Html.ValidationMessageFor(model => model.DescripcionCorta, "", new { @class = "text-danger" })
+                </div>
+            </div>
+
+
+
+            <div class="col-sm-6">
+                <label class="control-label text-center  col-sm-10">Precio</label>
+                <div class="col-md-10">
+                    @Html.EditorFor(model => model.Precio, new { htmlAttributes = new { @class = "form-control text-center col-sm-4" } })
+                    @Html.ValidationMessageFor(model => model.Precio, "", new { @class = "text-danger" })
+                </div>
+            </div>
+
+            <div class="col-sm-6">
+                <label class="control-label text-center  col-sm-10">Dirección</label>
+                <div class="col-md-10">
+                    @Html.EditorFor(model => model.dirDoctor, new { htmlAttributes = new { @class = "form-control text-center col-sm-4" } })
+                    @Html.ValidationMessageFor(model => model.dirDoctor, "", new { @class = "text-danger" })
+                </div>
+            </div>
+
+            <div class="col-sm-6">
+                <label class="control-label text-center  col-sm-10">Teléfono</label>
+                <div class="col-md-10">
+                    @Html.EditorFor(model => model.telDoctor, new { htmlAttributes = new { @class = "form-control text-center col-sm-4" } })
+                    @Html.ValidationMessageFor(model => model.telDoctor, "", new { @class = "text-danger" })
+                </div>
+            </div>
+
+            <div class="col-sm-4">
+                <label class="control-label text-center  col-sm-10">Especialidad</label>
+                <div class="col-md-10">
+                    @Html.DropDownList("idCategoria", (SelectList)ViewBag.especialidad, htmlAttributes: new { @class = "form-control col-sm-4", @name = "categoria" })
+                </div>
+            </div>
+            <div class="col-sm-4">
+                <label class="control-label text-center  col-sm-10">Distrito</label>
+                <div class="col-md-10">
+                    @Html.DropDownList("idDistrito", (SelectList)ViewBag.distrito, htmlAttributes: new { @class = "form-control col-sm-4", @name = "distrito" })
+
+                </div>
+            </div>
+            <div class="col-sm-4">
+                <label class="control-label text-center  col-sm-10">Horario</label>
+                <div class="col-md-10">
+                    @Html.DropDownList("id_Horario", (SelectList)ViewBag.horario, htmlAttributes: new { @class = "form-control col-sm-4", @name = "horario" })
+                </div>
+            </div>
+
+            <div style="margin:0px 0px 0px 0px">
+
+                <H3 class="control-label text-center col-sm-12">Educación y Formación Médica</H3>
+
+
+                <div class="col-sm-4">
+                    <div class="col-md-10">
+                        @Html.EditorFor(model => model.caracteristica1, new { htmlAttributes = new { @class = "form-control text-center col-sm-4" } })
+                        @Html.ValidationMessageFor(model => model.caracteristica1, "", new { @class = "text-danger" })
+                    </div>
+                </div>
+
+                <div class="col-sm-4">
+                    <div class="col-md-10">
+                        @Html.EditorFor(model => model.caracteristica2, new { htmlAttributes = new { @class = "form-control text-center col-sm-4" } })
+                        @Html.ValidationMessageFor(model => model.caracteristica2, "", new { @class = "text-danger" })
+                    </div>
+                </div>
+
+                <div class="col-sm-4">
+                    <div class="col-md-10">
+                        @Html.EditorFor(model => model.caracteristica3, new { htmlAttributes = new { @class = "form-control text-center col-sm-4" } })
+                        @Html.ValidationMessageFor(model => model.caracteristica3, "", new { @class = "text-danger" })
+                    </div>
+                </div>
+            </div>
+            <div>
+                <H3 class="control-label text-center col-sm-12">Experiencia</H3>
+            </div>
+            <div class="col-sm-6">
+                <div class="col-md-10">
+                    @Html.EditorFor(model => model.caracteristica7, new { htmlAttributes = new { @class = "form-control text-center col-sm-4" } })
+                    @Html.ValidationMessageFor(model => model.caracteristica7, "", new { @class = "text-danger" })
+                </div>
+            </div>
+
+            <div class="col-sm-6">
+                <div class="col-md-10">
+                    @Html.EditorFor(model => model.caracteristica8, new { htmlAttributes = new { @class = "form-control text-center col-sm-4" } })
+                    @Html.ValidationMessageFor(model => model.caracteristica8, "", new { @class = "text-danger" })
+                </div>
+            </div>
+
+            <div>
+                <H3 class="control-label text-center col-sm-12">Certificaciones</H3>
+            </div>
+            <div class="col-sm-6">
+                <div class="col-md-10">
+                    @Html.EditorFor(model => model.caracteristica4, new { htmlAttributes = new { @class = "form-control text-center" } })
+                    @Html.ValidationMessageFor(model => model.caracteristica4, "", new { @class = "text-danger" })
+                </div>
+            </div>
+
+            <div class="col-sm-6">
+                <div class="col-md-10">
+                    @Html.EditorFor(model => model.caracteristica5, new { htmlAttributes = new { @class = "form-control text-center col-ms-4" } })
+                    @Html.ValidationMessageFor(model => model.caracteristica5, "", new { @class = "text-danger" })
+                </div>
+            </div>
+
+
+            <div class="col-sm-12" style="padding:0px 0px 0px 475px">
+                <div class="col-md-12">
+                    <input type="submit" style="margin:0px 50px 50px 0px" value="Actualizar Información" class="btn btn-info" />
+                </div>
+            </div>
+
+        </div>
+    </div>
+}

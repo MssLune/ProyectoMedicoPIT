@@ -1,0 +1,309 @@
+﻿@model MvcAuth.Models.tb_Doctor
+
+@{
+    ViewBag.Title = "RegisterDoctor";
+}
+
+<!--===============================================================================================-->
+<link href="~/Assets/fonts/font-awesome-4.7.0/css/font-awesome.min.css" rel="stylesheet">
+<!--===============================================================================================-->
+<link href="~/Assets/fonts/iconic/css/material-design-iconic-font.min.css" rel="stylesheet">
+<!--===============================================================================================-->
+<link href="~/Assets/vendor/animate/animate.css" rel="stylesheet">
+<!--===============================================================================================-->
+<link href="~/Assets/vendor/css-hamburgers/hamburgers.min.css" rel="stylesheet">
+<!--===============================================================================================-->
+<link href="~/Assets/vendor/animsition/css/animsition.min.css" rel="stylesheet">
+<!--===============================================================================================-->
+<link href="~/Assets/vendor/select2/select2.min.css" rel="stylesheet">
+<!--===============================================================================================-->
+<link href="~/Assets/vendor/daterangepicker/daterangepicker.css" rel="stylesheet">
+<!--===============================================================================================-->
+<link href="~/Assets/css/util.css" rel="stylesheet">
+<link href="~/Assets/css/main.css" rel="stylesheet">
+<!--===============================================================================================-->
+@if (ViewBag.user != null)
+{
+
+    if (ViewBag.usr != null)
+    {
+
+        <a href="@Url.Action("InformacionDoctor", "Doctor")" class="text-center" role="button">
+            Sus datos ha sido registrado, Click aquí para visualizar
+        </a>
+
+    }
+    else
+    {
+        using (Html.BeginForm("RegisterDoctor", "Doctor", FormMethod.Post, new { enctype = "multipart/form-data" }))
+        {
+            @Html.AntiForgeryToken()
+
+            <div class="tab-pane active container-login100" style="background-image: url('../../Assets/images/medical-wallpaper.jpg');">
+                <div class="wrap-login100 p-l-55 p-r-55 p-t-80 p-b-30" style="height:1300px; width:850px;">
+                    <div class="login100-form validate-form">
+
+
+                        <span class="section-content login100-form-title p-b-37">
+                            Bienvenido Estimado Doctor<br /><br />
+                            <p>
+                                Por favor ingrese sus datos para continuar
+                            </p>
+                            <hr />
+                        </span>
+                        <!--CREDIT CART PAYMENT-->
+                        <div class="shop-tab">
+                            <div class="shop-tab-inner">
+                                <ul class="nav nav-tabs" role="tablist">
+                                    <li role="presentation" class="active">
+                                        <a href="#step1" data-toggle="tab" aria-controls="step1" role="tab" title="Step 1">
+                                            <span class="round-tab">
+                                                ○ Datos Personales
+                                            </span>
+                                        </a>
+                                    </li>
+                                    <li role="presentation">
+                                        <a href="#step2" data-toggle="tab" aria-controls="step2" role="tab" title="Step 2">
+                                            <span class="round-tab">
+                                                ○ Información Adicional
+                                            </span>
+                                        </a>
+                                    </li>
+                                </ul>
+                            </div>
+
+
+
+                            <div class="tab-content">
+                                <div class="tab-pane active" role="tabpanel" id="step1">
+                                    <div class="panel panel-info panel-border">
+                                        <div class="panel-heading panel-bg"><span><i class="flaticon-respiratory-system"></i></span> Datos Personales</div>
+                                        <div class="panel-body">
+
+
+                                            <div class="col-md-6 col-xs-12">
+                                                <strong>Nombre:</strong><br>
+                                                <div class="col-md-10">
+                                                    @Html.EditorFor(model => model.nomDoctor, new { htmlAttributes = new { @class = "form-control text-center", @name = "nombre", @placeholder = "Ingresar nombre" } })
+                                                    @Html.ValidationMessageFor(model => model.nomDoctor, "", new { @class = "text-danger" })
+                                                </div>
+                                            </div>
+
+                                            <div class="col-md-6 col-xs-12">
+                                                <strong>DNI:</strong><br>
+                                                <div class="col-md-10">
+                                                    @Html.EditorFor(model => model.dniDoctor, new { htmlAttributes = new { @class = "form-control text-center", @name = "dni", @placeholder = "Ingresar DNI" } })
+                                                    @Html.ValidationMessageFor(model => model.dniDoctor, "", new { @class = "text-danger" })
+                                                </div>
+                                            </div>
+
+                                            <div class="col-md-6 col-xs-12">
+                                                <strong>CMP:</strong><br>
+                                                <div class="col-md-10">
+                                                    @Html.EditorFor(model => model.cmpDoctor, new { htmlAttributes = new { @class = "form-control text-center", @name = "cmp", @placeholder = "Ingresar CMP" } })
+                                                    @Html.ValidationMessageFor(model => model.cmpDoctor, "", new { @class = "text-danger" })
+                                                </div>
+                                            </div>
+
+                                            <div class="col-md-6 col-xs-12">
+                                                <strong>Especialidad:</strong><br>
+                                                <div class="col-md-10">
+                                                    @Html.DropDownList("idCategoria", (SelectList)ViewBag.especialidad, "[SELECCIONE]", new { @class = "form-control " })
+                                                    @Html.ValidationMessageFor(model => model.idCategoria, "", new { @class = "text-danger" })
+                                                </div>
+                                            </div>
+
+                                            <div class="col-md-6 col-xs-12">
+                                                <strong>Dirección:</strong><br>
+                                                <div class="col-md-10">
+                                                    @Html.EditorFor(model => model.dirDoctor, new { htmlAttributes = new { @class = "form-control text-center", @name = "direccion", @placeholder = "Ingresar Dirección" } })
+                                                    @Html.ValidationMessageFor(model => model.dirDoctor, "", new { @class = "text-danger" })
+                                                </div>
+                                            </div>
+
+                                            <div class="col-md-6 col-xs-12">
+                                                <strong>Distrito:</strong><br>
+                                                <div class="col-md-10">
+                                                    @Html.DropDownList("idDistrito", (SelectList)ViewBag.distrito, "[SELECCIONE]", new { @class = "form-control " })
+                                                    @Html.ValidationMessageFor(model => model.idDistrito, "", new { @class = "text-danger" })
+                                                </div>
+                                            </div>
+
+                                            <div class="col-md-6 col-xs-12">
+                                                <strong>Teléfono:</strong><br>
+                                                <div class="col-md-10">
+                                                    @Html.EditorFor(model => model.telDoctor, new { htmlAttributes = new { @class = "form-control text-center", @name = "telefono", @placeholder = "Ingresar Teléfono" } })
+                                                    @Html.ValidationMessageFor(model => model.telDoctor, "", new { @class = "text-danger" })
+                                                </div>
+                                            </div>
+
+                                            <div class="col-md-6 col-xs-12">
+                                                <strong>Email:</strong><br>
+                                                <div class="col-md-10">
+                                                    @Html.EditorFor(model => model.emailDoctor, new { htmlAttributes = new { @class = "form-control text-center", @name = "email", @placeholder = "Ingresar Email" } })
+                                                    @Html.ValidationMessageFor(model => model.emailDoctor, "", new { @class = "text-danger" })
+                                                </div>
+                                            </div>
+
+                                            <div class="col-md-6 col-xs-12">
+                                                <strong>Horario:</strong><br>
+                                                <div class="col-md-10">
+                                                    @Html.DropDownList("id_Horario", (SelectList)ViewBag.horario, "[SELECCIONE]", new { @class = "form-control " })
+                                                    @Html.ValidationMessageFor(model => model.id_Horario, "", new { @class = "text-danger" })
+                                                </div>
+                                            </div>
+
+                                            <div class="col-md-6 col-xs-12">
+                                                <strong>Foto:</strong><br>
+                                                <div class="col-md-10">
+                                                    <input type="file" name="ImageFile" required />
+                                                    @Html.ValidationMessageFor(model => model.ImageURL, "", new { @class = "text-danger" })
+                                                </div>
+                                            </div>
+
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="tab-pane" role="tabpanel" id="step2">
+                                    <!--CREDIT CART PAYMENT-->
+                                    <div class="panel panel-info panel-border">
+                                        <div class="panel-heading panel-bg"><span><i class="flaticon-respiratory-system"></i></span> Información Adicional</div>
+                                        <div class="panel-body">
+
+
+
+
+                                            <div class="col-md-6 col-xs-12">
+                                                <strong>Formación médica</strong><br>
+                                                <div class="col-md-10">
+                                                    @Html.EditorFor(model => model.caracteristica1, new { htmlAttributes = new { @class = "form-control text-center", @name = "caracteristica1", @placeholder = "Ingresar universidad" } })
+                                                    @Html.ValidationMessageFor(model => model.caracteristica1, "", new { @class = "text-danger" })
+                                                </div>
+                                                <div class="col-md-10">
+                                                    @Html.EditorFor(model => model.caracteristica2, new { htmlAttributes = new { @class = "form-control text-center", @name = "caracteristica2", @placeholder = "Ingresar universidad" } })
+                                                    @Html.ValidationMessageFor(model => model.caracteristica2, "", new { @class = "text-danger" })
+                                                </div>
+                                                <div class="col-md-10">
+                                                    @Html.EditorFor(model => model.caracteristica3, new { htmlAttributes = new { @class = "form-control text-center", @name = "caracteristica3", @placeholder = "Ingresar universidad" } })
+                                                    @Html.ValidationMessageFor(model => model.caracteristica3, "", new { @class = "text-danger" })
+                                                </div>
+
+                                            </div>
+                                            <div class="col-md-6 col-xs-12">
+                                                <strong>Experiencia</strong><br>
+                                                <div class="col-md-10">
+                                                    @Html.EditorFor(model => model.caracteristica4, new { htmlAttributes = new { @class = "form-control text-center", @name = "caracteristica4", @placeholder = "Ingresar experiencia" } })
+                                                    @Html.ValidationMessageFor(model => model.caracteristica4, "", new { @class = "text-danger" })
+                                                </div>
+                                                <div class="col-md-10">
+                                                    @Html.EditorFor(model => model.caracteristica5, new { htmlAttributes = new { @class = "form-control text-center", @name = "caracteristica5", @placeholder = "Ingresar experiencia" } })
+                                                    @Html.ValidationMessageFor(model => model.caracteristica5, "", new { @class = "text-danger" })
+                                                </div>
+
+                                            </div>
+
+                                            <div class="col-md-6 col-xs-12" style="margin-top:95px;">
+                                                <strong>Certificaciones</strong><br>
+                                                <div class="col-md-10">
+                                                    @Html.EditorFor(model => model.caracteristica7, new { htmlAttributes = new { @class = "form-control text-center", @name = "caracteristica7", @placeholder = "Ingresar una certificacion" } })
+                                                    @Html.ValidationMessageFor(model => model.caracteristica7, "", new { @class = "text-danger" })
+                                                </div>
+                                                <div class="col-md-10">
+                                                    @Html.EditorFor(model => model.caracteristica8, new { htmlAttributes = new { @class = "form-control text-center", @name = "caracteristica8", @placeholder = "Ingresar una certificacion" } })
+                                                    @Html.ValidationMessageFor(model => model.caracteristica8, "", new { @class = "text-danger" })
+                                                </div>
+
+                                            </div>
+                                            <div class="col-md-6 col-xs-12" style="margin-top:-175px;">
+                                                <strong>Precio por consulta</strong><br>
+                                                <div class="col-md-10">
+                                                    @Html.EditorFor(model => model.Precio, new { htmlAttributes = new { @class = "form-control text-center", @name = "Precio", @placeholder = "Ingresar Precio" } })
+                                                    @Html.ValidationMessageFor(model => model.Precio, "", new { @class = "text-danger" })
+                                                </div>
+                                            </div>
+                                            <br>
+                                            <div class="col-md-12" style="margin-top:15px;">
+                                                <h6>Ingrese porcentajes aproximados de conocimiento en los siguientes campos</h6> <hr />
+                                            </div>
+                                            <div class="col-md-6 col-xs-12" style="margin-top:15px;">
+                                                <strong>Medicina General </strong><br>
+                                                <div class="col-md-10">
+                                                    @Html.EditorFor(model => model.porc1, new { htmlAttributes = new { @class = "form-control text-center", @name = "porc1", @placeholder = "Ingresar una certificacion" } })
+                                                    @Html.ValidationMessageFor(model => model.porc1, "", new { @class = "text-danger" })
+                                                </div>
+
+                                            </div>
+
+                                            <div class="col-md-6 col-xs-12" style="margin-top:15px;">
+                                                <strong>Practica General</strong><br>
+                                                <div class="col-md-10">
+                                                    @Html.EditorFor(model => model.porc2, new { htmlAttributes = new { @class = "form-control text-center", @name = "porc2", @placeholder = "Ingresar una certificacion" } })
+                                                    @Html.ValidationMessageFor(model => model.porc2, "", new { @class = "text-danger" })
+                                                </div>
+
+                                            </div>
+
+                                            <div class="col-md-6 col-xs-12">
+                                                <strong>Cirugía General</strong><br>
+                                                <div class="col-md-10">
+                                                    @Html.EditorFor(model => model.porc3, new { htmlAttributes = new { @class = "form-control text-center", @name = "porc3", @placeholder = "Ingresar una certificacion" } })
+                                                    @Html.ValidationMessageFor(model => model.porc3, "", new { @class = "text-danger" })
+                                                </div>
+
+                                            </div>
+
+                                            <div class="col-md-6 col-xs-12">
+                                                <strong>Farmacología</strong><br>
+                                                <div class="col-md-10">
+                                                    @Html.EditorFor(model => model.porc4, new { htmlAttributes = new { @class = "form-control text-center", @name = "porc4", @placeholder = "Ingresar una certificacion" } })
+                                                    @Html.ValidationMessageFor(model => model.porc4, "", new { @class = "text-danger" })
+                                                </div>
+
+                                            </div>
+                                            <br><hr>
+                                            <div class="form-group">
+                                                <div class="col-md-12" style="margin-top:25px;">
+                                                    <button type="submit" class="btn btn-theme btn-block">Guardar y continuar</button>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <!--CREDIT CART PAYMENT END-->
+                                </div>
+
+
+                            </div>
+                        </div>
+
+
+                    </div>
+                </div>
+            </div>
+        }
+    }
+}
+else
+{
+    <text>Por favor, inicie sesión como Doctor para poder ver su información personal</text>
+}
+
+<!--===============================================================================================-->
+<script src="~/Assets/vendor/jquery/jquery-3.2.1.min.js"></script>
+<!--===============================================================================================-->
+<script src="~/Assets/vendor/animsition/js/animsition.min.js"></script>
+<!--===============================================================================================-->
+<script src="~/Assets/vendor/bootstrap/js/popper.js"></script>
+<script src="~/Assets/vendor/bootstrap/js/bootstrap.min.js"></script>
+<!--===============================================================================================-->
+<script src="~/Assets/vendor/select2/select2.min.js"></script>
+<!--===============================================================================================-->
+<script src="~/Assets/vendor/daterangepicker/moment.min.js"></script>
+<script src="~/Assets/vendor/daterangepicker/daterangepicker.js"></script>
+<!--===============================================================================================-->
+<script src="~/Assets/vendor/countdowntime/countdowntime.js"></script>
+<!--===============================================================================================-->
+<script src="~/Assets/js/main.js"></script>
+@section Scripts {
+    @Scripts.Render("~/bundles/jqueryval")
+}

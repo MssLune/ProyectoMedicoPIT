@@ -1,0 +1,53 @@
+﻿@model MvcAuth.Models.tb_Doctor
+@using MvcAuth.Models
+@using Microsoft.AspNet.Identity
+
+
+
+
+<tbody>
+
+    <tr class="tr-shadow">
+        <td>
+            <label class="au-checkbox">
+                <input type="checkbox">
+                <span class="au-checkmark"></span>
+            </label>
+        </td>
+        <td>@Model.nomDoctor</td>
+        <td class="desc">@Model.dniDoctor</td>
+        <td>
+            <span class="status--process">@Model.cmpDoctor</span>
+        </td>
+        <td>@Model.tb_Categoria.nomCtegoria</td>
+
+        <td>@Model.emailDoctor</td>
+
+        <td>
+            <div class="table-data-feature">
+                <button class="item" data-toggle="tooltip" data-placement="top" title="Editar">
+
+                    <a href="@Url.Action("EditarDoctor", "Admin", new { id = Model.idDoctor })">
+                        <i class="flaticon-pencil-edit-button" style="left: 20%;"></i>
+                    </a>
+                </button>
+                <button class="item" data-toggle="tooltip" data-placement="top" title="Eliminar">
+                    <a href="@Url.Action("DeleteDoctor", "Admin", new { id = Model.idDoctor })">
+                        <i class="flaticon-delete" style="left: 20%;"></i>
+                    </a>
+                </button>
+                <button class="item" data-toggle="tooltip" data-placement="top" title="Detalles">
+                    <a href="@Url.Action("detalleDoctor", "Admin", new { id = Model.idDoctor })">
+                        <i class="flaticon-loupe" style="left: 20%;"></i>
+                    </a>
+                </button>
+            </div>
+        </td>
+    </tr>
+
+</tbody>
+
+
+@{
+    TempData["returnURL"] = Request.RawUrl;
+}

@@ -1,0 +1,272 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>@ViewBag.Title - Proyecto Integrador</title>
+
+    @* @Styles.Render("~/Content/css")
+        @Scripts.Render("~/bundles/modernizr")*@
+    <!-- CDN DE AJAX-->
+    <!-- Bootstrap Core CSS -->
+    <link href="~/Assets/css/animate.min.css" rel="stylesheet" />
+    <link href="~/Assets/css/bootstrap.min.css" rel="stylesheet">
+    <link href="~/Assets/css/bootstrapValidator.min.css" rel="stylesheet" />
+    <!-- Custom CSS -->
+    <link href="~/Assets/css/style.css" rel="stylesheet">
+    <!-- Responsive stylesheet  -->
+    <link rel="stylesheet" href="~/Assets/css/responsive.css">
+    <!-- Favicon -->
+    <link href="~/Assets/img/favicon.png" rel="shortcut icon" type="image/png">
+    <link href="~/Assets/fonts/iconic/font/flaticon.css" rel="stylesheet" />
+    <link href="~/Assets/fonts/font/flaticon.css" rel="stylesheet" />
+    <link href="~/Assets/css/fonts/font/flaticon.css" rel="stylesheet" />
+    <!-- Para Index Home -->
+
+    <script type='text/javascript'>/*Airchat snippet*/    document.airchat = { botId: '5de3482b525d5d16c4e5684b', widgetUrl: 'https://widget.airchat.us' }; (function () { var s = document.createElement('script'); s.src = "https://widget.airchat.us/scripts/init.js"; document.head.appendChild(s); }());</script>
+
+</head>
+<body>
+    @*<div class="preloader"></div>*@
+    <div hidden>
+        <svg xmlns="http://www.w3.org/2000/svg" style="display: none;">
+            <symbol id="like" viewBox="0 0 50 50">
+                <title>like</title>
+                <path style="fill:#D75A4A;" d="M24.85,10.126c2.018-4.783,6.628-8.125,11.99-8.125c7.223,0,12.425,6.179,13.079,13.543 c0,0,0.353,1.828-0.424,5.119c-1.058,4.482-3.545,8.464-6.898,11.503L24.85,48L7.402,32.165c-3.353-3.038-5.84-7.021-6.898-11.503 c-0.777-3.291-0.424-5.119-0.424-5.119C0.734,8.179,5.936,2,13.159,2C18.522,2,22.832,5.343,24.85,10.126z" />
+            </symbol>
+            <symbol id="facebook" viewBox="0 0 112.196 112.196"><title>facebook</title><circle style="fill:#3B5998;" cx="56.098" cy="56.098" r="56.098" /><path style="fill:#FFFFFF;" d="M70.201,58.294h-10.01v36.672H45.025V58.294h-7.213V45.406h7.213v-8.34 c0-5.964,2.833-15.303,15.301-15.303L71.56,21.81v12.51h-8.151c-1.337,0-3.217,0.668-3.217,3.513v7.585h11.334L70.201,58.294z" /></symbol>
+            <symbol id="twitter" viewBox="0 0 291.319 291.319"><title>twitter</title><path style="fill:#26A6D1;" d="M145.659,0c80.45,0,145.66,65.219,145.66,145.66c0,80.45-65.21,145.659-145.66,145.659 S0,226.109,0,145.66C0,65.219,65.21,0,145.659,0z" /><path style="fill:#FFFFFF;" d="M236.724,98.129c-6.363,2.749-13.21,4.597-20.392,5.435c7.338-4.27,12.964-11.016,15.613-19.072 c-6.864,3.96-14.457,6.828-22.55,8.366c-6.473-6.691-15.695-10.87-25.909-10.87c-19.591,0-35.486,15.413-35.486,34.439 c0,2.704,0.31,5.335,0.919,7.857c-29.496-1.438-55.66-15.158-73.157-35.996c-3.059,5.089-4.807,10.997-4.807,17.315 c0,11.944,6.263,22.504,15.786,28.668c-5.826-0.182-11.289-1.721-16.086-4.315v0.437c0,16.696,12.235,30.616,28.476,33.784 c-2.977,0.783-6.109,1.211-9.35,1.211c-2.285,0-4.506-0.209-6.673-0.619c4.515,13.692,17.625,23.651,33.165,23.925 c-12.153,9.249-27.457,14.748-44.089,14.748c-2.868,0-5.69-0.164-8.476-0.482c15.722,9.777,34.367,15.485,54.422,15.485 c65.292,0,100.997-52.51,100.997-98.029l-0.1-4.461C225.945,111.111,231.963,105.048,236.724,98.129z" /></symbol>
+            <symbol id="linkedin" viewBox="0 0 112.196 112.196"><title>linkedin</title><circle style="fill:#007AB9;" cx="56.098" cy="56.097" r="56.098" /><g> <path style="fill:#F1F2F2;" d="M89.616,60.611v23.128H76.207V62.161c0-5.418-1.936-9.118-6.791-9.118 c-3.705,0-5.906,2.491-6.878,4.903c-0.353,0.862-0.444,2.059-0.444,3.268v22.524H48.684c0,0,0.18-36.546,0-40.329h13.411v5.715 c-0.027,0.045-0.065,0.089-0.089,0.132h0.089v-0.132c1.782-2.742,4.96-6.662,12.085-6.662 C83.002,42.462,89.616,48.226,89.616,60.611L89.616,60.611z M34.656,23.969c-4.587,0-7.588,3.011-7.588,6.967 c0,3.872,2.914,6.97,7.412,6.97h0.087c4.677,0,7.585-3.098,7.585-6.97C42.063,26.98,39.244,23.969,34.656,23.969L34.656,23.969z M27.865,83.739H41.27V43.409H27.865V83.739z" /> </g></symbol>
+            <symbol id="pills" viewBox="0 0 511.999 511.999"><title>pills</title><circle style="fill:#7FDBD5;" cx="258.24" cy="427.22" r="15.785" /><g> <circle style="fill:#38648C;" cx="324.36" cy="445.33" r="15.02" /> <circle style="fill:#38648C;" cx="277.79" cy="358.39" r="15.02" /> </g><circle style="fill:#7FDBD5;" cx="335.73" cy="386.41" r="18.93" /><circle style="fill:#F28B74;" cx="277.79" cy="491.72" r="20.279" /><path style="fill:#7FDBD5;" d="M194.259,84.051l-68.702,61.18l87.036,97.736l68.702-61.18c26.989-24.034,29.384-65.397,5.35-92.386 l0,0C262.611,62.412,221.248,60.017,194.259,84.051z" /><path style="fill:#287D99;" d="M56.856,206.412l68.702-61.18l87.036,97.736l-68.702,61.18c-26.989,24.034-68.351,21.639-92.386-5.35 l0,0C27.471,271.809,29.867,230.446,56.856,206.412z" /><path style="opacity:0.1;enable-background:new ;" d="M286.645,89.401c-13.617-15.291-32.796-22.679-51.772-21.847 c-5.368,17.494-3.426,37.126,7.025,53.868l21.666,34.706c3.734,5.982,2.508,13.813-2.904,18.335 C220.122,208.336,168.275,244.89,141.158,256c-41.47,16.99-77.702-25.996-71.853-60.674l-11.721,10.437 c-26.857,23.917-30.219,65.217-6.652,92.382c23.945,27.602,65.754,30.229,92.959,6.003l137.404-122.361 C308.284,157.753,310.679,116.39,286.645,89.401L286.645,89.401z" /><path style="fill:#76B7EB;" d="M258.677,100.097l48.717,78.036l111.015-69.305l-48.717-78.036 c-19.138-30.656-59.504-39.993-90.16-20.855l0,0C248.877,29.075,239.539,69.441,258.677,100.097z" /><path style="fill:#D1EFF2;" d="M356.111,256.17l-48.717-78.036l111.015-69.305l48.717,78.036 c19.138,30.656,9.801,71.022-20.855,90.16l0,0C415.615,296.163,375.249,286.826,356.111,256.17z" /><path style="opacity:0.1;enable-background:new ;" d="M446.271,277.025c2.946-1.839,5.69-3.878,8.236-6.081 C376.715,259.512,275.303,73.81,279.873,9.736c-0.113,0.069-0.228,0.131-0.341,0.201l0,0c-30.656,19.138-39.993,59.504-20.855,90.16 L356.11,256.17C375.249,286.826,415.615,296.163,446.271,277.025L446.271,277.025z" /><path style="fill:#F28B74;" d="M168.093,356.227l79.671,33.001c2.938,1.217,6.307-0.178,7.524-3.117l45.675-110.269 c1.217-2.939-0.178-6.307-3.117-7.524l-79.671-33.001c-33.388-13.83-71.666,2.025-85.496,35.414l0,0 C118.849,304.12,134.705,342.397,168.093,356.227z" /><path style="opacity:0.1;enable-background:new ;" d="M255.289,386.112l11.249-27.157 c-94.099-17.909-125.694-73.52-118.33-110.754c-6.515,6.145-11.879,13.72-15.528,22.53l0,0 c-13.83,33.388,2.025,71.666,35.414,85.496l79.671,33.001C250.703,390.446,254.071,389.05,255.289,386.112z" /><path style="fill:#76B7EB;" d="M434.83,356.227l-79.671,33.001c-2.938,1.217-6.307-0.178-7.524-3.117L301.96,275.842 c-1.217-2.939,0.178-6.307,3.117-7.524l79.671-33.001c33.388-13.83,71.666,2.025,85.496,35.414l0,0 C484.073,304.12,468.218,342.397,434.83,356.227z" /></symbol>
+        </svg>
+    </div>
+
+    <div class="header-topbar style-2">
+        <div class="container padding-none">
+            <div class="row">
+                <div class="col-md-8 col-sm-6 welcome-top">
+                    <!-- <ul class="list-inline">
+                        <li><img src="@TempData["picture"]" /></li>
+                        <li>@Html.ActionLink("Iniciar Sesion", "Index", "Login")</li>
+
+                        <li><a href="#">Registrarse</a></li>
+                    </ul> -->
+                    @Html.Partial("_LoginPartial")
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Header navbar start -->
+    <div class="main-navbar conner-style style-2 position-fixed">
+        <div class="container padding-none">
+            <div class="row">
+                <div class="col-md-12">
+                    <nav class="navbar navbar-default">
+                        <div class="navbar-header">
+                            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+                                <span class="sr-only">Toggle navigation</span>
+                                <span class="icon-bar"></span>
+                                <span class="icon-bar"></span>
+                                <span class="icon-bar"></span>
+                            </button>
+                            <a class="navbar-brand dis-none" href="#">
+                                <img src="~/Assets/img/logo-black.png" alt="">
+                            </a>
+                            <a class="navbar-brand dis-block" href="#">
+                                <img src="~/Assets/img/logo-black.png" alt="">
+                            </a>
+                        </div>
+
+                        <!-- INICIO CLIENTE-->
+
+
+                        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1" data-hover="dropdown" data-animations-delay="1.8s" data-animations="fadeInUp">
+                            <ul class="nav navbar-nav bg-none navbar-right style-3">
+                                <li class="dropdown active">
+                                    <a href="@Url.Action("Index", "Home")" class="dropdown-toggle" role="button">Inicio</a>
+                                </li>
+
+
+                                @{ if (Session["username"] != null)
+                                    {
+
+                                        MvcAuth.Models.Ecomerce2019Entities db = new MvcAuth.Models.Ecomerce2019Entities();
+                                        Dictionary<string, int> navbar = new Dictionary<string, int>();
+
+                                        List<MvcAuth.Models.tb_Categoria> Categorias = db.tb_Categoria.ToList();
+
+                                        foreach (MvcAuth.Models.tb_Categoria cat in Categorias)
+                                        {
+                                            navbar.Add(cat.nomCtegoria, cat.idCategoria);
+                                        }
+
+                                        <li class="dropdown">
+                                            <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false"><span data-hover="Depertment">Especialidad</span></a>
+                                            <ul class="dropdown-menu">
+                                                @{int count = 0;
+                                                    foreach (KeyValuePair<string, int> nav in navbar)
+                                                    {
+
+                                                        <li>
+                                                            @if (count < 10)
+                                                            {
+
+                                                                <a href="@Url.Action("findEspe", "Doctor", new {espe = nav.Key})">@nav.Key<span><i class="ion-ios-arrow-right"></i></span></a>
+
+                                                            }
+
+                                                        </li>
+
+                                                        count++;
+                                                    }
+
+
+
+                                                    @*INT*@}
+
+                                            </ul>
+                                        </li>
+
+
+
+
+
+
+
+                                        <li class="dropdown">
+                                            <a href="@Url.Action("Index", "Doctor")" class="dropdown-toggle" role="button">
+                                                Doctores
+                                            </a>
+                                        </li>
+                                        <li class="dropdown">
+                                            <a href="@Url.Action("Index", "WishList")" class="dropdown-toggle" role="button">
+                                                Favoritos
+                                            </a>
+                                        </li>
+                                        <li class="dropdown">
+                                            <a href="@Url.Action("Contact", "Home")" class="dropdown-toggle" role="button">
+                                                Contáctenos
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <div class="dropdown-buttons">
+                                                <div class="btn-group menu-search-box dropdown">
+                                                    <button type="button" class="btn  dropdown-toggle" id="header-drop-3" role="button" aria-haspopup="true" aria-expanded="false"><i class="icon icon-Search"></i></button>
+                                                    <ul class="dropdown-menu-right dropdown-menu cart dropdown-animation" aria-labelledby="header-drop-4">
+                                                        <li>
+                                                            @using (Html.BeginForm("findEspe", "Doctor", FormMethod.Get, new { @class = "search-box", @role = "search" }))
+                                                            {
+                                                                <div class="form-group" style="margin:10px; ">
+                                                                    <input name="espe" type="text" class="form-control" style="border: 2px dotted RGBA(128, 128, 128, 0.3);border-radius:5px;height:50px;" placeholder="Buscar especialidad..">
+                                                                </div>
+
+                                                            }
+                                                        </li>
+                                                    </ul>
+                                                </div>
+                                                <div class="btn-group dropdown">
+                                                    <button type="button" class="btn dropdown-toggle" id="header-drop-4" aria-haspopup="true" aria-expanded="false">  <a href="@Url.Action("Index", "MyCart")"> <i class="icon icon-ShoppingCart"></i><span class="menu-cart">.</span></a></button>
+
+
+                                                </div>
+
+                                            </div>
+
+
+                                        </li>
+
+                                    }
+                                    else
+                                    {
+                                        <li class="dropdown">
+                                            <a href="@Url.Action("RegisterDoctor", "Doctor")" class="dropdown-toggle" role="button">
+                                                Información
+                                            </a>
+                                        </li>
+
+                                        <li class="dropdown">
+                                            <a href="@Url.Action("Contact", "Home")" class="dropdown-toggle" role="button">
+                                                Contáctenos
+                                            </a>
+                                        </li>
+
+                                    }
+
+                                }
+
+
+
+
+                            </ul>
+                        </div>
+
+                        <!-- FIN CLIENTE-->
+
+
+                    </nav>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Header navbar end -->
+    @*
+        /*<div class="navbar navbar-inverse navbar-fixed-top">
+            <div class="container">
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                    @Html.ActionLink("Nombre de aplicación", "Index", "Home", new { area = "" }, new { @class = "navbar-brand" })
+                </div>
+                <div class="navbar-collapse collapse">
+                    <ul class="nav navbar-nav">
+                        <li>@Html.ActionLink("Inicio", "Index", "Home")</li>
+                        <li>@Html.ActionLink("Acerca de", "About", "Home")</li>
+                        <li>@Html.ActionLink("Contacto", "Contact", "Home")</li>
+                    </ul>
+                    <p class="nav navbar-text navbar-right">¡Hola, @User.Identity.Name!</p>
+                </div>
+            </div>
+        </div>*/class="container body-content"*@
+    <div>
+        @RenderBody()
+        <hr />
+        <footer>
+            <a href="#" class="scrollup"><i class="" aria-hidden="true">▲</i></a>
+            <p>&copy; @DateTime.Now.Year - Proyecto Integrador</p>
+        </footer>
+    </div>
+
+
+    <!-- Footer Style End -->
+    <!-- jQuery    -->
+
+    <script src="~/Assets/js/jquery.min.js"></script>
+    <!-- Bootstrap Core JavaScript -->
+    <script type="text/javascript" src="~/Assets/js/bootstrap.min.js"></script>
+    <!-- all plugins and JavaScript -->
+    <script src="~/Assets/js/bootstrap-datepicker.min.js"></script>
+    <script src="~/Assets/js/bootstrapValidator.min.js"></script>
+    <script src="~/Assets/js/css3-animate-it.js"></script>
+    <script src="~/Assets/js/bootstrap-dropdownhover.min.js"></script>
+    <script src="~/Assets/js/owl.carousel.min.js"></script>
+    <script src="~/Assets/js/gallery.js"></script>
+    <script src="~/Assets/js/player.min.js"></script>
+    <script src="~/Assets/js/retina.js"></script>
+    <script src="~/Assets/js/comming-soon.js"></script>
+    <!-- Main Custom JS -->
+    <script src="~/Assets/js/script.js"></script>
+
+
+    <!-- Other Admin -->
+
+
+    @Scripts.Render("~/bundles/jquery")
+    @Scripts.Render("~/bundles/bootstrap")
+    @RenderSection("scripts", required: false)
+</body>
+</html>

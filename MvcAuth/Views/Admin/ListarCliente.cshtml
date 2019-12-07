@@ -1,0 +1,169 @@
+﻿@model IEnumerable<MvcAuth.Models.AspNetUsers>
+
+@{
+    ViewBag.Title = "ListarCliente";
+}
+<link href="~/Assets/css/animate.min.css" rel="stylesheet" />
+<link href="~/Assets/css/animations.css" rel="stylesheet" />
+<link href="~/Assets/css/fontawesome-all.min.css" rel="stylesheet" />
+<link href="~/Assets/css/hamburgers.min.css" rel="stylesheet" />
+<link href="~/Assets/css/material-design-iconic-font.min.css" rel="stylesheet" />
+<link href="~/Assets/css/perfect-scrollbar.css" rel="stylesheet" />
+<link href="~/Assets/css/select2.min.css" rel="stylesheet" />
+<link href="~/Assets/css/slick.css" rel="stylesheet" />
+<link href="~/Assets/css/themex.css" rel="stylesheet" />
+
+
+<div class="page-wrapper">
+
+
+    <aside class="menu-sidebar d-none d-lg-block">
+
+        <div class="menu-sidebar__content js-scrollbar1">
+            <nav class="navbar-sidebar">
+                <ul class="list-unstyled navbar__list">
+                    <li class="has-sub">
+                        <a class="js-arrow" href="#">
+                            <i class=""></i>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="chart.html">
+                            <i class=""></i>
+                        </a>
+                    </li>
+                    <li class="active">
+                        <a href="@Url.Action("Index", "Home")">
+                            <i class="flaticon-005-telephone-2"></i>Doctor
+                        </a>
+                    </li>
+                    <li>
+                        <a href="@Url.Action("ListarCliente", "Admin")">
+                            <i class="flaticon-012-mouse"></i>Cliente
+                        </a>
+                    </li>
+                    <li>
+                        <a href="@Url.Action("listaEspecialidad", "Admin")">
+                            <i class="flaticon-012-mouse"></i>Especialidad
+                        </a>
+                    </li>
+                    <li>
+                        <a href="@Url.Action("listarOrden", "Admin")">
+                            <i class="flaticon-014-online-question"></i>Ordenes
+                        </a>
+                    </li>
+                    <li>
+                        <a href="@Url.Action("listarEnvio", "Admin")">
+                            <i class="flaticon-016-send-1"></i>Envios
+                        </a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </aside>
+
+
+    <div class="page-container">
+
+        <div class="main-content" style="margin-top:-95px;">
+            <div class="section__content section__content--p30">
+                <div class="container-fluid">
+                    <div class="row">
+                        <div class="col-md-12">
+
+                            <h3 class="title-5 m-b-35" style="background-color:white; height:50px; padding-top:12px; padding-left:35px;">Mantenimiento Usuarios</h3>
+                            <div class="table-data__tool" style="background-color:white; height:70px; padding-top:12px; padding-left:35px;">
+                                <div class="table-data__tool-left">
+
+                                    <button class="au-btn-filter">
+                                        Filtrar
+
+                                    </button>
+                                </div>
+                                <div class="table-data__tool-right">
+                                    <button class="au-btn au-btn-icon au-btn--green au-btn--small">
+                                        <i class="flaticon-plus"></i>Agregar
+                                    </button>
+
+                                </div>
+                            </div>
+                            <div class="table-responsive table-responsive-data2">
+
+                                <table class="table table-data2" style="max-width:1500px;">
+                                    <thead>
+                                        <tr>
+                                            <th>
+                                                <label class="au-checkbox">
+                                                    <input type="checkbox">
+                                                    <span class="au-checkmark"></span>
+                                                </label>
+                                            </th>
+                                            <th>ID</th>
+                                            <th>EMAIL</th>
+                                            <th>USERNAME</th>
+                                            <th></th>
+                                        </tr>
+                                    </thead>
+
+                                    @foreach (var item in Model)
+                                    {
+
+
+                                        <tr class="tr-shadow">
+                                            <td>
+                                                <label class="au-checkbox">
+                                                    <input type="checkbox">
+                                                    <span class="au-checkmark"></span>
+                                                </label>
+                                            </td>
+                                            <td>@Html.DisplayFor(modelItem => item.Id)</td>
+                                            <td>@Html.DisplayFor(modelItem => item.Email)</td>
+                                            <td class="desc"> @Html.DisplayFor(modelItem => item.UserName)</td>
+
+                                            <td>
+                                                <div class="table-data-feature">
+
+                                                    <button class="item" data-toggle="tooltip" data-placement="top" title="Eliminar">
+                                                        <a href="@Url.Action("DeleteCliente", "Admin", new { id = item.Id })">
+                                                            <i class="flaticon-delete" style="left: 20%;"></i>
+                                                        </a>
+                                                    </button>
+                                                </div>
+                                            </td>
+                                        </tr>}
+                                </table>
+
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row m-t-30">
+                        <button class="au-btn au-btn-icon au-btn--small" style="background-color:floralwhite; margin-left:15px;">
+                            <a href="@Url.Action("Index", "Home", new {  })">
+                                REGRESAR
+                            </a>
+                        </button>
+
+
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<script src="~/Assets/js/jquery-3.2.1.min.js"></script>
+<script src="~/Assets/js/jquery.counterup.min.js"></script>
+<script src="~/Assets/js/jquery.waypoints.min.js"></script>
+<script src="~/Assets/js/animsition.min.js"></script>
+<script src="~/Assets/js/bootstrap-progressbar.min.js"></script>
+<script src="~/Assets/js/Chart.bundle.min.js"></script>
+<script src="~/Assets/js/circle-progress.min.js"></script>
+<script src="~/Assets/js/perfect-scrollbar.js"></script>
+<script src="~/Assets/js/popper.min.js"></script>
+<script src="~/Assets/js/rocket-loader.min.js"></script>
+<script src="~/Assets/js/select2.min.js"></script>
+<script src="~/Assets/js/slick.min.js"></script>
+<script src="~/Assets/js/wow.min.js"></script>
+<script src="~/Assets/js/bootstrap-progressbar.min.js"></script>

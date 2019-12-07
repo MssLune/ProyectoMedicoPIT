@@ -1,0 +1,158 @@
+﻿@model IEnumerable<MvcAuth.Models.tb_Doctor>
+
+@{
+    ViewBag.Title = "findEspe";
+}
+
+
+<section class="inner-bg over-layer-black" style="background-color:rgba(242,242,242,0.9); ">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-4">
+                <div class="mini-title inner-style-2">
+                    <h3>DOCTORES DISPONIBLES</h3>
+                    <p><a href="#">Inicio</a> <span class="fa fa-angle-right"></span> <a href="#">Doctores</a></p>
+                </div>
+
+             
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="shop-area">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-3">
+
+                <div class="blog-sideber">
+
+                    <div class="widget clearfix">
+                        <div class="sideber-title">
+                            <h4><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">BUSCAR POR ESPECIALIDAD</font></font></h4>
+                        </div>
+                        <div class="blog-search" style="float:left;width: 100%;border: 1px solid rgba(242,242,242,0.9);">
+                            @using (Html.BeginForm("searchEspe", "Doctor", FormMethod.Get, new { @class = "clearfix" }))
+                            {
+                                @Html.DropDownList("espe", (SelectList)ViewBag.especialidad, "Seleccione", new { @class = "form-control " })
+                                <button type="submit" style="height:100%; width: 100%;">
+                                    BUSCAR
+                                </button>
+
+                            }
+                        </div>
+
+                    </div>
+
+
+
+                        <div class="widget clearfix">
+                            <div class="sideber-title">
+                                <h4><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">DOCTORES MÁS COTIZADOS</font></font></h4>
+                            </div>
+                            <div class="shop-single-item">
+                                <div class="shop-sell-item">
+                                    <img alt="# #" src="~/Assets/img/team/1.png">
+                                </div>
+                                <div class="shop-sell-details">
+                                    <h5><a href="#"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Bill Cárdenas</font></font></a></h5>
+                                    <h5><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">S/ 15</font></font></h5>
+                                    <ul>
+                                        <li><i class="fa fa-star"></i></li>
+                                        <li><i class="fa fa-star"></i></li>
+                                        <li><i class="fa fa-star"></i></li>
+                                        <li><i class="fa fa-star"></i></li>
+                                        <li><i class="fa fa-star"></i></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+
+                   
+
+
+                    </div>
+                </div>
+
+            <div class="col-md-9">
+                <div class="shop-right-area">
+
+                    <div class="shop-banner"   style="width:100%;" >
+                        <!-- Team start   <h4><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Buscar por </font></font></h4> -->
+
+                        <div class="sideber-content">
+                            <div class="blog-search"   style="width:100%;" >
+                                @using (Html.BeginForm("searchDistrito", "Doctor", FormMethod.Get, new { @class = "clearfix" }))
+                                {
+                                    <input name="distrito" type="search"placeholder="Ingrese el distrito.."   >
+                                    <button type="submit" >
+                                        <i class="icon icon-Search"></i>
+                                    </button>
+                                }
+                            </div>
+                        </div>
+
+
+
+                    </div>
+                    <div class="shop-tab-area">
+                        <div class="tab-content">
+                            <div class="row tab-pane active" id="grid" style="margin-left:15px;">
+
+                                <!-- Team start -->
+                                <section class="team-area">
+                                    <div class="container">
+                                        <div class="section-content">
+                                           
+                                            <div class="row">
+                                                <div class="">
+
+                                                    @foreach (var item in Model)
+                                                    {
+                                                        <div class="col-md-3">
+                                                            <div class="team-item-2">
+                                                                <img src="@item.ImageURL" alt="">
+
+                                                                <div class="team-content">
+                                                                    <h4><a href="#">@item.nomDoctor </a></h4>
+                                                                    <h6>@item.tb_Categoria.nomCtegoria</h6>
+                                                                </div>
+                                                                <div class="timetable">
+                                                                    <div class="item">
+                                                                        <div class="label">@item.tb_Horario.dia</div>
+                                                                        <div class="value">@item.tb_Horario.horaApertura - @item.tb_Horario.horaCierre</div>
+                                                                    </div>
+                                                                    <div class="item">
+                                                                        <div class="label">Sabado</div>
+                                                                        <div class="value">@item.tb_Horario.horaApertura</div>
+                                                                    </div>
+                                                                    <div class="item">
+                                                                        <div class="label">@item.tb_Horario.dia</div>
+                                                                        <div class="value">@item.tb_Horario.horaApertura - @item.tb_Horario.horaCierre</div>
+                                                                    </div>
+                                                                    <a class="btn-theme text-center btn-block" href="@Url.Action("DetallesDoctor", "Doctor", new { id = item.idDoctor })">
+                                                                        Ver Perfil
+                                                                    </a>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    }
+
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </section>
+                                <!-- Team End -->
+
+
+                            </div>
+                          
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+

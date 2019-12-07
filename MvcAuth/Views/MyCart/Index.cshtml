@@ -1,0 +1,134 @@
+﻿@model IEnumerable<MvcAuth.Models.tb_detalleOrden>
+@{
+    ViewBag.Title = "Index";
+}
+
+<section class="inner-bg over-layer-black" style="background-color:rgba(242,242,242,0.9); ">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-4">
+                <div class="mini-title inner-style-2">
+                    <h3>SOLICITAR DOCTOR</h3>
+                    <p><a href="index-one.html">Inicio</a> <span class="fa fa-angle-right"></span> <a href="#">Solicitar Doctor</a></p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- shopping-cart-area start -->
+<div class="shoping-cart-area">
+    <div class="container">
+        <h4 class="mini-title inner-style-2">Solicitar Doctor</h4>
+        <div class="row">
+            <div class="col-md-12">
+                <div class="product-list">
+                    @using (Html.BeginForm("ProcedToCheckout", "MyCart", FormMethod.Post))
+                    {
+                        <table style="border-color:rgba(97,157,177,0.83);">
+                            <thead>
+                                <tr id="new">
+                                    <th>Eliminar</th>
+                                    <th>Imagen</th>
+                                    <th>Doctor</th>
+                                    <th>Precio de visita</th>
+                                    <th>Subtotal</th>
+                                    <th>Total</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                @if (Session["username"] != null)
+                                {
+                                    int i = 0;
+                                    foreach (var item in Model)
+                                    {
+
+                                        <tr>
+                                            @Html.Hidden("shcartID-" + i + "", @item.idDoctor)
+                                            <td class="product-thumbnail">
+                                                <a href="@Url.Action("Remove", "MyCart", new { id=item.idOrden})"><i class="flaticon-012-mouse"></i></a>
+                                            </td>
+                                            <td class="product-image">
+                                                <a href="#"><img alt="" src="@item.tb_Doctor.ImageURL"></a>
+                                            </td>
+                                            <td>
+                                                <h4><a href="#">@item.tb_Doctor.nomDoctor</a></h4>
+                                            </td>
+                                            <td>@item.tb_Doctor.Precio</td>
+                                            <td id="total">@item.tb_Doctor.Precio</td>
+                                            <td>@item.cantidadTotal</td>
+
+                                        </tr>
+                                    }
+                                }
+                                else
+                                {
+                                    <text>Por favor, ingrese para ver sus solicitudes</text>
+                                }
+                            </tbody>
+                        </table>
+                        <div class="row">
+                            <div class="col-md-6 text-right">
+                                <ul class="list-inline">
+                                    <li><button style="width:100%;" type="submit" class="btn-theme">Solicitar</button></li>
+                                </ul>
+                            </div>
+                        </div>
+                    }
+                </div>
+            </div>
+        </div>
+
+    </div>
+</div>
+<!-- / Cart view section -->
+<script type='text/javascript'>
+    $(function () {
+        $(':input[type="number"]').change(function () {
+
+            var index = $(this).attr('id').split("-")[1];
+
+            var itemPriceEle = document.getElementById('itemPrice-' + index + '');
+            var itemQty = $('#itemQty-' + index + '').val();
+            var amountEle = document.getElementById('itemAmount-' + index + '');
+
+            var amount = itemQty * parseInt(itemPriceEle.innerText);
+
+            amountEle.innerText = amount;
+
+            CartsTotal();
+
+
+
+        });
+        CartsTotal();
+    });
+    function CartsTotal() {
+        var subAmount = 0;
+        var i = 0;
+        for (var i = 0; i < 5;) {
+            if (parseInt($('#itemAmount-' + i + '').text()) > 0) {
+                subAmount = subAmount + parseInt($('#itemAmount-' + i + '').text());
+                i++;
+            }
+            else {
+                break;
+            }
+        }
+        var subTotalEle = document.getElementById('subTotal');
+        subTotalEle.innerText = subAmount;
+
+        var TotalAmountEle = document.getElementById('totalAmount');
+        TotalAmountEle.innerText = subAmount;
+    }
+    function TotalAmount() {
+        for (var i = 0; i < 5; i++) {
+            var itemPriceEle = document.getElementById('itemPrice-' + i + '');
+            var itemQty = $('#itemQty-' + i + '').val();
+            var amountEle = document.getElementById('itemAmount-' + i + '');
+
+            var amount = itemQty * parseInt(itemPriceEle.innerText);
+
+            amountEle.innerText = amount;
+        }
+    }
+</script>

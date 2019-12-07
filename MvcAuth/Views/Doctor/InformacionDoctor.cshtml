@@ -1,0 +1,159 @@
+﻿@model MvcAuth.Models.tb_Doctor
+
+@{
+    ViewBag.Title = "InformacionDoctor";
+}
+
+<section class="inner-bg over-layer-black" style="background-color:rgba(242,242,242,0.9); ">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-4">
+                <div class="mini-title inner-style-2">
+                    <h3>INFORMACIÓN</h3>
+                    <p><a href="index-one.html">Inicio</a> <span class="fa fa-angle-right"></span> <a href="#">Información</a></p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- Team start@Model.ImageURL -->
+<section class="team-area">
+    <div class="container">
+        <div class="section-content">
+            <div class="row">
+                <div class="col-md-5">
+                    <div class="team-item-2">
+                        @if (Model.ImageURL != null)
+                        {
+                            <img src="@Url.Content(Model.ImageURL)" width="250" height="250" alt="">
+                        }
+                        <img src="~/Image/descarga.jpg" width="250" height="250" alt="">
+                        <div class="team-contact">
+                            <ul>
+                                <li><a href="#"><svg class="fa fa-twitter" style="width:45px;height:45px;"><use xlink:href="#twitter" /></svg></a></li>
+                                <li><a href="#"><svg class="fa fa-linkedin" style="width:45px;height:45px;"><use xlink:href="#linkedin" /></svg></a></li>
+                                <li><a href="#"><svg class="fa fa-dribbble" style="width:45px;height:45px;"><use xlink:href="#facebook" /></svg></a></li>
+                            </ul>
+                        </div>
+                        <div class="team-content">
+                            <h4><a href="#">@Model.nomDoctor</a></h4>
+                            <h6>@Model.tb_Categoria.nomCtegoria</h6>
+                            <div class="team-content-icon">
+                                <svg class="team-content-icon" style="width:25px;height:25px;">
+                                    <use xlink:href="#like" />
+                                </svg>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="team-details">
+                        <address>
+                            <ul>
+                                <li><i class="flaticon-040-profile"></i>@Model.cmpDoctor</li>
+                                <li><i class="flaticon-047-location"></i>@Model.dirDoctor</li>
+                                <li><i class="flaticon-028-phone-2"></i>@Model.telDoctor</li>
+
+                                <li><i class="flaticon-024-globe"></i>@Model.tb_Distrito.nomDistrito</li>
+                                <li><i class="flaticon-035-website"></i><a href="mailto:">@Model.emailDoctor</a></li>
+                                <li><i class="flaticon-011-web"></i><a href="#">@Model.DescripcionCorta</a></li>
+                            </ul>
+                        </address>
+                    </div>
+                    <div class="bg-f8 padding-20 margin-top-50">
+                        <div class="footer-item footer-widget-one margin-bottom-10">
+                            <div class="footer-title">
+                                <h4>Horario de Atención</h4>
+                                <div class="border-style-2"></div>
+                            </div>
+                            <ul class="footer-list border-deshed">
+                                <li class="clearfix">
+                                    <span> @Model.tb_Horario.dia </span>
+                                    <div class="value pull-right"> @Model.tb_Horario.horaApertura am - @Model.tb_Horario.horaCierre pm </div>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-7 team-area">
+                    <div class="team-details-content">
+                        <h2><a href="#"> @Model.nomDoctor </a></h2>
+                        <h6>@Model.tb_Categoria.nomCtegoria</h6>
+                        <h4>Información</h4>
+                        <p>
+                            <strong>
+                                Los médicos de TD-Doctor estan certificados y cuentan con estudios superiores garantizando una buena atención. Nuestro personal esta
+                                apto para poder visitar sus hogares.
+                                También pueden trabajar para escuelas, empresas, equipos deportivos o militares.@*</h4>*@
+                                <ul class="list-style margin-left-10">
+                                    <li><i class="fa fa-angle-right margin-right-10"></i> @Model.DescripcionLarga</li>
+                                </ul>
+                                <div class="clearfix margin-top-30">
+                                    <div class="skills" data-percent="@Model.porc1">
+                                        <div class="title-bar">
+                                            <h5>@Model.tb_Categoria.nomCtegoria</h5>
+                                        </div>
+                                        <span>@Model.porc1</span>
+                                        <div class="skillbar-1"></div>
+                                    </div>
+                                    <div class="skills" data-percent="@Model.porc2">
+                                        <div class="title-bar">
+                                            <h5>Práctica General</h5>
+                                        </div>
+                                        <span>@Model.porc2</span>
+                                        <div class="skillbar-2"></div>
+                                    </div>
+                                    <div class="skills" data-percent="@Model.porc3">
+                                        <div class="title-bar">
+                                            <h5>Cirugía General</h5>
+                                        </div>
+                                        <span>@Model.porc3</span>
+                                        <div class="skillbar-3"></div>
+                                    </div>
+                                    <div class="skills" data-percent="@Model.porc4">
+                                        <div class="title-bar">
+                                            <h5>Farmacología</h5>
+                                        </div>
+                                        <span>@Model.porc4</span>
+                                        <div class="skillbar-4"></div>
+                                    </div>
+                                </div>
+                                <div class="margin-bottom-30">
+                                    <h4>EDUCACIÓN Y FORMACIÓN MÉDICA</h4>
+                                    <div class="border-style-2 margin-bottom-30"></div>
+                                    <ul class="list-style margin-left-10">
+                                        <li><i class="fa fa-angle-right margin-right-10"></i> <strong>@Model.caracteristica1</strong></li>
+                                        <li><i class="fa fa-angle-right margin-right-10"></i> @Model.caracteristica2</li>
+                                        <li><i class="fa fa-angle-right margin-right-10"></i> @Model.caracteristica3</li>
+                                    </ul>
+                                </div>
+                                <div class="margin-bottom-30">
+                                    <h4>EXPERIENCIA</h4>
+                                    <div class="border-style-2 margin-bottom-30"></div>
+                                    <ul class="list-style margin-left-10">
+                                        <li><i class="fa fa-angle-right margin-right-10"></i> @Model.caracteristica4</li>
+                                        <li><i class="fa fa-angle-right margin-right-10"></i><strong>@Model.caracteristica5</strong> </li>
+                                    </ul>
+                                </div>
+                                <div class="margin-bottom-30">
+                                    <h4>CERTIFICACIONES</h4>
+                                    <div class="border-style-2 margin-bottom-30"></div>
+                                    <ul class="list-style margin-left-10">
+                                        <li><i class="fa fa-angle-right margin-right-10"></i> @Model.caracteristica7</li>
+                                        <li><i class="fa fa-angle-right margin-right-10"></i> @Model.caracteristica8</li>
+                                    </ul>
+                                </div>
+                                @*<a class="btn-theme text-center btn-block" style="margin-top:130px;" href="@(Session["username"] != null ? Url.Action("AddToCart", "Doctor", new { id = Model.idDoctor}) : Url.Action("Login", "Account"))">*@
+                                <a class="btn-theme text-center btn-block" style="margin-top:130px;" href="@Url.Action("SaveUpdate","Doctor",new { id= Model.idDoctor})">
+                                    Actualizar Información
+                                </a>
+
+                            </strong>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+@*<p>
+        @Html.ActionLink("Edit", "Edit", new { /* id = Model.PrimaryKey */ }) |
+        @Html.ActionLink("Back to List", "Index")
+    </p>*@

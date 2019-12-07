@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="c9a5a7f1b8d4450ea7f73db42fe1939c" Name="Diagram1">
+        <EntityTypeShape EntityType="Ecomerce2019Model.C__MigrationHistory" Width="1.5" PointX="0.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="Ecomerce2019Model.AspNetRoles" Width="1.5" PointX="0.75" PointY="15.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="Ecomerce2019Model.AspNetUserClaims" Width="1.5" PointX="5.25" PointY="17" IsExpanded="true" />
+        <EntityTypeShape EntityType="Ecomerce2019Model.AspNetUserLogins" Width="1.5" PointX="5.25" PointY="19.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="Ecomerce2019Model.AspNetUsers" Width="1.5" PointX="3" PointY="16.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="Ecomerce2019Model.Review" Width="1.5" PointX="13.5" PointY="21" IsExpanded="true" />
+        <EntityTypeShape EntityType="Ecomerce2019Model.tb_admin" Width="1.5" PointX="2.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="Ecomerce2019Model.tb_Categoria" Width="1.5" PointX="0.75" PointY="13" IsExpanded="true" />
+        <EntityTypeShape EntityType="Ecomerce2019Model.tb_Cliente" Width="1.5" PointX="3" PointY="23.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="Ecomerce2019Model.tb_ClienteEx" Width="1.5" PointX="8.25" PointY="17.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="Ecomerce2019Model.tb_DetalleEnvio" Width="1.5" PointX="3" PointY="29.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="Ecomerce2019Model.tb_detalleOrden" Width="1.5" PointX="16.5" PointY="16.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="Ecomerce2019Model.tb_Distrito" Width="1.5" PointX="0.75" PointY="20" IsExpanded="true" />
+        <EntityTypeShape EntityType="Ecomerce2019Model.tb_Doctor" Width="1.5" PointX="11.25" PointY="14.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="Ecomerce2019Model.tb_Horario" Width="1.5" PointX="0.75" PointY="23.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="Ecomerce2019Model.tb_ListaDeseos" Width="1.5" PointX="16.5" PointY="20.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="Ecomerce2019Model.tb_ListaDeseosExt" Width="1.5" PointX="13.5" PointY="18.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="Ecomerce2019Model.tb_Orden" Width="1.5" PointX="5.25" PointY="25.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="Ecomerce2019Model.tb_OrdenExt" Width="1.5" PointX="8.25" PointY="22.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="Ecomerce2019Model.tb_Pago" Width="1.5" PointX="6" PointY="34" IsExpanded="true" />
+        <EntityTypeShape EntityType="Ecomerce2019Model.tb_TipoPago" Width="1.5" PointX="3.75" PointY="34.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="Ecomerce2019Model.tb_VistaReciente" Width="1.5" PointX="16.5" PointY="23.375" IsExpanded="true" />
+        <AssociationConnector Association="Ecomerce2019Model.FK_dbo_AspNetUserClaims_dbo_AspNetUsers_UserId" ManuallyRouted="false" />
+        <AssociationConnector Association="Ecomerce2019Model.FK_dbo_AspNetUserLogins_dbo_AspNetUsers_UserId" ManuallyRouted="false" />
+        <AssociationConnector Association="Ecomerce2019Model.FK__tb_ClienteEx__id__5812160E" ManuallyRouted="false" />
+        <AssociationConnector Association="Ecomerce2019Model.FK__tb_ListaD__idCli__619B8048" ManuallyRouted="false" />
+        <AssociationConnector Association="Ecomerce2019Model.FK__tb_OrdenE__idCli__66603565" ManuallyRouted="false" />
+        <AssociationConnector Association="Ecomerce2019Model.Fk_Categoria" ManuallyRouted="false" />
+        <AssociationConnector Association="Ecomerce2019Model.Fk_Distrito" ManuallyRouted="false" />
+        <AssociationConnector Association="Ecomerce2019Model.Fk_Horario" ManuallyRouted="false" />
+        <AssociationConnector Association="Ecomerce2019Model.FK_placa_idCliente" ManuallyRouted="false" />
+        <AssociationConnector Association="Ecomerce2019Model.FK_Review_Customers" ManuallyRouted="false" />
+        <AssociationConnector Association="Ecomerce2019Model.FK_Review_Doctor" ManuallyRouted="false" />
+        <AssociationConnector Association="Ecomerce2019Model.FK__tb_Doctor__idCat__5CD6CB2B" ManuallyRouted="false" />
+        <AssociationConnector Association="Ecomerce2019Model.FK__tb_Client__idDis__5629CD9C" ManuallyRouted="false" />
+        <AssociationConnector Association="Ecomerce2019Model.FK__tb_ListaD__idCli__5FB337D6" ManuallyRouted="false" />
+        <AssociationConnector Association="Ecomerce2019Model.FK__tb_Orden__idClie__6383C8BA" ManuallyRouted="false" />
+        <AssociationConnector Association="Ecomerce2019Model.FK__tb_VistaR__idCli__6A30C649" ManuallyRouted="false" />
+        <AssociationConnector Association="Ecomerce2019Model.FK__tb_Client__idDis__571DF1D5" ManuallyRouted="false" />
+        <AssociationConnector Association="Ecomerce2019Model.FK__tb_Detall__idDis__59063A47" ManuallyRouted="false" />
+        <AssociationConnector Association="Ecomerce2019Model.FK__tb_Orden__idDeta__6477ECF3" ManuallyRouted="false" />
+        <AssociationConnector Association="Ecomerce2019Model.FK__tb_OrdenE__idDet__6754599E" ManuallyRouted="false" />
+        <AssociationConnector Association="Ecomerce2019Model.FK__tb_detall__idDoc__59FA5E80" ManuallyRouted="false" />
+        <AssociationConnector Association="Ecomerce2019Model.FK_IDORDEN_DETALLE" ManuallyRouted="false" />
+        <AssociationConnector Association="Ecomerce2019Model.FK__tb_Doctor__idDis__5DCAEF64" ManuallyRouted="false" />
+        <AssociationConnector Association="Ecomerce2019Model.FK__tb_Doctor__id_Ho__5BE2A6F2" ManuallyRouted="false" />
+        <AssociationConnector Association="Ecomerce2019Model.FK__tb_ListaD__idDoc__60A75C0F" ManuallyRouted="false" />
+        <AssociationConnector Association="Ecomerce2019Model.FK__tb_ListaD__idDoc__628FA481" ManuallyRouted="false" />
+        <AssociationConnector Association="Ecomerce2019Model.FK__tb_VistaR__idDoc__6B24EA82" ManuallyRouted="false" />
+        <AssociationConnector Association="Ecomerce2019Model.FK__tb_Orden__idPago__656C112C" ManuallyRouted="false" />
+        <AssociationConnector Association="Ecomerce2019Model.FK__tb_OrdenE__idPag__68487DD7" ManuallyRouted="false" />
+        <AssociationConnector Association="Ecomerce2019Model.FK__tb_Pago__idTipoP__693CA210" ManuallyRouted="false" />
+        <AssociationConnector Association="Ecomerce2019Model.AspNetUserRoles" ManuallyRouted="false" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>

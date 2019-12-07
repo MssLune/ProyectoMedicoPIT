@@ -1,0 +1,927 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="Ecomerce2019Model.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2012" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+  <EntityType Name="__MigrationHistory">
+    <Key>
+      <PropertyRef Name="MigrationId" />
+      <PropertyRef Name="ContextKey" />
+    </Key>
+    <Property Name="MigrationId" Type="nvarchar" MaxLength="150" Nullable="false" />
+    <Property Name="ContextKey" Type="nvarchar" MaxLength="300" Nullable="false" />
+    <Property Name="Model" Type="varbinary(max)" Nullable="false" />
+    <Property Name="ProductVersion" Type="nvarchar" MaxLength="32" Nullable="false" />
+  </EntityType>
+  <EntityType Name="AspNetRoles">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="nvarchar" MaxLength="128" Nullable="false" />
+    <Property Name="Name" Type="nvarchar" MaxLength="256" Nullable="false" />
+  </EntityType>
+  <EntityType Name="AspNetUserClaims">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="UserId" Type="nvarchar" MaxLength="128" Nullable="false" />
+    <Property Name="ClaimType" Type="nvarchar(max)" />
+    <Property Name="ClaimValue" Type="nvarchar(max)" />
+  </EntityType>
+  <EntityType Name="AspNetUserLogins">
+    <Key>
+      <PropertyRef Name="LoginProvider" />
+      <PropertyRef Name="ProviderKey" />
+      <PropertyRef Name="UserId" />
+    </Key>
+    <Property Name="LoginProvider" Type="nvarchar" MaxLength="128" Nullable="false" />
+    <Property Name="ProviderKey" Type="nvarchar" MaxLength="128" Nullable="false" />
+    <Property Name="UserId" Type="nvarchar" MaxLength="128" Nullable="false" />
+  </EntityType>
+  <EntityType Name="AspNetUserRoles">
+    <Key>
+      <PropertyRef Name="UserId" />
+      <PropertyRef Name="RoleId" />
+    </Key>
+    <Property Name="UserId" Type="nvarchar" MaxLength="128" Nullable="false" />
+    <Property Name="RoleId" Type="nvarchar" MaxLength="128" Nullable="false" />
+  </EntityType>
+  <EntityType Name="AspNetUsers">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="nvarchar" MaxLength="128" Nullable="false" />
+    <Property Name="Email" Type="nvarchar" MaxLength="256" />
+    <Property Name="EmailConfirmed" Type="bit" Nullable="false" />
+    <Property Name="PasswordHash" Type="nvarchar(max)" />
+    <Property Name="SecurityStamp" Type="nvarchar(max)" />
+    <Property Name="PhoneNumber" Type="nvarchar(max)" />
+    <Property Name="PhoneNumberConfirmed" Type="bit" Nullable="false" />
+    <Property Name="TwoFactorEnabled" Type="bit" Nullable="false" />
+    <Property Name="LockoutEndDateUtc" Type="datetime" />
+    <Property Name="LockoutEnabled" Type="bit" Nullable="false" />
+    <Property Name="AccessFailedCount" Type="int" Nullable="false" />
+    <Property Name="UserName" Type="nvarchar" MaxLength="256" Nullable="false" />
+    <Property Name="ViewPage" Type="varchar" MaxLength="7" />
+    <Property Name="idCategoria" Type="int" />
+    <Property Name="id_Horario" Type="int" />
+    <Property Name="idDistrito" Type="int" />
+  </EntityType>
+  <EntityType Name="Review">
+    <Key>
+      <PropertyRef Name="ReviewID" />
+    </Key>
+    <Property Name="ReviewID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="IdCliente" Type="int" />
+    <Property Name="IdDoctor" Type="int" />
+    <Property Name="Nombre" Type="varchar" MaxLength="50" />
+    <Property Name="Email" Type="varchar" MaxLength="50" />
+    <Property Name="Review" Type="varchar" MaxLength="500" />
+    <Property Name="Rate" Type="int" />
+    <Property Name="Fecha" Type="datetime" />
+    <Property Name="isDelete" Type="bit" />
+  </EntityType>
+  <EntityType Name="tb_admin">
+    <Key>
+      <PropertyRef Name="idAdmin" />
+    </Key>
+    <Property Name="idAdmin" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="usuarioAdmin" Type="varchar" MaxLength="30" Nullable="false" />
+    <Property Name="contraseñaAdmin" Type="varchar" MaxLength="30" Nullable="false" />
+  </EntityType>
+  <EntityType Name="tb_Categoria">
+    <Key>
+      <PropertyRef Name="idCategoria" />
+    </Key>
+    <Property Name="idCategoria" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="nomCtegoria" Type="varchar" MaxLength="30" Nullable="false" />
+  </EntityType>
+  <EntityType Name="tb_Cliente">
+    <Key>
+      <PropertyRef Name="idCliente" />
+    </Key>
+    <Property Name="idCliente" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="nomCliente" Type="varchar" MaxLength="50" Nullable="false" />
+    <Property Name="apeCliente" Type="varchar" MaxLength="50" Nullable="false" />
+    <Property Name="dniCliente" Type="char" MaxLength="8" Nullable="false" />
+    <Property Name="usuario" Type="varchar" MaxLength="50" Nullable="false" />
+    <Property Name="contraseña" Type="varchar" MaxLength="50" Nullable="false" />
+    <Property Name="edad" Type="int" />
+    <Property Name="genero" Type="varchar" MaxLength="50" />
+    <Property Name="fechaNacimiento" Type="date" />
+    <Property Name="idDistrito" Type="int" />
+    <Property Name="correo" Type="varchar" MaxLength="50" />
+    <Property Name="telefono" Type="char" MaxLength="9" />
+    <Property Name="direccion" Type="varchar" MaxLength="50" />
+    <Property Name="foto" Type="varchar" MaxLength="200" />
+    <Property Name="notas" Type="varchar" MaxLength="250" />
+  </EntityType>
+  <EntityType Name="tb_ClienteEx">
+    <Key>
+      <PropertyRef Name="id" />
+    </Key>
+    <Property Name="id" Type="nvarchar" MaxLength="128" Nullable="false" />
+    <Property Name="nomCliente" Type="varchar" MaxLength="50" Nullable="false" />
+    <Property Name="apeCliente" Type="varchar" MaxLength="50" Nullable="false" />
+    <Property Name="dniCliente" Type="char" MaxLength="8" Nullable="false" />
+    <Property Name="UserName" Type="varchar" MaxLength="50" Nullable="false" />
+    <Property Name="PasswordHash" Type="varchar" MaxLength="50" Nullable="false" />
+    <Property Name="edad" Type="int" />
+    <Property Name="genero" Type="varchar" MaxLength="50" />
+    <Property Name="fechaNacimiento" Type="date" />
+    <Property Name="idDistrito" Type="int" />
+    <Property Name="Email" Type="varchar" MaxLength="256" />
+    <Property Name="telefono" Type="char" MaxLength="9" />
+    <Property Name="direccion" Type="varchar" MaxLength="50" />
+    <Property Name="foto" Type="varchar" MaxLength="200" />
+    <Property Name="notas" Type="varchar" MaxLength="250" />
+  </EntityType>
+  <EntityType Name="tb_DetalleEnvio">
+    <Key>
+      <PropertyRef Name="idDetalleEnvio" />
+    </Key>
+    <Property Name="idDetalleEnvio" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="nombre" Type="varchar" MaxLength="20" Nullable="false" />
+    <Property Name="apellido" Type="varchar" MaxLength="20" Nullable="false" />
+    <Property Name="correo" Type="varchar" MaxLength="50" Nullable="false" />
+    <Property Name="telefono" Type="varchar" MaxLength="20" Nullable="false" />
+    <Property Name="direccion" Type="varchar" MaxLength="100" Nullable="false" />
+    <Property Name="idDistrito" Type="int" Nullable="false" />
+  </EntityType>
+  <EntityType Name="tb_detalleOrden">
+    <Key>
+      <PropertyRef Name="idOrden" />
+    </Key>
+    <Property Name="idOrden" Type="int" Nullable="false" />
+    <Property Name="idDoctor" Type="int" Nullable="false" />
+    <Property Name="precioUnidad" Type="decimal" Precision="18" Scale="0" />
+    <Property Name="cantidad" Type="int" />
+    <Property Name="descuento" Type="decimal" Precision="18" Scale="0" />
+    <Property Name="cantidadTotal" Type="decimal" Precision="18" Scale="0" />
+    <Property Name="fechaOrden" Type="datetime" />
+  </EntityType>
+  <EntityType Name="tb_Distrito">
+    <Key>
+      <PropertyRef Name="idDistrito" />
+    </Key>
+    <Property Name="idDistrito" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="nomDistrito" Type="varchar" MaxLength="30" Nullable="false" />
+  </EntityType>
+  <EntityType Name="tb_Doctor">
+    <Key>
+      <PropertyRef Name="idDoctor" />
+    </Key>
+    <Property Name="idDoctor" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="nomDoctor" Type="varchar" MaxLength="50" Nullable="false" />
+    <Property Name="dniDoctor" Type="char" MaxLength="8" Nullable="false" />
+    <Property Name="cmpDoctor" Type="char" MaxLength="6" Nullable="false" />
+    <Property Name="idCategoria" Type="int" Nullable="false" />
+    <Property Name="id_Horario" Type="int" Nullable="false" />
+    <Property Name="dirDoctor" Type="varchar" MaxLength="50" Nullable="false" />
+    <Property Name="idDistrito" Type="int" />
+    <Property Name="telDoctor" Type="varchar" MaxLength="50" Nullable="false" />
+    <Property Name="emailDoctor" Type="varchar" MaxLength="50" Nullable="false" />
+    <Property Name="Precio" Type="decimal" Precision="18" Scale="0" Nullable="false" />
+    <Property Name="PrecioAnterior" Type="decimal" Precision="18" Scale="0" />
+    <Property Name="ImageURL" Type="varchar" MaxLength="500" />
+    <Property Name="TextoAlternativo" Type="varchar" MaxLength="50" />
+    <Property Name="caracteristica1" Type="varchar" MaxLength="50" />
+    <Property Name="caracteristica2" Type="varchar" MaxLength="50" />
+    <Property Name="caracteristica3" Type="varchar" MaxLength="50" />
+    <Property Name="caracteristica4" Type="varchar" MaxLength="50" />
+    <Property Name="caracteristica5" Type="varchar" MaxLength="50" />
+    <Property Name="Placa" Type="bit" />
+    <Property Name="TituloOferta" Type="varchar" MaxLength="50" />
+    <Property Name="ClaseDistintaOferta" Type="varchar" MaxLength="50" />
+    <Property Name="DescripcionCorta" Type="varchar" MaxLength="300" />
+    <Property Name="DescripcionLarga" Type="varchar" MaxLength="2000" />
+    <Property Name="nota" Type="varchar" MaxLength="250" />
+    <Property Name="agregarCarro" Type="bit" />
+    <Property Name="caracteristica6" Type="nvarchar" MaxLength="50" />
+    <Property Name="caracteristica7" Type="nvarchar" MaxLength="50" />
+    <Property Name="caracteristica8" Type="nvarchar" MaxLength="50" />
+    <Property Name="porc1" Type="nvarchar" MaxLength="50" />
+    <Property Name="porc2" Type="nvarchar" MaxLength="50" />
+    <Property Name="porc3" Type="nvarchar" MaxLength="50" />
+    <Property Name="porc4" Type="nvarchar" MaxLength="50" />
+    <Property Name="idUser" Type="nvarchar" MaxLength="128" />
+  </EntityType>
+  <EntityType Name="tb_Horario">
+    <Key>
+      <PropertyRef Name="id_Horario" />
+    </Key>
+    <Property Name="id_Horario" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="dia" Type="varchar" MaxLength="50" Nullable="false" />
+    <Property Name="horaApertura" Type="varchar" MaxLength="50" />
+    <Property Name="horaCierre" Type="varchar" MaxLength="128" />
+  </EntityType>
+  <EntityType Name="tb_ListaDeseos">
+    <Key>
+      <PropertyRef Name="idListaDeseos" />
+    </Key>
+    <Property Name="idListaDeseos" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="idCliente" Type="int" Nullable="false" />
+    <Property Name="idDoctor" Type="int" Nullable="false" />
+  </EntityType>
+  <EntityType Name="tb_ListaDeseosExt">
+    <Key>
+      <PropertyRef Name="idListaDeseos" />
+    </Key>
+    <Property Name="idListaDeseos" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="idCliente" Type="nvarchar" MaxLength="128" Nullable="false" />
+    <Property Name="idDoctor" Type="int" Nullable="false" />
+  </EntityType>
+  <EntityType Name="tb_Orden">
+    <Key>
+      <PropertyRef Name="idOrden" />
+    </Key>
+    <Property Name="idOrden" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="idCliente" Type="int" Nullable="false" />
+    <Property Name="idPago" Type="int" />
+    <Property Name="idDetalleEnvio" Type="int" />
+    <Property Name="descuento" Type="int" />
+    <Property Name="impuestos" Type="int" />
+    <Property Name="cantidadTotal" Type="int" />
+    <Property Name="fechaOrden" Type="datetime" />
+    <Property Name="fechaEnvio" Type="datetime" />
+    <Property Name="enviado" Type="bit" />
+    <Property Name="entregar" Type="bit" />
+    <Property Name="fechaEntrega" Type="datetime" />
+    <Property Name="notas" Type="varchar" MaxLength="500" />
+    <Property Name="cancelarOrden" Type="bit" />
+    <Property Name="Completo" Type="bit" />
+  </EntityType>
+  <EntityType Name="tb_OrdenExt">
+    <Key>
+      <PropertyRef Name="idOrden" />
+    </Key>
+    <Property Name="idOrden" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="idCliente" Type="nvarchar" MaxLength="128" Nullable="false" />
+    <Property Name="idPago" Type="int" />
+    <Property Name="idDetalleEnvio" Type="int" />
+    <Property Name="descuento" Type="int" />
+    <Property Name="impuestos" Type="int" />
+    <Property Name="cantidadTotal" Type="int" />
+    <Property Name="fechaOrden" Type="datetime" />
+    <Property Name="fechaEnvio" Type="datetime" />
+    <Property Name="enviado" Type="bit" />
+    <Property Name="entregar" Type="bit" />
+    <Property Name="fechaEntrega" Type="datetime" />
+    <Property Name="notas" Type="varchar" MaxLength="500" />
+    <Property Name="cancelarOrden" Type="bit" />
+    <Property Name="Completo" Type="bit" />
+  </EntityType>
+  <EntityType Name="tb_Pago">
+    <Key>
+      <PropertyRef Name="idPago" />
+    </Key>
+    <Property Name="idPago" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="idTipoPago" Type="int" Nullable="false" />
+    <Property Name="MontoCrediyo" Type="money" />
+    <Property Name="CantidadDebito" Type="money" />
+    <Property Name="FechaPago" Type="datetime" />
+  </EntityType>
+  <EntityType Name="tb_TipoPago">
+    <Key>
+      <PropertyRef Name="idTipoPago" />
+    </Key>
+    <Property Name="idTipoPago" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="nomTipoPago" Type="varchar" MaxLength="50" Nullable="false" />
+    <Property Name="Deescripcion" Type="varchar" MaxLength="500" />
+  </EntityType>
+  <EntityType Name="tb_VistaReciente">
+    <Key>
+      <PropertyRef Name="idVistaReciente" />
+    </Key>
+    <Property Name="idVistaReciente" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="idCliente" Type="int" Nullable="false" />
+    <Property Name="idDoctor" Type="int" Nullable="false" />
+    <Property Name="fecha" Type="datetime" Nullable="false" />
+    <Property Name="notas" Type="varchar" MaxLength="255" />
+  </EntityType>
+  <Association Name="FK__tb_Client__idDis__5629CD9C">
+    <End Role="tb_Distrito" Type="Self.tb_Distrito" Multiplicity="0..1" />
+    <End Role="tb_Cliente" Type="Self.tb_Cliente" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="tb_Distrito">
+        <PropertyRef Name="idDistrito" />
+      </Principal>
+      <Dependent Role="tb_Cliente">
+        <PropertyRef Name="idDistrito" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__tb_Client__idDis__571DF1D5">
+    <End Role="tb_Distrito" Type="Self.tb_Distrito" Multiplicity="0..1" />
+    <End Role="tb_ClienteEx" Type="Self.tb_ClienteEx" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="tb_Distrito">
+        <PropertyRef Name="idDistrito" />
+      </Principal>
+      <Dependent Role="tb_ClienteEx">
+        <PropertyRef Name="idDistrito" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__tb_ClienteEx__id__5812160E">
+    <End Role="AspNetUsers" Type="Self.AspNetUsers" Multiplicity="1" />
+    <End Role="tb_ClienteEx" Type="Self.tb_ClienteEx" Multiplicity="0..1" />
+    <ReferentialConstraint>
+      <Principal Role="AspNetUsers">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="tb_ClienteEx">
+        <PropertyRef Name="id" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__tb_Detall__idDis__59063A47">
+    <End Role="tb_Distrito" Type="Self.tb_Distrito" Multiplicity="1" />
+    <End Role="tb_DetalleEnvio" Type="Self.tb_DetalleEnvio" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="tb_Distrito">
+        <PropertyRef Name="idDistrito" />
+      </Principal>
+      <Dependent Role="tb_DetalleEnvio">
+        <PropertyRef Name="idDistrito" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__tb_detall__idDoc__59FA5E80">
+    <End Role="tb_Doctor" Type="Self.tb_Doctor" Multiplicity="1" />
+    <End Role="tb_detalleOrden" Type="Self.tb_detalleOrden" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="tb_Doctor">
+        <PropertyRef Name="idDoctor" />
+      </Principal>
+      <Dependent Role="tb_detalleOrden">
+        <PropertyRef Name="idDoctor" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__tb_Doctor__id_Ho__5BE2A6F2">
+    <End Role="tb_Horario" Type="Self.tb_Horario" Multiplicity="1" />
+    <End Role="tb_Doctor" Type="Self.tb_Doctor" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="tb_Horario">
+        <PropertyRef Name="id_Horario" />
+      </Principal>
+      <Dependent Role="tb_Doctor">
+        <PropertyRef Name="id_Horario" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__tb_Doctor__idCat__5CD6CB2B">
+    <End Role="tb_Categoria" Type="Self.tb_Categoria" Multiplicity="1" />
+    <End Role="tb_Doctor" Type="Self.tb_Doctor" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="tb_Categoria">
+        <PropertyRef Name="idCategoria" />
+      </Principal>
+      <Dependent Role="tb_Doctor">
+        <PropertyRef Name="idCategoria" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__tb_Doctor__idDis__5DCAEF64">
+    <End Role="tb_Distrito" Type="Self.tb_Distrito" Multiplicity="0..1" />
+    <End Role="tb_Doctor" Type="Self.tb_Doctor" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="tb_Distrito">
+        <PropertyRef Name="idDistrito" />
+      </Principal>
+      <Dependent Role="tb_Doctor">
+        <PropertyRef Name="idDistrito" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__tb_ListaD__idCli__5FB337D6">
+    <End Role="tb_Cliente" Type="Self.tb_Cliente" Multiplicity="1" />
+    <End Role="tb_ListaDeseos" Type="Self.tb_ListaDeseos" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="tb_Cliente">
+        <PropertyRef Name="idCliente" />
+      </Principal>
+      <Dependent Role="tb_ListaDeseos">
+        <PropertyRef Name="idCliente" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__tb_ListaD__idCli__619B8048">
+    <End Role="AspNetUsers" Type="Self.AspNetUsers" Multiplicity="1" />
+    <End Role="tb_ListaDeseosExt" Type="Self.tb_ListaDeseosExt" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="AspNetUsers">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="tb_ListaDeseosExt">
+        <PropertyRef Name="idCliente" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__tb_ListaD__idDoc__60A75C0F">
+    <End Role="tb_Doctor" Type="Self.tb_Doctor" Multiplicity="1" />
+    <End Role="tb_ListaDeseos" Type="Self.tb_ListaDeseos" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="tb_Doctor">
+        <PropertyRef Name="idDoctor" />
+      </Principal>
+      <Dependent Role="tb_ListaDeseos">
+        <PropertyRef Name="idDoctor" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__tb_ListaD__idDoc__628FA481">
+    <End Role="tb_Doctor" Type="Self.tb_Doctor" Multiplicity="1" />
+    <End Role="tb_ListaDeseosExt" Type="Self.tb_ListaDeseosExt" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="tb_Doctor">
+        <PropertyRef Name="idDoctor" />
+      </Principal>
+      <Dependent Role="tb_ListaDeseosExt">
+        <PropertyRef Name="idDoctor" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__tb_Orden__idClie__6383C8BA">
+    <End Role="tb_Cliente" Type="Self.tb_Cliente" Multiplicity="1" />
+    <End Role="tb_Orden" Type="Self.tb_Orden" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="tb_Cliente">
+        <PropertyRef Name="idCliente" />
+      </Principal>
+      <Dependent Role="tb_Orden">
+        <PropertyRef Name="idCliente" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__tb_Orden__idDeta__6477ECF3">
+    <End Role="tb_DetalleEnvio" Type="Self.tb_DetalleEnvio" Multiplicity="0..1" />
+    <End Role="tb_Orden" Type="Self.tb_Orden" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="tb_DetalleEnvio">
+        <PropertyRef Name="idDetalleEnvio" />
+      </Principal>
+      <Dependent Role="tb_Orden">
+        <PropertyRef Name="idDetalleEnvio" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__tb_Orden__idPago__656C112C">
+    <End Role="tb_Pago" Type="Self.tb_Pago" Multiplicity="0..1" />
+    <End Role="tb_Orden" Type="Self.tb_Orden" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="tb_Pago">
+        <PropertyRef Name="idPago" />
+      </Principal>
+      <Dependent Role="tb_Orden">
+        <PropertyRef Name="idPago" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__tb_OrdenE__idCli__66603565">
+    <End Role="AspNetUsers" Type="Self.AspNetUsers" Multiplicity="1" />
+    <End Role="tb_OrdenExt" Type="Self.tb_OrdenExt" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="AspNetUsers">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="tb_OrdenExt">
+        <PropertyRef Name="idCliente" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__tb_OrdenE__idDet__6754599E">
+    <End Role="tb_DetalleEnvio" Type="Self.tb_DetalleEnvio" Multiplicity="0..1" />
+    <End Role="tb_OrdenExt" Type="Self.tb_OrdenExt" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="tb_DetalleEnvio">
+        <PropertyRef Name="idDetalleEnvio" />
+      </Principal>
+      <Dependent Role="tb_OrdenExt">
+        <PropertyRef Name="idDetalleEnvio" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__tb_OrdenE__idPag__68487DD7">
+    <End Role="tb_Pago" Type="Self.tb_Pago" Multiplicity="0..1" />
+    <End Role="tb_OrdenExt" Type="Self.tb_OrdenExt" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="tb_Pago">
+        <PropertyRef Name="idPago" />
+      </Principal>
+      <Dependent Role="tb_OrdenExt">
+        <PropertyRef Name="idPago" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__tb_Pago__idTipoP__693CA210">
+    <End Role="tb_TipoPago" Type="Self.tb_TipoPago" Multiplicity="1" />
+    <End Role="tb_Pago" Type="Self.tb_Pago" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="tb_TipoPago">
+        <PropertyRef Name="idTipoPago" />
+      </Principal>
+      <Dependent Role="tb_Pago">
+        <PropertyRef Name="idTipoPago" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__tb_VistaR__idCli__6A30C649">
+    <End Role="tb_Cliente" Type="Self.tb_Cliente" Multiplicity="1" />
+    <End Role="tb_VistaReciente" Type="Self.tb_VistaReciente" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="tb_Cliente">
+        <PropertyRef Name="idCliente" />
+      </Principal>
+      <Dependent Role="tb_VistaReciente">
+        <PropertyRef Name="idCliente" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__tb_VistaR__idDoc__6B24EA82">
+    <End Role="tb_Doctor" Type="Self.tb_Doctor" Multiplicity="1" />
+    <End Role="tb_VistaReciente" Type="Self.tb_VistaReciente" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="tb_Doctor">
+        <PropertyRef Name="idDoctor" />
+      </Principal>
+      <Dependent Role="tb_VistaReciente">
+        <PropertyRef Name="idDoctor" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="Fk_Categoria">
+    <End Role="tb_Categoria" Type="Self.tb_Categoria" Multiplicity="0..1" />
+    <End Role="AspNetUsers" Type="Self.AspNetUsers" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="tb_Categoria">
+        <PropertyRef Name="idCategoria" />
+      </Principal>
+      <Dependent Role="AspNetUsers">
+        <PropertyRef Name="idCategoria" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_dbo_AspNetUserClaims_dbo_AspNetUsers_UserId">
+    <End Role="AspNetUsers" Type="Self.AspNetUsers" Multiplicity="1">
+      <OnDelete Action="Cascade" />
+    </End>
+    <End Role="AspNetUserClaims" Type="Self.AspNetUserClaims" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="AspNetUsers">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="AspNetUserClaims">
+        <PropertyRef Name="UserId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_dbo_AspNetUserLogins_dbo_AspNetUsers_UserId">
+    <End Role="AspNetUsers" Type="Self.AspNetUsers" Multiplicity="1">
+      <OnDelete Action="Cascade" />
+    </End>
+    <End Role="AspNetUserLogins" Type="Self.AspNetUserLogins" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="AspNetUsers">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="AspNetUserLogins">
+        <PropertyRef Name="UserId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_dbo_AspNetUserRoles_dbo_AspNetRoles_RoleId">
+    <End Role="AspNetRoles" Type="Self.AspNetRoles" Multiplicity="1">
+      <OnDelete Action="Cascade" />
+    </End>
+    <End Role="AspNetUserRoles" Type="Self.AspNetUserRoles" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="AspNetRoles">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="AspNetUserRoles">
+        <PropertyRef Name="RoleId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_dbo_AspNetUserRoles_dbo_AspNetUsers_UserId">
+    <End Role="AspNetUsers" Type="Self.AspNetUsers" Multiplicity="1">
+      <OnDelete Action="Cascade" />
+    </End>
+    <End Role="AspNetUserRoles" Type="Self.AspNetUserRoles" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="AspNetUsers">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="AspNetUserRoles">
+        <PropertyRef Name="UserId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="Fk_Distrito">
+    <End Role="tb_Distrito" Type="Self.tb_Distrito" Multiplicity="0..1" />
+    <End Role="AspNetUsers" Type="Self.AspNetUsers" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="tb_Distrito">
+        <PropertyRef Name="idDistrito" />
+      </Principal>
+      <Dependent Role="AspNetUsers">
+        <PropertyRef Name="idDistrito" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="Fk_Horario">
+    <End Role="tb_Horario" Type="Self.tb_Horario" Multiplicity="0..1" />
+    <End Role="AspNetUsers" Type="Self.AspNetUsers" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="tb_Horario">
+        <PropertyRef Name="id_Horario" />
+      </Principal>
+      <Dependent Role="AspNetUsers">
+        <PropertyRef Name="id_Horario" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_IDORDEN_DETALLE">
+    <End Role="tb_OrdenExt" Type="Self.tb_OrdenExt" Multiplicity="1" />
+    <End Role="tb_detalleOrden" Type="Self.tb_detalleOrden" Multiplicity="0..1" />
+    <ReferentialConstraint>
+      <Principal Role="tb_OrdenExt">
+        <PropertyRef Name="idOrden" />
+      </Principal>
+      <Dependent Role="tb_detalleOrden">
+        <PropertyRef Name="idOrden" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_placa_idCliente">
+    <End Role="AspNetUsers" Type="Self.AspNetUsers" Multiplicity="0..1" />
+    <End Role="tb_Doctor" Type="Self.tb_Doctor" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="AspNetUsers">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="tb_Doctor">
+        <PropertyRef Name="idUser" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Review_Customers">
+    <End Role="tb_Cliente" Type="Self.tb_Cliente" Multiplicity="0..1" />
+    <End Role="Review" Type="Self.Review" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="tb_Cliente">
+        <PropertyRef Name="idCliente" />
+      </Principal>
+      <Dependent Role="Review">
+        <PropertyRef Name="IdCliente" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Review_Doctor">
+    <End Role="tb_Doctor" Type="Self.tb_Doctor" Multiplicity="0..1" />
+    <End Role="Review" Type="Self.Review" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="tb_Doctor">
+        <PropertyRef Name="idDoctor" />
+      </Principal>
+      <Dependent Role="Review">
+        <PropertyRef Name="IdDoctor" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Function Name="buscarXNombre" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="nombre" Type="varchar" Mode="In" />
+  </Function>
+  <Function Name="SP_CIENTE_LOGIN" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="sEmail" Type="nvarchar" Mode="In" />
+    <Parameter Name="sPassword" Type="nvarchar(max)" Mode="In" />
+  </Function>
+  <Function Name="sp_cod" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo" />
+  <Function Name="SP_DOCTOR_LIST" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo" />
+  <Function Name="SP_DOCTOR_POR_DISTRITO_LIST" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="distrito" Type="int" Mode="In" />
+  </Function>
+  <Function Name="sp_listaCliente" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo" />
+  <Function Name="sp_listaDeseos" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="idCliente" Type="nvarchar" Mode="In" />
+  </Function>
+  <Function Name="sp_listaDistrito" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo" />
+  <Function Name="sp_registroCliente" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="nomCliente" Type="varchar" Mode="In" />
+    <Parameter Name="apeCliente" Type="varchar" Mode="In" />
+    <Parameter Name="dniCliente" Type="char" Mode="In" />
+    <Parameter Name="usuario" Type="varchar" Mode="In" />
+    <Parameter Name="contraseña" Type="varchar" Mode="In" />
+    <Parameter Name="edad" Type="int" Mode="In" />
+    <Parameter Name="genero" Type="varchar" Mode="In" />
+    <Parameter Name="fechaNacimiento" Type="date" Mode="In" />
+    <Parameter Name="idDistrito" Type="int" Mode="In" />
+    <Parameter Name="correo" Type="varchar" Mode="In" />
+    <Parameter Name="telefono" Type="char" Mode="In" />
+    <Parameter Name="direccion" Type="varchar" Mode="In" />
+    <Parameter Name="foto" Type="varchar" Mode="In" />
+    <Parameter Name="notas" Type="varchar" Mode="In" />
+  </Function>
+  <Function Name="sp_registroDeseo" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="idCliente" Type="int" Mode="In" />
+    <Parameter Name="idDoctor" Type="int" Mode="In" />
+  </Function>
+  <Function Name="sp_registroDoctor" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="nomDoctor" Type="varchar" Mode="In" />
+    <Parameter Name="dniDoctor" Type="char" Mode="In" />
+    <Parameter Name="cmpDoctor" Type="char" Mode="In" />
+    <Parameter Name="idCategoria" Type="int" Mode="In" />
+    <Parameter Name="id_Horario" Type="int" Mode="In" />
+    <Parameter Name="dirDoctor" Type="varchar" Mode="In" />
+    <Parameter Name="idDistrito" Type="int" Mode="In" />
+    <Parameter Name="telDoctor" Type="varchar" Mode="In" />
+    <Parameter Name="emailDoctor" Type="varchar" Mode="In" />
+    <Parameter Name="Precio" Type="decimal" Mode="In" />
+    <Parameter Name="PrecioAnterior" Type="decimal" Mode="In" />
+    <Parameter Name="ImageURL" Type="varchar" Mode="In" />
+    <Parameter Name="TextoAlternativo" Type="varchar" Mode="In" />
+    <Parameter Name="caracteristica1" Type="varchar" Mode="In" />
+    <Parameter Name="caracteristica2" Type="varchar" Mode="In" />
+    <Parameter Name="caracteristica3" Type="varchar" Mode="In" />
+    <Parameter Name="caracteristica4" Type="varchar" Mode="In" />
+    <Parameter Name="caracteristica5" Type="varchar" Mode="In" />
+    <Parameter Name="Placa" Type="bit" Mode="In" />
+    <Parameter Name="TituloOferta" Type="varchar" Mode="In" />
+    <Parameter Name="ClaseDistintaOferta" Type="varchar" Mode="In" />
+    <Parameter Name="DescripcionCorta" Type="varchar" Mode="In" />
+    <Parameter Name="DescripcionLarga" Type="varchar" Mode="In" />
+    <Parameter Name="nota" Type="varchar" Mode="In" />
+    <Parameter Name="agregarCarro" Type="bit" Mode="In" />
+    <Parameter Name="caracteristica6" Type="nvarchar" Mode="In" />
+    <Parameter Name="caracteristica7" Type="nvarchar" Mode="In" />
+    <Parameter Name="caracteristica8" Type="nvarchar" Mode="In" />
+    <Parameter Name="porc1" Type="nvarchar" Mode="In" />
+    <Parameter Name="porc2" Type="nvarchar" Mode="In" />
+    <Parameter Name="porc3" Type="nvarchar" Mode="In" />
+    <Parameter Name="porc4" Type="nvarchar" Mode="In" />
+    <Parameter Name="idUser" Type="nvarchar" Mode="In" />
+  </Function>
+  <Function Name="sp_reportez" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="cod" Type="int" Mode="In" />
+    <Parameter Name="codb" Type="int" Mode="In" />
+  </Function>
+  <Function Name="SP_Usuario_Email_LIST" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="Email" Type="nvarchar" Mode="In" />
+  </Function>
+  <Function Name="SP_VISITA_RECIENTE_BUSCA" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="cliente" Type="int" Mode="In" />
+  </Function>
+  <EntityContainer Name="Ecomerce2019ModelStoreContainer">
+    <EntitySet Name="__MigrationHistory" EntityType="Self.__MigrationHistory" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="AspNetRoles" EntityType="Self.AspNetRoles" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="AspNetUserClaims" EntityType="Self.AspNetUserClaims" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="AspNetUserLogins" EntityType="Self.AspNetUserLogins" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="AspNetUserRoles" EntityType="Self.AspNetUserRoles" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="AspNetUsers" EntityType="Self.AspNetUsers" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Review" EntityType="Self.Review" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="tb_admin" EntityType="Self.tb_admin" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="tb_Categoria" EntityType="Self.tb_Categoria" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="tb_Cliente" EntityType="Self.tb_Cliente" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="tb_ClienteEx" EntityType="Self.tb_ClienteEx" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="tb_DetalleEnvio" EntityType="Self.tb_DetalleEnvio" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="tb_detalleOrden" EntityType="Self.tb_detalleOrden" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="tb_Distrito" EntityType="Self.tb_Distrito" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="tb_Doctor" EntityType="Self.tb_Doctor" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="tb_Horario" EntityType="Self.tb_Horario" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="tb_ListaDeseos" EntityType="Self.tb_ListaDeseos" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="tb_ListaDeseosExt" EntityType="Self.tb_ListaDeseosExt" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="tb_Orden" EntityType="Self.tb_Orden" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="tb_OrdenExt" EntityType="Self.tb_OrdenExt" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="tb_Pago" EntityType="Self.tb_Pago" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="tb_TipoPago" EntityType="Self.tb_TipoPago" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="tb_VistaReciente" EntityType="Self.tb_VistaReciente" Schema="dbo" store:Type="Tables" />
+    <AssociationSet Name="FK__tb_Client__idDis__5629CD9C" Association="Self.FK__tb_Client__idDis__5629CD9C">
+      <End Role="tb_Distrito" EntitySet="tb_Distrito" />
+      <End Role="tb_Cliente" EntitySet="tb_Cliente" />
+    </AssociationSet>
+    <AssociationSet Name="FK__tb_Client__idDis__571DF1D5" Association="Self.FK__tb_Client__idDis__571DF1D5">
+      <End Role="tb_Distrito" EntitySet="tb_Distrito" />
+      <End Role="tb_ClienteEx" EntitySet="tb_ClienteEx" />
+    </AssociationSet>
+    <AssociationSet Name="FK__tb_ClienteEx__id__5812160E" Association="Self.FK__tb_ClienteEx__id__5812160E">
+      <End Role="AspNetUsers" EntitySet="AspNetUsers" />
+      <End Role="tb_ClienteEx" EntitySet="tb_ClienteEx" />
+    </AssociationSet>
+    <AssociationSet Name="FK__tb_Detall__idDis__59063A47" Association="Self.FK__tb_Detall__idDis__59063A47">
+      <End Role="tb_Distrito" EntitySet="tb_Distrito" />
+      <End Role="tb_DetalleEnvio" EntitySet="tb_DetalleEnvio" />
+    </AssociationSet>
+    <AssociationSet Name="FK__tb_detall__idDoc__59FA5E80" Association="Self.FK__tb_detall__idDoc__59FA5E80">
+      <End Role="tb_Doctor" EntitySet="tb_Doctor" />
+      <End Role="tb_detalleOrden" EntitySet="tb_detalleOrden" />
+    </AssociationSet>
+    <AssociationSet Name="FK__tb_Doctor__id_Ho__5BE2A6F2" Association="Self.FK__tb_Doctor__id_Ho__5BE2A6F2">
+      <End Role="tb_Horario" EntitySet="tb_Horario" />
+      <End Role="tb_Doctor" EntitySet="tb_Doctor" />
+    </AssociationSet>
+    <AssociationSet Name="FK__tb_Doctor__idCat__5CD6CB2B" Association="Self.FK__tb_Doctor__idCat__5CD6CB2B">
+      <End Role="tb_Categoria" EntitySet="tb_Categoria" />
+      <End Role="tb_Doctor" EntitySet="tb_Doctor" />
+    </AssociationSet>
+    <AssociationSet Name="FK__tb_Doctor__idDis__5DCAEF64" Association="Self.FK__tb_Doctor__idDis__5DCAEF64">
+      <End Role="tb_Distrito" EntitySet="tb_Distrito" />
+      <End Role="tb_Doctor" EntitySet="tb_Doctor" />
+    </AssociationSet>
+    <AssociationSet Name="FK__tb_ListaD__idCli__5FB337D6" Association="Self.FK__tb_ListaD__idCli__5FB337D6">
+      <End Role="tb_Cliente" EntitySet="tb_Cliente" />
+      <End Role="tb_ListaDeseos" EntitySet="tb_ListaDeseos" />
+    </AssociationSet>
+    <AssociationSet Name="FK__tb_ListaD__idCli__619B8048" Association="Self.FK__tb_ListaD__idCli__619B8048">
+      <End Role="AspNetUsers" EntitySet="AspNetUsers" />
+      <End Role="tb_ListaDeseosExt" EntitySet="tb_ListaDeseosExt" />
+    </AssociationSet>
+    <AssociationSet Name="FK__tb_ListaD__idDoc__60A75C0F" Association="Self.FK__tb_ListaD__idDoc__60A75C0F">
+      <End Role="tb_Doctor" EntitySet="tb_Doctor" />
+      <End Role="tb_ListaDeseos" EntitySet="tb_ListaDeseos" />
+    </AssociationSet>
+    <AssociationSet Name="FK__tb_ListaD__idDoc__628FA481" Association="Self.FK__tb_ListaD__idDoc__628FA481">
+      <End Role="tb_Doctor" EntitySet="tb_Doctor" />
+      <End Role="tb_ListaDeseosExt" EntitySet="tb_ListaDeseosExt" />
+    </AssociationSet>
+    <AssociationSet Name="FK__tb_Orden__idClie__6383C8BA" Association="Self.FK__tb_Orden__idClie__6383C8BA">
+      <End Role="tb_Cliente" EntitySet="tb_Cliente" />
+      <End Role="tb_Orden" EntitySet="tb_Orden" />
+    </AssociationSet>
+    <AssociationSet Name="FK__tb_Orden__idDeta__6477ECF3" Association="Self.FK__tb_Orden__idDeta__6477ECF3">
+      <End Role="tb_DetalleEnvio" EntitySet="tb_DetalleEnvio" />
+      <End Role="tb_Orden" EntitySet="tb_Orden" />
+    </AssociationSet>
+    <AssociationSet Name="FK__tb_Orden__idPago__656C112C" Association="Self.FK__tb_Orden__idPago__656C112C">
+      <End Role="tb_Pago" EntitySet="tb_Pago" />
+      <End Role="tb_Orden" EntitySet="tb_Orden" />
+    </AssociationSet>
+    <AssociationSet Name="FK__tb_OrdenE__idCli__66603565" Association="Self.FK__tb_OrdenE__idCli__66603565">
+      <End Role="AspNetUsers" EntitySet="AspNetUsers" />
+      <End Role="tb_OrdenExt" EntitySet="tb_OrdenExt" />
+    </AssociationSet>
+    <AssociationSet Name="FK__tb_OrdenE__idDet__6754599E" Association="Self.FK__tb_OrdenE__idDet__6754599E">
+      <End Role="tb_DetalleEnvio" EntitySet="tb_DetalleEnvio" />
+      <End Role="tb_OrdenExt" EntitySet="tb_OrdenExt" />
+    </AssociationSet>
+    <AssociationSet Name="FK__tb_OrdenE__idPag__68487DD7" Association="Self.FK__tb_OrdenE__idPag__68487DD7">
+      <End Role="tb_Pago" EntitySet="tb_Pago" />
+      <End Role="tb_OrdenExt" EntitySet="tb_OrdenExt" />
+    </AssociationSet>
+    <AssociationSet Name="FK__tb_Pago__idTipoP__693CA210" Association="Self.FK__tb_Pago__idTipoP__693CA210">
+      <End Role="tb_TipoPago" EntitySet="tb_TipoPago" />
+      <End Role="tb_Pago" EntitySet="tb_Pago" />
+    </AssociationSet>
+    <AssociationSet Name="FK__tb_VistaR__idCli__6A30C649" Association="Self.FK__tb_VistaR__idCli__6A30C649">
+      <End Role="tb_Cliente" EntitySet="tb_Cliente" />
+      <End Role="tb_VistaReciente" EntitySet="tb_VistaReciente" />
+    </AssociationSet>
+    <AssociationSet Name="FK__tb_VistaR__idDoc__6B24EA82" Association="Self.FK__tb_VistaR__idDoc__6B24EA82">
+      <End Role="tb_Doctor" EntitySet="tb_Doctor" />
+      <End Role="tb_VistaReciente" EntitySet="tb_VistaReciente" />
+    </AssociationSet>
+    <AssociationSet Name="Fk_Categoria" Association="Self.Fk_Categoria">
+      <End Role="tb_Categoria" EntitySet="tb_Categoria" />
+      <End Role="AspNetUsers" EntitySet="AspNetUsers" />
+    </AssociationSet>
+    <AssociationSet Name="FK_dbo_AspNetUserClaims_dbo_AspNetUsers_UserId" Association="Self.FK_dbo_AspNetUserClaims_dbo_AspNetUsers_UserId">
+      <End Role="AspNetUsers" EntitySet="AspNetUsers" />
+      <End Role="AspNetUserClaims" EntitySet="AspNetUserClaims" />
+    </AssociationSet>
+    <AssociationSet Name="FK_dbo_AspNetUserLogins_dbo_AspNetUsers_UserId" Association="Self.FK_dbo_AspNetUserLogins_dbo_AspNetUsers_UserId">
+      <End Role="AspNetUsers" EntitySet="AspNetUsers" />
+      <End Role="AspNetUserLogins" EntitySet="AspNetUserLogins" />
+    </AssociationSet>
+    <AssociationSet Name="FK_dbo_AspNetUserRoles_dbo_AspNetRoles_RoleId" Association="Self.FK_dbo_AspNetUserRoles_dbo_AspNetRoles_RoleId">
+      <End Role="AspNetRoles" EntitySet="AspNetRoles" />
+      <End Role="AspNetUserRoles" EntitySet="AspNetUserRoles" />
+    </AssociationSet>
+    <AssociationSet Name="FK_dbo_AspNetUserRoles_dbo_AspNetUsers_UserId" Association="Self.FK_dbo_AspNetUserRoles_dbo_AspNetUsers_UserId">
+      <End Role="AspNetUsers" EntitySet="AspNetUsers" />
+      <End Role="AspNetUserRoles" EntitySet="AspNetUserRoles" />
+    </AssociationSet>
+    <AssociationSet Name="Fk_Distrito" Association="Self.Fk_Distrito">
+      <End Role="tb_Distrito" EntitySet="tb_Distrito" />
+      <End Role="AspNetUsers" EntitySet="AspNetUsers" />
+    </AssociationSet>
+    <AssociationSet Name="Fk_Horario" Association="Self.Fk_Horario">
+      <End Role="tb_Horario" EntitySet="tb_Horario" />
+      <End Role="AspNetUsers" EntitySet="AspNetUsers" />
+    </AssociationSet>
+    <AssociationSet Name="FK_IDORDEN_DETALLE" Association="Self.FK_IDORDEN_DETALLE">
+      <End Role="tb_OrdenExt" EntitySet="tb_OrdenExt" />
+      <End Role="tb_detalleOrden" EntitySet="tb_detalleOrden" />
+    </AssociationSet>
+    <AssociationSet Name="FK_placa_idCliente" Association="Self.FK_placa_idCliente">
+      <End Role="AspNetUsers" EntitySet="AspNetUsers" />
+      <End Role="tb_Doctor" EntitySet="tb_Doctor" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Review_Customers" Association="Self.FK_Review_Customers">
+      <End Role="tb_Cliente" EntitySet="tb_Cliente" />
+      <End Role="Review" EntitySet="Review" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Review_Doctor" Association="Self.FK_Review_Doctor">
+      <End Role="tb_Doctor" EntitySet="tb_Doctor" />
+      <End Role="Review" EntitySet="Review" />
+    </AssociationSet>
+  </EntityContainer>
+</Schema>

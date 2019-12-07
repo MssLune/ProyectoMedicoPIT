@@ -1,0 +1,46 @@
+﻿@model IEnumerable<MvcAuth.Models.tb_OrdenExt>
+
+@{
+    ViewBag.Title = "Lista Solicitudes";
+}
+
+<h2>Lista Solicitudes</h2>
+<br />
+
+
+<table class="table">
+    <thead>
+        <tr id="new">
+
+            <th>Fecha de solicitud</th>
+            <th>Email Cliente</th>
+            <th>Nombre Cliente</th>
+            <th>Codigo de Orden</th>
+
+        </tr>
+    </thead>
+
+    @foreach (var item in Model)
+    {
+        <tr>
+
+            <td>
+                @Html.DisplayFor(modelItem => item.fechaOrden)
+            </td>
+
+            <td>
+                @Html.DisplayFor(modelItem => item.AspNetUsers.Email)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.tb_DetalleEnvio.nombre)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.tb_detalleOrden.idOrden)
+            </td>
+
+
+        </tr>
+    }
+
+</table>
+

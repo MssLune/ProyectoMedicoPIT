@@ -1,0 +1,146 @@
+﻿@{
+    ViewBag.Title = "Contact";
+}
+
+
+<style type="text/css">
+
+    .wrapper {
+        //padding-top: 20px;
+        padding-top: 50px;
+    }
+
+    input.parsley-error,
+    select.parsley-error,
+    textarea.parsley-error {
+        border-color: #843534;
+        box-shadow: none;
+    }
+
+
+        input.parsley-error:focus,
+        select.parsley-error:focus,
+        textarea.parsley-error:focus {
+            border-color: #843534;
+            box-shadow: inset 0 1px 1px rgba(0,0,0,.075),0 0 6px #ce8483
+        }
+
+
+    .parsley-errors-list {
+        list-style-type: none;
+        opacity: 0;
+        transition: all .3s ease-in;
+        color: #d16e6c;
+        margin-top: 5px;
+        margin-bottom: 0;
+        padding-left: 0;
+    }
+
+        .parsley-errors-list.filled {
+            opacity: 1;
+            color: #a94442;
+        }
+</style>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+<script src="~/Assets/validation/parsley.min.js"></script>
+
+<section class="inner-bg over-layer-black" style="background-color:rgba(242,242,242,0.9); ">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-4">
+                <div class="mini-title inner-style-2">
+                    <h3>Contáctenos</h3>
+                    <p><a href="#">Inicio</a> <span class="fa fa-angle-right"></span> <a href="#">Contáctenos</a></p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+<!-- service start -->
+<section class="service-area contact-info">
+    <div class="container padding-bottom-none">
+        <div class="section-content">
+            <div class="row">
+                <div class="col-sm-12 col-md-4">
+                    <div class="service-item style-1 bg-f8">
+                        <div class="service-icon">
+                            <i class="flaticon-047-location"></i>
+                        </div>
+                        <div class="content">
+                            <h5><a href="#" class="color-333">Información</a></h5>
+                            <p>5B Streat, Las Rosas 50987 San Borja PE</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-12 col-md-4">
+                    <div class="service-item style-1 bg-f8">
+                        <div class="">
+                            <i class="flaticon-023-contact"></i>
+                        </div>
+                        <div class="content">
+                            <h5><a href="#" class="color-333">Horario de Atención</a></h5>
+                            <p>Lunes - Viernes: 10am a 8pm <br>Domingos: 11am a 3pm</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-12 col-md-4">
+                    <div class="service-item style-1 bg-f8">
+                        <div class="">
+                            <i class="flaticon-001-send-mail"></i>
+                        </div>
+                        <div class="content">
+                            <h5><a href="#" class="color-333">Email</a></h5>
+                            <p>info@tc-medic.com <br> set-info@tc-medic.com </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- service end -->
+<hr>
+<section>
+    <div class="container padding-bottom-80">
+        <div class="section-content">
+            <div class="row">
+                <div class="col-md-6">
+                    <div class="section-title margin-left-20 ">
+                        <h6>Contáctenos</h6>
+                        <h2>Ingrese sus datos</h2>
+                        <div class="small-line-border-2"></div>
+                    </div>
+                    <form id="ajax-contact" method="post" action="https://heatmaponline.com/html/medcative/php/contact.php">
+                        <div class="col-md-6">
+                            <input type="text" name="name" id="name" class="form-control" placeholder="Ingresa tu nombre" required data-parsley-pattern="^[a-zA-ZñÑáéíóúÁÉÍÓÚ\\s]{2,20}">
+                        </div>
+                        <div class="col-md-6">
+                            <input type="email" name="email" id="email" class="form-control" placeholder="Ingresa tu email" required data-parsley-type="email" data-parsley-trigger="keyup">
+                        </div>
+                        <div class="col-md-12">
+                            <input type="text" name="subject" class="form-control" placeholder="Asunto" id="subject" required>
+                        </div>
+                        <div class="col-md-12">
+                            <div class="contact-textarea">
+                                <textarea class="form-control" rows="6" placeholder="Mensaje" id="message" name="message" required></textarea>
+                                <button class="btn btn-theme" type="submit" value="Submit Form">Enviar Mensaje</button>
+                            </div>
+                        </div>
+                        <div id="form-messages"></div>
+                    </form>
+                </div>
+                <div class="col-md-6">
+                    <div class="contact-map pt-80">
+                        <div id="map"><iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d5517.158392491675!2d-76.99683430196178!3d-12.097078422212181!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9105c7d19478c6bf%3A0xb53809bf8f8b06c8!2sSan+Borja!5e0!3m2!1ses-419!2spe!4v1558568312018!5m2!1ses-419!2spe" width="570" height="470" frameborder="0" style="border:0" allowfullscreen></iframe></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<script type="text/javascript">
+    $('#ajax').parsley();
+</script>
